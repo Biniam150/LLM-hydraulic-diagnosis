@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_018",
+  "tier": "matched_model",
+  "scenario_id": "unknown_river_rise",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "true_cause": "source_head",
+  "true_target": "River",
+  "expected_label": "unknown_cause",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": "601",
+  "confidence": 0.95,
+  "exact_outcome_correct": false,
+  "accepted": true,
+  "false_attribution": true,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3428,
+  "generated_tokens": 124
+}

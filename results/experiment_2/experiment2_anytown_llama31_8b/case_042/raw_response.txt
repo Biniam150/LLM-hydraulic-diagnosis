@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual pressure sensor is 170, which has a mean residual of 0.7679437706044865 m.",
+    "Sensor 170 has the highest maximum and minimum residuals among all sensors.",
+    "The pressure_residual_by_sensor shows that sensor 170 has a mostly positive residual."
+  ]
+}

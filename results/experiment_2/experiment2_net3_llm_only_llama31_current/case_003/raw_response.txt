@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors are 166 and 157, which are near each other in the network.",
+    "The pressure residuals at these sensors have a mixed or small direction, suggesting a leak rather than a demand error or sensor bias.",
+    "There is no evidence of a roughness error affecting nearby pipes."
+  ]
+}

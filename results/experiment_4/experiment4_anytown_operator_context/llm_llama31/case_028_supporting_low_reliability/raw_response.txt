@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "Record R1 has low reliability and no crew or acoustic confirmation was available."
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "J152",
+  "confidence": 0.95,
+  "reasoning": [
+    "Single sensor (J152) exhibits a persistent, extreme offset (mean = 0.65 m, min/max within a narrow band) exceeding residual threshold (3σ) and far exceeding other sensors' residuals.",
+    "Pressure residuals at J152 are stable and uniform, inconsistent with dynamic causes like leaks or demand errors.",
+    "No flow changes or correlated pressure deviations elsewhere, ruling out network-wide or flow-dependent issues."
+  ]
+}

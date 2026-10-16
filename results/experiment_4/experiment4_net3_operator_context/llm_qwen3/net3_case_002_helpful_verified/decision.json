@@ -1,0 +1,25 @@
+{
+  "model": "qwen3:8b",
+  "model_label": "Qwen3-8B",
+  "variant_id": "net3_case_002_helpful_verified",
+  "base_case_id": "case_002",
+  "scenario_id": "roughness_p123_mild",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "roughness_error",
+  "true_target": "123",
+  "safe_expected_outcome": "roughness_error",
+  "action": "propose_follow_up_test",
+  "proposed_family": "roughness_error",
+  "proposed_target": "pipe",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Record R1 indicates that Pipe 123 has not had its hydraulic resistance value updated, which is relevant to the roughness error family.",
+  "parse_error": null,
+  "prompt_tokens": 670,
+  "generated_tokens": 102,
+  "inference_duration_s": 45.0022888
+}

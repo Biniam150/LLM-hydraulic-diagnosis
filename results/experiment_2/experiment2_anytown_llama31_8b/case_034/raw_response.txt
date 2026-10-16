@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual pressure sensor is 70, which has a mean residual of 0.6508635257324771 m.",
+    "Sensor 70 is located near the estimated onset hour (8) and has a mostly positive pressure direction.",
+    "The pressure residuals for sensors 50 and 150 are also large, but not as large as sensor 70."
+  ]
+}

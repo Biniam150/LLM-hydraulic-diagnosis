@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_021",
+  "tier": "matched_model",
+  "scenario_id": "no_fault_control",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Pressure residuals show localized, persistent deviations (e.g., sensors **203**, **601**, **40**) with mixed directional trends, strongly suggestive of a **pressure-dependent leak** at a junction. Demand errors and roughness errors are plausible but less likely given the lack of widespread flow changes and sensor bias is unlikely without consistent offset patterns.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3432,
+  "generated_tokens": 103
+}

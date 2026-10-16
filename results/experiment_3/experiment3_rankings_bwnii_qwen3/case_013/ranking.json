@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_013",
+  "tier": "matched_model",
+  "scenario_id": "bias_j70_positive",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The leak hypothesis is most plausible due to the high residual values and pressure anomalies at J70, which aligns with pressure-dependent outflow behavior. Demand and roughness errors are next, as they can cause widespread residuals, while sensor bias is least likely due to the isolated nature of the affected sensor.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2784,
+  "generated_tokens": 90
+}

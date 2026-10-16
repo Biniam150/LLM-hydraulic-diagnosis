@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.9,
+  "reasoning": [
+    "The largest residual sensors are J345, J296, and J394.",
+    "Sensor J345 has a mean pressure residual of -0.8038886925225514 m and an RMSE of 0.8045149197614281 m.",
+    "This suggests a significant pressure-dependent water loss at one junction."
+  ]
+}

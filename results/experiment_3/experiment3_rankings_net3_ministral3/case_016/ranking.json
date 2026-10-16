@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_016",
+  "tier": "matched_model",
+  "scenario_id": "bias_s157_late",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Extreme localized pressure bias at sensor **157** (mean=+0.74 m, RMSE=+0.74 m) with minimal spatial propagation suggests a **pressure-dependent leak** at a nearby junction, while demand errors and sensor bias are plausible but less isolated. Roughness errors are unlikely given the abrupt onset and localized impact.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3428,
+  "generated_tokens": 105
+}

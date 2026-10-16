@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "253",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensor is '253' with a mean pressure deviation of 0.657490631056814, significantly higher than other sensors.",
+    "Only one sensor ('253') shows a persistent offset, suggesting a bias rather than a widespread issue like demand error or roughness error.",
+    "The mixed direction of pressure residuals across the network does not support a leak scenario."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "J276",
+  "confidence": 0.85,
+  "reasoning": [
+    "Three sensors (J276, J1058, J379) show significant negative pressure residuals exceeding the threshold.",
+    "Sensor J276 exhibits the largest mean residual (-1.5m) and minimum residual (-1.55m), indicating a localized pressure drop consistent with a leak at that junction.",
+    "The spatial clustering of affected sensors suggests a physical loss event rather than a systematic sensor bias or demand error."
+  ]
+}

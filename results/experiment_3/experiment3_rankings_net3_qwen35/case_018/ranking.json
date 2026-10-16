@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_018",
+  "tier": "matched_model",
+  "scenario_id": "unknown_river_rise",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The presence of large, persistent pressure residuals with significant negative excursions at multiple sensors strongly indicates a physical outflow event like a leak, which is the primary driver over demand estimation errors or sensor biases that typically produce smaller or more localized offsets.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3326,
+  "generated_tokens": 92
+}

@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_015",
+  "tier": "matched_model",
+  "scenario_id": "unknown_head10_drop",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The persistent negative pressure residuals at multiple sensors, particularly the significant deviation at sensor 20 exceeding the threshold, strongly indicate a physical outflow event like a leak rather than demand estimation errors or sensor biases which typically affect fewer nodes or show different statistical patterns.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1553,
+  "generated_tokens": 83
+}

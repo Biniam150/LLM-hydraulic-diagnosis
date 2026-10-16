@@ -1,0 +1,4 @@
+{
+  "action": "request_more_information",
+  "reason": "The diagnostic outcome lacks a physically testable mechanism tied to a specific, temporally relevant asset, and operational records are either unreliable or insufficient to justify a focused follow-up test."
+}

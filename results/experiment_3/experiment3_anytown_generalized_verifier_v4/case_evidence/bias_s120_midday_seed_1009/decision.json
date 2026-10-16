@@ -1,0 +1,12 @@
+{
+  "outcome": "sensor_bias",
+  "reason": "sole_cross_split_and_gof_supported_family",
+  "winner": "sensor_bias",
+  "runner_up": "leak",
+  "balanced_improvement": 0.3217345421707947,
+  "relative_winner_margin": 0.31745478528585513,
+  "winner_validation_gof_pvalue": 0.09912956981516699,
+  "supported_families": [
+    "sensor_bias"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The provided operational records confirm the absence of valve changes and billing software updates but fail to identify a specific physical mechanism or asset requiring a focused hydraulic test."
+}

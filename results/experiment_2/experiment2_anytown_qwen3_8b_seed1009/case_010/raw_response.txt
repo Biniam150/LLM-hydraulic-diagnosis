@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "170",
+  "confidence": 0.95,
+  "reasoning": [
+    "Sensor 170 shows an unusually high residual with a minimum of -0.81276 m and maximum of 0.067706 m, indicating a persistent offset.",
+    "The residual for sensor 170 has a high RMSE of 0.16883 m, suggesting significant deviation from expected values.",
+    "The pressure direction is mixed or small, which is consistent with a sensor bias rather than a leak or demand error."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "outcome": "unknown_cause",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.0,
+  "reasoning": []
+}

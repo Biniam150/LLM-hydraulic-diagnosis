@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["sensor_bias", "demand_error"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "Four sensors show persistent positive pressure residuals (mean > 0.06 m, RMSE > 0.098 m), with three exceeding a 3σ threshold (>1.34 m). This pattern suggests either systematic sensor bias or localized demand mismatches.",
+    "Sensors 20 and 70 exhibit the largest deviations (mean residuals ~1.34 m and ~0.12 m, respectively) but are spatially clustered (shortest-path distance ≤ 2), complicating leak attribution without hydraulic modeling.",
+    "Flow residuals remain low (NRMSE = 0.015) and unchanged, ruling out global demand or roughness errors as primary causes."
+  ]
+}

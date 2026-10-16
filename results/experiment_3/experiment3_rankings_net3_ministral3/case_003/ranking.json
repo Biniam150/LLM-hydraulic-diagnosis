@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_003",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p173_mild",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Pressure residuals show **localized, directional deviations** (e.g., sensor **20** with large negative spikes and **166/157** with positive spikes) and **spatial clustering** (shortest-path distances <10 between affected sensors), strongly suggestive of a **pressure-dependent outflow (leak).** Demand errors and roughness errors are plausible but less likely given the **mixed but localized** residual patterns and lack of widespread RMSE inflation.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3420,
+  "generated_tokens": 135
+}

@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "reservoir",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The record suggests a potential reservoir set-point adjustment, but its reliability is low due to lack of verification."
+}

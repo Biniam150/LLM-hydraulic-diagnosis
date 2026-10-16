@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak", "sensor_bias"],
+  "target": "J276",
+  "confidence": 0.85,
+  "reasoning": [
+    "Three sensors (J276, J1058, J379) show large negative pressure residuals, suggesting a localized pressure drop.",
+    "J276 has the largest residual magnitude and variance, indicating a potential leak at this junction.",
+    "The pressure drop is consistent with a leak causing pressure-dependent water loss at a junction."
+  ]
+}

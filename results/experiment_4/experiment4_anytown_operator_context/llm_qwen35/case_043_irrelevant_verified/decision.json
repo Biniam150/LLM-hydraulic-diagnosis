@@ -1,0 +1,23 @@
+{
+  "model": "qwen3.5:9b",
+  "model_label": "Qwen3.5-9B",
+  "variant_id": "case_043_irrelevant_verified",
+  "base_case_id": "case_043",
+  "scenario_id": "unknown_head10_drop",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "10",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "",
+  "parse_error": null,
+  "prompt_tokens": 648,
+  "generated_tokens": 66,
+  "inference_duration_s": 25.5721113
+}

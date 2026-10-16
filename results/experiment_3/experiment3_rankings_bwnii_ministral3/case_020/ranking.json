@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_020",
+  "tier": "matched_model",
+  "scenario_id": "unknown_r1_rise_low",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Extreme, consistent positive pressure residuals at multiple spatially clustered junctions (e.g., J360, J276, J1058) with one extreme outlier (J360: max=9.05m) strongly suggest a **pressure-dependent leak**.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2825,
+  "generated_tokens": 99
+}

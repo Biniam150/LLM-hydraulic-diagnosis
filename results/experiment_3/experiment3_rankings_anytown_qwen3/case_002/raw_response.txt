@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "Leak shows strong residual patterns in multiple sensors, while demand and roughness errors have less widespread impact, and sensor bias has minimal residual variation."
+}

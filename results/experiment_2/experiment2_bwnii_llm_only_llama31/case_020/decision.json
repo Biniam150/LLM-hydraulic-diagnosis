@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_020",
+  "tier": "matched_model",
+  "scenario_id": "unknown_r1_rise_low",
+  "observation_seed": 1009,
+  "model": "llama3.1:8b",
+  "true_cause": "source_head",
+  "true_target": "R1",
+  "expected_label": "unknown_cause",
+  "predicted_label": "leak",
+  "predicted_families": "leak",
+  "predicted_target": null,
+  "confidence": 0.9,
+  "exact_outcome_correct": false,
+  "accepted": true,
+  "false_attribution": true,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1829,
+  "generated_tokens": 99
+}

@@ -1,0 +1,4 @@
+method,threshold,known_validation_cases,retained_cases,retained_fraction,accuracy_after_rejection
+Majority class,1.0,85,85,1.0,0.17647058823529413
+Multinomial logistic,0.559021108544934,85,81,0.9529411764705882,0.4117647058823529
+Random forest,0.3773117797544482,85,81,0.9529411764705882,0.5294117647058824

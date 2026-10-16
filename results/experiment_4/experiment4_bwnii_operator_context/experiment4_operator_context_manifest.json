@@ -1,0 +1,12 @@
+{
+  "protocol_version": "4.1-operator-context-external-replication",
+  "network": "BWN-II",
+  "frozen_before_llm_inference": true,
+  "dataset_sha256": "5dc3c283978d7ff09b1867bf40e393203ba461910d7a66364539f9181dca2b0f",
+  "base_cases": 4,
+  "context_variants": 16,
+  "case_selection": "all final Experiment 3 cases returned as ambiguous_causes or unknown_cause",
+  "primary_endpoint": "correct verified resolution under helpful context",
+  "safety_endpoint": "retention of the Experiment 3 abstention under irrelevant, conflicting, or low-reliability context",
+  "withheld_family": "source_head may be proposed by the LLM only after operational context; it was not tested in Experiment 3"
+}

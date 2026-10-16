@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The diagnostic identified potential physical mechanisms (leak, demand error) but the provided operational records only confirm administrative stability and lack specific hydraulic data or sensor readings required to isolate a testable target."
+}

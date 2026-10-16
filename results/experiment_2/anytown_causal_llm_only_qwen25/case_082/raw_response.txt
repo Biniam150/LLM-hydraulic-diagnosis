@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error"],
+  "target": null,
+  "confidence": 0.7,
+  "reasoning": [
+    "The largest residual sensor (node 120) shows a significant negative pressure deviation, which could indicate either a leak or an error in nodal demand.",
+    "Nodes 20 and 50 also show notable deviations, but the patterns are less extreme than at node 120, making it difficult to definitively attribute these to one cause family over another.",
+    "The presence of both pressure-dependent water loss (leak) and incorrect nodal demand magnitude (demand_error) as plausible causes suggests ambiguity."
+  ]
+}

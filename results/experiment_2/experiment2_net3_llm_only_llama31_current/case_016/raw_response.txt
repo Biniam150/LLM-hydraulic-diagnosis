@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors are 157 and 231, which are both located near the monitored flow link.",
+    "Sensor 157 has a mean pressure residual of 0.7441421842475977 m, which is significantly higher than the threshold of 0.09 m.",
+    "The pressure residuals for sensors 157 and 231 are consistent with a leak in the network."
+  ]
+}

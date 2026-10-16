@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-16",
+  "regression_tests": {
+    "passed": 37,
+    "failed": 0
+  },
+  "canonical_benchmark_cases": {
+    "anytown": 18,
+    "net3": 21,
+    "bwnii": 21
+  },
+  "regenerated_observations_match_saved_nominal_gof": 60,
+  "copied_blind_inputs": 60,
+  "numerically_compared_summaries": [
+    "experiment_2/experiment2_three_network_comparison/experiment2_three_network_summary.csv",
+    "experiment_3/experiment3_five_models_three_networks/experiment3_verifier_summary.csv",
+    "experiment_3/experiment3_five_models_three_networks/experiment3_ordering_summary.csv",
+    "experiment_4/experiment4_three_networks/experiment4_three_network_model_summary.csv",
+    "experiment_4/experiment4_three_networks/experiment4_three_network_pooled_summary.csv"
+  ],
+  "summary_comparison_tolerance": 1e-12,
+  "numeric_main_figures_regenerated": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "local_python_import_references": "all resolved",
+  "original_project_files_moved_or_deleted": false,
+  "remote_repository_modified": false,
+  "full_hydraulic_search_rerun": false,
+  "llm_inference_rerun": false,
+  "clean_dependency_install_tested": false,
+  "classifier_retraining_tested": false,
+  "remaining_release_items": [
+    "author-selected code license",
+    "network redistribution terms",
+    "exact model digests and quantization",
+    "original scikit-learn version",
+    "final Figure 2 artwork selection",
+    "final journal supplement formatting"
+  ],
+  "figure_extraction_note": "The manuscript DOCX could not be reopened during assembly (PermissionError persisted outside sandbox); no layout or exact embedded Figure 2 verification claimed."
+}

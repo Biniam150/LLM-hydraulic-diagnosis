@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_011",
+  "tier": "matched_model",
+  "scenario_id": "leak_n151_high",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "true_cause": "leak",
+  "true_target": "151",
+  "expected_label": "leak",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": "601",
+  "confidence": 0.98,
+  "exact_outcome_correct": false,
+  "accepted": true,
+  "false_attribution": true,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3515,
+  "generated_tokens": 173
+}

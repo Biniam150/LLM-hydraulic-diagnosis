@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_015",
+  "tier": "matched_model",
+  "scenario_id": "bias_s219_midday",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The significant negative pressure residual at sensor 219 indicates a sustained pressure drop consistent with a leak, while the lack of flow change and minimal residuals elsewhere make demand or roughness errors less likely, and the specific localized nature of the error makes a general sensor bias improbable.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3357,
+  "generated_tokens": 99
+}

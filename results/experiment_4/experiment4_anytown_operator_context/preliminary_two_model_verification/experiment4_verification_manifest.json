@@ -1,0 +1,7 @@
+{
+  "experiment": "operator_context_guided_follow_up_verification",
+  "absolute_validation_gof_alpha": 0.05,
+  "acceptance": "baseline fails held-out GOF; focused candidate passes held-out GOF; training and validation scores do not worsen",
+  "context_gate": "valid citation to a high-reliability record within the diagnostic window",
+  "ground_truth_exposed_to_llm": false
+}

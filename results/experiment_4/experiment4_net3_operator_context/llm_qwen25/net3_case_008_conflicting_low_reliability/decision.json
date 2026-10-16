@@ -1,0 +1,25 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "net3_case_008_conflicting_low_reliability",
+  "base_case_id": "case_008",
+  "scenario_id": "demand_n231_high",
+  "context_condition": "conflicting_low_reliability",
+  "experiment3_outcome": "ambiguous_causes",
+  "true_family": "demand_error",
+  "true_target": "231",
+  "safe_expected_outcome": "ambiguous_causes",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The zero offset in a pressure channel could affect the accuracy of the demand_error and roughness_error hypotheses, but more information is needed to confirm its impact.",
+  "parse_error": null,
+  "prompt_tokens": 645,
+  "generated_tokens": 98,
+  "inference_duration_s": 22.8759703
+}

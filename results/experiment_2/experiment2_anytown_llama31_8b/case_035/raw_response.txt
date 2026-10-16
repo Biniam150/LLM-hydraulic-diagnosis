@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual pressure sensor is 70, which has a mean residual of 0.639014921977729 m.",
+    "The pressure residuals are mostly positive, indicating that the mismatch is likely due to an increase in water loss rather than a decrease.",
+    "The affected sensors have a high mean residual, suggesting a significant deviation from expected behavior."
+  ]
+}

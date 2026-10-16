@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The only temporally relevant record (R1) is unverified and lacks concrete evidence to test a physically measurable mechanism. The hydraulic diagnostic’s ‘unknown_cause’ outcome lacks a directly testable mechanism tied to a specific asset, and the ‘source_head’ family is untested without confirmation of a reservoir adjustment."
+}

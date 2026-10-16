@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residuals are observed at sensors 15, 109, and 601, which suggests potential sensor bias.",
+    "However, the pressure direction is mixed or small, and there's no clear pattern that would definitively point to demand error or roughness error.",
+    "Given the presence of multiple plausible causes without a strong indication for any one, ambiguous_causes is the most defensible outcome."
+  ]
+}

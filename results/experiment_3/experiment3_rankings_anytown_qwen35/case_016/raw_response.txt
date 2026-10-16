@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The widespread, persistent positive pressure residuals across multiple sensors strongly indicate a physical outflow (leak) rather than demand estimation errors or sensor biases, while the low flow NRMSE rules out significant pipe roughness changes."
+}

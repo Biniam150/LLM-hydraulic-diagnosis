@@ -1,0 +1,4 @@
+{
+  "action": "request_more_information",
+  "reason": "The operational records provided are either unreliable (R1) or irrelevant (R2) to testing for the hypothesized families (demand_error, roughness_error, source_head). No temporally relevant, reliable, and physically testable records exist to justify a focused hydraulic test."
+}

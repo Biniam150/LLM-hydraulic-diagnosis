@@ -1,0 +1,4 @@
+{
+  "action": "request_more_information",
+  "reason": "The operational records (R1, R2) are irrelevant to physically testable hydraulic mechanisms (e.g., no direct evidence of leaks, demand errors, roughness errors, sensor bias, or source head issues). The diagnostic outcome lacks a temporally relevant, physically testable mechanism with reliable records to justify a focused follow-up test."
+}

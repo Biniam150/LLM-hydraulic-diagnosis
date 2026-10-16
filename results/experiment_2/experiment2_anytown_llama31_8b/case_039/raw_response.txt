@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual pressures are mostly negative, indicating a pressure-dependent water loss.",
+    "Sensor 120 has the largest residual pressure and is affected by the mismatch.",
+    "The pressure residuals for sensors 20, 50, and 70 are not as large as those for sensor 120."
+  ]
+}

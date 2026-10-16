@@ -1,0 +1,42 @@
+{
+  "baseline": "deterministic domain-keyword and entity extraction",
+  "version": 1,
+  "uses_ground_truth": false,
+  "uses_context_condition_label": false,
+  "eligible_record": "reliability=high and time_relation=within the diagnostic observation window",
+  "requires": "one uniquely matched cause family and explicit asset identifier",
+  "family_patterns": {
+    "roughness_error": [
+      "\\broughness\\b",
+      "hydraulic resistance",
+      "internal wall",
+      "\\bdeposit(?:s)?\\b",
+      "wall buildup"
+    ],
+    "leak": [
+      "\\bleak(?:age|ing)?\\b",
+      "wet ground",
+      "acoustic activity",
+      "pipe burst",
+      "unaccounted outflow"
+    ],
+    "demand_error": [
+      "\\bdemand error\\b",
+      "legitimate high water use",
+      "incorrect consumption",
+      "authorized withdrawal"
+    ],
+    "sensor_bias": [
+      "\\bsensor bias\\b",
+      "zero offset",
+      "pressure (?:sensor|channel).{0,30}(?:drift|offset)",
+      "(?:drift|offset).{0,30}pressure (?:sensor|channel)"
+    ],
+    "source_head": [
+      "(?:reservoir|supply).{0,40}(?:set[ -]?point|boundary head)",
+      "(?:set[ -]?point|boundary head).{0,40}(?:reservoir|supply)",
+      "digital[- ]twin boundary input"
+    ]
+  },
+  "note": "This is a transparent post hoc comparator, not a preregistered baseline."
+}

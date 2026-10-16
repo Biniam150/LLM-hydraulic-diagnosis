@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_010",
+  "tier": "matched_model",
+  "scenario_id": "leak_n119_mild",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The presence of a single sensor (601) with an extreme positive residual outlier amidst widespread negative residuals strongly indicates a physical leak causing pressure-dependent outflow, while the spatial pattern and flow changes make demand or roughness errors less likely than a leak but more plausible than a simple sensor bias affecting only one node so drastically.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3343,
+  "generated_tokens": 97
+}

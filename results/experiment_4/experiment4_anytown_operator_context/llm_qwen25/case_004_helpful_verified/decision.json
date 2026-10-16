@@ -1,0 +1,25 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "case_004_helpful_verified",
+  "base_case_id": "case_004",
+  "scenario_id": "roughness_p34_mild",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "ambiguous_causes",
+  "true_family": "roughness_error",
+  "true_target": "34",
+  "safe_expected_outcome": "roughness_error",
+  "action": "propose_follow_up_test",
+  "proposed_family": "roughness_error",
+  "proposed_target": "pipe:34",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Record R1 indicates recent internal wall buildup in Pipe 34, which could explain the roughness_error identified by the diagnostic.",
+  "parse_error": null,
+  "prompt_tokens": 663,
+  "generated_tokens": 102,
+  "inference_duration_s": 29.6240985
+}

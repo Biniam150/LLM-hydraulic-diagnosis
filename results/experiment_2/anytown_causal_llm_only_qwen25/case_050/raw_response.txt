@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (120, 170, 100) are spread across the network, suggesting a persistent bias rather than localized issues like leaks or demand errors.",
+    "Seven pressure sensors show significant deviations, indicating a systematic issue that is not easily attributed to local changes in flow or roughness.",
+    "The positive residual direction and consistent magnitude across multiple sensors support the hypothesis of sensor bias."
+  ]
+}

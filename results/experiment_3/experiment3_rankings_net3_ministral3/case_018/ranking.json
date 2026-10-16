@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_018",
+  "tier": "matched_model",
+  "scenario_id": "unknown_river_rise",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Extreme residuals at sensor **601** (e.g., ±24 m) and widespread positive pressure deviations across 12 sensors strongly suggest a **pressure-dependent leak**, while demand errors and sensor bias are plausible but less likely given the magnitude and spatial spread.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3390,
+  "generated_tokens": 94
+}

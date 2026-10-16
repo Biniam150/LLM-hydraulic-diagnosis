@@ -1,0 +1,25 @@
+{
+  "model": "qwen3:8b",
+  "model_label": "Qwen3-8B",
+  "variant_id": "net3_case_005_supporting_low_reliability",
+  "base_case_id": "case_005",
+  "scenario_id": "demand_n109_low",
+  "context_condition": "supporting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "demand_error",
+  "true_target": "109",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "roughness_error",
+  "proposed_target": "pipe",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R2"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The high reliability of the control log indicates no unauthorized valve changes, supporting the roughness error family as a plausible mechanism.",
+  "parse_error": null,
+  "prompt_tokens": 666,
+  "generated_tokens": 97,
+  "inference_duration_s": 29.4626789
+}

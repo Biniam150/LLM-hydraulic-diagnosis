@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The ranking is based on the residual summary and compact topology, with the most plausible cause family being the one with the largest residual values and the most affected sensors."
+}

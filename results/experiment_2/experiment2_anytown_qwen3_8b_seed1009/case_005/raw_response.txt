@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "sensor_bias", "roughness_error"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "The pressure residuals are within the threshold (z-score 3.0), suggesting deviations may be within measurement noise or minor model errors.",
+    "The largest residuals are observed at sensors 50, 150, and 170, which are not directly connected to the monitored flow link (82), indicating a possible sensor bias or network-wide demand error.",
+    "The flow residuals are low (NRMSE 0.011), suggesting the flow model is consistent with measurements, which reduces the likelihood of a leak or roughness error as the primary cause."
+  ]
+}

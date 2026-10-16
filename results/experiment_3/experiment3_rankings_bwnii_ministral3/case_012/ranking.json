@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_012",
+  "tier": "matched_model",
+  "scenario_id": "leak_j500_offgrid",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Extreme negative pressure residuals at multiple junctions (e.g., **J500: -36.3 m**, **J394: -2.8 m**) and large RMSE values strongly suggest a **pressure-dependent leak**, while clustered sensor failures and proximity support **demand error** as secondary. **Sensor bias** is plausible but less likely due to widespread, consistent negative residuals, and **roughness error** is least probable given the abrupt onset and magnitude.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2828,
+  "generated_tokens": 137
+}

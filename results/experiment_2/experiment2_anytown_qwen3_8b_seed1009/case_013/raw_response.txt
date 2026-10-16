@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "120",
+  "confidence": 0.95,
+  "reasoning": [
+    "Sensor 120 shows an extreme residual with a mean of -0.55 m and RMSE of 0.55 m, indicating a persistent offset.",
+    "The pressure direction is mostly negative, and the residual magnitude is significantly higher than other sensors, suggesting a systematic bias.",
+    "The sensor's isolated residual pattern aligns with the sensor_bias family, which is characterized by a persistent offset affecting one pressure sensor."
+  ]
+}

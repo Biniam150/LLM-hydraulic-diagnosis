@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_009",
+  "tier": "matched_model",
+  "scenario_id": "leak_n130_midday",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The onset of the residual is late, affecting multiple sensors, and the largest residuals are at junctions 120 and 170, suggesting a localized issue like a leak or demand error.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1557,
+  "generated_tokens": 70
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error"],
+  "target": null,
+  "confidence": 0.7,
+  "reasoning": [
+    "The pressure residuals are mostly negative and significant, affecting multiple sensors.",
+    "The affected sensors (20, 70, 100) are close to each other in the network, suggesting a localized issue like a leak or roughness error.",
+    "No single family can be definitively identified as the cause."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors are not directly connected, making it difficult to pinpoint a single cause.",
+    "Residuals show mixed directionality and small magnitude, which could be indicative of either leak or roughness error.",
+    "No clear sensor bias is evident from the data."
+  ]
+}

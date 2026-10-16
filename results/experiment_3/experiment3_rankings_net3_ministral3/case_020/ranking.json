@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_020",
+  "tier": "matched_model",
+  "scenario_id": "unknown_lake_rise",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Single sensor (109) shows large, persistent positive pressure residuals (mean=0.17m, max=0.32m) with minimal negative excursions, strongly suggestive of a localized pressure-dependent outflow (leak). Demand errors and sensor bias are plausible but less likely given the magnitude and spatial confinement of residuals.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3402,
+  "generated_tokens": 107
+}

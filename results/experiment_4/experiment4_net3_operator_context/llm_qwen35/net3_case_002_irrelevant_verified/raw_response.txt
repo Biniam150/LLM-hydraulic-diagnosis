@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The diagnostic identified potential model errors but the operational records only confirm administrative stability without providing physical evidence of a specific testable mechanism or asset failure."
+}

@@ -1,0 +1,25 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "net3_case_009_supporting_low_reliability",
+  "base_case_id": "case_009",
+  "scenario_id": "leak_n101_low",
+  "context_condition": "supporting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "leak",
+  "true_target": "101",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The low-reliability operator report about wet ground near Junction 101 could indicate a leak, but more information is needed to confirm.",
+  "parse_error": null,
+  "prompt_tokens": 625,
+  "generated_tokens": 96,
+  "inference_duration_s": 23.8750783
+}

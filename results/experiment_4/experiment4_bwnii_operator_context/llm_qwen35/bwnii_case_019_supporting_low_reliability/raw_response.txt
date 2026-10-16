@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The record regarding the reservoir set-point adjustment is from an unverified source with low reliability and lacks confirmation against historical data."
+}

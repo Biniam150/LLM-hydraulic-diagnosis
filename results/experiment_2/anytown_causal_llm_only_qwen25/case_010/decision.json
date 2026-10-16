@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_010",
+  "tier": "matched_model",
+  "scenario_id": "demand_n75_mild",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "demand_error",
+  "true_target": "75",
+  "expected_label": "demand_error",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "leak,roughness_error",
+  "predicted_target": null,
+  "confidence": 0.6,
+  "reasoning": "[\"The largest residual sensors are located at nodes 50, 150, and 170, which show mixed pressure changes but no clear pattern that would indicate a single fault family.\", \"Node 150 shows the most significant deviation with a mean residual of -0.0029, but this is not consistent enough to definitively identify either a leak or roughness error.\", \"The network context and sensor shortest path distances do not provide additional clues that would favor one fault family over another.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": false,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

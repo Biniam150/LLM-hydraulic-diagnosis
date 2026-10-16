@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "15",
+  "confidence": 0.8,
+  "reasoning": [
+    "Single pressure sensor (15) exhibits a large persistent offset (mean residual -0.0876 m, min -0.2007 m) exceeding the threshold (0.09 m), while others are below or near it.",
+    "Residuals at nearby sensors (e.g., 203, 157) are smaller and lack extreme minima/maxima, suggesting localized bias rather than systemic error.",
+    "Flow residuals remain low (NRMSE=0.011) and unchanged, ruling out demand or roughness errors as primary causes."
+  ]
+}

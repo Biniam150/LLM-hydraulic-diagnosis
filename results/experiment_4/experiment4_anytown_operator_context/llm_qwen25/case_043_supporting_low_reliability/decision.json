@@ -1,0 +1,25 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "case_043_supporting_low_reliability",
+  "base_case_id": "case_043",
+  "scenario_id": "unknown_head10_drop",
+  "context_condition": "supporting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "10",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The operator's recollection of a potential temporary set-point adjustment on Reservoir 10 is relevant to the 'source_head' family and could justify further investigation, but it needs verification.",
+  "parse_error": null,
+  "prompt_tokens": 651,
+  "generated_tokens": 105,
+  "inference_duration_s": 14.8932619
+}

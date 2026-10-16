@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "J93,J394,J500",
+  "confidence": 0.85,
+  "reasoning": [
+    "Three sensors (J93, J394, J500) exhibit large, persistent negative pressure residuals (mean > 0.1 m, RMSE > 2 m) with extreme outliers, exceeding the 3σ threshold.",
+    "Spatial clustering of affected sensors (shortest-path distances ≤ 52) suggests a localized issue rather than widespread demand or roughness errors.",
+    "Flow residuals are negligible (NRMSE = 0.011), ruling out leaks or demand mismatches as primary causes."
+  ]
+}

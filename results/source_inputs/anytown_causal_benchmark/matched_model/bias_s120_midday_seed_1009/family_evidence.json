@@ -1,0 +1,115 @@
+{
+  "leak": {
+    "hypothesis": "leak",
+    "best_parameters": {
+      "node": "110",
+      "area_m2": 0.0005,
+      "start_hour": 12
+    },
+    "training_score_before": 0.0191335644948075,
+    "training_score_after": 0.018051282933449663,
+    "validation_score_before": 0.01981250466171288,
+    "validation_score_after": 0.01968827449877871,
+    "training_improvement": 0.056564555007591374,
+    "validation_improvement": 0.00627029066013246,
+    "pressure_rmse_m": 0.14396440765344845,
+    "flow_nrmse": 0.011824968666306328,
+    "simulations": 57,
+    "result": "weak_or_no_support",
+    "pressure_noise_ratio": 4.798813588448282,
+    "flow_noise_ratio": 1.1824968666306328,
+    "noise_consistent": false,
+    "evidence_basis": [
+      "post-fit pressure RMSE / configured pressure noise=4.799",
+      "post-fit flow NRMSE / configured flow noise fraction=1.182",
+      "training improvement=0.057",
+      "validation improvement=0.006"
+    ]
+  },
+  "demand_error": {
+    "hypothesis": "demand_error",
+    "best_parameters": {
+      "node": "55",
+      "multiplier": 1.25
+    },
+    "training_score_before": 0.0191335644948075,
+    "training_score_after": 0.019133564494807402,
+    "validation_score_before": 0.01981250466171288,
+    "validation_score_after": 0.019812504661712867,
+    "training_improvement": 5.077178101396865e-15,
+    "validation_improvement": 7.0045600214459e-16,
+    "pressure_rmse_m": 0.14908604547067,
+    "flow_nrmse": 0.011669456042975458,
+    "simulations": 95,
+    "result": "weak_or_no_support",
+    "pressure_noise_ratio": 4.969534849022334,
+    "flow_noise_ratio": 1.166945604297546,
+    "noise_consistent": false,
+    "evidence_basis": [
+      "post-fit pressure RMSE / configured pressure noise=4.970",
+      "post-fit flow NRMSE / configured flow noise fraction=1.167",
+      "training improvement=0.000",
+      "validation improvement=0.000"
+    ]
+  },
+  "roughness_error": {
+    "hypothesis": "roughness_error",
+    "best_parameters": {
+      "pipe": "40",
+      "multiplier": 1.2,
+      "search_scope": "full_network",
+      "candidate_pipe_count": 40
+    },
+    "training_score_before": 0.0191335644948075,
+    "training_score_after": 0.01898817247894288,
+    "validation_score_before": 0.01981250466171288,
+    "validation_score_after": 0.020081925809050945,
+    "training_improvement": 0.007598794040915718,
+    "validation_improvement": -0.01359854051460304,
+    "pressure_rmse_m": 0.15728164737668998,
+    "flow_nrmse": 0.011491235128510595,
+    "simulations": 160,
+    "result": "weak_or_no_support",
+    "pressure_noise_ratio": 5.242721579223,
+    "flow_noise_ratio": 1.1491235128510595,
+    "noise_consistent": false,
+    "evidence_basis": [
+      "post-fit pressure RMSE / configured pressure noise=5.243",
+      "post-fit flow NRMSE / configured flow noise fraction=1.149",
+      "training improvement=0.008",
+      "validation improvement=-0.014"
+    ]
+  },
+  "sensor_bias": {
+    "hypothesis": "sensor_bias",
+    "best_parameters": {
+      "sensor": "120",
+      "bias_m": -0.5559601487647263,
+      "bias_bound_mode": "absolute",
+      "bias_bounds_m": [
+        -2.0,
+        2.0
+      ],
+      "baseline_pressure_scale_m": null
+    },
+    "training_score_before": 0.0191335644948075,
+    "training_score_after": 0.012069636781240525,
+    "validation_score_before": 0.01981250466171288,
+    "validation_score_after": 0.013438137545119893,
+    "training_improvement": 0.36919036782111325,
+    "validation_improvement": 0.32173454217079767,
+    "pressure_rmse_m": 0.032381696732730926,
+    "flow_nrmse": 0.011669456042975458,
+    "simulations": 0,
+    "result": "strong_support",
+    "pressure_noise_ratio": 1.079389891091031,
+    "flow_noise_ratio": 1.166945604297546,
+    "noise_consistent": true,
+    "evidence_basis": [
+      "post-fit pressure RMSE / configured pressure noise=1.079",
+      "post-fit flow NRMSE / configured flow noise fraction=1.167",
+      "training improvement=0.369",
+      "validation improvement=0.322"
+    ]
+  }
+}

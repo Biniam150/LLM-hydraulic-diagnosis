@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "sensor_bias", "roughness_error"],
+  "reason": "Strong localized negative pressure residuals at sensor **20** (mean **-0.44 m**, min **-0.49 m**) with minimal flow changes suggest a **pressure-dependent leak** at a nearby junction. Secondary demand errors are plausible due to isolated sensor anomalies, while roughness errors are less likely given stable flow metrics."
+}

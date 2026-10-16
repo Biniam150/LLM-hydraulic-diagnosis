@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "109",
+  "confidence": 0.95,
+  "reasoning": [
+    "Sensor 109 shows the largest residual values with a mean of 0.171 m and RMSE of 0.204 m, indicating significant deviation.",
+    "The pressure direction is mostly positive, suggesting a persistent offset rather than transient noise.",
+    "Sensor 109 is the only sensor with a residual mean above the pressure threshold of 0.09 m, pointing to a potential bias."
+  ]
+}

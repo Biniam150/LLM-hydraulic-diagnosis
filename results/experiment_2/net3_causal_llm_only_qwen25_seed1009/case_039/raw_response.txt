@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.85,
+  "reasoning": [
+    "The largest residual sensors are located in a network with multiple valid junctions and pipes, making it difficult to pinpoint the exact cause.",
+    "The pressure residuals vary significantly across different sensors, indicating potential issues with both demand error and sensor bias.",
+    "The flow changes and NRMSE values for pumps and monitored links suggest that roughness errors could also be contributing to the observed deviations."
+  ]
+}

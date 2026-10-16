@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["sensor_bias", "demand_error"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "Two pressure sensors (120, 170) show persistent negative residuals exceeding the threshold (>3σ), with large RMSE and minimum values (−0.40m and −0.34m respectively).",
+    "Sensors 120/170 are spatially isolated (shortest-path distances to other sensors ≥2 pipes), reducing likelihood of a shared leak or roughness error.",
+    "Flow residuals remain low (NRMSE=0.01) with no changes, suggesting demand errors or sensor bias are more plausible than leaks or pipe resistance issues."
+  ]
+}

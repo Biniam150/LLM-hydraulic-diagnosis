@@ -1,0 +1,26 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "net3_case_012_irrelevant_verified",
+  "base_case_id": "case_012",
+  "scenario_id": "leak_n219_high",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "leak",
+  "true_target": "219",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1",
+    "R2"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Insufficient information to propose a focused follow-up hydraulic test.",
+  "parse_error": null,
+  "prompt_tokens": 593,
+  "generated_tokens": 57,
+  "inference_duration_s": 9.6147105
+}

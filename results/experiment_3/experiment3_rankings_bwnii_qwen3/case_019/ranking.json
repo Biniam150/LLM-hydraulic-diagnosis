@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_019",
+  "tier": "matched_model",
+  "scenario_id": "unknown_r1_drop_high",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residuals and affected sensor count suggest a leak, followed by demand error, roughness error, and sensor bias.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2781,
+  "generated_tokens": 53
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (120, 170) show persistent offsets that do not align with the expected patterns of a leak or demand error.",
+    "The pressure residuals are mostly negative and significant for multiple sensors, suggesting a consistent bias rather than random noise.",
+    "No clear evidence supports roughness changes or sudden demand errors."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "J379",
+  "confidence": 0.95,
+  "reasoning": [
+    "Two sensors (J379 and J1058) show large negative residuals with high RMSE, suggesting persistent bias.",
+    "J379 has the largest residual magnitude and variance, indicating a potential sensor bias at this junction.",
+    "The pressure direction is mostly negative, aligning with a consistent sensor offset."
+  ]
+}

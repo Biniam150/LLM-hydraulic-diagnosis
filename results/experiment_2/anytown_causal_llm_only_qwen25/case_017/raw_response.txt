@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "roughness_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "The largest residual sensors (120, 100, 150) show significant negative pressure deviations, which could be due to a combination of demand error, roughness changes, or sensor bias.",
+    "No single family can be definitively identified as the cause given the overlapping patterns and magnitudes of residuals across multiple sensors.",
+    "The network context does not provide additional clues to isolate one specific fault."
+  ]
+}

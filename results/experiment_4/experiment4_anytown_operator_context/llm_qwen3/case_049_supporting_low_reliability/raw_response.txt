@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "reservoir",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The operator's recollection about a potential set-point adjustment to Reservoir 165 is unreliable due to lack of verification, but it suggests a possible source-head issue that could be tested."
+}

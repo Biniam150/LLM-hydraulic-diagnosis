@@ -1,0 +1,11 @@
+{
+  "outcome": "unknown_cause",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.5,
+  "reasoning": [
+    "The residual summary indicates a complex pattern of mostly negative pressure residuals across multiple sensors.",
+    "The affected sensor count is high, suggesting that the issue may not be localized to a single sensor or node.",
+    "There is no clear indication of a specific modeled family being responsible for the mismatch."
+  ]
+}

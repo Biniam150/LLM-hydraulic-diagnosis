@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": "J379",
+  "confidence": 0.95,
+  "reasoning": [
+    "Sensor J379 exhibits a massive, persistent negative mean residual (-1.19 m) compared to all other sensors which are near zero.",
+    "The residual at J379 is statistically uniform (min/max range ~0.06 m), indicating a constant offset rather than a dynamic pressure-dependent leak signature.",
+    "No significant residuals appear in neighboring nodes or the monitored flow link, ruling out upstream demand errors or leaks affecting the local topology."
+  ]
+}

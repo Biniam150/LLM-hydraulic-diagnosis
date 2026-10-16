@@ -1,0 +1,7 @@
+"cause","cases","exact","accepted","false_attribution","predictions"
+"demand_error","4","0.5","0.5","0","demand_error:2, no_fault:2"
+"leak","4","1","1","0","leak:4"
+"no_fault","1","1","0","0","no_fault:1"
+"roughness_error","4","0.25","0.25","0","no_fault:3, roughness_error:1"
+"sensor_bias","4","1","1","0","sensor_bias:4"
+"source_head","4","1","0","0","unknown_cause:4"

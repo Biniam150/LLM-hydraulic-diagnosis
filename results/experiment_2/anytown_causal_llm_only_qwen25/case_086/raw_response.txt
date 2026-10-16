@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (20, 170, 120) show persistent negative deviations from the mean pressure readings.",
+    "These deviations are consistent with a sensor bias rather than a sudden change in demand or roughness.",
+    "No significant flow changes were observed, reducing the likelihood of a leak."
+  ]
+}

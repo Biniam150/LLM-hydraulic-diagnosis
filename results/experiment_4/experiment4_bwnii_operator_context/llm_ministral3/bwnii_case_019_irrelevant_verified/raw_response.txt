@@ -1,0 +1,4 @@
+{
+  "action": "request_more_information",
+  "reason": "No temporally relevant, physically testable records exist for the **source_head** family, and the provided operational records (R1, R2) are either irrelevant or insufficient to justify a focused hydraulic test for any family."
+}

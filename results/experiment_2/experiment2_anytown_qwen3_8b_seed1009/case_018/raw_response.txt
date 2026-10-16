@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "The pressure residuals show mixed directions and small magnitudes, suggesting potential sensor bias or demand errors.",
+    "Sensors 50, 150, and 170 have the largest residuals, which may indicate localized sensor bias or demand anomalies.",
+    "The absence of a clear pattern across the network suggests multiple plausible causes rather than a single fault family."
+  ]
+}

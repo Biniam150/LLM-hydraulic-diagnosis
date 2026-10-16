@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_012",
+  "tier": "matched_model",
+  "scenario_id": "leak_n219_high",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residuals are observed at junctions 601 and 219, suggesting a significant leak or demand error. The affected sensors are numerous and show persistent negative pressure residuals, indicating a plausible leak. Roughness errors and sensor biases are less likely given the scale and consistency of the residuals.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3331,
+  "generated_tokens": 90
+}

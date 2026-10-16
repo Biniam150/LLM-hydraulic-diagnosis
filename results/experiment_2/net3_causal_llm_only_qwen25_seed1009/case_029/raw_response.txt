@@ -1,0 +1,10 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (231, 601, 219) show mixed or small pressure direction changes, which could be due to either a leak causing localized pressure drops or roughness error leading to inconsistent flow resistance.",
+    "No single family can be definitively identified as the cause given the mixed nature of the residuals and the lack of clear sensor bias or demand error patterns."
+  ]
+}

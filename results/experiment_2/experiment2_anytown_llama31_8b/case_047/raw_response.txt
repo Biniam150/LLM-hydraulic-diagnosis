@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The pressure residuals are mostly positive, indicating a loss of pressure.",
+    "Four sensors show significant deviations from the expected values.",
+    "The largest residual sensors (20, 70, and 100) all have high mean and maximum pressures."
+  ]
+}

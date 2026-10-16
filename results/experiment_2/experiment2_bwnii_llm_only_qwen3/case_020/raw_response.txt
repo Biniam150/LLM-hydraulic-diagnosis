@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "J360",
+  "confidence": 0.95,
+  "reasoning": [
+    "Sensor J360 has an extremely high residual (maximum of 9.05 m), which is far beyond the pressure threshold of 0.09 m.",
+    "The residual for J360 is also the largest among all affected sensors, suggesting a significant and persistent bias.",
+    "The pressure direction is mostly positive, which aligns with a sensor bias rather than a leak or demand error."
+  ]
+}

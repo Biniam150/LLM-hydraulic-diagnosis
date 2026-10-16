@@ -1,0 +1,20 @@
+{
+  "scenario_id": "source_head_mismatch",
+  "seed": 404,
+  "true_cause": "source_head",
+  "true_target": "10",
+  "pressure_mae_before_m": 0.20708893855901753,
+  "pressure_mae_after_m": 0.34240688693906307,
+  "pressure_mae_improvement": -0.6534291465378378,
+  "clean_pressure_mae_before_m": 0.20202724904077027,
+  "clean_pressure_mae_after_m": 0.3379118106538776,
+  "fitted_node": "170",
+  "fitted_demand_multiplier": 2.0,
+  "demand_evidence": "weak_or_no_support",
+  "validation_improvement": -1.2021928676946962,
+  "pressure_noise_ratio": 39.02438942683553,
+  "flow_noise_ratio": 1.4080961581101887,
+  "false_calibration": false,
+  "false_causal_attribution": false,
+  "simulations": 95
+}

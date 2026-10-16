@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "Two pressure sensors (109 and 15) show persistent offsets, with mean residuals of 0.1441256246304056 and 0.07060273066816662 respectively.",
+    "The affected sensors are not part of a single pipe or junction, suggesting the issue is more likely sensor-related rather than localized to a specific node or link.",
+    "No significant flow changes were observed, which reduces the likelihood of a demand error or roughness change being the primary cause."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_013",
+  "tier": "matched_model",
+  "scenario_id": "bias_s109_early",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "sensor_bias",
+  "true_target": "109",
+  "expected_label": "sensor_bias",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": "109",
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensor is '109' with a mean pressure deviation of -0.45 m, which exceeds the threshold.\", \"Only one sensor ('109') shows significant deviations, suggesting a localized issue such as sensor bias.\", \"No other family (leak, demand_error, roughness_error) provides a plausible explanation for the observed pattern.\"]",
+  "exact_outcome_correct": true,
+  "true_family_covered": true,
+  "target_correct": true,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

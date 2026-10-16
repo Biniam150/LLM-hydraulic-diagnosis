@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "601",
+  "confidence": 0.92,
+  "reasoning": [
+    "Sensor 601 exhibits a massive positive pressure residual (mean +2.18m) compared to the widespread negative residuals (-0.15m to -0.58m) seen in all other sensors.",
+    "This isolated high-pressure spike at sensor 601 indicates a localized loss of hydraulic head consistent with a leak occurring immediately downstream or adjacent to this node, causing the model to over-predict pressure there.",
+    "The flow link '60' shows significant change (flow_changed: true), supporting the hypothesis that water is being diverted through a new path (leak) rather than just demand error or sensor bias."
+  ]
+}

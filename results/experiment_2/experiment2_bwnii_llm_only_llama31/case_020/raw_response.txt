@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.9,
+  "reasoning": [
+    "The residual summary indicates a pressure-dependent water loss at one junction.",
+    "Four sensors (J360, J276, J1058, and J379) have large residuals, suggesting a leak.",
+    "The largest residual sensors are also among the affected sensors."
+  ]
+}

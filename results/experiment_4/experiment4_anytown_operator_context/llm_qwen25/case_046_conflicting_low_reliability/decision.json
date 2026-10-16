@@ -1,0 +1,25 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "case_046_conflicting_low_reliability",
+  "base_case_id": "case_046",
+  "scenario_id": "unknown_head10_rise",
+  "context_condition": "conflicting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "10",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The note about a potential pressure channel drift is uncorroborated and thus unreliable.",
+  "parse_error": null,
+  "prompt_tokens": 644,
+  "generated_tokens": 85,
+  "inference_duration_s": 11.8186647
+}

@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_006",
+  "tier": "matched_model",
+  "scenario_id": "demand_n119_mild",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "true_cause": "demand_error",
+  "true_target": "119",
+  "expected_label": "demand_error",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "leak,demand_error",
+  "predicted_target": null,
+  "confidence": 0.65,
+  "exact_outcome_correct": false,
+  "accepted": false,
+  "false_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3515,
+  "generated_tokens": 210
+}

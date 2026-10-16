@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Large, consistent negative pressure residuals at multiple sensors (4/7 affected) with high RMSE and minima exceeding threshold suggest a **pressure-dependent outflow (leak)**. Demand errors are plausible but less likely without flow changes. Sensor bias is possible but unlikely given widespread, spatially clustered residuals. Roughness errors are least probable due to lack of flow anomalies and localized pressure patterns."
+}

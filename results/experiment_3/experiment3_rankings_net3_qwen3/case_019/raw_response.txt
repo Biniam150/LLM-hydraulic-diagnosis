@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The residual pressures are mostly negative and large, suggesting a pressure drop consistent with a leak, while sensor bias shows less widespread impact."
+}

@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "reservoir or supply-boundary head",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1", "R2"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Operational records R1 and R2 support the hypothesis of an incorrect reservoir or supply-boundary head."
+}

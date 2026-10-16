@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The diagnostic results indicate ambiguous causes with multiple competing hypotheses (demand error vs. roughness error), and the provided operational records do not isolate a single physically testable mechanism to justify a specific follow-up test."
+}

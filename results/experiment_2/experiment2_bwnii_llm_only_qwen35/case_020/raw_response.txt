@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "J360",
+  "confidence": 0.85,
+  "reasoning": [
+    "Sensor J360 exhibits a massive residual mean (0.43m) and an extreme maximum deviation (9.05m), far exceeding the threshold of other sensors.",
+    "The pattern of high residuals in J360, J1058, and J276 suggests a localized pressure drop affecting downstream nodes rather than a global bias or demand error.",
+    "Flow metrics remain stable (flow_changed: false), ruling out pump failure or major demand shifts as the primary cause."
+  ]
+}

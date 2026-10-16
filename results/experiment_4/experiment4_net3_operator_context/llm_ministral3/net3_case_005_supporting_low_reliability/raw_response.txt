@@ -1,0 +1,4 @@
+{
+  "action": "request_more_information",
+  "reason": "No temporally relevant, reliable, and physically testable records exist to justify a focused hydraulic test for any family (e.g., demand_error, roughness_error, source_head). The only candidate evidence (demand_error at node 101 or roughness_error at pipe 109) lacks direct, verifiable operational confirmation, and the operator report (R1) is unreliable. Additional context (e.g., metered consumption data at node 101 or pipe 109, or reservoir head measurements) is required to proceed."
+}

@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_013",
+  "tier": "matched_model",
+  "scenario_id": "bias_s120_midday",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residual and most negative pressure at sensor 120 strongly suggests a leak, while demand and roughness errors are more likely to affect multiple sensors, and sensor bias is less impactful given the localized residual pattern.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1564,
+  "generated_tokens": 73
+}

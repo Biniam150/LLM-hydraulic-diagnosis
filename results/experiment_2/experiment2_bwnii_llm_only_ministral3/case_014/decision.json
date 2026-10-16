@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_014",
+  "tier": "matched_model",
+  "scenario_id": "bias_j379_negative",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "true_cause": "sensor_bias",
+  "true_target": "J379",
+  "expected_label": "sensor_bias",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": "J379",
+  "confidence": 0.95,
+  "exact_outcome_correct": true,
+  "accepted": true,
+  "false_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2949,
+  "generated_tokens": 190
+}

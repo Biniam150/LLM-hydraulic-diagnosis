@@ -1,0 +1,26 @@
+{
+  "model": "qwen3:8b",
+  "model_label": "Qwen3-8B",
+  "variant_id": "bwnii_case_020_irrelevant_verified",
+  "base_case_id": "case_020",
+  "scenario_id": "unknown_r1_rise_low",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "R1",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "J285",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": [
+    "R1",
+    "R2"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Operational records confirm no changes to telemetry, controls, or hydraulic-model inputs, supporting the leak family as a testable mechanism.",
+  "parse_error": null,
+  "prompt_tokens": 681,
+  "generated_tokens": 106,
+  "inference_duration_s": 38.05023
+}

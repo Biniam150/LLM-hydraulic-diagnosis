@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "sensor_bias", "roughness_error"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "The largest residual pressures are observed at sensors 50, 150, and 170, which are spatially distributed across the network, suggesting a potential systemic issue rather than a localized fault.",
+    "The pressure residuals show mixed directions (positive and negative), which is inconsistent with a single fault family like a leak or sensor bias.",
+    "The flow residuals are within acceptable noise ratios, indicating that the mismatch is not primarily due to flow measurement errors."
+  ]
+}

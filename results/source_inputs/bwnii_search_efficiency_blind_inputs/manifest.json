@@ -1,0 +1,6 @@
+{
+  "network": "bwnii",
+  "cases": 21,
+  "ground_truth_excluded_from_prompt": true,
+  "candidate_hydraulic_evidence_excluded_from_prompt": true
+}

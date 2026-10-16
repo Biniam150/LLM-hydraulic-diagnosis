@@ -1,0 +1,23 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "case_004_irrelevant_verified",
+  "base_case_id": "case_004",
+  "scenario_id": "roughness_p34_mild",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "ambiguous_causes",
+  "true_family": "roughness_error",
+  "true_target": "34",
+  "safe_expected_outcome": "ambiguous_causes",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "irrelevant",
+  "reason": "The provided operational records do not support or contradict the configured families and are unrelated to the hydraulic network's performance.",
+  "parse_error": null,
+  "prompt_tokens": 654,
+  "generated_tokens": 83,
+  "inference_duration_s": 11.9177974
+}

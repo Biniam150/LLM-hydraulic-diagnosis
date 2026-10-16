@@ -1,0 +1,5 @@
+{
+  "action": "request_more_information",
+  "record_assessment": "insufficient_reliability",
+  "reason": "Record R1 has low reliability and is unverified, while record R2 is high reliability but does not support a focused follow-up test."
+}

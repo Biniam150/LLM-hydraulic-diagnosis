@@ -1,0 +1,11 @@
+{
+  "outcome": "no_fault",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.98,
+  "reasoning": [
+    "All pressure residuals are well below the z-score threshold of 3.0.",
+    "The largest residual sensors show mean deviations near zero with RMSE consistent with noise levels (flow_noise_ratio ~1).",
+    "No systematic pattern or persistent offset indicative of leaks, demand errors, roughness changes, or sensor bias is present."
+  ]
+}

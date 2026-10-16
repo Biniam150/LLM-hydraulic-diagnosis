@@ -1,0 +1,11 @@
+{
+  "outcome": "unknown_cause",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.5,
+  "reasoning": [
+    "The residual summary does not provide strong evidence for any of the modeled fault families.",
+    "The pressure_residual_by_sensor values are generally small and do not indicate a significant mismatch.",
+    "There is no clear pattern in the largest_residual_sensors list that would suggest a specific cause."
+  ]
+}

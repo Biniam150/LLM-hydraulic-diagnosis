@@ -1,0 +1,26 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "net3_case_005_irrelevant_verified",
+  "base_case_id": "case_005",
+  "scenario_id": "demand_n109_low",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "demand_error",
+  "true_target": "109",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1",
+    "R2"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Insufficient information to propose a focused hydraulic follow-up test.",
+  "parse_error": null,
+  "prompt_tokens": 595,
+  "generated_tokens": 57,
+  "inference_duration_s": 23.9749433
+}

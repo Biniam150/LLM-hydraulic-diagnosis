@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_019",
+  "tier": "matched_model",
+  "scenario_id": "unknown_lake_drop",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "true_cause": "source_head",
+  "true_target": "Lake",
+  "expected_label": "unknown_cause",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "sensor_bias,leak",
+  "predicted_target": null,
+  "confidence": 0.65,
+  "exact_outcome_correct": false,
+  "accepted": false,
+  "false_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3520,
+  "generated_tokens": 205
+}

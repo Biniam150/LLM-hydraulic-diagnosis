@@ -1,0 +1,8 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "roughness_error",
+  "proposed_target": "34",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant"
+}

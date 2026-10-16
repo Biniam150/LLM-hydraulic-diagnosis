@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (J360, J276, J1058) show significant positive pressure deviations, indicating a potential leak.",
+    "Pressure residuals are mostly positive and the affected sensor count is high, supporting a localized leak scenario.",
+    "No other family of causes presents as strong a pattern in the residual data."
+  ]
+}

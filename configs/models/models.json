@@ -1,0 +1,25 @@
+{
+  "models": [
+    {
+      "label": "Qwen2.5-7B",
+      "ollama_tag": "qwen2.5:7b"
+    },
+    {
+      "label": "Llama3.1-8B",
+      "ollama_tag": "llama3.1:8b"
+    },
+    {
+      "label": "Qwen3-8B",
+      "ollama_tag": "qwen3:8b"
+    },
+    {
+      "label": "Ministral3-8B",
+      "ollama_tag": "ministral-3:8b"
+    },
+    {
+      "label": "Qwen3.5-9B",
+      "ollama_tag": "qwen3.5:9b"
+    }
+  ],
+  "note": "Exact request options and metadata are retained with individual saved runs. Model digests and quantization require confirmation from the original Ollama installation."
+}

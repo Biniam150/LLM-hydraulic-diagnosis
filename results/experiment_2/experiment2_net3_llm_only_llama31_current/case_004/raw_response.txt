@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The pressure_residual_by_sensor values for sensors 109 and 40 are significantly negative, indicating a potential leak.",
+    "The largest_residual_sensors list includes sensor 109, which is also one of the sensors with the most significant negative pressure_residual_by_sensor value.",
+    "The network_context indicates that there are multiple valid pipes in the area where sensor 109 is located."
+  ]
+}

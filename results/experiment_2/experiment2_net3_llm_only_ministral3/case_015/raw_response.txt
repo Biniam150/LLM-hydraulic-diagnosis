@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "219",
+  "confidence": 0.85,
+  "reasoning": [
+    "Sensor **219** exhibits a persistent, large negative offset (mean = -0.56 m) with minimal variation (RMSE ≈ 0.56 m), exceeding the residual threshold by orders of magnitude.",
+    "No other sensors show comparable residuals or directional consistency, and flow/pump metrics remain stable (NRMSE < 1.2%).",
+    "The abrupt onset (~hour 12) and localized impact strongly suggest a persistent sensor bias rather than dynamic system changes."
+  ]
+}

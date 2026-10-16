@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error"],
+  "target": null,
+  "confidence": 0.6,
+  "reasoning": [
+    "The pressure residuals at sensors 20, 50, and 150 suggest a mixed or small residual pattern, which could be indicative of either a leak (pressure-dependent water loss) or roughness error (incorrect pipe resistance).",
+    "There are no affected sensors to pinpoint the exact location, making it difficult to definitively choose between these two families.",
+    "The lack of clear evidence for demand_error or sensor_bias further supports the ambiguity."
+  ]
+}

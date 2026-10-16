@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "sensor_bias", "roughness_error"],
+  "reason": "Single highly anomalous sensor (J70) with large, persistent pressure residuals (>0.35m) and mixed directional changes strongly suggests a localized leak, while demand errors are plausible but less isolated."
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "roughness_error"],
+  "target": null,
+  "confidence": 0.7,
+  "reasoning": [
+    "The pressure residuals are mostly negative and significant, affecting multiple sensors.",
+    "The affected sensor count is high (4 out of 7), suggesting a widespread issue rather than a localized fault like a leak.",
+    "Both demand error and roughness error could explain the observed pattern."
+  ]
+}

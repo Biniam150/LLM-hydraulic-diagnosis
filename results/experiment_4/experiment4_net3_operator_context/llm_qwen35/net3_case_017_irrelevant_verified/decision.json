@@ -1,0 +1,23 @@
+{
+  "model": "qwen3.5:9b",
+  "model_label": "Qwen3.5-9B",
+  "variant_id": "net3_case_017_irrelevant_verified",
+  "base_case_id": "case_017",
+  "scenario_id": "unknown_river_drop",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "River",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The diagnostic identified potential roughness and leak errors but lacks a specific physical asset or mechanism to test immediately without further data on the 'unknown_cause'.",
+  "parse_error": null,
+  "prompt_tokens": 619,
+  "generated_tokens": 103,
+  "inference_duration_s": 25.5491788
+}

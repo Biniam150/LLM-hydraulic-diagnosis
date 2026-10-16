@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_001",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p10_low",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residuals are observed at sensors 70, 100, and 150, which are most affected by a leak, and the pressure direction is mostly positive, suggesting a single source of disturbance.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1560,
+  "generated_tokens": 74
+}

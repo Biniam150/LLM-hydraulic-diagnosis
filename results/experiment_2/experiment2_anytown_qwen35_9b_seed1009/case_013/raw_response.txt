@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": "120",
+  "confidence": 0.98,
+  "reasoning": [
+    "Sensor 120 exhibits a massive negative mean residual (-0.55m) compared to all others near zero.",
+    "The pressure direction is consistently mostly_negative at sensor 120 with no corresponding flow change or widespread network impact.",
+    "This pattern indicates a persistent offset (bias) in the specific measurement rather than hydraulic loss or demand error."
+  ]
+}

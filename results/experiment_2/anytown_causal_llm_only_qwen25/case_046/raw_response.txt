@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors are located at nodes 20, 70, and 100, which have persistent offsets from the mean pressure readings.",
+    "The affected sensor count is high (4 out of 7), suggesting a systematic issue rather than localized faults like leaks or roughness errors.",
+    "No significant flow changes were observed, ruling out demand error as the primary cause."
+  ]
+}

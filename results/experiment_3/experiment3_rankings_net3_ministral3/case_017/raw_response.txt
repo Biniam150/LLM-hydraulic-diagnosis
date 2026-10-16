@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Extreme pressure residuals at sensor **601** (mean = +0.95 m, RMSE = 7.47 m) and widespread negative residuals across 12 sensors suggest a **pressure-dependent outflow (leak)**. Demand errors are plausible but less likely due to consistent negative residuals. Sensor bias is possible but unlikely given the magnitude and spatial spread. Roughness errors are least probable due to localized, not systemic, pressure deviations."
+}

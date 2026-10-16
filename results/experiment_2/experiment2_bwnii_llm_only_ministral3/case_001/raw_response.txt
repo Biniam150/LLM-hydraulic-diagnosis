@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.25,
+  "reasoning": [
+    "Residuals are small (max RMSE ~0.085 m) and lack clear spatial clustering or directional consistency, making localized faults unlikely.",
+    "No pressure sensor bias is evident—means are near zero across all sensors, and residuals are mixed in direction.",
+    "Flow residuals (NRMSE=1.1%) are negligible; no pump or link flow changes suggest demand or roughness errors are improbable."
+  ]
+}

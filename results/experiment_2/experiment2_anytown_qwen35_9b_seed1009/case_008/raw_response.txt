@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": null,
+  "confidence": 0.89,
+  "reasoning": [
+    "All affected sensors show a consistent negative pressure residual mean.",
+    "The flow residuals are negligible (NRMSE ~1%), indicating no significant hydraulic loss or demand error.",
+    "A systematic offset across multiple nodes is characteristic of sensor calibration bias rather than physical leaks."
+  ]
+}

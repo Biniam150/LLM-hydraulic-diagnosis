@@ -1,0 +1,25 @@
+{
+  "model": "qwen3:8b",
+  "model_label": "Qwen3-8B",
+  "variant_id": "case_049_helpful_verified",
+  "base_case_id": "case_049",
+  "scenario_id": "unknown_head165_rise",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "165",
+  "safe_expected_outcome": "source_head",
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "reservoir 165",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The record indicates a supply set point change at Reservoir 165 that was not propagated to the digital-twin boundary input, suggesting a potential issue with the source head boundary condition.",
+  "parse_error": null,
+  "prompt_tokens": 608,
+  "generated_tokens": 115,
+  "inference_duration_s": 23.2684577
+}

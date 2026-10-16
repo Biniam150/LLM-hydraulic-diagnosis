@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "sensor_bias", "roughness_error"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "The pressure residuals are mixed in direction and magnitude, suggesting multiple potential sources.",
+    "The largest residuals are observed at sensors 50, 150, and 170, which are spatially distributed across the network.",
+    "The flow residuals are low in magnitude, indicating that flow-related issues are less likely to be the primary cause."
+  ]
+}

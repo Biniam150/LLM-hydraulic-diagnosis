@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "sensor_bias", "roughness_error"],
+  "reason": "Extreme localized pressure residual at **J152** (mean=+0.65m, RMSE=+0.65m) with minimal flow impact suggests a **pressure-dependent leak** at a junction, while demand errors and sensor bias are plausible but less extreme."
+}

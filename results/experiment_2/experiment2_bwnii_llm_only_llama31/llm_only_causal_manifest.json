@@ -1,0 +1,9 @@
+{
+  "model": "llama3.1:8b",
+  "cases": 21,
+  "inference_seed": 424242,
+  "temperature": 0.0,
+  "num_ctx": 4096,
+  "hydraulic_verification_used": false,
+  "ground_truth_in_prompt": false
+}

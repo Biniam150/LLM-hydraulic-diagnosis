@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_007",
+  "tier": "matched_model",
+  "scenario_id": "demand_j93_high",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Three highly correlated sensors show large, sustained negative pressure residuals (J93, J394, J500) with extreme RMSE, strongly indicative of a localized pressure-dependent outflow (leak).",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2836,
+  "generated_tokens": 83
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "roughness_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.7,
+  "reasoning": [
+    "The largest residual sensors (50, 150, 100) show significant deviations that could be due to either demand error or sensor bias.",
+    "The pressure residuals are mostly negative and vary widely among the affected sensors, which is consistent with both roughness errors and demand errors.",
+    "Without additional context or simulations, it's not possible to definitively attribute the cause to one family."
+  ]
+}

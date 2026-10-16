@@ -1,0 +1,25 @@
+{
+  "model": "ministral-3:8b",
+  "model_label": "Ministral3-8B",
+  "variant_id": "case_004_helpful_verified",
+  "base_case_id": "case_004",
+  "scenario_id": "roughness_p34_mild",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "ambiguous_causes",
+  "true_family": "roughness_error",
+  "true_target": "34",
+  "safe_expected_outcome": "roughness_error",
+  "action": "propose_follow_up_test",
+  "proposed_family": "roughness_error",
+  "proposed_target": "34",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Operational record R1 confirms unupdated hydraulic resistance for Pipe 36 (likely a typo for Pipe 34 in the context) due to internal wall buildup, directly supporting roughness_error as a testable mechanism.",
+  "parse_error": null,
+  "prompt_tokens": 711,
+  "generated_tokens": 122,
+  "inference_duration_s": 54.2561012
+}

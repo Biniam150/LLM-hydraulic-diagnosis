@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "J276",
+  "confidence": 0.95,
+  "reasoning": [
+    "Four sensors (J360, J276, J1058, J379) exceed the pressure residual threshold (mean > 0.09 m), with J276 and J360 showing extreme outliers (max > 9 m).",
+    "J276’s residual is persistently positive (min = 1.44 m) and highly concentrated, suggesting a localized sensor offset rather than a distributed effect like a leak or roughness error.",
+    "Flow residuals are negligible (NRMSE = 0.018), and no pump/flow changes are detected, ruling out demand or hydraulic model errors as primary causes."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "demand_error",
+  "proposed_target": "101",
+  "proposed_onset_hour": 12,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Metering records confirmed a sustained legitimate withdrawal at Junction 109 that was not represented in the digital-twin demand input during the diagnostic window."
+}

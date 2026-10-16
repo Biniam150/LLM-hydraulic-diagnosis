@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error"],
+  "target": null,
+  "confidence": 0.6,
+  "reasoning": [
+    "The pressure residuals at sensors 70, 20, and 170 suggest a localized issue, which could be due to either a leak or incorrect pipe resistance/roughness.",
+    "There is no clear evidence of demand error or sensor bias affecting the system.",
+    "The mixed direction of residual changes (positive and negative) does not support a single-family diagnosis."
+  ]
+}

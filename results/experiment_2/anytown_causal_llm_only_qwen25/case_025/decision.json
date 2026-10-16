@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_025",
+  "tier": "matched_model",
+  "scenario_id": "leak_n130_midday",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "leak",
+  "true_target": "130",
+  "expected_label": "leak",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": null,
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensors (120, 170) show persistent offsets that do not align with the expected patterns of a leak or demand error.\", \"The pressure residuals are mostly negative and significant for multiple sensors, suggesting a consistent bias rather than random noise.\", \"No clear evidence supports roughness changes or sudden demand errors.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": false,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

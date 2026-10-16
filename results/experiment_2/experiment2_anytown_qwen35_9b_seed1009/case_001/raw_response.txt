@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": null,
+  "confidence": 0.85,
+  "reasoning": [
+    "Three sensors (70, 100, 150) show significant pressure residuals while flow remains stable.",
+    "The affected sensors are spatially distributed rather than clustered around a single pipe junction.",
+    "Flow noise ratios and pump stability indicate the mismatch is not due to hydraulic demand or leaks."
+  ]
+}

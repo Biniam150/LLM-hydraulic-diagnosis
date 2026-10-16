@@ -1,0 +1,26 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "net3_case_017_irrelevant_verified",
+  "base_case_id": "case_017",
+  "scenario_id": "unknown_river_drop",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "River",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1",
+    "R2"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The records are reliable and relevant but do not support a specific family of issues.",
+  "parse_error": null,
+  "prompt_tokens": 615,
+  "generated_tokens": 87,
+  "inference_duration_s": 11.5020704
+}

@@ -1,0 +1,4 @@
+network,runs,exact_outcome_accuracy,known_family_accuracy,detectable_known_family_accuracy,accepted_diagnosis_precision,diagnostic_coverage,unknown_cause_recall,no_fault_recall,false_attribution_rate,mean_logical_hydraulic_simulations
+Anytown,18,0.7222222222222222,0.6428571428571429,0.8181818181818182,1.0,0.5,1.0,1.0,0.0,352.27777777777777
+Net3,21,0.6190476190476191,0.5,0.5384615384615384,1.0,0.3809523809523809,1.0,1.0,0.0,1249.571428571429
+BWN-II,21,0.7619047619047619,0.6875,1.0,1.0,0.5238095238095238,1.0,1.0,0.0,5061.428571428572

@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_021",
+  "tier": "matched_model",
+  "scenario_id": "no_fault_control",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residuals are observed at junctions J345 and J296, suggesting a localized issue, which is more consistent with a leak or demand error. The absence of affected sensors and the mixed pressure direction further reduce the likelihood of sensor bias.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2780,
+  "generated_tokens": 81
+}

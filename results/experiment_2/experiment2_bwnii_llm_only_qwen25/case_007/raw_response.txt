@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residuals are observed in sensors J500 and J394, which show significant negative pressure deviations.",
+    "These large residuals persist across multiple sensors, suggesting a localized issue such as a leak.",
+    "No other family of causes (demand_error, roughness_error, sensor_bias) shows consistent patterns that could explain the observed residual distribution."
+  ]
+}

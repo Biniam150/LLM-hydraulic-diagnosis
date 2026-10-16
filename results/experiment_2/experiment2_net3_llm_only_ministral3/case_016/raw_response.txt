@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "157",
+  "confidence": 0.98,
+  "reasoning": [
+    "Sensor **157** exhibits a persistent, extreme offset (mean residual ≈ +0.74 m) with negligible noise (RMSE ≈ mean), indicating a systematic bias rather than dynamic error or environmental variation.",
+    "No other sensors show comparable residuals, and the affected sensor’s location is isolated in shortest-path distances (e.g., 5–21 links from others), reducing likelihood of correlated faults like leaks or demand errors.",
+    "Flow metrics (NRMSE=0.0115, noise ratio=1.15) remain stable, ruling out pump/pipe-level anomalies as the primary cause."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_005",
+  "tier": "matched_model",
+  "scenario_id": "demand_n109_low",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residuals are observed at sensors 109, 166, and 167, indicating a localized issue, which is most consistent with a leak. The persistent offset at sensor 109 further supports a leak hypothesis. While demand and roughness errors could also cause residuals, the pattern and magnitude suggest a more localized issue fitting a leak scenario.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3330,
+  "generated_tokens": 105
+}

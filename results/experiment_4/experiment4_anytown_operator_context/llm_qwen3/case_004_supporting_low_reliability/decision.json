@@ -1,0 +1,26 @@
+{
+  "model": "qwen3:8b",
+  "model_label": "Qwen3-8B",
+  "variant_id": "case_004_supporting_low_reliability",
+  "base_case_id": "case_004",
+  "scenario_id": "roughness_p34_mild",
+  "context_condition": "supporting_low_reliability",
+  "experiment3_outcome": "ambiguous_causes",
+  "true_family": "roughness_error",
+  "true_target": "34",
+  "safe_expected_outcome": "ambiguous_causes",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1",
+    "R2"
+  ],
+  "record_assessment": "insufficient_reliability",
+  "reason": "Record R1 is unverified and lacks supporting data, while R2 does not provide actionable insight into the hydraulic mechanisms under investigation.",
+  "parse_error": null,
+  "prompt_tokens": 666,
+  "generated_tokens": 97,
+  "inference_duration_s": 14.5583582
+}

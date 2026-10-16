@@ -1,0 +1,23 @@
+{
+  "model": "ministral-3:8b",
+  "model_label": "Ministral3-8B",
+  "variant_id": "case_004_supporting_low_reliability",
+  "base_case_id": "case_004",
+  "scenario_id": "roughness_p34_mild",
+  "context_condition": "supporting_low_reliability",
+  "experiment3_outcome": "ambiguous_causes",
+  "true_family": "roughness_error",
+  "true_target": "34",
+  "safe_expected_outcome": "ambiguous_causes",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "conflicting",
+  "reason": "invalid structured output",
+  "parse_error": "unsupported record assessment 'none'",
+  "prompt_tokens": 704,
+  "generated_tokens": 112,
+  "inference_duration_s": 18.7570909
+}

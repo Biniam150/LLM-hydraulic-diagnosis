@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_011",
+  "tier": "matched_model",
+  "scenario_id": "leak_n151_high",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residuals and high RMSE values suggest a leak, which affects multiple sensors with significant pressure changes.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3343,
+  "generated_tokens": 50
+}

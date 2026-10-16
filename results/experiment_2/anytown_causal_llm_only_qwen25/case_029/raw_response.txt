@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "170",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual is observed at sensor 170 with a mean deviation of -0.034 and an RMSE of 0.176, indicating a persistent offset.",
+    "No significant flow changes or pump issues are noted, ruling out demand_error and roughness_error.",
+    "The affected node (sensor 170) has the highest shortest path distances to other sensors, suggesting it is isolated and less likely to be influenced by general system noise."
+  ]
+}

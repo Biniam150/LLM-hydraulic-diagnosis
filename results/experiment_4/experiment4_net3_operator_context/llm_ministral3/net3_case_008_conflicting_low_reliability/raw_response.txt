@@ -1,0 +1,4 @@
+{
+  "action": "request_more_information",
+  "reason": "The operational records do not provide sufficient, temporally relevant, or physically testable evidence to configure a focused hydraulic test for any family. Record R1 is unreliable and lacks corroboration, while R2 is irrelevant to hydraulic diagnostics (it pertains to valve status). The diagnostic outcome is ambiguous, and no record directly links to a testable mechanism or asset (e.g., a specific pipe, junction, or sensor) with high reliability."
+}

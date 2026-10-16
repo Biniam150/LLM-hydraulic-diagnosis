@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["sensor_bias", "demand_error", "leak"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "Multiple pressure sensors (7 out of 7) show significant residual deviations, suggesting a systemic issue rather than isolated sensor bias.",
+    "The pressure residuals are mostly positive, which could indicate a demand error or a leak, both of which can cause sustained pressure increases.",
+    "The affected sensors are spatially distributed, making it difficult to isolate a single fault family without additional network-specific data."
+  ]
+}

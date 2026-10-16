@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "roughness_error", "demand_error", "sensor_bias"],
+  "reason": "The largest residuals are observed at junctions 50 and 20, suggesting a localized issue like a leak. The mixed pressure direction and presence of large residuals indicate potential resistance changes, supporting roughness_error. Demand_error is plausible given the network size and sensor absence, while sensor_bias is less likely given no affected sensors."
+}

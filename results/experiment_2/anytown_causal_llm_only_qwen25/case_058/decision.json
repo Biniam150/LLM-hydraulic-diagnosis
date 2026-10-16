@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_058",
+  "tier": "perturbed_truth_model",
+  "scenario_id": "roughness_p58_mild",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "roughness_error",
+  "true_target": "58",
+  "expected_label": "roughness_error",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": null,
+  "confidence": 0.85,
+  "reasoning": "[\"The largest residual sensors (170 and 120) show persistent offsets, which are characteristic of sensor bias.\", \"No significant flow changes or pump issues were observed, reducing the likelihood of demand_error or roughness_error.\", \"While a leak could explain some pressure drops, the consistent nature of the offset across multiple sensors is more indicative of sensor bias.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": false,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

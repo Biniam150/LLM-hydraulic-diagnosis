@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "170",
+  "confidence": 0.98,
+  "reasoning": [
+    "Single sensor (170) exhibits a persistent, large positive offset (~0.76 m) with negligible RMSE deviation from the mean, indicating a systematic bias rather than random noise or dynamic changes.",
+    "Residuals at other sensors are small (<0.09 m), well below the threshold, and lack directional consistency with sensor 170’s pattern.",
+    "Flow metrics (NRMSE=0.01, noise ratio=1) confirm no hydraulic anomaly; mismatch is localized to a single pressure measurement."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error"],
+  "target": null,
+  "confidence": 0.7,
+  "reasoning": [
+    "The largest residual sensors (20, 50, and 70) show mixed pressure changes with no clear direction.",
+    "There is no significant flow change or pump flow change to support a demand error scenario.",
+    "The roughness_error and leak families are both plausible given the mixed pressure residuals."
+  ]
+}

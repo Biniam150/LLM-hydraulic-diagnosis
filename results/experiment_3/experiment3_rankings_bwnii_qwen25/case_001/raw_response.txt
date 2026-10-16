@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "roughness_error", "demand_error", "sensor_bias"],
+  "reason": "The largest residuals are observed at junctions J345 and J296, suggesting a localized issue, which is more consistent with a leak or roughness error. The absence of affected sensors and the mixed pressure direction further reduce the likelihood of a sensor bias."
+}

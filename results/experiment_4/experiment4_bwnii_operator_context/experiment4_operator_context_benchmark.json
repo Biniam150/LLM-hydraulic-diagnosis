@@ -1,0 +1,1213 @@
+{
+  "protocol_version": "4.1-operator-context-external-replication",
+  "network": "BWN-II",
+  "conditions": [
+    "helpful_verified",
+    "irrelevant_verified",
+    "conflicting_low_reliability",
+    "supporting_low_reliability"
+  ],
+  "base_cases": [
+    {
+      "base_case_id": "case_017",
+      "scenario_id": "unknown_r1_drop_low",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": -1.5041059656059261,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 38.33,
+          "validation_improvement_percent": 35.187,
+          "validation_gof_pvalue": 0.0
+        },
+        "roughness_error": {
+          "fitted_target": {
+            "pipe": "P34",
+            "multiplier": 0.6,
+            "search_scope": "full_network",
+            "candidate_pipe_count": 458,
+            "coarse_value": 0.6,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 25.964,
+          "validation_improvement_percent": 19.48,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1"
+    },
+    {
+      "base_case_id": "case_018",
+      "scenario_id": "unknown_r1_rise_high",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": 2.492744286545563,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 15.898,
+          "validation_improvement_percent": 41.679,
+          "validation_gof_pvalue": 0.0
+        },
+        "roughness_error": {
+          "fitted_target": {
+            "pipe": "P102",
+            "multiplier": 1.1672886147784283,
+            "search_scope": "full_network",
+            "candidate_pipe_count": 458,
+            "coarse_value": 1.2,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 33.242,
+          "validation_improvement_percent": 27.048,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1"
+    },
+    {
+      "base_case_id": "case_019",
+      "scenario_id": "unknown_r1_drop_high",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": -2.50329108815546,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 40.717,
+          "validation_improvement_percent": 37.949,
+          "validation_gof_pvalue": 0.0
+        },
+        "roughness_error": {
+          "fitted_target": {
+            "pipe": "P110",
+            "multiplier": 0.6398093860857398,
+            "search_scope": "full_network",
+            "candidate_pipe_count": 458,
+            "coarse_value": 0.6,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 32.444,
+          "validation_improvement_percent": 24.296,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1"
+    },
+    {
+      "base_case_id": "case_020",
+      "scenario_id": "unknown_r1_rise_low",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": 1.4934498863304138,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 8.571,
+          "validation_improvement_percent": 40.051,
+          "validation_gof_pvalue": 0.0
+        },
+        "leak": {
+          "fitted_target": {
+            "node": "J285",
+            "area_m2": 0.0007602838720563951,
+            "start_hour": 0,
+            "coarse_value": 0.001,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 17.565,
+          "validation_improvement_percent": 7.24,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1"
+    }
+  ],
+  "variants": [
+    {
+      "base_case_id": "case_017",
+      "scenario_id": "unknown_r1_drop_low",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": -1.5041059656059261,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 38.33,
+          "validation_improvement_percent": 35.187,
+          "validation_gof_pvalue": 0.0
+        },
+        "roughness_error": {
+          "fitted_target": {
+            "pipe": "P34",
+            "multiplier": 0.6,
+            "search_scope": "full_network",
+            "candidate_pipe_count": 458,
+            "coarse_value": 0.6,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 25.964,
+          "validation_improvement_percent": 19.48,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_017_helpful_verified",
+      "context_condition": "helpful_verified",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "verified supervisory-control historian",
+          "reliability": "high",
+          "text": "The historian confirms that the supply set point at Reservoir R1 changed during the diagnostic window and that the change was not propagated to the digital-twin boundary input."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "source_head"
+    },
+    {
+      "base_case_id": "case_017",
+      "scenario_id": "unknown_r1_drop_low",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": -1.5041059656059261,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 38.33,
+          "validation_improvement_percent": 35.187,
+          "validation_gof_pvalue": 0.0
+        },
+        "roughness_error": {
+          "fitted_target": {
+            "pipe": "P34",
+            "multiplier": 0.6,
+            "search_scope": "full_network",
+            "candidate_pipe_count": 458,
+            "coarse_value": 0.6,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 25.964,
+          "validation_improvement_percent": 19.48,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_017_irrelevant_verified",
+      "context_condition": "irrelevant_verified",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "verified administrative record",
+          "reliability": "high",
+          "text": "A billing-system software update was completed during the same day and did not modify telemetry, controls, or hydraulic-model inputs."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "unknown_cause"
+    },
+    {
+      "base_case_id": "case_017",
+      "scenario_id": "unknown_r1_drop_low",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": -1.5041059656059261,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 38.33,
+          "validation_improvement_percent": 35.187,
+          "validation_gof_pvalue": 0.0
+        },
+        "roughness_error": {
+          "fitted_target": {
+            "pipe": "P34",
+            "multiplier": 0.6,
+            "search_scope": "full_network",
+            "candidate_pipe_count": 458,
+            "coarse_value": 0.6,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 25.964,
+          "validation_improvement_percent": 19.48,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_017_conflicting_low_reliability",
+      "context_condition": "conflicting_low_reliability",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "preliminary instrumentation note",
+          "reliability": "low",
+          "text": "An uncorroborated shift note suggests that one monitored pressure channel may have developed a zero offset during the observation window."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "unknown_cause"
+    },
+    {
+      "base_case_id": "case_017",
+      "scenario_id": "unknown_r1_drop_low",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": -1.5041059656059261,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 38.33,
+          "validation_improvement_percent": 35.187,
+          "validation_gof_pvalue": 0.0
+        },
+        "roughness_error": {
+          "fitted_target": {
+            "pipe": "P34",
+            "multiplier": 0.6,
+            "search_scope": "full_network",
+            "candidate_pipe_count": 458,
+            "coarse_value": 0.6,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 25.964,
+          "validation_improvement_percent": 19.48,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_017_supporting_low_reliability",
+      "context_condition": "supporting_low_reliability",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "unverified operator or field report",
+          "reliability": "low",
+          "text": "An operator recalls that Reservoir R1 may have received a temporary set-point adjustment, but the recollection has not been checked against the historian."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "unknown_cause"
+    },
+    {
+      "base_case_id": "case_018",
+      "scenario_id": "unknown_r1_rise_high",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": 2.492744286545563,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 15.898,
+          "validation_improvement_percent": 41.679,
+          "validation_gof_pvalue": 0.0
+        },
+        "roughness_error": {
+          "fitted_target": {
+            "pipe": "P102",
+            "multiplier": 1.1672886147784283,
+            "search_scope": "full_network",
+            "candidate_pipe_count": 458,
+            "coarse_value": 1.2,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 33.242,
+          "validation_improvement_percent": 27.048,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_018_helpful_verified",
+      "context_condition": "helpful_verified",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "verified supervisory-control historian",
+          "reliability": "high",
+          "text": "The historian confirms that the supply set point at Reservoir R1 changed during the diagnostic window and that the change was not propagated to the digital-twin boundary input."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "source_head"
+    },
+    {
+      "base_case_id": "case_018",
+      "scenario_id": "unknown_r1_rise_high",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": 2.492744286545563,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 15.898,
+          "validation_improvement_percent": 41.679,
+          "validation_gof_pvalue": 0.0
+        },
+        "roughness_error": {
+          "fitted_target": {
+            "pipe": "P102",
+            "multiplier": 1.1672886147784283,
+            "search_scope": "full_network",
+            "candidate_pipe_count": 458,
+            "coarse_value": 1.2,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 33.242,
+          "validation_improvement_percent": 27.048,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_018_irrelevant_verified",
+      "context_condition": "irrelevant_verified",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "verified administrative record",
+          "reliability": "high",
+          "text": "A billing-system software update was completed during the same day and did not modify telemetry, controls, or hydraulic-model inputs."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "unknown_cause"
+    },
+    {
+      "base_case_id": "case_018",
+      "scenario_id": "unknown_r1_rise_high",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": 2.492744286545563,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 15.898,
+          "validation_improvement_percent": 41.679,
+          "validation_gof_pvalue": 0.0
+        },
+        "roughness_error": {
+          "fitted_target": {
+            "pipe": "P102",
+            "multiplier": 1.1672886147784283,
+            "search_scope": "full_network",
+            "candidate_pipe_count": 458,
+            "coarse_value": 1.2,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 33.242,
+          "validation_improvement_percent": 27.048,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_018_conflicting_low_reliability",
+      "context_condition": "conflicting_low_reliability",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "preliminary instrumentation note",
+          "reliability": "low",
+          "text": "An uncorroborated shift note suggests that one monitored pressure channel may have developed a zero offset during the observation window."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "unknown_cause"
+    },
+    {
+      "base_case_id": "case_018",
+      "scenario_id": "unknown_r1_rise_high",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": 2.492744286545563,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 15.898,
+          "validation_improvement_percent": 41.679,
+          "validation_gof_pvalue": 0.0
+        },
+        "roughness_error": {
+          "fitted_target": {
+            "pipe": "P102",
+            "multiplier": 1.1672886147784283,
+            "search_scope": "full_network",
+            "candidate_pipe_count": 458,
+            "coarse_value": 1.2,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 33.242,
+          "validation_improvement_percent": 27.048,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_018_supporting_low_reliability",
+      "context_condition": "supporting_low_reliability",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "unverified operator or field report",
+          "reliability": "low",
+          "text": "An operator recalls that Reservoir R1 may have received a temporary set-point adjustment, but the recollection has not been checked against the historian."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "unknown_cause"
+    },
+    {
+      "base_case_id": "case_019",
+      "scenario_id": "unknown_r1_drop_high",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": -2.50329108815546,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 40.717,
+          "validation_improvement_percent": 37.949,
+          "validation_gof_pvalue": 0.0
+        },
+        "roughness_error": {
+          "fitted_target": {
+            "pipe": "P110",
+            "multiplier": 0.6398093860857398,
+            "search_scope": "full_network",
+            "candidate_pipe_count": 458,
+            "coarse_value": 0.6,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 32.444,
+          "validation_improvement_percent": 24.296,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_019_helpful_verified",
+      "context_condition": "helpful_verified",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "verified supervisory-control historian",
+          "reliability": "high",
+          "text": "The historian confirms that the supply set point at Reservoir R1 changed during the diagnostic window and that the change was not propagated to the digital-twin boundary input."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "source_head"
+    },
+    {
+      "base_case_id": "case_019",
+      "scenario_id": "unknown_r1_drop_high",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": -2.50329108815546,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 40.717,
+          "validation_improvement_percent": 37.949,
+          "validation_gof_pvalue": 0.0
+        },
+        "roughness_error": {
+          "fitted_target": {
+            "pipe": "P110",
+            "multiplier": 0.6398093860857398,
+            "search_scope": "full_network",
+            "candidate_pipe_count": 458,
+            "coarse_value": 0.6,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 32.444,
+          "validation_improvement_percent": 24.296,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_019_irrelevant_verified",
+      "context_condition": "irrelevant_verified",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "verified administrative record",
+          "reliability": "high",
+          "text": "A billing-system software update was completed during the same day and did not modify telemetry, controls, or hydraulic-model inputs."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "unknown_cause"
+    },
+    {
+      "base_case_id": "case_019",
+      "scenario_id": "unknown_r1_drop_high",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": -2.50329108815546,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 40.717,
+          "validation_improvement_percent": 37.949,
+          "validation_gof_pvalue": 0.0
+        },
+        "roughness_error": {
+          "fitted_target": {
+            "pipe": "P110",
+            "multiplier": 0.6398093860857398,
+            "search_scope": "full_network",
+            "candidate_pipe_count": 458,
+            "coarse_value": 0.6,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 32.444,
+          "validation_improvement_percent": 24.296,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_019_conflicting_low_reliability",
+      "context_condition": "conflicting_low_reliability",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "preliminary instrumentation note",
+          "reliability": "low",
+          "text": "An uncorroborated shift note suggests that one monitored pressure channel may have developed a zero offset during the observation window."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "unknown_cause"
+    },
+    {
+      "base_case_id": "case_019",
+      "scenario_id": "unknown_r1_drop_high",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": -2.50329108815546,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 40.717,
+          "validation_improvement_percent": 37.949,
+          "validation_gof_pvalue": 0.0
+        },
+        "roughness_error": {
+          "fitted_target": {
+            "pipe": "P110",
+            "multiplier": 0.6398093860857398,
+            "search_scope": "full_network",
+            "candidate_pipe_count": 458,
+            "coarse_value": 0.6,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 32.444,
+          "validation_improvement_percent": 24.296,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_019_supporting_low_reliability",
+      "context_condition": "supporting_low_reliability",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "unverified operator or field report",
+          "reliability": "low",
+          "text": "An operator recalls that Reservoir R1 may have received a temporary set-point adjustment, but the recollection has not been checked against the historian."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "unknown_cause"
+    },
+    {
+      "base_case_id": "case_020",
+      "scenario_id": "unknown_r1_rise_low",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": 1.4934498863304138,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 8.571,
+          "validation_improvement_percent": 40.051,
+          "validation_gof_pvalue": 0.0
+        },
+        "leak": {
+          "fitted_target": {
+            "node": "J285",
+            "area_m2": 0.0007602838720563951,
+            "start_hour": 0,
+            "coarse_value": 0.001,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 17.565,
+          "validation_improvement_percent": 7.24,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_020_helpful_verified",
+      "context_condition": "helpful_verified",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "verified supervisory-control historian",
+          "reliability": "high",
+          "text": "The historian confirms that the supply set point at Reservoir R1 changed during the diagnostic window and that the change was not propagated to the digital-twin boundary input."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "source_head"
+    },
+    {
+      "base_case_id": "case_020",
+      "scenario_id": "unknown_r1_rise_low",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": 1.4934498863304138,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 8.571,
+          "validation_improvement_percent": 40.051,
+          "validation_gof_pvalue": 0.0
+        },
+        "leak": {
+          "fitted_target": {
+            "node": "J285",
+            "area_m2": 0.0007602838720563951,
+            "start_hour": 0,
+            "coarse_value": 0.001,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 17.565,
+          "validation_improvement_percent": 7.24,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_020_irrelevant_verified",
+      "context_condition": "irrelevant_verified",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "verified administrative record",
+          "reliability": "high",
+          "text": "A billing-system software update was completed during the same day and did not modify telemetry, controls, or hydraulic-model inputs."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "unknown_cause"
+    },
+    {
+      "base_case_id": "case_020",
+      "scenario_id": "unknown_r1_rise_low",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": 1.4934498863304138,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 8.571,
+          "validation_improvement_percent": 40.051,
+          "validation_gof_pvalue": 0.0
+        },
+        "leak": {
+          "fitted_target": {
+            "node": "J285",
+            "area_m2": 0.0007602838720563951,
+            "start_hour": 0,
+            "coarse_value": 0.001,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 17.565,
+          "validation_improvement_percent": 7.24,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_020_conflicting_low_reliability",
+      "context_condition": "conflicting_low_reliability",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "preliminary instrumentation note",
+          "reliability": "low",
+          "text": "An uncorroborated shift note suggests that one monitored pressure channel may have developed a zero offset during the observation window."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "unknown_cause"
+    },
+    {
+      "base_case_id": "case_020",
+      "scenario_id": "unknown_r1_rise_low",
+      "observation_seed": 1009,
+      "experiment3_outcome": "unknown_cause",
+      "experiment3_reason": "no_supported_family_passes_absolute_held_out_gof",
+      "configured_families": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias"
+      ],
+      "leading_hydraulic_evidence": {
+        "sensor_bias": {
+          "fitted_target": {
+            "sensor": "J276",
+            "bias_m": 1.4934498863304138,
+            "bias_bound_mode": "baseline_fraction",
+            "bias_bounds_m": [
+              -3.1614262580871584,
+              3.1614262580871584
+            ],
+            "baseline_pressure_scale_m": 63.228525161743164
+          },
+          "training_improvement_percent": 8.571,
+          "validation_improvement_percent": 40.051,
+          "validation_gof_pvalue": 0.0
+        },
+        "leak": {
+          "fitted_target": {
+            "node": "J285",
+            "area_m2": 0.0007602838720563951,
+            "start_hour": 0,
+            "coarse_value": 0.001,
+            "continuous_refinement": true
+          },
+          "training_improvement_percent": 17.565,
+          "validation_improvement_percent": 7.24,
+          "validation_gof_pvalue": 0.0
+        }
+      },
+      "true_family": "source_head",
+      "true_target": "R1",
+      "variant_id": "bwnii_case_020_supporting_low_reliability",
+      "context_condition": "supporting_low_reliability",
+      "operational_records": [
+        {
+          "record_id": "R1",
+          "time_relation": "within the diagnostic observation window",
+          "source": "unverified operator or field report",
+          "reliability": "low",
+          "text": "An operator recalls that Reservoir R1 may have received a temporary set-point adjustment, but the recollection has not been checked against the historian."
+        },
+        {
+          "record_id": "R2",
+          "time_relation": "same operating day",
+          "source": "verified routine control log",
+          "reliability": "high",
+          "text": "Routine valve-status reconciliation found no authorized valve changes in the monitored network."
+        }
+      ],
+      "safe_expected_outcome": "unknown_cause"
+    }
+  ]
+}

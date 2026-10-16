@@ -1,0 +1,8 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": null,
+  "reason": "The hydraulic diagnostic outcome is inconclusive (*unknown_cause*), and while **demand_error** and **roughness_error** are statistically supported, neither record (R1 or R2) provides direct, testable evidence for these families. R1 lacks verification and does not specify a time window for the suspected reservoir adjustment, while R2 confirms no valve changes but does not address source head or demand/sensor anomalies. To justify a focused follow-up test, we need either: (1) confirmation of Reservoir 165’s set-point history during the diagnostic period *or* (2) additional operational data linking demand/roughness errors to specific

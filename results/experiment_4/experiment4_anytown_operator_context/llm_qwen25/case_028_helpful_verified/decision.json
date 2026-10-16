@@ -1,0 +1,25 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "case_028_helpful_verified",
+  "base_case_id": "case_028",
+  "scenario_id": "leak_n170_late",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "leak",
+  "true_target": "170",
+  "safe_expected_outcome": "leak",
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "150",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The acoustic activity near Junction 170, which is close to the targeted junction (150), supports the leak hypothesis.",
+  "parse_error": null,
+  "prompt_tokens": 665,
+  "generated_tokens": 101,
+  "inference_duration_s": 22.1739133
+}

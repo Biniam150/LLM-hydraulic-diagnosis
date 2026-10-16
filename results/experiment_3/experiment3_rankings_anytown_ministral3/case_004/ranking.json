@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_004",
+  "tier": "matched_model",
+  "scenario_id": "demand_n75_mild",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Pressure residuals exceed threshold at multiple sensors (e.g., **150** with **RMSE=0.036m**, **max=−0.094m**) and show mixed directional trends, strongly suggesting a **pressure-dependent outflow (leak) at a junction**—likely near **150** or **170** (shortest-path proximity).",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1610,
+  "generated_tokens": 113
+}

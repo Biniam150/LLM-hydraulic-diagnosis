@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "demand_error",
+  "proposed_target": "junction 101",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Record R1 confirms a legitimate withdrawal at Junction 109 not captured in the digital-twin demand input, suggesting a demand error at that junction."
+}

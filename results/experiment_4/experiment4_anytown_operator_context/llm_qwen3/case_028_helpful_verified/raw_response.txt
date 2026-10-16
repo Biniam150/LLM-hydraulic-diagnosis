@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "150",
+  "proposed_onset_hour": 16,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Acoustic activity near Junction 150 suggests a potential leak, which aligns with the leak family's unaccounted pressure-dependent outflow mechanism."
+}

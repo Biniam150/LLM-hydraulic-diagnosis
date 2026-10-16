@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors are not directly connected, making it difficult to attribute the residuals to a single cause.",
+    "Both leak and roughness error could potentially explain the mixed pressure direction and small magnitude of residuals observed across multiple nodes.",
+    "Without additional context or more specific evidence, both families remain plausible."
+  ]
+}

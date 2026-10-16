@@ -1,0 +1,23 @@
+{
+  "model": "qwen3.5:9b",
+  "model_label": "Qwen3.5-9B",
+  "variant_id": "bwnii_case_018_irrelevant_verified",
+  "base_case_id": "case_018",
+  "scenario_id": "unknown_r1_rise_high",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "R1",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The diagnostic identified potential sensor bias and roughness errors but lacks a specific operational record linking these to a physically testable mechanism or asset within the observation window.",
+  "parse_error": null,
+  "prompt_tokens": 683,
+  "generated_tokens": 103,
+  "inference_duration_s": 52.3650441
+}

@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "Junction 170",
+  "proposed_onset_hour": 17,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Temporary legitimate high water use near Junction 170 beginning late in the afternoon suggests a possible leak."
+}

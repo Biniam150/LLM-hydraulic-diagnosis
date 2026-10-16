@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residuals are observed at junctions J296 and J345, which show significant negative pressure deviations.",
+    "These large residuals persist over the entire observation window, suggesting a persistent issue rather than sensor bias or demand error.",
+    "The pressure direction is mixed_or_small, but the magnitude of the residual in J345 (0.00226) and J296 (-0.0141) indicates a localized leak."
+  ]
+}

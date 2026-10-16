@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_003",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p76_high",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Leak shows the highest residual variability and maximum pressure deviations, aligning with pressure-dependent outflow patterns, while sensor bias has lower impact due to no affected sensors.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1568,
+  "generated_tokens": 62
+}

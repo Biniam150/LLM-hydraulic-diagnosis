@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_011",
+  "tier": "matched_model",
+  "scenario_id": "leak_j324_mid",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Extreme negative pressure residuals at multiple spatially clustered sensors (J296, J360, J379) with high RMSE and minimum values strongly suggest a **pressure-dependent outflow (leak)**. Demand errors are plausible but less likely given the widespread, consistent negative bias. Sensor bias is possible but unlikely to cause such extreme residuals across multiple sensors simultaneously. Roughness errors are least probable due to the abrupt onset and localized impact.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2842,
+  "generated_tokens": 123
+}

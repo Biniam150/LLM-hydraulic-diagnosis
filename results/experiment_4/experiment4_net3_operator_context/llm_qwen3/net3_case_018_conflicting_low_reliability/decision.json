@@ -1,0 +1,26 @@
+{
+  "model": "qwen3:8b",
+  "model_label": "Qwen3-8B",
+  "variant_id": "net3_case_018_conflicting_low_reliability",
+  "base_case_id": "case_018",
+  "scenario_id": "unknown_river_rise",
+  "context_condition": "conflicting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "River",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "sensor_bias",
+  "proposed_target": "sensor 20",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": [
+    "R1",
+    "R2"
+  ],
+  "record_assessment": "insufficient_reliability",
+  "reason": "Record R1 suggests a potential sensor bias but has low reliability, while R2 confirms no valve changes, supporting the need for a focused sensor bias test.",
+  "parse_error": null,
+  "prompt_tokens": 659,
+  "generated_tokens": 111,
+  "inference_duration_s": 16.1854404
+}

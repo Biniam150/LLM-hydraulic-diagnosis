@@ -1,0 +1,565 @@
+{
+  "network": "Anytown development profile",
+  "training_cases": 185,
+  "validation_cases": 85,
+  "training_seeds": [
+    1103,
+    2207,
+    3301,
+    4409,
+    5501
+  ],
+  "validation_seeds": [
+    6607,
+    7703,
+    8807,
+    9901,
+    11113
+  ],
+  "test_cases_generated_here": false,
+  "test_set": "the frozen 18-case Experiment 2 seed-1009 benchmark",
+  "source_head_in_development_data": false,
+  "same_family_target_overlap_with_frozen_test": false,
+  "failures": [
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.65
+      },
+      "seed": 1103,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.65
+      },
+      "seed": 2207,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.65
+      },
+      "seed": 3301,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.65
+      },
+      "seed": 4409,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.65
+      },
+      "seed": 5501,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.2
+      },
+      "seed": 1103,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.2
+      },
+      "seed": 2207,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.2
+      },
+      "seed": 3301,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.2
+      },
+      "seed": 4409,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.2
+      },
+      "seed": 5501,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.35
+      },
+      "seed": 1103,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.35
+      },
+      "seed": 2207,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.35
+      },
+      "seed": 3301,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.35
+      },
+      "seed": 4409,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.35
+      },
+      "seed": 5501,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.6
+      },
+      "seed": 1103,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.6
+      },
+      "seed": 2207,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.6
+      },
+      "seed": 3301,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.6
+      },
+      "seed": 4409,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.6
+      },
+      "seed": 5501,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.5
+      },
+      "seed": 1103,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.5
+      },
+      "seed": 2207,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.5
+      },
+      "seed": 3301,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.5
+      },
+      "seed": 4409,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "50",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.5
+      },
+      "seed": 5501,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "90",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.8
+      },
+      "seed": 1103,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "90",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.8
+      },
+      "seed": 2207,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "90",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.8
+      },
+      "seed": 3301,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "90",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.8
+      },
+      "seed": 4409,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "90",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.8
+      },
+      "seed": 5501,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "90",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.2
+      },
+      "seed": 1103,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "90",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.2
+      },
+      "seed": 2207,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "90",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.2
+      },
+      "seed": 3301,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "90",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.2
+      },
+      "seed": 4409,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "90",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.2
+      },
+      "seed": 5501,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "130",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.6
+      },
+      "seed": 1103,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "130",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.6
+      },
+      "seed": 2207,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "130",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.6
+      },
+      "seed": 3301,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "130",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.6
+      },
+      "seed": 4409,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "130",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.6
+      },
+      "seed": 5501,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "130",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.2
+      },
+      "seed": 1103,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "130",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.2
+      },
+      "seed": 2207,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "130",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.2
+      },
+      "seed": 3301,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "130",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.2
+      },
+      "seed": 4409,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    },
+    {
+      "split": "train",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "130",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.2
+      },
+      "seed": 5501,
+      "error": "Ground-truth simulation did not produce a complete, finite observation window; reduce the injected fault severity or inspect hydraulic feasibility."
+    }
+  ]
+}

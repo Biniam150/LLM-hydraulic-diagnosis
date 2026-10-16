@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "sensor_bias"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "Three sensors (70, 100, 150) show large positive and negative pressure residuals, suggesting a possible leak or sensor bias.",
+    "The pressure residuals are mostly positive, which could indicate a leak in a nearby junction or a systematic sensor bias.",
+    "The sensor shortest path distances suggest that sensors 70, 100, and 150 are spatially distributed, making it difficult to isolate a single cause without further data."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The pressure residuals are mostly positive, indicating a loss of pressure.",
+    "Four sensors (20, 50, 70, and 100) have large residuals, suggesting a widespread issue.",
+    "The largest residual sensors are 20 and 70, which are close to each other in the network."
+  ]
+}

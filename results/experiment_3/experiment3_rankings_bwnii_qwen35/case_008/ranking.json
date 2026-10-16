@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_008",
+  "tier": "matched_model",
+  "scenario_id": "demand_j276_low",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The presence of significant pressure residuals at multiple sensors with mixed directions strongly indicates a physical outflow anomaly like a leak, while the lack of affected sensor count and low flow noise ratio makes demand or roughness errors less likely primary causes.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2784,
+  "generated_tokens": 78
+}

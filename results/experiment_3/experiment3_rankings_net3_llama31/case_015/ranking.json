@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_015",
+  "tier": "matched_model",
+  "scenario_id": "bias_s219_midday",
+  "observation_seed": 1009,
+  "model": "llama3.1:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "one short sentence",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1961,
+  "generated_tokens": 40
+}

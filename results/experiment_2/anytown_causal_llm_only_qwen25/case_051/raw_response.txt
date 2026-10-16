@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "roughness_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.7,
+  "reasoning": [
+    "The largest residual sensors (120, 150, 170) show mostly positive pressure deviations, which could be due to demand errors or sensor biases.",
+    "The roughness_error family is also plausible given the observed pressure drops across multiple nodes.",
+    "Without more specific evidence, it's not clear which of these causes is dominant."
+  ]
+}

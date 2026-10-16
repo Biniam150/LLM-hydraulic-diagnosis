@@ -1,0 +1,13 @@
+assumed_family,scenario_id,runs,mean_pressure_mae_reduction_percent
+roughness,true_roughness_control,3,72.37937826401428
+roughness,demand_mismatch,3,37.92765784052881
+roughness,leak_mismatch,3,-8.567440854156738
+roughness,sensor_bias_mismatch,3,-1.9489180802311352
+roughness,source_head_mismatch,3,40.00654899050817
+roughness,no_fault_control,3,0.1264044595660714
+demand,true_demand_control,3,97.60177605557885
+demand,roughness_mismatch,3,-64.87942909543675
+demand,leak_mismatch,3,-174.5965997924735
+demand,sensor_bias_mismatch,3,-161.32387882613193
+demand,source_head_mismatch,3,-64.2742092043623
+demand,no_fault_control,3,-198.6759016998088

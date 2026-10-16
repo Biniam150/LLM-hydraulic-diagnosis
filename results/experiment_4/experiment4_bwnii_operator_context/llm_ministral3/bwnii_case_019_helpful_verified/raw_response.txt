@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "R1",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Operational record R1 confirms a temporally relevant, physically testable mechanism (incorrect reservoir head) linked to Reservoir R1."
+}

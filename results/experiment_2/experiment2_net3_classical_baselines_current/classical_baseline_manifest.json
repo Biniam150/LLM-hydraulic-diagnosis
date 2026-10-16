@@ -1,0 +1,8 @@
+{
+  "network": "EPANET Net3",
+  "training_cases": 230,
+  "validation_cases": 85,
+  "test_cases": 21,
+  "source_head_in_training": false,
+  "test_target_overlap": false
+}

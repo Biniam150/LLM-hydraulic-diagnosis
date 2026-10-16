@@ -1,0 +1,4 @@
+scenario_id,tier,reason,source
+roughness_p58_mild,matched_model,Frozen hydraulic-feasibility exclusion; see source hydraulic_preflight record,configs/scenarios/anytown_causal_benchmark.json
+demand_n30_low,matched_model,Frozen hydraulic-feasibility exclusion; see source hydraulic_preflight record,configs/scenarios/anytown_causal_benchmark.json
+unknown_head65_drop,matched_model,Frozen hydraulic-feasibility exclusion; see source hydraulic_preflight record,configs/scenarios/anytown_causal_benchmark.json

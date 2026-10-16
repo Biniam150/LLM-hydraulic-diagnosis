@@ -1,0 +1,16 @@
+model,method,helpful_resolution,nonhelpful_safety,overall_safe_accuracy
+Qwen2.5-7B,Hydraulic only,0.0,1.0,0.75
+Qwen2.5-7B,"LLM context, unverified",0.8,0.8,0.8
+Qwen2.5-7B,Verified hybrid,0.4,1.0,0.85
+Llama3.1-8B,Hydraulic only,0.0,1.0,0.75
+Llama3.1-8B,"LLM context, unverified",0.2,0.8,0.65
+Llama3.1-8B,Verified hybrid,0.0,1.0,0.75
+Qwen3-8B,Hydraulic only,0.0,1.0,0.75
+Qwen3-8B,"LLM context, unverified",1.0,0.13333333333333333,0.35
+Qwen3-8B,Verified hybrid,0.4,1.0,0.85
+Ministral3-8B,Hydraulic only,0.0,1.0,0.75
+Ministral3-8B,"LLM context, unverified",1.0,1.0,1.0
+Ministral3-8B,Verified hybrid,0.6,1.0,0.9
+Qwen3.5-9B,Hydraulic only,0.0,1.0,0.75
+Qwen3.5-9B,"LLM context, unverified",1.0,1.0,1.0
+Qwen3.5-9B,Verified hybrid,0.6,1.0,0.9

@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1", "R2"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Operational records indicate no vehicle activity or valve changes, suggesting the issue might be related to the source head."
+}

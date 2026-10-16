@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "J296",
+  "confidence": 0.85,
+  "reasoning": [
+    "J296 has the largest residual magnitude and variability, indicating potential sensor bias.",
+    "The pressure residuals for J296 show a mean of -0.0145 m and RMSE of 0.0371 m, suggesting persistent offset.",
+    "The sensor's residuals are not aligned with other sensors, supporting a bias rather than a network-wide issue."
+  ]
+}

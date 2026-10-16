@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "20",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensor is '20', which shows a persistent negative offset of -0.4512 m, suggesting a bias in the pressure measurement.",
+    "Other sensors show minimal and random deviations, ruling out widespread issues like demand errors or roughness changes.",
+    "The onset of the deviation at hour 4 within an observation window of 24 hours supports a persistent sensor issue."
+  ]
+}

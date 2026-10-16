@@ -1,0 +1,22 @@
+neutral_case_id,tier,scenario_id,observation_seed,model,true_cause,true_target,expected_label,predicted_label,predicted_families,predicted_target,confidence,exact_outcome_correct,accepted,false_attribution,valid_output,parse_error,prompt_tokens,generated_tokens
+case_001,matched_model,roughness_p97_low,1009,llama3.1:8b,roughness_error,P97,roughness_error,leak,leak,,0.9,False,True,True,True,,1828,82
+case_002,matched_model,roughness_p83_high,1009,llama3.1:8b,roughness_error,P83,roughness_error,leak,leak,,0.9,False,True,True,True,,1826,83
+case_003,matched_model,roughness_p98_low,1009,llama3.1:8b,roughness_error,P98,roughness_error,leak,leak,,0.9,False,True,True,True,,1829,110
+case_004,matched_model,roughness_p500_high,1009,llama3.1:8b,roughness_error,P500,roughness_error,leak,leak,,0.9,False,True,True,True,,1830,82
+case_005,matched_model,demand_j202_mild,1009,llama3.1:8b,demand_error,J202,demand_error,leak,leak,,0.9,False,True,True,True,,1825,111
+case_006,matched_model,demand_j429_high,1009,llama3.1:8b,demand_error,J429,demand_error,leak,leak,,0.9,False,True,True,True,,1826,104
+case_007,matched_model,demand_j93_high,1009,llama3.1:8b,demand_error,J93,demand_error,leak,leak,,0.9,False,True,True,True,,1828,99
+case_008,matched_model,demand_j276_low,1009,llama3.1:8b,demand_error,J276,demand_error,leak,leak,,0.9,False,True,True,True,,1830,83
+case_009,matched_model,leak_j174_low,1009,llama3.1:8b,leak,J174,leak,leak,,,0.0,False,False,False,False,Unsupported candidate family: ['pressure-dependent water loss at one junction'],1834,119
+case_010,matched_model,leak_j1157_high,1009,llama3.1:8b,leak,J1157,leak,leak,,,0.0,False,False,False,False,Unsupported candidate family: ['pressure-dependent water loss at one junction'],1841,104
+case_011,matched_model,leak_j324_mid,1009,llama3.1:8b,leak,J324,leak,leak,,,0.0,False,False,False,False,Unsupported candidate family: ['pressure-dependent water loss at one junction'],1832,123
+case_012,matched_model,leak_j500_offgrid,1009,llama3.1:8b,leak,J500,leak,leak,,,0.0,False,False,False,False,Unsupported candidate family: ['pressure-dependent water loss at one junction'],1830,120
+case_013,matched_model,bias_j70_positive,1009,llama3.1:8b,sensor_bias,J70,sensor_bias,leak,leak,,0.9,False,True,True,True,,1829,116
+case_014,matched_model,bias_j379_negative,1009,llama3.1:8b,sensor_bias,J379,sensor_bias,leak,leak,,0.9,False,True,True,True,,1827,137
+case_015,matched_model,bias_j345_negative,1009,llama3.1:8b,sensor_bias,J345,sensor_bias,leak,leak,,0.9,False,True,True,True,,1825,112
+case_016,matched_model,bias_j152_positive,1009,llama3.1:8b,sensor_bias,J152,sensor_bias,leak,leak,,0.9,False,True,True,True,,1830,116
+case_017,matched_model,unknown_r1_drop_low,1009,llama3.1:8b,source_head,R1,unknown_cause,leak,,,0.0,False,False,False,False,Unsupported candidate family: ['pressure-dependent water loss at one junction'],1829,121
+case_018,matched_model,unknown_r1_rise_high,1009,llama3.1:8b,source_head,R1,unknown_cause,leak,,,0.0,False,False,False,False,Unsupported candidate family: ['pressure-dependent water loss at one junction'],1831,122
+case_019,matched_model,unknown_r1_drop_high,1009,llama3.1:8b,source_head,R1,unknown_cause,leak,,,0.0,False,False,False,False,Unsupported candidate family: ['pressure-dependent water loss at one junction'],1838,116
+case_020,matched_model,unknown_r1_rise_low,1009,llama3.1:8b,source_head,R1,unknown_cause,leak,leak,,0.9,False,True,True,True,,1829,99
+case_021,matched_model,no_fault_control,1009,llama3.1:8b,no_fault,J93,no_fault,leak,leak,,0.9,False,True,True,True,,1830,83

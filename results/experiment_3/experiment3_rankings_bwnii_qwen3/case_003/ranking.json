@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_003",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p98_low",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Leak and demand error show strong negative pressure trends and high residual magnitudes at multiple sensors, making them more plausible than roughness error and sensor bias.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2783,
+  "generated_tokens": 60
+}

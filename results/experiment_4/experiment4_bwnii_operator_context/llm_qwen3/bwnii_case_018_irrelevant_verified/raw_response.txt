@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "sensor_bias",
+  "proposed_target": "J276",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1", "R2"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Operational records confirm no changes to telemetry or hydraulic-model inputs, supporting the sensor bias family as a testable mechanism."
+}

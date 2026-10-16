@@ -1,0 +1,20 @@
+{
+  "experiment": "refined_known_family_verification_with_absolute_adequacy",
+  "known_families": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "withheld_unknown": "source_head",
+  "source_head_probe_used": false,
+  "coarse_search": "full configured location and magnitude grids",
+  "refinement": "bounded continuous magnitude refinement at each coarse winning location using training hours",
+  "validation": "odd-hour held-out chi-square goodness-of-fit",
+  "decision_boundaries": {
+    "cross_split_improvement_floor": 0.02,
+    "relative_winner_margin_floor": 0.07,
+    "no_fault_noise_ratio_limit": 1.5,
+    "absolute_validation_gof_alpha": 0.05
+  }
+}

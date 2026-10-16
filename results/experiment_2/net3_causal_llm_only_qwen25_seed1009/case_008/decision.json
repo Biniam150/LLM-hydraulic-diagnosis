@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_008",
+  "tier": "matched_model",
+  "scenario_id": "demand_n231_high",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "demand_error",
+  "true_target": "231",
+  "expected_label": "demand_error",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "leak,roughness_error",
+  "predicted_target": null,
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensors (231, 253) show significant pressure deviations, but the nature of these deviations is not clearly indicative of a single fault family.\", \"Pressure residuals are mixed or small across multiple nodes, and no single sensor shows persistent bias, ruling out 'sensor_bias'.\", \"There's no clear evidence to definitively point towards either 'leak' or 'roughness_error', making the cause ambiguous.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": false,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

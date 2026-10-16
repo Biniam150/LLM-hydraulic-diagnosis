@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "120",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensor is '120' with a mean pressure deviation of -0.493 m, exceeding the z-threshold.",
+    "This persistent offset is not consistent with typical leak or demand error patterns.",
+    "Other sensors show smaller and more variable deviations."
+  ]
+}

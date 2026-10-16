@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": "157",
+  "confidence": 0.98,
+  "reasoning": [
+    "Sensor 157 exhibits a massive mean residual (0.74 m) compared to all others (<0.06 m), indicating a persistent offset.",
+    "The residual for sensor 157 is statistically uniform across the window (min/max difference <0.08 m), ruling out transient events like leaks or demand spikes.",
+    "Flow metrics are stable and noise ratios are low, eliminating hydraulic anomalies as the primary cause."
+  ]
+}

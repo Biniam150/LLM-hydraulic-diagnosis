@@ -1,0 +1,15 @@
+{
+  "network": "EPANET Net3",
+  "experiment1_runs_per_calibration_family": 63,
+  "experiment2_models_completed": [
+    "qwen2.5:7b",
+    "llama3.1:8b"
+  ],
+  "experiment2_classical_baselines": [
+    "Majority class",
+    "Multinomial logistic",
+    "Random forest"
+  ],
+  "experiment3_cases": 21,
+  "experiment3_interpretation": "The refined verifier improves safety and accepted-diagnosis precision, but has low coverage and weak transfer for demand and roughness."
+}

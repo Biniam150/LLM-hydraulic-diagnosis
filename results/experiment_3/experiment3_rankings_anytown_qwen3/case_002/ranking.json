@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_002",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p34_mild",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Leak shows strong residual patterns in multiple sensors, while demand and roughness errors have less widespread impact, and sensor bias has minimal residual variation.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1566,
+  "generated_tokens": 58
+}

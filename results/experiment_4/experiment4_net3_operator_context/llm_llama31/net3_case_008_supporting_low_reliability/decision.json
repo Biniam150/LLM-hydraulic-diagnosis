@@ -1,0 +1,23 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "net3_case_008_supporting_low_reliability",
+  "base_case_id": "case_008",
+  "scenario_id": "demand_n231_high",
+  "context_condition": "supporting_low_reliability",
+  "experiment3_outcome": "ambiguous_causes",
+  "true_family": "demand_error",
+  "true_target": "231",
+  "safe_expected_outcome": "ambiguous_causes",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "Record R1 has low reliability and is unverified, while record R2 is high reliability but does not support a focused follow-up test.",
+  "parse_error": null,
+  "prompt_tokens": 590,
+  "generated_tokens": 58,
+  "inference_duration_s": 18.4260193
+}

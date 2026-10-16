@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "601",
+  "confidence": 0.98,
+  "reasoning": [
+    "Sensor **601** exhibits a mean residual of **+2.177 m** (vs. negative residuals across all other sensors), far exceeding the threshold (+0.09 m) and RMSE of **7.65 m**, while others are <0.8 m.",
+    "The magnitude and directionality (positive offset) strongly suggest a persistent sensor bias rather than physical system changes or localized leaks/demand errors.",
+    "No spatial clustering in residuals aligns with demand_error, roughness_error, or leak hypotheses; the isolated outlier pattern is consistent with hardware calibration drift."
+  ]
+}

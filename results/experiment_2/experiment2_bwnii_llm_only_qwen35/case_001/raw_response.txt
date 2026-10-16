@@ -1,0 +1,11 @@
+{
+  "outcome": "no_fault",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.98,
+  "reasoning": [
+    "Flow residual (NRMSE ~1.1%) is negligible and explicitly unchanged, ruling out demand errors or leaks.",
+    "Pressure residuals are small (<0.07m) with no persistent offset pattern across sensors to support sensor bias.",
+    "The mixed pressure direction and lack of spatial clustering in the largest residuals indicate model mismatch rather than a physical fault."
+  ]
+}

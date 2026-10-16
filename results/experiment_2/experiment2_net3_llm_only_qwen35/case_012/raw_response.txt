@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "601",
+  "confidence": 0.92,
+  "reasoning": [
+    "Sensor 601 exhibits a massive positive residual mean (+4.43m) and extreme RMSE (10.86m), significantly exceeding all other sensors.",
+    "The pressure_direction is 'mostly_negative' for the majority of the network, indicating a system-wide pressure drop consistent with water loss.",
+    "Sensor 601 is an outlier in both magnitude and variance, suggesting a localized physical breach (leak) rather than a systematic modeling error or sensor bias."
+  ]
+}

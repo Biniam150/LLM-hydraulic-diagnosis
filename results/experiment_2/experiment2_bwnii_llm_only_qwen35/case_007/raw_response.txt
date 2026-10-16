@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "J500",
+  "confidence": 0.82,
+  "reasoning": [
+    "Three sensors (J500, J93, J394) show statistically significant negative pressure residuals exceeding the threshold.",
+    "The affected sensors are spatially clustered with short path distances between them (e.g., J500-J93: 19, J500-J394: 30), indicating a localized event rather than a global demand shift.",
+    "Flow residuals are negligible and pump flow is unchanged, ruling out demand errors or pump failures as primary causes."
+  ]
+}

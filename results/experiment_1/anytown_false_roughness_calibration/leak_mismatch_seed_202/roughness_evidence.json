@@ -1,0 +1,28 @@
+{
+  "hypothesis": "roughness_error",
+  "best_parameters": {
+    "pipe": "56",
+    "multiplier": 1.2,
+    "search_scope": "full_network",
+    "candidate_pipe_count": 40
+  },
+  "training_score_before": 0.017047927554669922,
+  "training_score_after": 0.016787201794153158,
+  "validation_score_before": 0.020524000266819054,
+  "validation_score_after": 0.02081258137404248,
+  "training_improvement": 0.015293692425701541,
+  "validation_improvement": -0.01406066573142536,
+  "pressure_rmse_m": 0.1592107209673504,
+  "flow_nrmse": 0.012116525097491601,
+  "simulations": 160,
+  "result": "weak_or_no_support",
+  "pressure_noise_ratio": 5.307024032245013,
+  "flow_noise_ratio": 1.2116525097491602,
+  "noise_consistent": false,
+  "evidence_basis": [
+    "post-fit pressure RMSE / configured pressure noise=5.307",
+    "post-fit flow NRMSE / configured flow noise fraction=1.212",
+    "training improvement=0.015",
+    "validation improvement=-0.014"
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The largest residuals are observed at junctions 601 and 219, suggesting a significant leak or demand error. The affected sensors are numerous and show persistent negative pressure residuals, indicating a plausible leak. Roughness errors and sensor biases are less likely given the scale and consistency of the residuals."
+}

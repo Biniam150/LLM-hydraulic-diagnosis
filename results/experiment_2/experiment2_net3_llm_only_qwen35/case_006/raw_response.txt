@@ -1,0 +1,11 @@
+{
+  "outcome": "no_fault",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.98,
+  "reasoning": [
+    "All pressure residuals are well below the z-score threshold of 3.0.",
+    "Flow metrics show no significant deviation (nRMSE ~0.01) and no change detected.",
+    "No sensor exhibits a persistent bias or systematic offset indicative of a fault."
+  ]
+}

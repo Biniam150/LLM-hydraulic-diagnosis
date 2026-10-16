@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "sensor_bias",
+  "proposed_target": "J276",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The preliminary instrumentation note (R1) suggests a zero offset for a pressure sensor, but its low reliability prevents direct use. However, the diagnostic’s leading candidate (sensor_bias for J276) aligns with the implied mechanism. A targeted sensor calibration check is justified despite record limitations."
+}

@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_017",
+  "tier": "matched_model",
+  "scenario_id": "unknown_r1_drop_low",
+  "observation_seed": 1009,
+  "model": "llama3.1:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Based on the residual summary and compact topology, the most plausible cause family is 'leak' followed by 'demand_error', 'roughness_error', and 'sensor_bias'.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1731,
+  "generated_tokens": 72
+}

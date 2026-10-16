@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_015",
+  "tier": "matched_model",
+  "scenario_id": "bias_s219_midday",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Single sensor (219) shows extreme, persistent negative pressure residuals (mean = -0.56 m, RMSE = 0.56 m) with minimal flow changes, strongly suggesting a localized pressure-dependent outflow (leak) or demand error. Sensor bias is plausible but less likely due to isolated sensor behavior. Roughness errors are less probable given the localized, abrupt onset.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3429,
+  "generated_tokens": 119
+}

@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_015",
+  "tier": "matched_model",
+  "scenario_id": "bias_j345_negative",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "true_cause": "sensor_bias",
+  "true_target": "J345",
+  "expected_label": "sensor_bias",
+  "predicted_label": "leak",
+  "predicted_families": "leak",
+  "predicted_target": "J345",
+  "confidence": 0.8,
+  "exact_outcome_correct": false,
+  "accepted": true,
+  "false_attribution": true,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2879,
+  "generated_tokens": 160
+}

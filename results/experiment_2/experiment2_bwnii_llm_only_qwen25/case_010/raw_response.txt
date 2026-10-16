@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (J379 and J1058) show extreme negative mean pressure residuals, indicating a significant water loss.",
+    "Pressure residuals are mostly negative across multiple sensors, suggesting a localized leak rather than sensor bias or demand error.",
+    "The affected sensors are not closely connected in the network, making it less likely to be due to roughness errors."
+  ]
+}

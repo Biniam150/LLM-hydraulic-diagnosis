@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "sensor_bias", "demand_error", "roughness_error"],
+  "reason": "Pressure residuals are large, persistent, and spatially clustered at multiple sensors (70, 100, 150), strongly suggesting a **leak** (pressure-dependent outflow). Sensor bias is plausible due to consistent offsets, but demand/error and roughness are less likely given the magnitude and directionality of residuals."
+}

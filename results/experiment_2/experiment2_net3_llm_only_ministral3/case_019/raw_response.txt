@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["sensor_bias", "leak"],
+  "target": null,
+  "confidence": 0.65,
+  "reasoning": [
+    "Sensor **601** exhibits extreme residuals (mean = +1.14 m, max = +26.5 m) with a large RMSE, suggesting either a persistent sensor bias or an unmodeled pressure spike (e.g., leak-induced surge).",
+    "The remaining 7 sensors show consistent negative pressure residuals (mean ≈ -0.03 to -0.27 m), clustered spatially and temporally, which aligns with localized demand errors or leaks but lacks clear spatial clustering for roughness errors.",
+    "Flow residuals (NRMSE = 11%) and pump flow changes further complicate attribution—leaks may induce pressure spikes in some sensors while reducing others, mimicking bias."
+  ]
+}

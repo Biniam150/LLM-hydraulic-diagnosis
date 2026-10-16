@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "120",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensor is '120' with a mean pressure residual of -0.55 MPa, which is significantly below the threshold and indicates a persistent offset.",
+    "No other family (leak, demand_error, roughness_error) shows a comparable magnitude or pattern in residuals across sensors.",
+    "The shortest path distances suggest that sensor '120' has limited influence on nearby nodes, making it less likely to be affected by local changes like leaks."
+  ]
+}

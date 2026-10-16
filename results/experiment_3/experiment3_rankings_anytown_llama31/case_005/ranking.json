@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_005",
+  "tier": "matched_model",
+  "scenario_id": "demand_n115_high",
+  "observation_seed": 1009,
+  "model": "llama3.1:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Based on the residual summary and compact topology, the leak hypothesis is ranked as the most plausible, followed by demand_error, roughness_error, and sensor_bias.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1026,
+  "generated_tokens": 68
+}

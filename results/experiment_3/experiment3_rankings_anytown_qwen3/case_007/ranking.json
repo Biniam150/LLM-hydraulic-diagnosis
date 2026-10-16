@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_007",
+  "tier": "matched_model",
+  "scenario_id": "leak_n40_early",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Leak is most plausible due to multiple affected sensors with large negative residuals, while sensor bias is least likely due to inconsistent residual patterns across sensors.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1565,
+  "generated_tokens": 58
+}

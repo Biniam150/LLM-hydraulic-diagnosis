@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "The pressure residuals are mostly negative and significant, affecting multiple sensors.",
+    "The affected sensors are not directly connected, making it difficult to pinpoint a single cause.",
+    "The flow data does not show any significant changes, which rules out pump-related issues."
+  ]
+}

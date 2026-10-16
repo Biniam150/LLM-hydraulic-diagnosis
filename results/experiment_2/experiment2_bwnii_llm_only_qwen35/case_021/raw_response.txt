@@ -1,0 +1,11 @@
+{
+  "outcome": "no_fault",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.98,
+  "reasoning": [
+    "Flow residuals are negligible (NRMSE ~1.1%), indicating no significant unmodeled demand or leakage.",
+    "Pressure sensor statistics show mean residuals near zero and symmetric min/max bounds, ruling out persistent bias or directional leaks.",
+    "The largest residual sensors exhibit noise-level fluctuations consistent with stochastic measurement error rather than a systematic fault."
+  ]
+}

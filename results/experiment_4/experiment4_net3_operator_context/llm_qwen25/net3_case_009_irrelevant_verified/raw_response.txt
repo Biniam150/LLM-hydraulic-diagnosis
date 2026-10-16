@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1", "R2"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Records R1 and R2 do not provide evidence supporting any specific family and are too general to be directly useful."
+}

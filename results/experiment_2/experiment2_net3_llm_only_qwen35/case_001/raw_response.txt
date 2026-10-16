@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "junction_601",
+  "confidence": 0.92,
+  "reasoning": [
+    "Sensor 601 exhibits a massive positive pressure residual (mean +0.78m, RMSE 7.19m) compared to the consistent negative residuals (-0.11m to -0.14m) of all other sensors.",
+    "The flow link '60' and pump flow have changed significantly, indicating a system-wide mass balance violation rather than a localized sensor bias or demand error.",
+    "A single junction (601) showing extreme pressure deviation while the rest of the network shows uniform negative residuals is the signature pattern for a high-magnitude leak at that specific node."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "junction_601",
+  "confidence": 0.85,
+  "reasoning": [
+    "Sensor 601 exhibits extreme residual volatility (RMSE 7.27m) and a massive negative minimum (-24.1m), indicating a significant unmodeled pressure drop.",
+    "The pattern of mostly positive residuals across the majority of sensors suggests a system-wide pressure deficit consistent with water loss rather than sensor bias or demand error.",
+    "Sensor 601 is identified as an affected sensor and appears to be a junction in the network context, making it the primary suspect for the leak."
+  ]
+}

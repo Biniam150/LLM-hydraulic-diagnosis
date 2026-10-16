@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_011",
+  "tier": "matched_model",
+  "scenario_id": "leak_j324_mid",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Leak shows the most significant pressure drop across multiple sensors, while sensor bias has less impact due to inconsistent residual patterns.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2772,
+  "generated_tokens": 53
+}

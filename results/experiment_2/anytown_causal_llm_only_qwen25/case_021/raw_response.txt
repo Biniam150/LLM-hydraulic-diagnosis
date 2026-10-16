@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "roughness_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.7,
+  "reasoning": [
+    "The largest residual sensors are located in a network that is interconnected, making it difficult to pinpoint the exact cause.",
+    "The pressure residuals vary significantly between different sensors, suggesting multiple potential issues such as demand errors or sensor biases.",
+    "The flow data does not show significant changes, which reduces the likelihood of a pump-related issue."
+  ]
+}

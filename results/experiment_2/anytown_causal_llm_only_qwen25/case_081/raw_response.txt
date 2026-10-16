@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (70, 20) show persistent and significant deviations from the mean.",
+    "These deviations are not consistent with a leak or demand error scenario given their magnitude and persistence over time.",
+    "The presence of multiple affected sensors suggests a common-mode issue such as sensor bias."
+  ]
+}

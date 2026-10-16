@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "J1058",
+  "confidence": 0.85,
+  "reasoning": [
+    "Sensor J1058 exhibits the largest negative pressure residual (-0.23m) with a mean significantly below zero and no positive excursions.",
+    "The affected sensor count (2) and the specific involvement of J1058 and J379 suggest localized water loss rather than a global demand or roughness error.",
+    "The persistent negative bias in pressure at these nodes is characteristic of a leak-induced head loss, distinguishing it from sensor bias which would typically show symmetric noise or different statistical signatures."
+  ]
+}

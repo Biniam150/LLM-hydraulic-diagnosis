@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The zero offset in a pressure channel could affect the accuracy of the demand_error and roughness_error hypotheses, but more information is needed to confirm its impact."
+}

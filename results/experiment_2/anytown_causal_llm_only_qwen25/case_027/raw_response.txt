@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (120, 170, and 150) show persistent negative deviations that exceed the z-threshold.",
+    "These deviations are not consistent with a sudden onset or flow-related changes, ruling out 'leak' and 'roughness_error'.",
+    "Given the persistence and magnitude of the residuals, 'sensor_bias' is the most plausible explanation."
+  ]
+}

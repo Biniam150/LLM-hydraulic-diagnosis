@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (J1058 and J379) show significant negative pressure deviations, indicating a potential leak.",
+    "Both affected sensors are located in the same area, suggesting a localized issue such as a single leak rather than sensor bias or demand error affecting multiple points.",
+    "No other hypothesis fits the observed pattern of residuals."
+  ]
+}

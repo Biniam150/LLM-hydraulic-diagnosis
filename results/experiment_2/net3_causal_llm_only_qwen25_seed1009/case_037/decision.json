@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_037",
+  "tier": "perturbed_truth_model",
+  "scenario_id": "bias_s157_late",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "sensor_bias",
+  "true_target": "157",
+  "expected_label": "sensor_bias",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": "157",
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensor is '157' with a mean pressure deviation of 0.2468 MPa, which is significantly higher than other sensors.\", \"This persistent offset suggests a bias in the sensor reading rather than a change in demand or roughness.\", \"No other family (leak, demand_error, roughness_error) provides a plausible explanation for such a large and consistent deviation.\"]",
+  "exact_outcome_correct": true,
+  "true_family_covered": true,
+  "target_correct": true,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

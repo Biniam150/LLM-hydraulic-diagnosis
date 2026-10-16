@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_013",
+  "tier": "matched_model",
+  "scenario_id": "bias_s109_early",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residual sensor (109) shows a persistent negative pressure deviation, indicative of a leak. The mixed pressure direction and presence of affected sensors suggest demand errors. Roughness errors could also cause residuals but are less likely given the specific pattern. Sensor bias is less likely as only one sensor is affected.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3358,
+  "generated_tokens": 91
+}

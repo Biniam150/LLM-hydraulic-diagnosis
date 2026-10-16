@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "J70",
+  "confidence": 0.95,
+  "reasoning": [
+    "Single sensor (J70) exhibits a persistent, large mean residual (+0.40 m) exceeding the 3σ threshold (0.09 m) with minimal RMSE variation, indicating a likely bias.",
+    "No other sensors show comparable mean deviations or directional consistency, ruling out systemic demand/roughness errors or leaks.",
+    "Flow residuals are negligible (NRMSE=0.01), and pump/flow data unchanged, further isolating the issue to J70’s measurement."
+  ]
+}

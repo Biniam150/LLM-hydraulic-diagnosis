@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "sensor_bias",
+  "proposed_target": "sensor J276",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The low reliability of the shift note in R1, though uncorroborated, suggests a potential sensor issue, aligning with the leading candidate evidence for sensor bias."
+}

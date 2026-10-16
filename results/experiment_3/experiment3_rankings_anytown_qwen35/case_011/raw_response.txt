@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The dominant negative pressure residuals at sensor 20 with a significant mean deviation strongly indicate a physical outflow event like a leak, while the negligible flow residual changes and lack of widespread sensor anomalies make demand or roughness errors less likely than a leak but more plausible than a persistent sensor bias given the specific spatial pattern."
+}

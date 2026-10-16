@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error", "roughness_error"],
+  "target": null,
+  "confidence": 0.65,
+  "reasoning": [
+    "Pressure residuals are mixed in direction and small magnitude, failing to support a definitive leak signature.",
+    "Flow metrics show no change (flow_changed: false), making demand error or roughness error less certain without clear pressure drops.",
+    "No single sensor exhibits a persistent offset large enough to confirm sensor_bias as the primary cause."
+  ]
+}

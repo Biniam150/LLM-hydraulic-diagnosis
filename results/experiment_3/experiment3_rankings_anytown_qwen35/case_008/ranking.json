@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_008",
+  "tier": "matched_model",
+  "scenario_id": "leak_n80_morning",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The widespread negative pressure residuals across multiple sensors with significant minimum deviations strongly indicate a physical outflow event like a leak, while the negligible flow residual change rules out demand errors and makes sensor bias or roughness changes unlikely primary causes.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1565,
+  "generated_tokens": 77
+}

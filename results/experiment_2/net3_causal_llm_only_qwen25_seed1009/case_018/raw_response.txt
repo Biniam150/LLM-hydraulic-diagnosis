@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.85,
+  "reasoning": [
+    "The largest residuals are observed across multiple sensors, making it difficult to pinpoint a single cause.",
+    "The pressure residuals show mostly positive deviations, which could be due to leaks, demand errors, or sensor biases.",
+    "Flow changes and noise ratios indicate potential issues in the network, but do not clearly point to one specific family."
+  ]
+}

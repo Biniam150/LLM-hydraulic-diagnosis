@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": "J152",
+  "confidence": 0.98,
+  "reasoning": [
+    "Sensor J152 exhibits a massive mean residual (0.65 m) compared to all others (<0.06 m), indicating a persistent offset rather than a transient event.",
+    "The residual for J152 is statistically uniform across the observation window (min/max difference < 0.06 m), which contradicts the spatial propagation patterns expected from leaks or demand errors.",
+    "No flow anomalies are detected in monitored link P316, ruling out significant physical water loss or demand magnitude errors."
+  ]
+}

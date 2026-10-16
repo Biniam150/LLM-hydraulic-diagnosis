@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.9,
+  "reasoning": [
+    "The residual summary indicates a pressure-dependent water loss at one junction.",
+    "The affected sensors J1058 and J379 have large residuals, suggesting a leak in the vicinity of these sensors.",
+    "The network context shows that the shortest path distances between the affected sensors are relatively short, supporting the presence of a leak."
+  ]
+}

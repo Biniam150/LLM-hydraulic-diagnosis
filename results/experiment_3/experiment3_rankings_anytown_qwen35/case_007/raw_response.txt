@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The widespread negative pressure residuals across multiple sensors with significant minimum deviations strongly indicate a physical outflow event like a leak, while the lack of flow change and uniform sensor impact makes demand or roughness errors less likely than a leak but more plausible than isolated sensor bias."
+}

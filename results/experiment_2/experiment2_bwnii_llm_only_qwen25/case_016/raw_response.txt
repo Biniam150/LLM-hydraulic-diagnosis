@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": "J152",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensor, J152, shows a significant mean pressure deviation of 0.6534717207172358 m with high variability.",
+    "This large and persistent offset is indicative of a leak at the junction where this sensor is located.",
+    "No other family of causes (demand_error, roughness_error, or sensor_bias) can explain such a consistent and substantial pressure deviation."
+  ]
+}

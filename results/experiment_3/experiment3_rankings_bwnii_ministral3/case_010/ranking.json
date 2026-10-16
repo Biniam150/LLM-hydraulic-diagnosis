@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_010",
+  "tier": "matched_model",
+  "scenario_id": "leak_j1157_high",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Extreme, consistent negative pressure residuals at multiple spatially clustered sensors (10/12 affected) with large magnitude spikes strongly suggest a **pressure-dependent outflow (leak)**. Demand errors or roughness changes are plausible but less likely given the widespread, simultaneous impact. Sensor bias is least probable due to the pattern's spatial consistency and magnitude.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2846,
+  "generated_tokens": 100
+}

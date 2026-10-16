@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error"],
+  "target": null,
+  "confidence": 0.65,
+  "reasoning": [
+    "Pressure residuals are mixed in direction and magnitude (min/max range: ±0.08–±0.09 m) but exceed the threshold (>3σ), with no sensor bias detected (affected_sensor_count=0).",
+    "Largest residuals cluster at spatially proximal junctions (J152, J345, J296) with shortest-path distances ≤29 pipes apart, suggesting localized imbalance.",
+    "Flow residuals are low (NRMSE=0.011) and unchanged, reducing likelihood of roughness_error or pump issues; no direct evidence for sensor_bias or unknown_cause."
+  ]
+}

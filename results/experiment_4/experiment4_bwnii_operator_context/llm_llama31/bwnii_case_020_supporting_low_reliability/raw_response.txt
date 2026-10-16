@@ -1,0 +1,5 @@
+{
+  "action": "request_more_information",
+  "record_assessment": "insufficient_reliability",
+  "reason": "Record R1 has low reliability and R2 does not support a physically testable mechanism and asset."
+}

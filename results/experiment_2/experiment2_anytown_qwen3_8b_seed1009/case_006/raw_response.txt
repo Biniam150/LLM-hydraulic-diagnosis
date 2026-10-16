@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "sensor_bias", "demand_error"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "Multiple pressure sensors show consistent negative residuals, suggesting a systemic issue rather than isolated sensor bias.",
+    "The largest residuals are observed at sensors 120, 100, and 150, which are spatially connected through the network, indicating a potential leak or demand error in a shared area.",
+    "The flow residuals are low (NRMSE ~0.014), suggesting that flow measurements are not the primary source of the mismatch, leaving pressure-related causes more plausible."
+  ]
+}

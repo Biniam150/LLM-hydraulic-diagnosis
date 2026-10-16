@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": null,
+  "reason": "No temporally relevant, reliable, or physically testable records exist to justify a focused hydraulic test. The only candidate families (leak/demand_error) are inferred from model fitting without direct evidence, and the sole field report (R1) lacks verification, acoustic confirmation, or temporal alignment with the diagnostic window. Additional context (e.g., acoustic leak detection logs, pressure sensor trends, or reservoir head measurements) is required to propose a test."
+}

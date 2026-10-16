@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_011",
+  "tier": "matched_model",
+  "scenario_id": "leak_j324_mid",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "true_cause": "leak",
+  "true_target": "J324",
+  "expected_label": "leak",
+  "predicted_label": "leak",
+  "predicted_families": "leak",
+  "predicted_target": "J296",
+  "confidence": 0.95,
+  "exact_outcome_correct": true,
+  "accepted": true,
+  "false_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2866,
+  "generated_tokens": 181
+}

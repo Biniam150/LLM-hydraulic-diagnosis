@@ -1,0 +1,229 @@
+{
+  "network": "bwnii",
+  "purpose": "External evaluation of the verifier frozen after Anytown and Net3 development.",
+  "verifier_policy": "configs/verifier/generalized_verifier_v4.json",
+  "frozen_before_results": true,
+  "seeds": [
+    1009
+  ],
+  "tiers": [
+    "matched_model"
+  ],
+  "notes": [
+    "The scenario balance mirrors the Net3 external benchmark.",
+    "No BWN-II outcome is used to modify thresholds, decision order, or magnitude grids.",
+    "BWN-II has one reservoir, so withheld source-head cases vary magnitude and direction at R1."
+  ],
+  "scenarios": [
+    {
+      "id": "roughness_p97_low",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "P97",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.8
+      }
+    },
+    {
+      "id": "roughness_p83_high",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "P83",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.4
+      }
+    },
+    {
+      "id": "roughness_p98_low",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "P98",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.6
+      }
+    },
+    {
+      "id": "roughness_p500_high",
+      "fault": {
+        "fault_type": "roughness_error",
+        "target": "P500",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.3
+      }
+    },
+    {
+      "id": "demand_j202_mild",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "J202",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.25
+      }
+    },
+    {
+      "id": "demand_j429_high",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "J429",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 2.0
+      }
+    },
+    {
+      "id": "demand_j93_high",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "J93",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.5
+      }
+    },
+    {
+      "id": "demand_j276_low",
+      "fault": {
+        "fault_type": "demand_error",
+        "target": "J276",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.75
+      }
+    },
+    {
+      "id": "leak_j174_low",
+      "fault": {
+        "fault_type": "leak",
+        "target": "J174",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.0005
+      }
+    },
+    {
+      "id": "leak_j1157_high",
+      "fault": {
+        "fault_type": "leak",
+        "target": "J1157",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.0015
+      }
+    },
+    {
+      "id": "leak_j324_mid",
+      "fault": {
+        "fault_type": "leak",
+        "target": "J324",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.001
+      }
+    },
+    {
+      "id": "leak_j500_offgrid",
+      "fault": {
+        "fault_type": "leak",
+        "target": "J500",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.0008
+      }
+    },
+    {
+      "id": "bias_j70_positive",
+      "fault": {
+        "fault_type": "sensor_bias",
+        "target": "J70",
+        "start_hour": 4,
+        "end_hour": 24,
+        "magnitude": 0.4
+      }
+    },
+    {
+      "id": "bias_j379_negative",
+      "fault": {
+        "fault_type": "sensor_bias",
+        "target": "J379",
+        "start_hour": 8,
+        "end_hour": 24,
+        "magnitude": -1.2
+      }
+    },
+    {
+      "id": "bias_j345_negative",
+      "fault": {
+        "fault_type": "sensor_bias",
+        "target": "J345",
+        "start_hour": 12,
+        "end_hour": 24,
+        "magnitude": -0.8
+      }
+    },
+    {
+      "id": "bias_j152_positive",
+      "fault": {
+        "fault_type": "sensor_bias",
+        "target": "J152",
+        "start_hour": 16,
+        "end_hour": 24,
+        "magnitude": 0.65
+      }
+    },
+    {
+      "id": "unknown_r1_drop_low",
+      "fault": {
+        "fault_type": "source_head",
+        "target": "R1",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": -1.5
+      }
+    },
+    {
+      "id": "unknown_r1_rise_high",
+      "fault": {
+        "fault_type": "source_head",
+        "target": "R1",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 2.5
+      }
+    },
+    {
+      "id": "unknown_r1_drop_high",
+      "fault": {
+        "fault_type": "source_head",
+        "target": "R1",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": -2.5
+      }
+    },
+    {
+      "id": "unknown_r1_rise_low",
+      "fault": {
+        "fault_type": "source_head",
+        "target": "R1",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 1.5
+      }
+    },
+    {
+      "id": "no_fault_control",
+      "fault": {
+        "fault_type": "no_fault",
+        "target": "J93",
+        "start_hour": 0,
+        "end_hour": 24,
+        "magnitude": 0.0
+      }
+    }
+  ]
+}

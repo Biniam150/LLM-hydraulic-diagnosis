@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_001",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p60_low",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residuals are observed at sensors 601, 157, and 15, indicating a significant issue likely due to a leak. The affected sensors are numerous and the pressure residuals are mostly negative, supporting a demand error. Roughness error and sensor bias are less likely given the scale and nature of the residuals.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3342,
+  "generated_tokens": 97
+}

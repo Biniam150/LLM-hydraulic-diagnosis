@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "sensor_bias",
+  "proposed_target": "20",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The operational record R1 indicates a possible sensor bias, which is the leading candidate cause according to the diagnostic results."
+}

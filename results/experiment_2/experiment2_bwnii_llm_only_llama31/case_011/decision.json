@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_011",
+  "tier": "matched_model",
+  "scenario_id": "leak_j324_mid",
+  "observation_seed": 1009,
+  "model": "llama3.1:8b",
+  "true_cause": "leak",
+  "true_target": "J324",
+  "expected_label": "leak",
+  "predicted_label": "invalid_output",
+  "predicted_families": "",
+  "predicted_target": null,
+  "confidence": 0.0,
+  "exact_outcome_correct": false,
+  "accepted": false,
+  "false_attribution": false,
+  "valid_output": false,
+  "parse_error": "Unsupported candidate family: ['pressure-dependent water loss at one junction']",
+  "prompt_tokens": 1832,
+  "generated_tokens": 123
+}

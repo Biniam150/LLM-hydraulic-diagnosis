@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": "J70",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensor, J70, shows a significant positive mean pressure deviation of 0.4035 m.",
+    "This large and persistent offset is indicative of a leak at the junction where this sensor is located.",
+    "Other sensors show smaller or mixed residuals, supporting that the issue is localized."
+  ]
+}

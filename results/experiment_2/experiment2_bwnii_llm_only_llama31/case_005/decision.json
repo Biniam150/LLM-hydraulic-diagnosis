@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_005",
+  "tier": "matched_model",
+  "scenario_id": "demand_j202_mild",
+  "observation_seed": 1009,
+  "model": "llama3.1:8b",
+  "true_cause": "demand_error",
+  "true_target": "J202",
+  "expected_label": "demand_error",
+  "predicted_label": "leak",
+  "predicted_families": "leak",
+  "predicted_target": null,
+  "confidence": 0.9,
+  "exact_outcome_correct": false,
+  "accepted": true,
+  "false_attribution": true,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1825,
+  "generated_tokens": 111
+}

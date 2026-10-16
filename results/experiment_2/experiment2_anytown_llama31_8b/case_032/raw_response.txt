@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The pressure residuals are mostly negative, indicating a loss of pressure.",
+    "Sensor 20 has the largest residual, suggesting that it is affected by the mismatch.",
+    "The leak family is supported by the fact that the pressure residuals are mostly negative and sensor 20 has the largest residual."
+  ]
+}

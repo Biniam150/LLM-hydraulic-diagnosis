@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_013",
+  "tier": "matched_model",
+  "scenario_id": "demand_n115_high",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "demand_error",
+  "true_target": "115",
+  "expected_label": "demand_error",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "demand_error,roughness_error",
+  "predicted_target": null,
+  "confidence": 0.6,
+  "reasoning": "[\"The pressure residuals show mixed behavior across sensors, with some showing negative deviations and others positive.\", \"There is no clear evidence of a single fault family dominating the residual patterns.\", \"The network context does not provide additional clues to narrow down the cause.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": true,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

@@ -1,0 +1,23 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "case_028_irrelevant_verified",
+  "base_case_id": "case_028",
+  "scenario_id": "leak_n170_late",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "leak",
+  "true_target": "170",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "conflicting",
+  "reason": "invalid structured output",
+  "parse_error": "a proposed test requires a supported family and target",
+  "prompt_tokens": 653,
+  "generated_tokens": 99,
+  "inference_duration_s": 14.2683032
+}

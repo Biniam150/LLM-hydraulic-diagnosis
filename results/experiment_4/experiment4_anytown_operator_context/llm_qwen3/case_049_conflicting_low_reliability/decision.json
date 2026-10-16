@@ -1,0 +1,25 @@
+{
+  "model": "qwen3:8b",
+  "model_label": "Qwen3-8B",
+  "variant_id": "case_049_conflicting_low_reliability",
+  "base_case_id": "case_049",
+  "scenario_id": "unknown_head165_rise",
+  "context_condition": "conflicting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "165",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "reservoir",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R2"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The verified routine control log confirms no unauthorized valve changes, suggesting the issue may lie in boundary conditions like reservoir head set points.",
+  "parse_error": null,
+  "prompt_tokens": 595,
+  "generated_tokens": 98,
+  "inference_duration_s": 16.7939391
+}

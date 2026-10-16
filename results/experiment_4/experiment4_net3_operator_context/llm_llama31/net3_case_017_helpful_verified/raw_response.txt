@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "incorrect reservoir or supply-boundary head/set point",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The operational record R1 indicates a change in the supply set point at Reservoir River during the diagnostic window, which may be the cause of the unknown cause."
+}

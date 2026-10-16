@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_002",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p10_low",
+  "observation_seed": 2027,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "roughness_error",
+  "true_target": "10",
+  "expected_label": "roughness_error",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "demand_error,roughness_error",
+  "predicted_target": null,
+  "confidence": 0.7,
+  "reasoning": "[\"The largest residual sensors (70 and 100) show significant deviations, but the nature of these deviations is not clearly indicative of a single fault family.\", \"Sensor 70 shows a positive mean pressure residual, which could suggest either demand error or roughness error, while sensor 100 shows a negative mean pressure residual, which could also fit both families.\", \"The network context and shortest path distances do not provide clear evidence to favor one family over the other.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": true,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

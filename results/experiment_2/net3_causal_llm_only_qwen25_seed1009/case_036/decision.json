@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_036",
+  "tier": "perturbed_truth_model",
+  "scenario_id": "bias_s219_midday",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "sensor_bias",
+  "true_target": "219",
+  "expected_label": "sensor_bias",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": "219",
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensor (219) shows a persistent and significant offset, suggesting a bias in the sensor reading.\", \"No other family of faults is strongly indicated by the residuals; the pressure direction is mixed or small, and there are no clear patterns for leaks or demand errors.\", \"The affected sensor count is 1, which aligns with the scenario where only one sensor has a persistent bias.\"]",
+  "exact_outcome_correct": true,
+  "true_family_covered": true,
+  "target_correct": true,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

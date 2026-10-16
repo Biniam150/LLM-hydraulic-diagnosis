@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "demand_error",
+  "proposed_target": "109",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Operational record R1 confirms a sustained legitimate withdrawal at Junction 109 not accounted for in the model, directly supporting demand_error as a testable mechanism."
+}

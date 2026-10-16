@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "601",
+  "confidence": 0.95,
+  "reasoning": [
+    "Sensor 601 has an extremely high residual RMSE (7.19 m) and a mean residual of 0.78 m, indicating a significant and persistent bias.",
+    "The residual pattern for sensor 601 is mostly negative, aligning with the overall pressure direction observed in the residual summary.",
+    "The high RMSE and mean residual for sensor 601 suggest a systematic error rather than random noise, supporting the sensor bias hypothesis."
+  ]
+}

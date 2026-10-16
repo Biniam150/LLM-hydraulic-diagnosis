@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.85,
+  "reasoning": [
+    "The largest residual sensors (J500, J93, J394) show significant negative pressure deviations, indicating a potential leak.",
+    "Multiple pressure sensors are affected, suggesting the issue is likely localized to one area of the network rather than sensor bias or demand error.",
+    "The pressure direction is mostly negative, consistent with water loss."
+  ]
+}

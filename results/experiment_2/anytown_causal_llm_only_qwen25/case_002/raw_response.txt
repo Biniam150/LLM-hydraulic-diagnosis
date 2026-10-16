@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "roughness_error"],
+  "target": null,
+  "confidence": 0.7,
+  "reasoning": [
+    "The largest residual sensors (70 and 100) show significant deviations, but the nature of these deviations is not clearly indicative of a single fault family.",
+    "Sensor 70 shows a positive mean pressure residual, which could suggest either demand error or roughness error, while sensor 100 shows a negative mean pressure residual, which could also fit both families.",
+    "The network context and shortest path distances do not provide clear evidence to favor one family over the other."
+  ]
+}

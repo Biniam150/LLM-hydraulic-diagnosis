@@ -1,0 +1,25 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "case_043_conflicting_low_reliability",
+  "base_case_id": "case_043",
+  "scenario_id": "unknown_head10_drop",
+  "context_condition": "conflicting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "10",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "sensor_bias",
+  "proposed_target": "20",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The low reliability note about a potential pressure channel drift supports the sensor bias hypothesis.",
+  "parse_error": null,
+  "prompt_tokens": 644,
+  "generated_tokens": 89,
+  "inference_duration_s": 12.6777423
+}

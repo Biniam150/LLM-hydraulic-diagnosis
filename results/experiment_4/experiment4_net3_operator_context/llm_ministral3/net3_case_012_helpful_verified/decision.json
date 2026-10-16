@@ -1,0 +1,25 @@
+{
+  "model": "ministral-3:8b",
+  "model_label": "Ministral3-8B",
+  "variant_id": "net3_case_012_helpful_verified",
+  "base_case_id": "case_012",
+  "scenario_id": "leak_n219_high",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "leak",
+  "true_target": "219",
+  "safe_expected_outcome": "leak",
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "225",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Field and acoustic logging (R1) confirm a physically testable leak mechanism at Junction 219 (adjacent to the model’s fitted target, 225), with high reliability and temporal alignment.",
+  "parse_error": null,
+  "prompt_tokens": 678,
+  "generated_tokens": 120,
+  "inference_duration_s": 25.7454719
+}

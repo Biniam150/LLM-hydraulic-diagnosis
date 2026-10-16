@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["sensor_bias", "demand_error"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "Three pressure sensors (70, 100, 150) exhibit large positive/negative residuals (>3σ threshold), while others remain near zero, suggesting localized bias or demand misalignment.",
+    "Sensors 70 and 100 are spatially proximal (shortest-path distance = 1), but their residual patterns differ in magnitude/direction, reducing likelihood of a single leak or roughness error.",
+    "Flow residuals are negligible (<1.1% NRMSE) and unchanged, ruling out global hydraulic mismatches; localized demand errors or sensor biases remain plausible."
+  ]
+}

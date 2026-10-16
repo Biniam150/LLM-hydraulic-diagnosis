@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The operational records (R1, R2) do not provide physically testable or temporally specific evidence for any hydraulic mechanism (e.g., no direct observations of pressure, flow, or reservoir head changes). The ambiguous diagnostic outcome lacks a clear, actionable link to a specific asset or measurable parameter for a focused test."
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error"],
+  "target": null,
+  "confidence": 0.65,
+  "reasoning": [
+    "Multiple sensors (e.g., **231**, **253**, **219**) exhibit persistent negative pressure residuals (>3σ threshold) with mixed directional patterns, suggesting localized mismatches rather than systematic bias.",
+    "Flow NRMSE is low (~0.011) and unchanged, reducing likelihood of roughness_error or sensor_bias as primary causes; residuals are spatially clustered near junctions (e.g., **231** has shortest-path proximity to **253**), hinting at demand_error or leak.",
+    "No affected sensors reported, but residual magnitudes (~0.06–0.12 m) and onset timing (~hour 5) align with plausible demand shifts or pressure-dependent leaks."
+  ]
+}

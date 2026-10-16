@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "Pressure residuals exceed threshold at multiple sensors (e.g., **150** with **RMSE=0.036m**, **max=−0.094m**) and show mixed directional trends, strongly suggesting a **pressure-dependent outflow (leak) at a junction**—likely near **150** or **170** (shortest-path proximity)."
+}

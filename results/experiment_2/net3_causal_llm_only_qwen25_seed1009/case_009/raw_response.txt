@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residuals are observed in sensors 601 and 109, with significant deviations from the mean.",
+    "Multiple families (leak, demand error, sensor bias) could explain the observed pressure residuals across multiple nodes.",
+    "While there is a notable pressure residual at sensor 601, the pattern does not strongly indicate a single fault family."
+  ]
+}

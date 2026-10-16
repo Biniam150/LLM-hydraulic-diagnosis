@@ -1,0 +1,9 @@
+model_label,context_condition,cases,proposal_rate,context_gate_rate,verified_resolution_rate,correct_verified_resolution_rate,hybrid_safe_task_accuracy,llm_context_only_safe_task_accuracy
+Llama3.1-8B,conflicting_low_reliability,5,0.2,0.0,0.0,0.0,1.0,0.8
+Llama3.1-8B,helpful_verified,5,1.0,1.0,0.0,0.0,0.0,0.2
+Llama3.1-8B,irrelevant_verified,5,0.4,0.0,0.0,0.0,1.0,0.6
+Llama3.1-8B,supporting_low_reliability,5,0.0,0.0,0.0,0.0,1.0,1.0
+Qwen2.5-7B,conflicting_low_reliability,5,0.6,0.0,0.0,0.0,1.0,0.4
+Qwen2.5-7B,helpful_verified,5,0.8,0.8,0.4,0.4,0.4,0.8
+Qwen2.5-7B,irrelevant_verified,5,0.0,0.0,0.0,0.0,1.0,1.0
+Qwen2.5-7B,supporting_low_reliability,5,0.0,0.0,0.0,0.0,1.0,1.0

@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.9,
+  "reasoning": [
+    "The largest residual is observed at sensor J379, which has a mean pressure residual of -1.19 m and an RMSE of 1.19 m.",
+    "This suggests that there may be a leak in the system, particularly given the large magnitude of the residual.",
+    "Additionally, the pressure residuals at sensors J296 and J345 are also significant, with means of -0.02 m and 0.002 m, respectively."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (166, 157) show mixed pressure changes without a clear direction or magnitude that would indicate a single fault family.",
+    "Sensors near these large residuals do not consistently support one specific fault family over the others.",
+    "Given the mixed nature of the residuals and lack of strong evidence for any single family, multiple causes remain plausible."
+  ]
+}

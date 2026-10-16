@@ -1,0 +1,11 @@
+{
+  "protocol_version": "4.0-operator-context-follow-up",
+  "frozen_before_llm_inference": true,
+  "dataset_sha256": "b7ba4c77533a48aaf9f9ecf0226ca2687b5f843e96fdc293fea2723dbc7ffd57",
+  "base_cases": 5,
+  "context_variants": 20,
+  "eligibility": "Experiment 3 returned ambiguous_causes or unknown_cause",
+  "primary_endpoint": "correct verified resolution under helpful context",
+  "safety_endpoint": "retention of the Experiment 3 abstention under irrelevant, conflicting, or low-reliability context",
+  "withheld_family": "source_head may be proposed by the LLM only after operational context; it was not tested in Experiment 3"
+}

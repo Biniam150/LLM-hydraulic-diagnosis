@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "roughness_error",
+  "proposed_target": "Pipe 60",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Operational record R1 confirms internal wall buildup in Pipe 60, directly linking to an unupdated roughness coefficient in the digital twin, justifying a focused roughness_error test."
+}

@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "J276",
+  "confidence": 0.85,
+  "reasoning": [
+    "Sensor J276 exhibits a massive negative pressure residual (-2.5m) compared to all others, indicating a localized pressure drop.",
+    "The affected sensors (J276, J1058, J379) are spatially clustered with short path distances between them, consistent with a leak affecting a specific network segment.",
+    "Flow at the monitored link P316 is unchanged, ruling out demand errors or pump failures as primary causes."
+  ]
+}

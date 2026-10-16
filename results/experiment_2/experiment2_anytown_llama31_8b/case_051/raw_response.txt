@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual pressures are observed at sensors 120 and 170, which are located near junctions with high pressure residuals.",
+    "The pressure residuals at these sensors are mostly positive, indicating a potential leak in the system.",
+    "The presence of multiple affected sensors suggests that the issue is not isolated to a single sensor or location."
+  ]
+}

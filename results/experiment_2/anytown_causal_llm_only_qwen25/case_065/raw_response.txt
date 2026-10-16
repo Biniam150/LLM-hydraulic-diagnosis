@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors are widely distributed, suggesting a systematic bias rather than localized issues like leaks or demand errors.",
+    "Multiple pressure sensors show persistent offsets, indicating a sensor-related issue.",
+    "No significant changes in flow were observed, ruling out roughness errors as the primary cause."
+  ]
+}

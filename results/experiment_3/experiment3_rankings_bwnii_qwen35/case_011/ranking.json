@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_011",
+  "tier": "matched_model",
+  "scenario_id": "leak_j324_mid",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The massive negative pressure residuals at sensors J296 and J360, combined with widespread affected sensor counts, strongly indicate a physical outflow event like a leak rather than demand estimation errors or sensor biases which typically show smaller magnitudes or different spatial patterns.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2768,
+  "generated_tokens": 97
+}

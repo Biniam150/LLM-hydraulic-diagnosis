@@ -1,0 +1,25 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "bwnii_case_018_helpful_verified",
+  "base_case_id": "case_018",
+  "scenario_id": "unknown_r1_rise_high",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "R1",
+  "safe_expected_outcome": "source_head",
+  "action": "propose_follow_up_test",
+  "proposed_family": "sensor_bias",
+  "proposed_target": "J276",
+  "proposed_onset_hour": 12,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Sensor J276 has a high likelihood of bias, as indicated by the diagnostic results and supported by the operational record R1.",
+  "parse_error": null,
+  "prompt_tokens": 623,
+  "generated_tokens": 99,
+  "inference_duration_s": 30.2524019
+}

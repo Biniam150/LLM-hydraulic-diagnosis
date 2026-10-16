@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "sensor_bias", "demand_error", "roughness_error"],
+  "reason": "The leak hypothesis is most plausible due to the extreme pressure residual at sensor 170, which aligns with a pressure-dependent outflow. Sensor bias is next due to the persistent offset at sensor 170. Demand and roughness errors are less likely due to the limited impact on pressure and the absence of widespread residuals."
+}

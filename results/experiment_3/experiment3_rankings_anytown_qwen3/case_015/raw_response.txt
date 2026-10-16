@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The largest residual pressures and affected sensors align more with a leak hypothesis, which typically causes widespread negative pressure changes, compared to localized errors like demand or roughness issues."
+}

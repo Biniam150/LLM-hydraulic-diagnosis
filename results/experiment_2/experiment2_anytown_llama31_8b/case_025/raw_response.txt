@@ -1,0 +1,11 @@
+{
+  "outcome": "unknown_cause",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.5,
+  "reasoning": [
+    "The residual summary indicates a mostly negative pressure trend over the observation window.",
+    "Two sensors (120 and 170) show large residuals, but their magnitudes are not consistent with any single modeled family.",
+    "There is no clear indication of a leak, demand error, or roughness error in the data."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_083",
+  "tier": "perturbed_truth_model",
+  "scenario_id": "bias_s120_midday",
+  "observation_seed": 2027,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "sensor_bias",
+  "true_target": "120",
+  "expected_label": "sensor_bias",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": "20",
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensor (20) shows a persistent negative offset, which is characteristic of sensor bias.\", \"Other sensors show smaller and less consistent deviations, making it unlikely that the issue is widespread like demand_error or roughness_error.\", \"No significant flow changes were observed, ruling out pump_flow_changed.\"]",
+  "exact_outcome_correct": true,
+  "true_family_covered": true,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

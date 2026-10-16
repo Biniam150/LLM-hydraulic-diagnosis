@@ -1,0 +1,25 @@
+{
+  "model": "qwen3:8b",
+  "model_label": "Qwen3-8B",
+  "variant_id": "bwnii_case_017_helpful_verified",
+  "base_case_id": "case_017",
+  "scenario_id": "unknown_r1_drop_low",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "R1",
+  "safe_expected_outcome": "source_head",
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "Reservoir R1",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Record R1 indicates a supply set point change at Reservoir R1 that was not propagated to the digital-twin boundary, suggesting a potential issue with the source head.",
+  "parse_error": null,
+  "prompt_tokens": 681,
+  "generated_tokens": 109,
+  "inference_duration_s": 46.5542585
+}

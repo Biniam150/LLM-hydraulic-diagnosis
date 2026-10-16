@@ -1,0 +1,26 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "net3_case_005_helpful_verified",
+  "base_case_id": "case_005",
+  "scenario_id": "demand_n109_low",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "demand_error",
+  "true_target": "109",
+  "safe_expected_outcome": "demand_error",
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "reservoir or supply-boundary head",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1",
+    "R2"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Operational records R1 and R2 support the hypothesis of an incorrect reservoir or supply-boundary head.",
+  "parse_error": null,
+  "prompt_tokens": 663,
+  "generated_tokens": 103,
+  "inference_duration_s": 19.6721932
+}

@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "demand_error",
+  "proposed_target": "node 109",
+  "proposed_onset_hour": 12,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The supply set point at Reservoir Lake changed during the diagnostic window, which may have caused a demand error at node 109."
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "roughness_error"],
+  "target": null,
+  "confidence": 0.7,
+  "reasoning": [
+    "The pressure residuals at sensors 70 and 100 are significantly large, suggesting a potential issue with either demand or pipe roughness.",
+    "No single family can be definitively identified as the cause given the spread of residual values across multiple sensors.",
+    "The network context shows that these sensors have varying shortest path distances to other nodes, making it difficult to isolate one specific fault."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "no_fault",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.98,
+  "reasoning": [
+    "Flow residuals are negligible (NRMSE ~1.1%) with no change detected, indicating the hydraulic model accurately captures system demand.",
+    "Pressure sensor residuals show small magnitudes and mixed directions without a coherent spatial propagation pattern typical of leaks or sensor bias.",
+    "The largest residuals occur at sensors with high noise ratios relative to mean pressure, suggesting stochastic noise rather than systematic fault signatures."
+  ]
+}

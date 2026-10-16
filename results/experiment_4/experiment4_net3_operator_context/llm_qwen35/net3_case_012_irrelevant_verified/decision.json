@@ -1,0 +1,23 @@
+{
+  "model": "qwen3.5:9b",
+  "model_label": "Qwen3.5-9B",
+  "variant_id": "net3_case_012_irrelevant_verified",
+  "base_case_id": "case_012",
+  "scenario_id": "leak_n219_high",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "leak",
+  "true_target": "219",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "Operational records confirm no physical changes occurred during the observation window, but they do not identify a specific asset or mechanism to test for the 'unknown_cause' indicated by the diagnostic.",
+  "parse_error": null,
+  "prompt_tokens": 638,
+  "generated_tokens": 109,
+  "inference_duration_s": 26.6630786
+}

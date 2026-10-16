@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "J379",
+  "confidence": 0.85,
+  "reasoning": [
+    "Six sensors show consistent negative pressure residuals (mean < -0.05 m) with J379 exhibiting extreme values (mean = -0.68 m, min = -5.11 m), far exceeding the 0.09 m threshold and residual Z-score cutoff.",
+    "J379’s residuals are spatially isolated (shortest-path distances to other affected sensors range 19–50 m) and temporally persistent (onset at hour 0, sustained for 24+ hours), suggesting a localized sensor issue rather than a systemic leak or demand error.",
+    "Flow metrics (NMRSE=0.031, noise ratio=3.1) and pump flow changes are negligible, ruling out hydraulic mismatches; the pattern aligns with a persistent sensor bias."
+  ]
+}

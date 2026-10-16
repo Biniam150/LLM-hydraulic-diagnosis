@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "601",
+  "confidence": 0.9,
+  "reasoning": [
+    "Sensor **601** exhibits an extreme residual pattern (mean = +0.785 m, RMSE = 7.2 m) with large positive spikes and negative dips, inconsistent with localized pressure-dependent leaks or demand errors.",
+    "All other sensors show consistent negative residuals (~–0.1 m mean) with plausible magnitudes for pressure mismatches, but **601** stands out as an outlier in both scale and direction.",
+    "The residual noise ratio (14.9) and flow changes suggest systemic bias rather than structural model errors or leaks."
+  ]
+}

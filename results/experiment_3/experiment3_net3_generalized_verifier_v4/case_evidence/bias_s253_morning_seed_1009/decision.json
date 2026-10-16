@@ -1,0 +1,12 @@
+{
+  "outcome": "sensor_bias",
+  "reason": "sole_cross_split_and_gof_supported_family",
+  "winner": "sensor_bias",
+  "runner_up": "demand_error",
+  "balanced_improvement": 0.3526761474847427,
+  "relative_winner_margin": 0.3322440158109689,
+  "winner_validation_gof_pvalue": 0.5807861314213741,
+  "supported_families": [
+    "sensor_bias"
+  ]
+}

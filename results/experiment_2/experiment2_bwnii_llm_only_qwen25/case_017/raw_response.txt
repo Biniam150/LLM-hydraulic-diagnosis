@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (J276, J1058, J379) show significant and consistent negative pressure residuals, indicating a potential leak.",
+    "These sensors are closely connected in the network context, suggesting that the issue is localized to a specific area rather than a demand error or sensor bias affecting multiple points.",
+    "The pressure direction is mostly negative across affected sensors, which aligns with the expected behavior of a leak."
+  ]
+}

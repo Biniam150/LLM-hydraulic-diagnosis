@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The diagnostic outcome lacks a physically testable mechanism tied to a specific asset, and operational records (R1, R2) do not provide direct evidence of a testable hydraulic anomaly (e.g., no leak, demand error, or head inconsistency linked to a junction, pipe, or sensor). Additional context is needed to validate the 'leak' or 'demand_error' candidates (e.g., field observations, pressure/sensor data, or valve/head measurements) before proposing a test."
+}

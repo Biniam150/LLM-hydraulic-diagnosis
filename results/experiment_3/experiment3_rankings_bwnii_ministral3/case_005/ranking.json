@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_005",
+  "tier": "matched_model",
+  "scenario_id": "demand_j202_mild",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Largest residuals at multiple junctions (J345, J296, J1058) with mixed pressure deviations and spatial clustering strongly suggest a **pressure-dependent leak**, while isolated demand errors or roughness changes are less likely without localized flow anomalies.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2845,
+  "generated_tokens": 85
+}

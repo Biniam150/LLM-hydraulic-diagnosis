@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": null,
+  "reason": "The diagnostic outcome lacks a physically testable mechanism with reliable, temporally relevant records. While **leak** and **roughness_error** show strong statistical evidence, no operational record confirms a specific asset (e.g., junction, pipe, or sensor) or onset time for validation. **R1** is unreliable, and **R2** is irrelevant to hydraulic mechanisms. Additional data (e.g., sensor calibration logs, pressure traces, or leak detection reports) is required to justify a focused test."
+}

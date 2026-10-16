@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "roughness_error"],
+  "target": null,
+  "confidence": 0.7,
+  "reasoning": [
+    "The pressure residuals at sensors 50 and 150 are significant, suggesting either demand error or roughness error.",
+    "No single family can be definitively identified as the cause given the mixed nature of the residual patterns.",
+    "The lack of clear sensor bias or leak evidence supports an ambiguous_causes outcome."
+  ]
+}

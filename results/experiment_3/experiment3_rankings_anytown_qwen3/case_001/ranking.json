@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_001",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p10_low",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residuals and affected sensors align with a leak hypothesis, while demand and roughness errors have less direct impact on multiple sensors.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1568,
+  "generated_tokens": 55
+}

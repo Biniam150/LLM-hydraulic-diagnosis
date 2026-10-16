@@ -1,0 +1,2 @@
+model,cases,exact_outcome_accuracy,known_family_accuracy,known_family_coverage,accepted_diagnosis_precision,unknown_cause_recall,no_fault_recall,false_attribution_rate,valid_output_rate
+llama3.1:8b,21,0.0,0.0,0.75,0.0,0.0,0.0,0.6666666666666666,0.6666666666666666

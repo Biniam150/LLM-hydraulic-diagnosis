@@ -1,0 +1,23 @@
+{
+  "model": "ministral-3:8b",
+  "model_label": "Ministral3-8B",
+  "variant_id": "net3_case_018_irrelevant_verified",
+  "base_case_id": "case_018",
+  "scenario_id": "unknown_river_rise",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "River",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The diagnostic outcome is inconclusive due to weak cross-split evidence, and the operational records (R1, R2) do not provide physically testable or temporally specific mechanisms for any family (e.g., no direct evidence of leaks, sensor bias onset, or reservoir head changes). Additional data (e.g., pressure/sensor time-series, valve/leak detection logs, or reservoir head records) is required to justify a focused test.",
+  "parse_error": null,
+  "prompt_tokens": 694,
+  "generated_tokens": 157,
+  "inference_duration_s": 21.8372634
+}

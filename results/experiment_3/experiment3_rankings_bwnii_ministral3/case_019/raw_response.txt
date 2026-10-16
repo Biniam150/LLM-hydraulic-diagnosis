@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Extreme, consistent negative pressure residuals at multiple spatially clustered junctions (e.g., **J276: -2.5m RMSE, J1058: -0.5m RMSE**) strongly suggest a **pressure-dependent leak**, while demand errors or sensor bias are less likely given the magnitude and spatial coherence."
+}

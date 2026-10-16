@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_002",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p123_mild",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The presence of significant negative pressure residuals across multiple sensors with mixed directions strongly indicates a physical outflow (leak), while the lack of affected sensor count and low flow noise ratio make demand or roughness errors less likely, and the widespread residual pattern rules out a single sensor bias.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3337,
+  "generated_tokens": 88
+}

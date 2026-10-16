@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_007",
+  "tier": "matched_model",
+  "scenario_id": "demand_j93_high",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "true_cause": "demand_error",
+  "true_target": "J93",
+  "expected_label": "demand_error",
+  "predicted_label": "leak",
+  "predicted_families": "leak",
+  "predicted_target": "J500",
+  "confidence": 0.82,
+  "exact_outcome_correct": false,
+  "accepted": true,
+  "false_attribution": true,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2865,
+  "generated_tokens": 172
+}

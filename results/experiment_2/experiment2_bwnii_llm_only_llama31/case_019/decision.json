@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_019",
+  "tier": "matched_model",
+  "scenario_id": "unknown_r1_drop_high",
+  "observation_seed": 1009,
+  "model": "llama3.1:8b",
+  "true_cause": "source_head",
+  "true_target": "R1",
+  "expected_label": "unknown_cause",
+  "predicted_label": "invalid_output",
+  "predicted_families": "",
+  "predicted_target": null,
+  "confidence": 0.0,
+  "exact_outcome_correct": false,
+  "accepted": false,
+  "false_attribution": false,
+  "valid_output": false,
+  "parse_error": "Unsupported candidate family: ['pressure-dependent water loss at one junction']",
+  "prompt_tokens": 1838,
+  "generated_tokens": 116
+}

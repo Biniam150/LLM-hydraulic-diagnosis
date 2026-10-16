@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.65,
+  "reasoning": [
+    "Residuals exceed the threshold (Z > 3) at multiple sensors (20, 50, 150, 170), with mixed pressure direction and no single sensor consistently biased.",
+    "Flow residuals are low (NRMSE = 0.011) and unchanged, reducing plausibility of a leak or roughness error as primary causes.",
+    "No isolated sensor bias is evident; deviations appear distributed across spatially proximal sensors, favoring demand_error over localized sensor_bias."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "J1058",
+  "confidence": 0.85,
+  "reasoning": [
+    "Two sensors (J1058 and J379) exhibit persistent negative pressure residuals (mean: -0.23 and -0.17 m) with large RMSE and minima exceeding the 0.09 m threshold, indicating systematic bias rather than dynamic mismatch.",
+    "Shortest-path distances between affected sensors (e.g., J1058-J379: 20 links) and flow metrics (low NRMSE, no change) suggest localized sensor issues rather than network-wide demand or roughness errors.",
+    "Pressure residuals are directionally consistent (mostly negative) and concentrated at specific sensors, aligning with persistent sensor bias rather than intermittent leaks or demand errors."
+  ]
+}

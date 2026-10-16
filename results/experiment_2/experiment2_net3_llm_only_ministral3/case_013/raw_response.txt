@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "109",
+  "confidence": 0.85,
+  "reasoning": [
+    "Single sensor (109) exhibits large, persistent negative residuals (−0.45 m mean, −0.51 m minimum) exceeding the threshold (3σ), while all other sensors show near-zero residuals.",
+    "Pressure direction is mixed_or_small, but the magnitude and consistency of bias at 109 align with a localized sensor offset rather than network-wide effects like leaks or demand errors.",
+    "Flow metrics (NMRSE=0.01, noise ratio=1.06) remain stable, ruling out flow-related causes; residuals are spatially isolated to sensor 109."
+  ]
+}

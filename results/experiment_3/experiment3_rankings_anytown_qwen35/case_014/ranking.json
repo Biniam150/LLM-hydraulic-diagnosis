@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_014",
+  "tier": "matched_model",
+  "scenario_id": "bias_s170_late",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The massive, persistent positive residual at sensor 170 (mean ~0.76m) strongly indicates a physical outflow like a leak, while the negligible residuals elsewhere and stable flow metrics rule out widespread demand or roughness errors, and the specific isolation of one sensor makes a single sensor bias less likely than a real leak.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1567,
+  "generated_tokens": 100
+}

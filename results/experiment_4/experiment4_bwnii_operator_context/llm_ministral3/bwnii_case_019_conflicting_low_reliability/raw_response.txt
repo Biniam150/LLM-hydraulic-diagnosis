@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "sensor_bias",
+  "proposed_target": "J276",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The preliminary instrumentation note (R1) corroborates the diagnostic's leading candidate evidence for sensor bias at sensor J276, despite its low reliability, as it aligns with the physically testable mechanism identified in the diagnostic."
+}

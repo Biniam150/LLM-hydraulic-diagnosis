@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["sensor_bias", "demand_error"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "Two sensors (20 and 70) show persistent negative pressure residuals exceeding the threshold (>3σ), while others are near-zero or minor, suggesting localized bias or demand misalignment rather than a leak or roughness error.",
+    "Sensor 20’s large magnitude (−0.785 m mean residual) and proximity to sensor 70 (shortest-path distance = 1) imply either a shared upstream demand anomaly or a bias in one of these sensors.",
+    "Flow residuals are negligible (NRMSE < 0.016), ruling out gross hydraulic mismatches like leaks or roughness errors, but do not exclude localized demand shifts or sensor offsets."
+  ]
+}

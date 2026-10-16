@@ -1,0 +1,85 @@
+{
+  "runs": 18,
+  "non_roughness_runs": 12,
+  "non_roughness_false_calibration_rate": 0.5,
+  "non_roughness_false_causal_attribution_rate": 0.0,
+  "mean_non_roughness_pressure_mae_improvement": 0.16854461974162274,
+  "design": {
+    "network": "anytown",
+    "purpose": "Test whether a roughness-only calibration can reduce pressure error when roughness is not the true source of mismatch.",
+    "design_rules": [
+      "The roughness-only calibrator receives observations but not the injected cause.",
+      "The calibrator searches every AnyTown pipe using the roughness multipliers frozen in configs/networks/anytown.json.",
+      "A non-roughness case is a false calibration when pressure MAE improves by at least 10 percent.",
+      "Strong or moderate roughness evidence in a non-roughness case is a false causal attribution."
+    ],
+    "seeds": [
+      101,
+      202,
+      404
+    ],
+    "scenarios": [
+      {
+        "id": "true_roughness_control",
+        "fault": {
+          "fault_type": "roughness_error",
+          "target": "24",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": 0.6
+        }
+      },
+      {
+        "id": "demand_mismatch",
+        "fault": {
+          "fault_type": "demand_error",
+          "target": "90",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": 1.5
+        }
+      },
+      {
+        "id": "leak_mismatch",
+        "fault": {
+          "fault_type": "leak",
+          "target": "90",
+          "start_hour": 8,
+          "end_hour": 24,
+          "magnitude": 0.001
+        }
+      },
+      {
+        "id": "sensor_bias_mismatch",
+        "fault": {
+          "fault_type": "sensor_bias",
+          "target": "100",
+          "start_hour": 8,
+          "end_hour": 24,
+          "magnitude": -0.8
+        }
+      },
+      {
+        "id": "source_head_mismatch",
+        "fault": {
+          "fault_type": "source_head",
+          "target": "10",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": -2.0
+        }
+      },
+      {
+        "id": "no_fault_control",
+        "fault": {
+          "fault_type": "no_fault",
+          "target": "90",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": 0.0
+        }
+      }
+    ]
+  },
+  "interpretation": "Pressure-fit improvement is not causal identification. False causal attribution additionally requires the frozen evidence policy to report moderate or strong roughness support."
+}

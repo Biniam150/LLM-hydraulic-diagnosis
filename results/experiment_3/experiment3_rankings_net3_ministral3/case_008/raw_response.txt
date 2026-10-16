@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "Largest residuals cluster at **sensor 231** (min: **-0.117 m**) and nearby sensors (219, 253), with **pressure-direction mismatch** and **onset at hour 5** (likely a leak). Demand errors are plausible due to localized pressure drops, but roughness errors and sensor bias are less likely given the **spatial pattern** and **magnitude of residuals**."
+}

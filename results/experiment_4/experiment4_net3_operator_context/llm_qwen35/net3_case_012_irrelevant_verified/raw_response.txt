@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "Operational records confirm no physical changes occurred during the observation window, but they do not identify a specific asset or mechanism to test for the 'unknown_cause' indicated by the diagnostic."
+}

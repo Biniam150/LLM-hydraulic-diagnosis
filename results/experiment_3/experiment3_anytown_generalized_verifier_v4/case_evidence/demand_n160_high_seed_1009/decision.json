@@ -1,0 +1,12 @@
+{
+  "outcome": "demand_error",
+  "reason": "sole_cross_split_and_gof_supported_family",
+  "winner": "demand_error",
+  "runner_up": "roughness_error",
+  "balanced_improvement": 0.8623405022973433,
+  "relative_winner_margin": 0.3397943943657415,
+  "winner_validation_gof_pvalue": 0.06862613589926891,
+  "supported_families": [
+    "demand_error"
+  ]
+}

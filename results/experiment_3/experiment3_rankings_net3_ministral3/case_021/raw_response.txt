@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "Pressure residuals show localized, persistent deviations (e.g., sensors **203**, **601**, **40**) with mixed directional trends, strongly suggestive of a **pressure-dependent leak** at a junction. Demand errors and roughness errors are plausible but less likely given the lack of widespread flow changes and sensor bias is unlikely without consistent offset patterns."
+}

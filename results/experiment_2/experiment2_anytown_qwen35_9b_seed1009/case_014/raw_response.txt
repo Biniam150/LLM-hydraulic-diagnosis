@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": "170",
+  "confidence": 0.98,
+  "reasoning": [
+    "Sensor 170 exhibits a massive mean residual (~0.76 m) while all other sensors show negligible residuals (<0.02 m).",
+    "The flow metrics (nrmse ~0.01) and pump status indicate the hydraulic model is accurate, ruling out leaks or demand errors.",
+    "Such an isolated, persistent offset in a single sensor's pressure reading without corresponding network-wide effects confirms a measurement bias."
+  ]
+}

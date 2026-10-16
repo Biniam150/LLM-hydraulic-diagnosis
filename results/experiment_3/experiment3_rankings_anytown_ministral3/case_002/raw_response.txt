@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "sensor_bias", "roughness_error"],
+  "reason": "Pressure residuals show localized, directional shifts (e.g., sensor 50’s large negative mean) and mixed directional changes, strongly suggestive of a pressure-dependent leak or demand error. Sensor bias is plausible due to persistent offsets, but roughness errors are less likely given stable flow metrics."
+}

@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": null,
+  "reason": "The diagnostic outcome is ambiguous, and the only potentially relevant operational record (R1) lacks sufficient reliability or direct testability for a focused hydraulic follow-up test. No temporally aligned, physically verifiable mechanism or asset is identified in the records provided."
+}

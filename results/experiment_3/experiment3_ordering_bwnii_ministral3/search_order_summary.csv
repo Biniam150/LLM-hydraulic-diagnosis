@@ -1,0 +1,4 @@
+policy,exact_outcome_accuracy,accepted_diagnosis_precision,false_attribution_rate,agreement_with_frozen_final,mean_simulations_to_provisional,sd_simulations_to_provisional,mean_full_verdict_simulations,mean_simulation_reduction,sd_simulation_reduction,mean_family_tests_to_provisional
+Fixed order,0.7619047619047619,1.0,0.0,1.0,3186.714285714286,,5061.428571428572,0.3702435118836319,,2.9523809523809526
+Ministral3-8B guided,0.7619047619047619,1.0,0.0,1.0,3799.2380952380954,,5061.428571428572,0.24928701254514438,,3.0476190476190474
+Random order,0.7619047619047619,1.0,0.0,1.0,3999.789142857143,251.43459012574587,5061.428571428572,0.20967965935052643,0.049658498594354124,3.2170476190476194

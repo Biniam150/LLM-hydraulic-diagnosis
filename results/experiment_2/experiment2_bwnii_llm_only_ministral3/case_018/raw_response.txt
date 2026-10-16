@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": "J276",
+  "confidence": 0.95,
+  "reasoning": [
+    "Four sensors (J276, J360, J1058, J379) show large, persistent, and spatially clustered positive pressure residuals (mean > 0.4 m, RMSE > 0.4 m, Z-threshold exceeded) with no negative deviations, strongly suggestive of localized pressure-dependent water loss.",
+    "J276 exhibits the highest residual magnitude (mean = 2.5 m, RMSE = 2.5 m) and is the closest to the largest affected cluster (J360/J1058), reinforcing a localized leak hypothesis.",
+    "Flow residuals are negligible (NRMSE = 0.026) and unchanged, ruling out global demand or roughness errors; sensor bias is unlikely due to the spatial pattern and lack of consistent offsets."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residuals are observed at sensors 253 and 15, which have significant mean pressure deviations.",
+    "There is no clear evidence pointing to a single fault family; both demand error and sensor bias could explain the observed patterns.",
+    "The network context does not provide additional insights that would favor one cause over the other."
+  ]
+}

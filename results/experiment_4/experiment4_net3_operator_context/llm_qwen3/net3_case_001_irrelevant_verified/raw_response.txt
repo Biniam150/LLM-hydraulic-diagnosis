@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "reservoir",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": ["R1", "R2"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Operational records indicate no changes to telemetry, controls, or hydraulic-model inputs, suggesting the issue may stem from an incorrect reservoir or supply-boundary head/set point."
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "109",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensor is '109' with a mean pressure residual of 0.309 m, significantly higher than other sensors.",
+    "Only one sensor ('109') shows a persistent offset, suggesting a bias rather than a widespread issue like demand error or roughness change.",
+    "No clear evidence supports the presence of a leak or significant flow changes."
+  ]
+}

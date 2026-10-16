@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "demand_error",
+  "proposed_target": "node 177",
+  "proposed_onset_hour": 10,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The billing-system software update record supports a demand error at node 177, which is a leading candidate according to the diagnostic results."
+}

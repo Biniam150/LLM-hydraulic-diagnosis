@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residuals are observed in sensors J276, J1058, and J360, which show significant positive deviations from the mean.",
+    "These large residuals persist across multiple sensors, suggesting a localized issue such as a leak rather than sensor bias or demand error.",
+    "The pressure direction is mostly positive, indicating that the issue likely involves water loss."
+  ]
+}

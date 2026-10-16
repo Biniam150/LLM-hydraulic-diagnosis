@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_009",
+  "tier": "matched_model",
+  "scenario_id": "leak_j174_low",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The widespread negative pressure residuals with extreme outliers at multiple sensors strongly indicate a physical outflow (leak), while the lack of localized high-residual patterns makes sensor bias or roughness errors less likely, and demand errors typically do not cause such sustained pressure drops.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2772,
+  "generated_tokens": 84
+}

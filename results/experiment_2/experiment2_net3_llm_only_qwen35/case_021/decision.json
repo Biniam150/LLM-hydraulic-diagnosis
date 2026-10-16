@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_021",
+  "tier": "matched_model",
+  "scenario_id": "no_fault_control",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "true_cause": "no_fault",
+  "true_target": "109",
+  "expected_label": "no_fault",
+  "predicted_label": "no_fault",
+  "predicted_families": "",
+  "predicted_target": null,
+  "confidence": 0.98,
+  "exact_outcome_correct": true,
+  "accepted": false,
+  "false_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3461,
+  "generated_tokens": 104
+}

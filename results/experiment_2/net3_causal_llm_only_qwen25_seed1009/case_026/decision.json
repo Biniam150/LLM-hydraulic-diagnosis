@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_026",
+  "tier": "perturbed_truth_model",
+  "scenario_id": "demand_n109_low",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "demand_error",
+  "true_target": "109",
+  "expected_label": "demand_error",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": "109",
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensor is '109' with a mean pressure residual of 0.309 m, significantly higher than other sensors.\", \"Only one sensor ('109') shows a persistent offset, suggesting a bias rather than a widespread issue like demand error or roughness change.\", \"No clear evidence supports the presence of a leak or significant flow changes.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": false,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

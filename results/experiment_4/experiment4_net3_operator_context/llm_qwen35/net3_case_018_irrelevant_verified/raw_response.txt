@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "Operational records confirm no physical changes occurred, but the diagnostic identified a 'weak cross-split evidence' for a leak at node 601 which requires specific hydraulic validation data to justify a focused test."
+}

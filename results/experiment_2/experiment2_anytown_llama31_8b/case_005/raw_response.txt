@@ -1,0 +1,11 @@
+{
+  "outcome": "no_fault",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 1.0,
+  "reasoning": [
+    "The pressure residuals are small and mixed in direction, indicating that the deviations may be consistent with measurement noise.",
+    "There is no clear indication of a persistent offset affecting one pressure sensor (sensor_bias).",
+    "The largest residual sensors do not show any significant deviation from the mean."
+  ]
+}

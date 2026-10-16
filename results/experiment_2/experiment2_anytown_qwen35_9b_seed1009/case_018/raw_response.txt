@@ -1,0 +1,11 @@
+{
+  "outcome": "no_fault",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.98,
+  "reasoning": [
+    "All pressure residuals are well below the z-score threshold of 3.0.",
+    "Flow noise ratios and RMSE values indicate measurements are consistent with expected sensor noise levels.",
+    "No systematic patterns or directional biases suggest a specific hydraulic fault family."
+  ]
+}

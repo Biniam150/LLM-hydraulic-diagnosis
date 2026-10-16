@@ -1,0 +1,7 @@
+scenario_id,true_cause,runs,mean_pressure_mae_improvement,false_calibration_rate,false_causal_attribution_rate,mean_pressure_noise_ratio,mean_flow_noise_ratio
+demand_mismatch,demand_error,3,0.37927657840528806,1.0,0.0,55.787977028231275,1.1134842641772
+leak_mismatch,leak,3,-0.08567440854156737,0.0,0.0,5.076940471464652,1.0903234272360023
+no_fault_control,no_fault,3,0.0012640445956607139,0.0,0.0,0.9577676771465854,1.0759313242116857
+sensor_bias_mismatch,sensor_bias,3,-0.01948918080231135,0.0,0.0,7.423077708645135,1.069276634291005
+source_head_mismatch,source_head,3,0.40006548990508173,1.0,0.0,6.048039255948539,1.9868410548949225
+true_roughness_control,roughness_error,3,0.7237937826401429,0.0,0.0,0.9583368066407876,1.075452863134952

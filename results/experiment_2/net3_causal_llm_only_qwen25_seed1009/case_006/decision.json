@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_006",
+  "tier": "matched_model",
+  "scenario_id": "demand_n119_mild",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "demand_error",
+  "true_target": "119",
+  "expected_label": "demand_error",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "leak,roughness_error",
+  "predicted_target": null,
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensors (40, 231, 203) show mixed pressure changes without a clear pattern that would indicate a single fault family.\", \"Sensor 40 and 231 are close to each other but not directly connected, suggesting the issue might be related to roughness or demand error rather than a localized leak.\", \"The lack of significant flow changes and the presence of mixed pressure residuals across multiple sensors point towards either roughness errors or demand errors.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": false,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

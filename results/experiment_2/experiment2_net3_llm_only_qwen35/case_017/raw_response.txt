@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "601",
+  "confidence": 0.92,
+  "reasoning": [
+    "Sensor 601 exhibits a massive positive residual (mean +0.95m, RMSE 7.47m) compared to the consistent negative residuals of all other sensors.",
+    "The pressure_direction is mostly_negative across the network, indicating a system-wide pressure drop typical of unmodeled demand or leakage, but sensor 601 behaves inversely (high residual), suggesting it is not measuring true pressure correctly due to a leak event nearby causing localized dynamics or the model failing to account for a specific loss at that node.",
+    "Given the high magnitude of the outlier and the fact that all other sensors show coherent negative deviations, the most defensible conclusion is a physical leak affecting the local hydraulics captured by sensor 601, rather than a sensor bias (which would likely be constant) or roughness error."
+  ]
+}

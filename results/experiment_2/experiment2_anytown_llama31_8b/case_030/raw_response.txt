@@ -1,0 +1,11 @@
+{
+  "outcome": "unknown_cause",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.5,
+  "reasoning": [
+    "The residual summary indicates a mixed or small pressure direction with a threshold of 0.09 m.",
+    "There is only one affected sensor, and the largest residuals are found at sensors 170, 150, and 100.",
+    "The pressure residuals by sensor show varying magnitudes and directions, indicating no clear pattern."
+  ]
+}

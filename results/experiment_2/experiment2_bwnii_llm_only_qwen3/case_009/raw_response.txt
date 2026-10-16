@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "J379",
+  "confidence": 0.95,
+  "reasoning": [
+    "The largest residual sensor J379 shows a mean pressure drop of -0.68 m and an RMSE of 1.17 m, indicating a significant and persistent offset.",
+    "Multiple sensors (J379, J1058, J360) exhibit large negative residuals, suggesting a systematic bias rather than random noise.",
+    "The pressure direction is mostly negative, and the affected sensors are spatially clustered, supporting a sensor-specific bias rather than a network-wide issue."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_010",
+  "tier": "matched_model",
+  "scenario_id": "leak_n119_mild",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Extreme localized pressure residuals (e.g., sensor **601** with **RMSE=7.64m**, **max=26.52m**) and widespread negative pressure drops across **12 sensors** strongly suggest a **pressure-dependent leak**, while demand errors and sensor bias are plausible but less consistent with the magnitude and spatial pattern.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3418,
+  "generated_tokens": 112
+}

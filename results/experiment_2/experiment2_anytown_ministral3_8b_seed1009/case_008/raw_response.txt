@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["sensor_bias", "demand_error"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "Five pressure sensors exhibit consistent negative residuals (mean < -0.09 m) with large magnitude (>3σ threshold), suggesting systematic bias or demand misalignment.",
+    "Sensors are geographically dispersed (shortest-path distances vary), reducing likelihood of a localized leak or roughness error affecting all simultaneously.",
+    "Flow metrics remain stable (NRMSE=0.01, noise ratio=1.1) and unchanged, ruling out flow-related faults like leaks or pump issues."
+  ]
+}

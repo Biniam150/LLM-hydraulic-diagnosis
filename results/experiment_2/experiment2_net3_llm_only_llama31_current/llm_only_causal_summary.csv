@@ -1,0 +1,2 @@
+tier,method,model,runs,exact_outcome_accuracy,known_family_accuracy,known_family_coverage,accepted_known_diagnoses,accepted_diagnosis_precision,false_attribution_rate,false_roughness_attribution_rate,true_roughness_sensitivity,unknown_cause_recall,no_fault_recall,target_accuracy_when_family_correct,valid_output_rate,mean_confidence,mean_confidence_correct,mean_confidence_incorrect
+matched_model,llm_only,llama3.1:8b,21,0.14285714285714285,0.0,0.0,6,0.0,0.2857142857142857,0.0,0.0,0.75,0.0,,1.0,0.22857142857142856,0.0,0.26666666666666666

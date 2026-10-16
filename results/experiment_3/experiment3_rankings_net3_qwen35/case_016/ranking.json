@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_016",
+  "tier": "matched_model",
+  "scenario_id": "bias_s157_late",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The massive, persistent pressure residual at sensor 157 (mean ~0.74m) far exceeds the threshold and is isolated to a single sensor, strongly indicating a sensor bias or offset rather than a network-wide leak or demand error, while the mixed pressure direction and lack of flow change make roughness errors less likely.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3360,
+  "generated_tokens": 99
+}

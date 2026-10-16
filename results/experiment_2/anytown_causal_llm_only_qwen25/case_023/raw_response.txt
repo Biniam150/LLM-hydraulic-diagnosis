@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "roughness_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "The pressure residuals across multiple sensors suggest a complex issue that could be due to either demand error, roughness changes in pipes, or sensor biases.",
+    "No single family of faults stands out as the primary cause given the widespread nature and variability of the residuals.",
+    "The presence of large negative mean residuals indicates potential issues with demand or pressure measurements."
+  ]
+}

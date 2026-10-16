@@ -1,0 +1,2 @@
+model,runs,exact_outcome_accuracy,known_family_accuracy,detectable_known_family_accuracy,accepted_diagnosis_precision,diagnostic_coverage,false_attribution_rate,unknown_cause_recall,no_fault_recall,target_accuracy_when_family_correct,mean_logical_hydraulic_simulations
+Frozen deterministic order,21,0.7619047619047619,0.6875,1.0,1.0,0.5238095238095238,0.0,1.0,1.0,0.8181818181818182,5061.428571428572

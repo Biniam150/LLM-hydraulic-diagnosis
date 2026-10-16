@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "109",
+  "confidence": 0.8,
+  "reasoning": [
+    "Single sensor (109) exhibits persistent, large positive residuals (>3σ threshold) with no negative values, suggesting a systematic offset rather than dynamic error.",
+    "Nearby sensors show minimal residual deviation (<0.1m RMSE), ruling out localized demand or roughness errors as primary causes.",
+    "Flow metrics remain stable (NRMSE=0.011, noise ratio=1.1) and unchanged, excluding leaks or pump/demand anomalies."
+  ]
+}

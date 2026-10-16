@@ -1,0 +1,23 @@
+{
+  "model": "ministral-3:8b",
+  "model_label": "Ministral3-8B",
+  "variant_id": "net3_case_002_irrelevant_verified",
+  "base_case_id": "case_002",
+  "scenario_id": "roughness_p123_mild",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "roughness_error",
+  "true_target": "123",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "conflicting",
+  "reason": "invalid structured output",
+  "parse_error": "unsupported record assessment ''",
+  "prompt_tokens": 692,
+  "generated_tokens": 43,
+  "inference_duration_s": 32.5174257
+}

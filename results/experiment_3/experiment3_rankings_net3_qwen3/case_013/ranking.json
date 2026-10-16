@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_013",
+  "tier": "matched_model",
+  "scenario_id": "bias_s109_early",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residual is at sensor 109, which is consistent with a leak hypothesis, and sensor 109 has the shortest path to other affected sensors, supporting a localized cause.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3366,
+  "generated_tokens": 68
+}

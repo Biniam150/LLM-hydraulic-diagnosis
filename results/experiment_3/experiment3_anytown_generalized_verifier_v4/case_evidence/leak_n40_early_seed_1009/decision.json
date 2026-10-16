@@ -1,0 +1,12 @@
+{
+  "outcome": "leak",
+  "reason": "sole_cross_split_and_gof_supported_family",
+  "winner": "leak",
+  "runner_up": "roughness_error",
+  "balanced_improvement": 0.22347871638117617,
+  "relative_winner_margin": 0.22746815843753884,
+  "winner_validation_gof_pvalue": 0.145381066276455,
+  "supported_families": [
+    "leak"
+  ]
+}

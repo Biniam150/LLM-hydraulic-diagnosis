@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.85,
+  "reasoning": [
+    "The largest residuals are observed in sensors 601, 219, and 231, which could be due to a leak or sensor bias.",
+    "The pressure direction is mostly negative, suggesting potential demand error or roughness error affecting the system.",
+    "Multiple families remain plausible given the complexity of the residual patterns."
+  ]
+}

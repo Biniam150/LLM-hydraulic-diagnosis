@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1", "R2"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Administrative and control logs indicate no changes that could affect the hydraulic model, suggesting a potential issue with the source head."
+}

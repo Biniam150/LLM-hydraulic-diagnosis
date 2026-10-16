@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "219",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensor (219) shows a persistent and significant offset, suggesting a bias in the sensor reading.",
+    "No other family of faults is strongly indicated by the residuals; the pressure direction is mixed or small, and there are no clear patterns for leaks or demand errors.",
+    "The affected sensor count is 1, which aligns with the scenario where only one sensor has a persistent bias."
+  ]
+}

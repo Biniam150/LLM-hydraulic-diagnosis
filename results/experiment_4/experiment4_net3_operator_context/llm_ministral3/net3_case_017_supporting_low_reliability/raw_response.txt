@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "Reservoir River",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "insufficient_reliability",
+  "reason": "Operator recollection (R1) suggests a potential reservoir head adjustment, but it lacks verification and is unreliable; however, the *physical testability* of reservoir head adjustment justifies a focused test despite record uncertainty."
+}

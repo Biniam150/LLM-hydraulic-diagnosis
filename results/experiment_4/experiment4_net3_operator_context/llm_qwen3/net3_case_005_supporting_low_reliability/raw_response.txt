@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "roughness_error",
+  "proposed_target": "pipe",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R2"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The high reliability of the control log indicates no unauthorized valve changes, supporting the roughness error family as a plausible mechanism."
+}

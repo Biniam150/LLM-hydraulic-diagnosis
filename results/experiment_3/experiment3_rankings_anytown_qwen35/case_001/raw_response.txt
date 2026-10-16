@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The presence of large, persistent positive pressure residuals at multiple sensors with a high flow noise ratio strongly indicates an unmodeled outflow (leak), while the lack of significant pump or reservoir flow changes makes demand errors less likely than leaks but more plausible than roughness errors given the spatial spread of residuals."
+}

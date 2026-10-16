@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_020",
+  "tier": "matched_model",
+  "scenario_id": "unknown_r1_rise_low",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "ranking": [
+    "leak",
+    "roughness_error",
+    "demand_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residuals are observed at multiple sensors, suggesting a widespread issue like a leak or roughness error. The persistent offsets at sensors are less likely given the short onset window.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2762,
+  "generated_tokens": 64
+}

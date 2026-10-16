@@ -1,0 +1,23 @@
+{
+  "model": "ministral-3:8b",
+  "model_label": "Ministral3-8B",
+  "variant_id": "case_004_conflicting_low_reliability",
+  "base_case_id": "case_004",
+  "scenario_id": "roughness_p34_mild",
+  "context_condition": "conflicting_low_reliability",
+  "experiment3_outcome": "ambiguous_causes",
+  "true_family": "roughness_error",
+  "true_target": "34",
+  "safe_expected_outcome": "ambiguous_causes",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The only temporally relevant record (R1) is unreliable and lacks corroboration, while the hydraulic diagnostic's ambiguous outcome does not provide a physically testable mechanism. Additional information is needed to justify a focused follow-up test.",
+  "parse_error": null,
+  "prompt_tokens": 707,
+  "generated_tokens": 112,
+  "inference_duration_s": 18.9040806
+}

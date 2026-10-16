@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The diagnostic outcome is 'unknown_cause' with no supported family passing the goodness-of-fit test, and the provided operational records only rule out software updates and valve changes without identifying a specific physical mechanism or asset to test."
+}

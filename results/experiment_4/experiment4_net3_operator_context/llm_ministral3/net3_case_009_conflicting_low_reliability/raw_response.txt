@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The only temporally relevant operational record (R1) is unreliable and lacks corroboration, making it impossible to justify a focused hydraulic test for any family. Additional context or corroborating evidence is required."
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.85,
+  "reasoning": [
+    "The largest residuals are observed at multiple sensors, indicating a widespread issue rather than a localized fault.",
+    "The pressure direction is mostly negative, which could be due to any of the listed families affecting flow in the network.",
+    "Given the high number of affected sensors and the variability in their responses, it's plausible that more than one family is contributing to the observed residuals."
+  ]
+}

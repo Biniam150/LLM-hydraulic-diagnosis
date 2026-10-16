@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "J500",
+  "confidence": 0.95,
+  "reasoning": [
+    "Extreme negative pressure residuals (mean: **-36.3 m**, min: **-73.3 m**) at **J500** exceed realistic physical bounds for leaks or demand errors, suggesting a persistent sensor offset.",
+    "All other affected sensors (e.g., **J93**, **J394**) show similarly extreme but less consistent residuals, but **J500** is the most extreme and isolated in magnitude.",
+    "Flow metrics (NMRSE: **0.011**, noise ratio: **1.097**) remain stable, ruling out unmodeled demand or roughness changes as primary causes."
+  ]
+}

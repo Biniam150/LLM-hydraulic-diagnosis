@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "225",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Record R1 confirms a leak at Junction 225 during the diagnostic window, which aligns with the leak family's fitted target."
+}

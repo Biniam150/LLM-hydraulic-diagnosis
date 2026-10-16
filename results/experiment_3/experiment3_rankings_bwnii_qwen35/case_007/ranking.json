@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_007",
+  "tier": "matched_model",
+  "scenario_id": "demand_j93_high",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The presence of large, persistent negative pressure residuals at multiple sensors with significant maximum positive spikes strongly indicates a physical outflow event (leak) rather than demand estimation errors or sensor biases, while roughness errors typically manifest as localized flow mismatches without such widespread pressure anomalies.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2767,
+  "generated_tokens": 86
+}

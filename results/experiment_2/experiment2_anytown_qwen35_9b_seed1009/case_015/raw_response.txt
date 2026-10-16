@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": null,
+  "confidence": 0.92,
+  "reasoning": [
+    "All affected sensors (20 and 70) exhibit consistent negative pressure residuals with no significant flow deviation.",
+    "The magnitude of the residual at sensor 20 is significantly larger than others despite similar network topology distances, suggesting a localized offset rather than a hydraulic fault like a leak or demand error which would typically show different spatial patterns or require mass balance violations not seen in the low NRMSE flows.",
+    "No evidence supports roughness changes (which affect flow/pressure relationships differently) or leaks (which usually cause pressure drops accompanied by specific residual signatures distinct from uniform offsets)."
+  ]
+}

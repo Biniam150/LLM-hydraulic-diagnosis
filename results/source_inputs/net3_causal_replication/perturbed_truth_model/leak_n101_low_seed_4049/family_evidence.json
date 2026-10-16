@@ -1,0 +1,115 @@
+{
+  "leak": {
+    "hypothesis": "leak",
+    "best_parameters": {
+      "node": "103",
+      "area_m2": 0.0005,
+      "start_hour": 0
+    },
+    "training_score_before": 0.02073069400947236,
+    "training_score_after": 0.01201786632283885,
+    "validation_score_before": 0.2842807137010509,
+    "validation_score_after": 0.011261498212401522,
+    "training_improvement": 0.42028634847692065,
+    "validation_improvement": 0.9603859928948817,
+    "pressure_rmse_m": 0.0493313907872381,
+    "flow_nrmse": 0.008387181973715196,
+    "simulations": 276,
+    "result": "moderate_support",
+    "pressure_noise_ratio": 1.6443796929079366,
+    "flow_noise_ratio": 0.8387181973715195,
+    "noise_consistent": false,
+    "evidence_basis": [
+      "post-fit pressure RMSE / configured pressure noise=1.644",
+      "post-fit flow NRMSE / configured flow noise fraction=0.839",
+      "training improvement=0.420",
+      "validation improvement=0.960"
+    ]
+  },
+  "demand_error": {
+    "hypothesis": "demand_error",
+    "best_parameters": {
+      "node": "101",
+      "multiplier": 2.0
+    },
+    "training_score_before": 0.02073069400947236,
+    "training_score_after": 0.012706242059070422,
+    "validation_score_before": 0.2842807137010509,
+    "validation_score_after": 0.012696002846250005,
+    "training_improvement": 0.3870807193784912,
+    "validation_improvement": 0.955339907934799,
+    "pressure_rmse_m": 0.0757972883766669,
+    "flow_nrmse": 0.008279638876925118,
+    "simulations": 460,
+    "result": "moderate_support",
+    "pressure_noise_ratio": 2.52657627922223,
+    "flow_noise_ratio": 0.8279638876925118,
+    "noise_consistent": false,
+    "evidence_basis": [
+      "post-fit pressure RMSE / configured pressure noise=2.527",
+      "post-fit flow NRMSE / configured flow noise fraction=0.828",
+      "training improvement=0.387",
+      "validation improvement=0.955"
+    ]
+  },
+  "roughness_error": {
+    "hypothesis": "roughness_error",
+    "best_parameters": {
+      "pipe": "109",
+      "multiplier": 0.6,
+      "search_scope": "full_network",
+      "candidate_pipe_count": 117
+    },
+    "training_score_before": 0.02073069400947236,
+    "training_score_after": 0.01652647065645707,
+    "validation_score_before": 0.2842807137010509,
+    "validation_score_after": 0.28379275808448184,
+    "training_improvement": 0.20280186235416325,
+    "validation_improvement": 0.001716456984423471,
+    "pressure_rmse_m": 2.2094963034503037,
+    "flow_nrmse": 0.15505543681748135,
+    "simulations": 468,
+    "result": "weak_or_no_support",
+    "pressure_noise_ratio": 73.6498767816768,
+    "flow_noise_ratio": 15.505543681748135,
+    "noise_consistent": false,
+    "evidence_basis": [
+      "post-fit pressure RMSE / configured pressure noise=73.650",
+      "post-fit flow NRMSE / configured flow noise fraction=15.506",
+      "training improvement=0.203",
+      "validation improvement=0.002"
+    ]
+  },
+  "sensor_bias": {
+    "hypothesis": "sensor_bias",
+    "best_parameters": {
+      "sensor": "109",
+      "bias_m": -0.49956237322289593,
+      "bias_bound_mode": "baseline_fraction",
+      "bias_bounds_m": [
+        -2.1337797164916994,
+        2.1337797164916994
+      ],
+      "baseline_pressure_scale_m": 42.675594329833984
+    },
+    "training_score_before": 0.02073069400947236,
+    "training_score_after": 0.016716070505951256,
+    "validation_score_before": 0.2842807137010509,
+    "validation_score_after": 0.2840748788995283,
+    "training_improvement": 0.1936560108256253,
+    "validation_improvement": 0.0007240547515264855,
+    "pressure_rmse_m": 2.2092193811076357,
+    "flow_nrmse": 0.15535369264055582,
+    "simulations": 0,
+    "result": "weak_or_no_support",
+    "pressure_noise_ratio": 73.6406460369212,
+    "flow_noise_ratio": 15.535369264055582,
+    "noise_consistent": false,
+    "evidence_basis": [
+      "post-fit pressure RMSE / configured pressure noise=73.641",
+      "post-fit flow NRMSE / configured flow noise fraction=15.535",
+      "training improvement=0.194",
+      "validation improvement=0.001"
+    ]
+  }
+}

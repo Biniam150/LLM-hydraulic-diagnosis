@@ -1,0 +1,23 @@
+{
+  "model": "ministral-3:8b",
+  "model_label": "Ministral3-8B",
+  "variant_id": "case_049_irrelevant_verified",
+  "base_case_id": "case_049",
+  "scenario_id": "unknown_head165_rise",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "165",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "conflicting",
+  "reason": "invalid structured output",
+  "parse_error": "unsupported record assessment 'none'",
+  "prompt_tokens": 623,
+  "generated_tokens": 157,
+  "inference_duration_s": 26.0313426
+}

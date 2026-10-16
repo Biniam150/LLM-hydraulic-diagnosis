@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_017",
+  "tier": "matched_model",
+  "scenario_id": "unknown_head165_rise",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residuals are observed at sensors 120, 170, and 100, indicating a significant pressure change, which is most consistent with a leak. The widespread impact on multiple sensors suggests a demand error or sensor bias, but the pressure direction being mostly positive points more towards a localized issue like a leak.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1563,
+  "generated_tokens": 97
+}

@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The largest pressure residuals are concentrated at a single sensor (15) with significant negative bias, which is the primary signature of a leak-induced outflow, while the low flow noise ratio and lack of pump changes make demand or roughness errors less likely to explain the localized pressure drop."
+}

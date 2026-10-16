@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": null,
+  "reason": "The diagnostic outcome is inconclusive ('unknown_cause'), and the only temporally relevant operational record (R1) has low reliability. While **sensor_bias** and **leak** are leading candidates from the model, neither record confirms a physically testable mechanism or asset with sufficient confidence. Additional context—such as sensor calibration logs, pressure-time series data, or leak detection survey results—is required to justify a focused follow-up test."
+}

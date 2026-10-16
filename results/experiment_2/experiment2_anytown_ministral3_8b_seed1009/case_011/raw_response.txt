@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "20",
+  "confidence": 0.98,
+  "reasoning": [
+    "Single pressure sensor (20) exhibits large, persistent negative residuals (>3σ threshold) with mean = -0.44 m and RMSE = 0.44 m, while other sensors show negligible deviations.",
+    "Residuals at sensor 20 are consistent in magnitude/direction across the observation window (onset at hour 4, sustained for ≥2 hours).",
+    "Flow residuals remain within noise bounds (NRMSE=0.012, noise ratio=1.16), ruling out hydraulic mismatches like leaks or roughness errors."
+  ]
+}

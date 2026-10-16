@@ -1,0 +1,25 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "case_004_conflicting_low_reliability",
+  "base_case_id": "case_004",
+  "scenario_id": "roughness_p34_mild",
+  "context_condition": "conflicting_low_reliability",
+  "experiment3_outcome": "ambiguous_causes",
+  "true_family": "roughness_error",
+  "true_target": "34",
+  "safe_expected_outcome": "ambiguous_causes",
+  "action": "propose_follow_up_test",
+  "proposed_family": "sensor_bias",
+  "proposed_target": "50",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The preliminary operator note about the pressure channel at Junction 50 suggests a potential sensor bias issue, which aligns with the leading candidate evidence.",
+  "parse_error": null,
+  "prompt_tokens": 661,
+  "generated_tokens": 102,
+  "inference_duration_s": 13.5708019
+}

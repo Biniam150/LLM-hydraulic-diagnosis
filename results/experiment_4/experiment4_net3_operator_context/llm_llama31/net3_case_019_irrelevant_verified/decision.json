@@ -1,0 +1,25 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "net3_case_019_irrelevant_verified",
+  "base_case_id": "case_019",
+  "scenario_id": "unknown_lake_drop",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "Lake",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "node 10",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The billing-system software update and routine valve-status reconciliation records support a focused hydraulic follow-up test for a leak at node 10.",
+  "parse_error": null,
+  "prompt_tokens": 587,
+  "generated_tokens": 101,
+  "inference_duration_s": 14.596131
+}

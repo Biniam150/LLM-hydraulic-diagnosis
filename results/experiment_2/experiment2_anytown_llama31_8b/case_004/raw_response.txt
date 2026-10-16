@@ -1,0 +1,11 @@
+{
+  "outcome": "unknown_cause",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.5,
+  "reasoning": [
+    "The residual summary indicates a mixed or small pressure direction with no affected sensors.",
+    "The largest residuals are observed at sensors 50, 20, and 150, but their magnitudes are not significantly different from the minimum or maximum values.",
+    "There is no clear indication of a leak, demand error, roughness error, or sensor bias in the residual summary."
+  ]
+}

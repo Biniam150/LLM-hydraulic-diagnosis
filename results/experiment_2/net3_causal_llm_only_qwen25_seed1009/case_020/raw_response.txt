@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "109",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensor (109) shows a persistent offset of 0.1713 m, which is significantly above the mean and RMSE.",
+    "Only one sensor (109) is affected, suggesting a localized issue rather than a widespread problem like demand error or roughness error.",
+    "The pressure residuals for other sensors are within normal bounds, indicating that the deviation is not due to general noise."
+  ]
+}

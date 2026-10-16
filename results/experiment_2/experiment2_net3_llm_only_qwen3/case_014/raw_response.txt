@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "253",
+  "confidence": 0.95,
+  "reasoning": [
+    "Sensor 253 shows a large residual with a mean of 0.6575 m, indicating a persistent offset.",
+    "The residual for sensor 253 is significantly higher than other sensors, suggesting a localized issue.",
+    "The pressure direction is mixed or small, which is consistent with a sensor bias rather than a network issue."
+  ]
+}

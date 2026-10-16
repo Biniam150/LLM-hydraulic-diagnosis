@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_004",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p225_high",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "roughness_error",
+  "true_target": "225",
+  "expected_label": "roughness_error",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "leak,roughness_error",
+  "predicted_target": null,
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensors (109, 231) show mixed pressure changes without a clear pattern that would indicate a single fault family.\", \"Sensor 109 shows the most significant negative deviation, which could suggest a leak or roughness error affecting this area.\", \"Sensor 231 shows a positive deviation, which is less indicative of any specific fault family but supports the presence of multiple issues.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": true,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

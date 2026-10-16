@@ -1,0 +1,25 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "case_028_helpful_verified",
+  "base_case_id": "case_028",
+  "scenario_id": "leak_n170_late",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "leak",
+  "true_target": "170",
+  "safe_expected_outcome": "leak",
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "Junction 170",
+  "proposed_onset_hour": 16,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Acoustic activity and wet ground were confirmed adjacent to Junction 170 shortly after 16:00, suggesting a possible leak.",
+  "parse_error": null,
+  "prompt_tokens": 605,
+  "generated_tokens": 101,
+  "inference_duration_s": 21.4648743
+}

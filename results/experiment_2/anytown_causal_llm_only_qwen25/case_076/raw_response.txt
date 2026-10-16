@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "20",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensor is '20', which shows a persistent negative offset, suggesting a bias in the pressure sensor.",
+    "Other sensors show smaller and less consistent deviations, ruling out widespread issues like demand_error or roughness_error.",
+    "The network context indicates that sensor '20' has the shortest path to several other monitored points, making it more likely to be the source of the observed deviation."
+  ]
+}

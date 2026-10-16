@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The largest residuals are observed at sensors 109, 166, and 167, indicating a localized issue, which is most consistent with a leak. The persistent offset at sensor 109 further supports a leak hypothesis. While demand and roughness errors could also cause residuals, the pattern and magnitude suggest a more localized issue fitting a leak scenario."
+}

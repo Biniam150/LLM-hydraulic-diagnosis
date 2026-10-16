@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_014",
+  "tier": "matched_model",
+  "scenario_id": "bias_s253_morning",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residual is at sensor 253, which aligns with a leak hypothesis, as leaks typically cause significant pressure changes at a single sensor.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3364,
+  "generated_tokens": 60
+}

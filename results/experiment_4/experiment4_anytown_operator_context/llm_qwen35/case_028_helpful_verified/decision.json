@@ -1,0 +1,25 @@
+{
+  "model": "qwen3.5:9b",
+  "model_label": "Qwen3.5-9B",
+  "variant_id": "case_028_helpful_verified",
+  "base_case_id": "case_028",
+  "scenario_id": "leak_n170_late",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "leak",
+  "true_target": "170",
+  "safe_expected_outcome": "leak",
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "170",
+  "proposed_onset_hour": 16,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "",
+  "parse_error": null,
+  "prompt_tokens": 669,
+  "generated_tokens": 78,
+  "inference_duration_s": 27.4187971
+}

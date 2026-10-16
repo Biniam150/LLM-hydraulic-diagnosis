@@ -1,0 +1,4 @@
+{
+  "action": "request_more_information",
+  "reason": "No temporally relevant, reliable, and physically testable records exist for a focused hydraulic test. The only candidate family ('leak' at Junction 225) lacks direct, verifiable evidence (e.g., acoustic leak detection or pressure drop confirmation) in operational records, and the 'source_head' family is untested. Record R1 is unreliable/unconfirmed, while R2 is irrelevant to hydraulic diagnostics."
+}

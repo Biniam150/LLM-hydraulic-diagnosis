@@ -1,0 +1,25 @@
+{
+  "model": "qwen3:8b",
+  "model_label": "Qwen3-8B",
+  "variant_id": "net3_case_001_helpful_verified",
+  "base_case_id": "case_001",
+  "scenario_id": "roughness_p60_low",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "roughness_error",
+  "true_target": "60",
+  "safe_expected_outcome": "roughness_error",
+  "action": "propose_follow_up_test",
+  "proposed_family": "roughness_error",
+  "proposed_target": "Pipe 60",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Record R1 indicates that Pipe 60 has not had its hydraulic resistance value updated in the digital twin, suggesting a potential roughness error.",
+  "parse_error": null,
+  "prompt_tokens": 632,
+  "generated_tokens": 106,
+  "inference_duration_s": 69.5724451
+}

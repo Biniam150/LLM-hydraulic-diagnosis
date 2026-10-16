@@ -1,0 +1,238 @@
+{
+  "neutral_case_id": "case_018",
+  "system_prompt": "You are performing blind root-cause diagnosis of a water-distribution digital-twin mismatch. Use only the residual summary and network context provided. You have no candidate hydraulic simulations, parameter fits, evidence scores, scenario labels, or ground truth. Do not assume that one of the modeled fault families must be present. Return only one JSON object.",
+  "user_prompt": {
+    "task": "Select the most defensible diagnostic outcome. Choose a cause family only when the supplied patterns support it. Use ambiguous_causes when multiple listed families remain plausible, unknown_cause when a meaningful mismatch is not explained by the listed families, and no_fault when deviations appear consistent with measurement noise.",
+    "modeled_families": {
+      "leak": "pressure-dependent water loss at one junction",
+      "demand_error": "incorrect nodal demand magnitude",
+      "roughness_error": "incorrect pipe resistance or roughness",
+      "sensor_bias": "persistent offset affecting one pressure sensor"
+    },
+    "allowed_outcomes": [
+      "ambiguous_causes",
+      "demand_error",
+      "leak",
+      "no_fault",
+      "roughness_error",
+      "sensor_bias",
+      "unknown_cause"
+    ],
+    "required_output": {
+      "outcome": "exactly one allowed outcome",
+      "candidate_families": "list of zero or more modeled families; normally one for a single-family outcome",
+      "target": "suspected node, pipe, or sensor identifier, or null",
+      "confidence": "number from 0 to 1",
+      "reasoning": "list containing at most three short statements"
+    },
+    "residual_summary": {
+      "observation_window_hours": 24,
+      "estimated_onset_hour": 0,
+      "onset_min_consecutive": 2,
+      "residual_z_threshold": 3.0,
+      "pressure_threshold_m": 0.09,
+      "pressure_direction": "mixed_or_small",
+      "affected_sensor_count": 0,
+      "affected_sensors": [],
+      "largest_residual_sensors": [
+        "50",
+        "150",
+        "170"
+      ],
+      "pressure_residual_by_sensor": {
+        "20": {
+          "mean_m": 0.011333481658054811,
+          "rmse_m": 0.03039758598015923,
+          "minimum_m": -0.04173623377095481,
+          "maximum_m": 0.071153715192807
+        },
+        "50": {
+          "mean_m": -0.005762565584558198,
+          "rmse_m": 0.037154900901602755,
+          "minimum_m": -0.05750501851323886,
+          "maximum_m": 0.08542163222970567
+        },
+        "70": {
+          "mean_m": -0.00148541127820328,
+          "rmse_m": 0.02245295358681778,
+          "minimum_m": -0.04602353469339171,
+          "maximum_m": 0.05755596071249158
+        },
+        "100": {
+          "mean_m": -0.008125237363280507,
+          "rmse_m": 0.02786083666689592,
+          "minimum_m": -0.07186177258917614,
+          "maximum_m": 0.044234973484140294
+        },
+        "120": {
+          "mean_m": 0.001960635136548825,
+          "rmse_m": 0.028125787861631342,
+          "minimum_m": -0.05863920195554517,
+          "maximum_m": 0.05407542396024145
+        },
+        "150": {
+          "mean_m": -0.0028961163600208337,
+          "rmse_m": 0.03626278942853263,
+          "minimum_m": -0.09439353464190336,
+          "maximum_m": 0.06590308620294394
+        },
+        "170": {
+          "mean_m": 0.013816187842400797,
+          "rmse_m": 0.03209518982627435,
+          "minimum_m": -0.04686598400634334,
+          "maximum_m": 0.06770567551229781
+        }
+      },
+      "monitored_flow_link": "82",
+      "flow_nrmse": 0.011013727401210396,
+      "flow_noise_ratio": 1.1013727401210396,
+      "flow_changed": false,
+      "pump_flow_nrmse": 0.011013727401210396,
+      "pump_flow_noise_ratio": 1.1013727401210396,
+      "pump_flow_changed": false,
+      "available_hypotheses": [
+        "leak",
+        "demand_error",
+        "roughness_error",
+        "sensor_bias",
+        "none"
+      ]
+    },
+    "network_context": {
+      "junction_count": 19,
+      "pipe_count": 40,
+      "reservoir_count": 3,
+      "pump_count": 1,
+      "pressure_sensors": [
+        "20",
+        "50",
+        "70",
+        "100",
+        "120",
+        "150",
+        "170"
+      ],
+      "valid_junctions": [
+        "20",
+        "30",
+        "40",
+        "50",
+        "55",
+        "60",
+        "70",
+        "75",
+        "80",
+        "90",
+        "100",
+        "110",
+        "115",
+        "120",
+        "130",
+        "140",
+        "150",
+        "160",
+        "170"
+      ],
+      "valid_pipes": [
+        "2",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12",
+        "14",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40",
+        "42",
+        "44",
+        "46",
+        "48",
+        "50",
+        "52",
+        "54",
+        "56",
+        "58",
+        "60",
+        "62",
+        "64",
+        "66",
+        "68",
+        "70",
+        "72",
+        "74",
+        "76",
+        "78",
+        "80"
+      ],
+      "sensor_shortest_path_distances": {
+        "20": {
+          "50": 2,
+          "70": 1,
+          "100": 2,
+          "120": 2,
+          "150": 3,
+          "170": 4
+        },
+        "50": {
+          "20": 2,
+          "70": 2,
+          "100": 3,
+          "120": 3,
+          "150": 2,
+          "170": 2
+        },
+        "70": {
+          "20": 1,
+          "50": 2,
+          "100": 1,
+          "120": 3,
+          "150": 2,
+          "170": 4
+        },
+        "100": {
+          "20": 2,
+          "50": 3,
+          "70": 1,
+          "120": 2,
+          "150": 1,
+          "170": 3
+        },
+        "120": {
+          "20": 2,
+          "50": 3,
+          "70": 3,
+          "100": 2,
+          "150": 2,
+          "170": 2
+        },
+        "150": {
+          "20": 3,
+          "50": 2,
+          "70": 2,
+          "100": 1,
+          "120": 2,
+          "170": 2
+        },
+        "170": {
+          "20": 4,
+          "50": 2,
+          "70": 4,
+          "100": 3,
+          "120": 2,
+          "150": 2
+        }
+      }
+    }
+  }
+}

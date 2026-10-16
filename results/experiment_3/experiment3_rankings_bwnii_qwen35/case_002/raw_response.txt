@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The presence of significant pressure residuals at multiple sensors with mixed directions strongly indicates a physical outflow anomaly (leak), while the lack of flow change and uniform residual magnitudes makes demand or roughness errors less likely, and the absence of affected sensor counts rules out persistent sensor bias."
+}

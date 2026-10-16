@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_016",
+  "tier": "matched_model",
+  "scenario_id": "unknown_head10_rise",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Large, consistent positive pressure residuals at multiple sensors (especially **20, 70, 100**) with minimal negative deviations suggest a **pressure-dependent leak** (highest plausibility). Demand errors are plausible but less likely given the widespread, spatially clustered residuals. Sensor bias is possible but unlikely due to the magnitude and consistency of residuals across sensors. Roughness errors are least likely as they typically cause localized, smaller deviations.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1600,
+  "generated_tokens": 120
+}

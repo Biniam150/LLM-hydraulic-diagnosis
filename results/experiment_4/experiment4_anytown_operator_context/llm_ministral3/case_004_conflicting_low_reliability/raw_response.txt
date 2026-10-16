@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The only temporally relevant record (R1) is unreliable and lacks corroboration, while the hydraulic diagnostic's ambiguous outcome does not provide a physically testable mechanism. Additional information is needed to justify a focused follow-up test."
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "no_fault",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.98,
+  "reasoning": [
+    "All pressure residuals are well below the z-score threshold of 3.0.",
+    "The maximum residual magnitude is approximately 0.13 m, which corresponds to a negligible physical deviation relative to typical system pressures (approx 4-5 bar).",
+    "Flow metrics show no change and noise ratios consistent with measurement uncertainty."
+  ]
+}

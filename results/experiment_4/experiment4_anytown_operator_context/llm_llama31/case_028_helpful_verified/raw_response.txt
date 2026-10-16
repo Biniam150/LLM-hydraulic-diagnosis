@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "Junction 170",
+  "proposed_onset_hour": 16,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Acoustic activity and wet ground were confirmed adjacent to Junction 170 shortly after 16:00, suggesting a possible leak."
+}

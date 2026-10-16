@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this research code and benchmark."
+type: software
+title: "Diagnosing Model-Observation Discrepancies in Water Distribution Networks with Local Large Language Models"
+authors:
+  - family-names: Tsegay
+    given-names: Biniam Abrha
+  - family-names: Peleato
+    given-names: Nicolás M
+version: 0.1.0

@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "reservoir",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R2"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The verified routine control log confirms no unauthorized valve changes, suggesting the issue may lie in boundary conditions like reservoir head set points."
+}

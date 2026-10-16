@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual pressure sensor is 120, which has a mean residual of -0.49286177198289083 m.",
+    "Sensor 120 is also the most affected sensor, with a pressure threshold exceeded for mostly negative values.",
+    "The estimated onset hour is 11, and the onset_min_consecutive is 2 hours."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_020",
+  "tier": "matched_model",
+  "scenario_id": "unknown_lake_rise",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residual sensor (109) and affected sensor (109) are closely linked to the leak hypothesis, showing high mean and RMSE values, suggesting a more plausible cause.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3341,
+  "generated_tokens": 68
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (40, 231, 203) show mixed pressure changes without a clear pattern that would indicate a single fault family.",
+    "Sensor 40 and 231 are close to each other but not directly connected, suggesting the issue might be related to roughness or demand error rather than a localized leak.",
+    "The lack of significant flow changes and the presence of mixed pressure residuals across multiple sensors point towards either roughness errors or demand errors."
+  ]
+}

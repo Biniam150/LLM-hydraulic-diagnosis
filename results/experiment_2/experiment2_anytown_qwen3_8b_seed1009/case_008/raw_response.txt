@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "sensor_bias", "demand_error"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "Multiple pressure sensors (50, 150, 100) show large negative residuals, suggesting a possible localized pressure drop.",
+    "The affected sensors are spatially distributed, which could indicate a leak or a sensor bias issue.",
+    "The flow residuals are within acceptable noise levels, reducing the likelihood of a demand or roughness error."
+  ]
+}

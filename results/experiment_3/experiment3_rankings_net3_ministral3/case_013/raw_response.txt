@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Large, persistent negative pressure residual at sensor **109** (mean = -0.45 m, RMSE = 0.45 m) with minimal flow changes suggests a **pressure-dependent leak** at a junction, while demand errors or sensor bias are plausible but less likely given the localized, consistent magnitude and spatial isolation."
+}

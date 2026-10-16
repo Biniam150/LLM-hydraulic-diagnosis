@@ -1,0 +1,20 @@
+{
+  "experiment": "BWN-II frozen-verifier search-order ablation",
+  "configured_families": [
+    "sensor_bias",
+    "leak",
+    "demand_error",
+    "roughness_error"
+  ],
+  "fixed_order": [
+    "sensor_bias",
+    "leak",
+    "demand_error",
+    "roughness_error"
+  ],
+  "minimum_split_improvement": 0.02,
+  "held_out_gof_alpha": 0.05,
+  "random_replicates": 500,
+  "random_seed": 20260902,
+  "interpretation": "A provisional result is the first physically supported family. The authoritative frozen verdict still requires exhaustive comparison."
+}

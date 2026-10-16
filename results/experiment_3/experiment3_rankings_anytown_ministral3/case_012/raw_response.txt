@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Single sensor (70) shows extreme, persistent positive pressure residuals (mean=0.65m, RMSE=0.65m) with no negative values, strongly suggesting a **pressure-dependent leak** near the sensor. Demand errors or sensor bias are plausible but less likely given the magnitude and consistency of the residual."
+}

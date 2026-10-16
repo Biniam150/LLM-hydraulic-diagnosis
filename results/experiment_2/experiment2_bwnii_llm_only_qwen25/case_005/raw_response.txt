@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (J345, J296, J1058) show significant negative pressure residuals, indicating a potential leak.",
+    "There are no affected sensors or nodal demand issues reported, and the flow metrics have not changed, ruling out demand_error and roughness_error.",
+    "The mixed direction of residual changes (negative for some, positive for others) does not support sensor_bias."
+  ]
+}

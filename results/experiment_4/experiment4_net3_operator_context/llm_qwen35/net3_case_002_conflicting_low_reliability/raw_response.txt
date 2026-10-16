@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The preliminary note regarding a potential sensor offset lacks corroboration and is marked as low reliability, making it insufficient to justify a specific follow-up test."
+}

@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_005",
+  "tier": "matched_model",
+  "scenario_id": "demand_n115_high",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The presence of significant pressure residuals across multiple sensors with mixed directions and no affected sensor count strongly indicates a physical outflow event like a leak, while the lack of flow change rules out demand errors and low noise ratios rule out sensor bias or roughness issues.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1565,
+  "generated_tokens": 95
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "J276,J360,J1058",
+  "confidence": 0.95,
+  "reasoning": [
+    "Multiple sensors (J276, J360, J1058) exhibit high residual values with large RMSE and extreme maximum values, suggesting persistent offset.",
+    "The pressure residuals are mostly positive, which aligns with a sensor bias pattern rather than a dynamic issue like a leak or demand error.",
+    "The affected sensors are spatially distributed, but their residuals are not correlated with flow or pressure patterns, supporting a sensor bias hypothesis."
+  ]
+}

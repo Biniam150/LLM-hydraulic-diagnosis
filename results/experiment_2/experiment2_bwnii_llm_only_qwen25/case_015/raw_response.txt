@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": "J345",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensor, J345, shows a significant mean pressure deviation of -0.8039 MPa with a large standard deviation (RMSE = 0.8045 MPa), indicating a substantial and persistent anomaly.",
+    "This pattern is consistent with the modeled family 'leak', which suggests a pressure-dependent water loss at one junction, likely J345 given its largest residual value.",
+    "No other sensor shows similarly large deviations, ruling out widespread issues like demand_error or roughness_error."
+  ]
+}

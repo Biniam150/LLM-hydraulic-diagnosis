@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The massive residual at sensor 601 combined with widespread negative pressure deviations across the network strongly indicates a physical outflow event (leak) rather than demand estimation errors, pipe roughness changes, or isolated sensor bias."
+}

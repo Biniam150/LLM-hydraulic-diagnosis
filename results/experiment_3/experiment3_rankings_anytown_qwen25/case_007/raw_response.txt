@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "roughness_error", "demand_error", "sensor_bias"],
+  "reason": "The largest residuals are observed at sensors 50 and 150, suggesting a localized issue, which is more consistent with a leak or roughness error. The persistent nature of the residuals across multiple sensors points towards a demand error, while a sensor bias would be less likely given the scale of the residuals."
+}

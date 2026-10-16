@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_019",
+  "tier": "matched_model",
+  "scenario_id": "unknown_r1_drop_high",
+  "observation_seed": 1009,
+  "model": "llama3.1:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The ranking is based on the residual summary and compact topology, with the most plausible cause family being the one with the largest residual values and the most affected sensors.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1740,
+  "generated_tokens": 68
+}

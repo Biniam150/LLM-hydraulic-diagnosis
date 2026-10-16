@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": null,
+  "confidence": 0.94,
+  "reasoning": [
+    "All seven pressure sensors exhibit positive residuals with no flow change or pump anomalies.",
+    "The spatial distribution of errors is widespread rather than localized to a single pipe segment typical of leaks.",
+    "Sensor-specific statistics (mean and RMSE) indicate persistent offsets consistent with calibration drift."
+  ]
+}

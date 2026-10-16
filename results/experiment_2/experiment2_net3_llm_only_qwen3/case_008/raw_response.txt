@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": "231",
+  "confidence": 0.85,
+  "reasoning": [
+    "The largest residual sensors include 231, which is associated with a junction that may be experiencing pressure-dependent water loss.",
+    "The pressure residuals for sensor 231 show a consistent negative deviation, suggesting a possible leak at that junction.",
+    "The sensor's shortest path distance to other affected sensors indicates localized pressure anomalies, supporting a leak hypothesis."
+  ]
+}

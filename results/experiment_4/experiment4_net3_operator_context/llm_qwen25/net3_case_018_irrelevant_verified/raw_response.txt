@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1", "R2"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Records R1 and R2 provide high-reliability evidence that does not support or contradict the leading candidates, thus no follow-up test is justified based on the current information."
+}

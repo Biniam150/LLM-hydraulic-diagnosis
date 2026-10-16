@@ -1,0 +1,25 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "case_043_helpful_verified",
+  "base_case_id": "case_043",
+  "scenario_id": "unknown_head10_drop",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "10",
+  "safe_expected_outcome": "source_head",
+  "action": "propose_follow_up_test",
+  "proposed_family": "sensor_bias",
+  "proposed_target": "20",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The operational record R1 indicates a possible sensor bias, which is the leading candidate cause according to the diagnostic results.",
+  "parse_error": null,
+  "prompt_tokens": 608,
+  "generated_tokens": 95,
+  "inference_duration_s": 19.5658649
+}

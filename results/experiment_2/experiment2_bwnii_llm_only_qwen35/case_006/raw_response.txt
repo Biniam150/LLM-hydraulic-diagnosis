@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "J1058",
+  "confidence": 0.92,
+  "reasoning": [
+    "Sensor J1058 exhibits a massive negative pressure residual (-0.82m) compared to all others (<0.09m), far exceeding the threshold.",
+    "The residual pattern is localized to a single sensor with no significant flow anomalies detected in monitored links.",
+    "This signature matches a pressure-dependent water loss (leak) at the specific junction rather than a network-wide demand or roughness error."
+  ]
+}

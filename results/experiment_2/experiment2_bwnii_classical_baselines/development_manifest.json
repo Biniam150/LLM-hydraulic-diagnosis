@@ -1,0 +1,24 @@
+{
+  "network": "BWNII cross-network evaluation profile",
+  "training_cases": 230,
+  "validation_cases": 85,
+  "training_seeds": [
+    1103,
+    2207,
+    3301,
+    4409,
+    5501
+  ],
+  "validation_seeds": [
+    6607,
+    7703,
+    8807,
+    9901,
+    11113
+  ],
+  "test_cases_generated_here": false,
+  "test_set": "a separate frozen Experiment 2 seed-1009 benchmark",
+  "source_head_in_development_data": false,
+  "same_family_target_overlap_with_frozen_test": false,
+  "failures": []
+}

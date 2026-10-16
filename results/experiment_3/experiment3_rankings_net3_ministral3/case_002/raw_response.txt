@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "Pressure residuals show localized, spatially clustered anomalies (e.g., sensors **203**, **157**, **20**) with mixed directional deviations, strongly suggestive of a pressure-dependent outflow (leak) rather than systematic sensor bias or uniform demand/roughness errors."
+}

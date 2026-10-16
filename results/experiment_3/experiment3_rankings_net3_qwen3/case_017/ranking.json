@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_017",
+  "tier": "matched_model",
+  "scenario_id": "unknown_river_drop",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The pressure residuals show mostly negative trends with high variability, suggesting a leak as the most plausible cause, followed by demand errors due to their impact on pressure.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3353,
+  "generated_tokens": 60
+}

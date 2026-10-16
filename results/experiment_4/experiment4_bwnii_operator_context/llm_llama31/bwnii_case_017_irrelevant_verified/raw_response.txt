@@ -1,0 +1,6 @@
+{
+  "action": "request_more_information",
+  "record_assessment": "reliable_and_relevant",
+  "cited_record_ids": ["R1", "R2"],
+  "reason": "Insufficient information to propose a focused hydraulic follow-up test."
+}

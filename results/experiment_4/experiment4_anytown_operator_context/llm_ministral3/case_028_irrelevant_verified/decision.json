@@ -1,0 +1,23 @@
+{
+  "model": "ministral-3:8b",
+  "model_label": "Ministral3-8B",
+  "variant_id": "case_028_irrelevant_verified",
+  "base_case_id": "case_028",
+  "scenario_id": "leak_n170_late",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "leak",
+  "true_target": "170",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The diagnostic outcome is inconclusive due to weak cross-split evidence, and the operational records (R1, R2) do not provide physically testable or temporally specific mechanisms for any family. No reliable, actionable hydraulic mechanism (e.g., leak location, sensor bias magnitude, pipe roughness change) is identifiable from the given data.",
+  "parse_error": null,
+  "prompt_tokens": 700,
+  "generated_tokens": 136,
+  "inference_duration_s": 21.1944878
+}

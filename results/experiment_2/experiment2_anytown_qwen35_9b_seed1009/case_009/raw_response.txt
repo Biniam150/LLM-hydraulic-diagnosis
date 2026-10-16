@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": null,
+  "confidence": 0.85,
+  "reasoning": [
+    "Pressure residuals show a consistent negative mean across multiple sensors (120, 170) without corresponding flow changes.",
+    "The monitored flow link and pump flows exhibit negligible noise ratios (< 0.02 NRMSE), ruling out demand errors or leaks as primary drivers.",
+    "A persistent offset affecting specific pressure sensors is the only hypothesis consistent with static-like negative deviations in a stable network."
+  ]
+}

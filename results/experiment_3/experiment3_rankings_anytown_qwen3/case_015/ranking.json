@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_015",
+  "tier": "matched_model",
+  "scenario_id": "unknown_head10_drop",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residual pressures and affected sensors align more with a leak hypothesis, which typically causes widespread negative pressure changes, compared to localized errors like demand or roughness issues.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1557,
+  "generated_tokens": 62
+}

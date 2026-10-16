@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "sensor_bias",
+  "proposed_target": "sensor 20",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": ["R1", "R2"],
+  "record_assessment": "insufficient_reliability",
+  "reason": "Record R1 suggests a potential sensor bias but has low reliability, while R2 confirms no valve changes, supporting the need for a focused sensor bias test."
+}

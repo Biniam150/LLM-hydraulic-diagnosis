@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_003",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p98_low",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residuals are observed at J1058 and J379, which are both affected sensors, and the pressure residuals are mostly negative, suggesting a leak or demand error. The large magnitude of residuals at these sensors is more indicative of a leak than a sensor bias. Roughness error could also cause significant pressure changes, but the pattern of residuals is more consistent with a localized issue like a leak or demand error.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2775,
+  "generated_tokens": 115
+}

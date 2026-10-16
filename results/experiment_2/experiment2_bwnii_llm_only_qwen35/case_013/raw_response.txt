@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": "J70",
+  "confidence": 0.95,
+  "reasoning": [
+    "Sensor J70 exhibits a massive, persistent positive mean residual (0.40m) significantly exceeding the threshold and all other sensors.",
+    "The residual at J70 is spatially isolated with no propagation pattern to neighbors, which rules out demand errors or leaks affecting the network topology.",
+    "The flow link P316 shows negligible noise and no change, indicating the digital twin's hydraulic balance is correct and the error is strictly local to the pressure measurement."
+  ]
+}

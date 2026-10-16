@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_005",
+  "tier": "matched_model",
+  "scenario_id": "demand_n115_high",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Largest residuals (sensors **150**, **170**, **50**) exhibit **persistent, spatially localized pressure deviations** (RMSE > 0.036 m, mixed direction) with **no sensor bias** (affected_sensor_count=0) and **no flow changes**, strongly suggesting a **pressure-dependent leak** or **demand error** at a junction.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1617,
+  "generated_tokens": 115
+}

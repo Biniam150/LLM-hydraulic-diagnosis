@@ -1,0 +1,26 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "net3_case_008_irrelevant_verified",
+  "base_case_id": "case_008",
+  "scenario_id": "demand_n231_high",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "ambiguous_causes",
+  "true_family": "demand_error",
+  "true_target": "231",
+  "safe_expected_outcome": "ambiguous_causes",
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "reservoir",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1",
+    "R2"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Administrative and control logs indicate no changes in telemetry or valve status, suggesting the issue might be with the source head.",
+  "parse_error": null,
+  "prompt_tokens": 642,
+  "generated_tokens": 101,
+  "inference_duration_s": 32.1165482
+}

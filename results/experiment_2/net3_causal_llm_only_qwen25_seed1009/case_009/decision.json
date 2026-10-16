@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_009",
+  "tier": "matched_model",
+  "scenario_id": "leak_n101_low",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "leak",
+  "true_target": "101",
+  "expected_label": "leak",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "leak,demand_error,sensor_bias",
+  "predicted_target": null,
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residuals are observed in sensors 601 and 109, with significant deviations from the mean.\", \"Multiple families (leak, demand error, sensor bias) could explain the observed pressure residuals across multiple nodes.\", \"While there is a notable pressure residual at sensor 601, the pattern does not strongly indicate a single fault family.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": true,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

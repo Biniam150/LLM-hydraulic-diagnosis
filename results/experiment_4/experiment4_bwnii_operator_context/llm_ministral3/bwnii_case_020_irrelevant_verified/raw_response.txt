@@ -1,0 +1,4 @@
+{
+  "action": "request_more_information",
+  "reason": "No physically testable mechanism or asset is reliably linked to a temporally relevant operational record for any family. The operational records (R1, R2) are either irrelevant to hydraulic testable families (e.g., software updates to billing systems or valve-status logs) or lack direct evidence of a testable mechanism (e.g., no leak, sensor, pipe, or reservoir identifier tied to a measurable change)."
+}

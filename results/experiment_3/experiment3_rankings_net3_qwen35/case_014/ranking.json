@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_014",
+  "tier": "matched_model",
+  "scenario_id": "bias_s253_morning",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The large positive pressure residual at sensor 253 combined with mixed/small pressure directions and a single affected sensor strongly indicates a physical outflow (leak) rather than demand or roughness errors, while the lack of flow change rules out significant demand shifts.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3360,
+  "generated_tokens": 96
+}

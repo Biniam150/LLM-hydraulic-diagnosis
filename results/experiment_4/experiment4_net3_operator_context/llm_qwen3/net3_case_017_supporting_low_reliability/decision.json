@@ -1,0 +1,25 @@
+{
+  "model": "qwen3:8b",
+  "model_label": "Qwen3-8B",
+  "variant_id": "net3_case_017_supporting_low_reliability",
+  "base_case_id": "case_017",
+  "scenario_id": "unknown_river_drop",
+  "context_condition": "supporting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "River",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "Reservoir River",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The record suggests a potential temporary set-point adjustment at Reservoir River, but its reliability is low due to lack of verification.",
+  "parse_error": null,
+  "prompt_tokens": 630,
+  "generated_tokens": 100,
+  "inference_duration_s": 15.1051455
+}

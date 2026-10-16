@@ -1,0 +1,10 @@
+{
+  "outcome": "unknown_cause",
+  "reason": "no_supported_family_passes_absolute_held_out_gof",
+  "winner": "leak",
+  "runner_up": "roughness_error",
+  "balanced_improvement": 0.9626064814453048,
+  "relative_winner_margin": 0.95029610466082,
+  "winner_validation_gof_pvalue": 6.724672416219963e-30,
+  "supported_families": []
+}

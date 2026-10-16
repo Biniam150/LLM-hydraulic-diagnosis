@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_087",
+  "tier": "perturbed_truth_model",
+  "scenario_id": "unknown_head10_drop",
+  "observation_seed": 4049,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "source_head",
+  "true_target": "10",
+  "expected_label": "unknown_cause",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": null,
+  "confidence": 0.85,
+  "reasoning": "[\"The largest residual sensors are located at the edges of the network, suggesting a potential bias in sensor readings.\", \"The pressure residuals for these sensors are consistently negative and outside the expected noise range, indicating a systematic error rather than random measurement noise or a localized fault like a leak.\", \"No significant flow changes were observed, ruling out demand_error or roughness_error as primary causes.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": false,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

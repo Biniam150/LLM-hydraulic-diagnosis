@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "170",
+  "confidence": 0.95,
+  "reasoning": [
+    "Sensor 170 shows an extremely high residual (mean 0.7646 m, RMSE 0.7649 m), indicating a persistent offset.",
+    "The pressure direction is mostly positive, suggesting a systematic bias rather than a transient event.",
+    "The residual magnitude for sensor 170 is significantly higher than the threshold (0.09 m), supporting a sensor bias hypothesis."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "conflicting",
+  "reason": "The operational records indicate a supply set point change that was not propagated to the digital twin, which directly contradicts the model's 'source_head' hypothesis but lacks specific details on the magnitude or timing of the physical boundary condition required to configure a precise follow-up test."
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "no_fault",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.98,
+  "reasoning": [
+    "All pressure sensor residuals are well below the z-score threshold of 3.0.",
+    "Flow noise ratios and NRMSE values indicate measurements are consistent with expected stochastic variability rather than systematic bias or loss.",
+    "No single node or pipe exhibits a distinct pattern indicative of leakage, demand error, roughness change, or sensor offset."
+  ]
+}

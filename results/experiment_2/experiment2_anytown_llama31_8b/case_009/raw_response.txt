@@ -1,0 +1,11 @@
+{
+  "outcome": "no_fault",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 1.0,
+  "reasoning": [
+    "The pressure_residual_by_sensor values are generally small and within the threshold.",
+    "There is no clear indication of a persistent offset affecting one pressure sensor.",
+    "The largest residual sensors do not show any significant deviations."
+  ]
+}

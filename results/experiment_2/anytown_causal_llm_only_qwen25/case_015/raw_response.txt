@@ -1,0 +1,10 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error"],
+  "target": null,
+  "confidence": 0.6,
+  "reasoning": [
+    "The largest residual sensors (120, 150) show mixed pressure changes, which could be due to either a leak or roughness error.",
+    "No single family can be definitively identified as the cause given the mixed nature of the residuals and lack of clear sensor bias or demand error."
+  ]
+}

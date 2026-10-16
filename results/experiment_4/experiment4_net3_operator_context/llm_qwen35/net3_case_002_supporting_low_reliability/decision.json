@@ -1,0 +1,25 @@
+{
+  "model": "qwen3.5:9b",
+  "model_label": "Qwen3.5-9B",
+  "variant_id": "net3_case_002_supporting_low_reliability",
+  "base_case_id": "case_002",
+  "scenario_id": "roughness_p123_mild",
+  "context_condition": "supporting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "roughness_error",
+  "true_target": "123",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The suggestion of internal deposits in Pipe 123 lacks supporting inspection records or quantitative data to justify a specific hydraulic test.",
+  "parse_error": null,
+  "prompt_tokens": 659,
+  "generated_tokens": 100,
+  "inference_duration_s": 48.8208743
+}

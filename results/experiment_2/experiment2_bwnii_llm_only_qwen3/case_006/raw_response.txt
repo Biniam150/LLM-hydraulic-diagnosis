@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "J1058",
+  "confidence": 0.95,
+  "reasoning": [
+    "The sensor J1058 has an extremely large negative residual with a mean of -0.82 m and RMSE of 0.92 m, indicating a persistent offset.",
+    "The residual pattern is mostly negative, consistent with a sensor bias rather than a transient or random error.",
+    "The sensor is isolated in its residual impact, with no significant correlation to other sensors or network components."
+  ]
+}

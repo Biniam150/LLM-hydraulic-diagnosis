@@ -1,0 +1,25 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "net3_case_002_helpful_verified",
+  "base_case_id": "case_002",
+  "scenario_id": "roughness_p123_mild",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "roughness_error",
+  "true_target": "123",
+  "safe_expected_outcome": "roughness_error",
+  "action": "propose_follow_up_test",
+  "proposed_family": "roughness_error",
+  "proposed_target": "pipe:123",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Record R1 provides high-reliability evidence of updated resistance for Pipe 123, supporting the roughness_error family.",
+  "parse_error": null,
+  "prompt_tokens": 662,
+  "generated_tokens": 103,
+  "inference_duration_s": 17.860628
+}

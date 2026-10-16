@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": null,
+  "reason": "The operational records (R1, R2) are irrelevant to testing the *demand_error* or *roughness_error* families identified in the diagnostic. No temporally aligned, physically testable mechanism (e.g., a junction with suspicious demand or a pipe with roughness anomalies) is linked to these records. Additional context—such as recent maintenance logs for specific junctions/pipes, sensor calibration events, or reservoir head adjustments—is required before proposing a focused hydraulic test."
+}

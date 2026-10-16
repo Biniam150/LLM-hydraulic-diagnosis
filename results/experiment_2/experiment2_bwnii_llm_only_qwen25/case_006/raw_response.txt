@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": "J1058",
+  "confidence": 0.9,
+  "reasoning": [
+    "The largest residual sensor, J1058, shows a significant and persistent negative pressure deviation.",
+    "This large deviation is consistent with the modeled family 'leak', which suggests water loss at one junction.",
+    "No other family provides a more defensible explanation for the observed pattern."
+  ]
+}

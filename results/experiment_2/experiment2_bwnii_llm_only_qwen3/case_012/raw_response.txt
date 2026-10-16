@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak", "sensor_bias"],
+  "target": "J500",
+  "confidence": 0.85,
+  "reasoning": [
+    "J500 has the largest residual with a mean of -36.32 m and RMSE of 37.15 m, indicating a significant pressure drop.",
+    "The pressure direction is mostly negative, suggesting a loss of pressure at a junction, which aligns with a leak.",
+    "The affected sensors are clustered around J500, indicating a localized issue rather than a general sensor bias."
+  ]
+}

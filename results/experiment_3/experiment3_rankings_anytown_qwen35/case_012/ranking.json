@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_012",
+  "tier": "matched_model",
+  "scenario_id": "bias_s70_morning",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The dominant positive pressure residual at sensor 70 (mean ~0.65m) strongly indicates a physical outflow loss consistent with a leak, while the negligible flow residuals and lack of widespread sensor anomalies rule out demand errors, roughness changes, or sensor bias as primary causes.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1563,
+  "generated_tokens": 102
+}

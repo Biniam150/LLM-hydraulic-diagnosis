@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "70",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensor is '70' with a mean pressure deviation of 0.651, which is significantly higher than other sensors.",
+    "This persistent offset suggests a bias in the sensor reading rather than a change in demand or roughness.",
+    "No other family (leak, demand_error, roughness_error) shows a comparable magnitude of effect."
+  ]
+}

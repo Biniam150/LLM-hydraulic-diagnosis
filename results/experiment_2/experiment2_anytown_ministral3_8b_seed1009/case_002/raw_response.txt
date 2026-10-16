@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["sensor_bias", "demand_error"],
+  "target": null,
+  "confidence": 0.65,
+  "reasoning": [
+    "Residuals at multiple sensors (e.g., 20, 50, 150) exceed the threshold (>±0.09 m) with mixed directions and no consistent spatial pattern, suggesting localized sensor issues or demand mismatches rather than a single leak or roughness error.",
+    "No single sensor shows persistent offset (e.g., consistent sign across all hours), but residual magnitudes vary significantly (e.g., sensor 50’s mean = -0.076 m vs. sensor 20’s mean = +0.046 m).",
+    "Flow residuals are low (NRMSE=1.1%) and unchanged, reducing plausibility for a leak or roughness error; pressure mismatches dominate."
+  ]
+}

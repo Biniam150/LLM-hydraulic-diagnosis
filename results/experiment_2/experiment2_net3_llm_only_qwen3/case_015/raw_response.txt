@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "219",
+  "confidence": 0.95,
+  "reasoning": [
+    "Sensor 219 shows a large residual with a mean of -0.556 m and RMSE of 0.557 m, indicating a significant persistent offset.",
+    "The residual pattern for sensor 219 is consistent with a sensor bias, as it deviates significantly from the expected range.",
+    "The affected sensor count is 1, and the largest residual sensors include 219, suggesting a localized issue rather than a network-wide problem."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "outcome": "ambiguous_causes",
+  "reason": "supported_hypotheses_tied",
+  "winner": "demand_error",
+  "runner_up": "roughness_error",
+  "balanced_improvement": 0.035693380638455376,
+  "relative_winner_margin": 0.0010702531575480139,
+  "winner_validation_gof_pvalue": 0.33501383543014596,
+  "supported_families": [
+    "demand_error",
+    "roughness_error"
+  ]
+}

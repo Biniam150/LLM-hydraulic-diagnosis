@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "sensor_bias", "demand_error", "roughness_error"],
+  "reason": "Extreme negative pressure residuals at sensor **120** (mean = **-0.55 m**, min = **-0.61 m**) strongly suggest a **pressure-dependent leak** near the affected junction, while **sensor bias** is plausible due to persistent offset. Demand errors and roughness changes are less likely given the localized, extreme nature of the residual."
+}

@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": "109",
+  "confidence": 0.95,
+  "reasoning": [
+    "Sensor 109 exhibits a large, persistent negative pressure residual (mean -0.45m) significantly exceeding the threshold, while all other sensors show negligible residuals.",
+    "The affected sensor count is exactly one, and the flow metrics indicate no system-wide demand or pump anomalies.",
+    "The spatial distribution of residuals does not suggest a leak pattern (which would typically affect downstream nodes) or a roughness error (which would be more localized to specific pipes)."
+  ]
+}

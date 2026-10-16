@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_071",
+  "tier": "perturbed_truth_model",
+  "scenario_id": "leak_n40_early",
+  "observation_seed": 2027,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "leak",
+  "true_target": "40",
+  "expected_label": "leak",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "demand_error,roughness_error,sensor_bias",
+  "predicted_target": null,
+  "confidence": 0.7,
+  "reasoning": "[\"The largest residual sensors (50, 150) show significant deviations with high RMSE values, suggesting potential issues in demand or sensor readings.\", \"Pressure residuals are mostly negative and span a wide range of values, indicating possible errors in both demand magnitude and pipe resistance/roughness.\", \"Sensor bias is plausible given the persistent offsets affecting multiple sensors.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": false,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

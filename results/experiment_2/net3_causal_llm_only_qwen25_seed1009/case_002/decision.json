@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_002",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p123_mild",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "roughness_error",
+  "true_target": "123",
+  "expected_label": "roughness_error",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "leak,roughness_error",
+  "predicted_target": null,
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensors are not directly connected, making it difficult to pinpoint a single cause.\", \"Residuals show mixed directionality and small magnitude, which could be indicative of either leak or roughness error.\", \"No clear sensor bias is evident from the data.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": true,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "601",
+  "confidence": 0.95,
+  "reasoning": [
+    "Sensor 601 has an exceptionally high residual range and mean, indicating a potential persistent offset.",
+    "The residual pattern for sensor 601 is significantly different from other sensors, suggesting a unique bias.",
+    "The presence of a single sensor with extreme residuals supports the hypothesis of a sensor bias rather than a systemic issue."
+  ]
+}

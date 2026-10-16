@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The leak hypothesis is most plausible due to the widespread and significant negative pressure residuals across multiple sensors, suggesting a localized pressure drop consistent with a leak. Demand and roughness errors are next, as they can cause widespread pressure changes, while sensor bias is least likely due to the inconsistent residual patterns across sensors."
+}

@@ -1,0 +1,25 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "net3_case_002_conflicting_low_reliability",
+  "base_case_id": "case_002",
+  "scenario_id": "roughness_p123_mild",
+  "context_condition": "conflicting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "roughness_error",
+  "true_target": "123",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "node 177",
+  "proposed_onset_hour": 12,
+  "cited_record_ids": [
+    "R2"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The high-reliability record R2 supports a physically testable mechanism and asset, and the leading candidate evidence suggests a leak at node 177.",
+  "parse_error": null,
+  "prompt_tokens": 601,
+  "generated_tokens": 105,
+  "inference_duration_s": 28.8991389
+}

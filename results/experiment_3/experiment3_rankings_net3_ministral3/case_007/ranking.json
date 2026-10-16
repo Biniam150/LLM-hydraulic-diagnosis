@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_007",
+  "tier": "matched_model",
+  "scenario_id": "demand_n151_high",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Single sensor (15) shows large, persistent negative residuals with high RMSE and mixed pressure direction, strongly suggestive of a localized pressure-dependent leak.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3415,
+  "generated_tokens": 62
+}

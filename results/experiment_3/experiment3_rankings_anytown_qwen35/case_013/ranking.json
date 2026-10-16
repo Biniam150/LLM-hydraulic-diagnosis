@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_013",
+  "tier": "matched_model",
+  "scenario_id": "bias_s120_midday",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The dominant negative pressure residual at sensor 120 combined with a single affected sensor strongly indicates a physical outflow (leak) rather than demand or roughness errors, while the negligible flow residuals rule out significant pump or mainline flow changes.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1560,
+  "generated_tokens": 94
+}

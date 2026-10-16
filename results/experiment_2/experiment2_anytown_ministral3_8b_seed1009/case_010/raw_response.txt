@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "170",
+  "confidence": 0.9,
+  "reasoning": [
+    "Sensor **170** exhibits a persistent offset (mean residual = -0.021 m) with extreme outliers (-0.813 m), far exceeding the threshold (|±0.09 m|).",
+    "No other sensor shows comparable magnitude or persistence, and flow residuals are negligible (NRMSE=0.011).",
+    "Pressure direction is mixed/small, but the single sensor’s bias dominates residual patterns."
+  ]
+}

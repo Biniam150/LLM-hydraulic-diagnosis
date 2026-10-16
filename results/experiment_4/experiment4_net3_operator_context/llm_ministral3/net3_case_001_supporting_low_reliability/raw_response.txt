@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": null,
+  "reason": "No reliable, temporally relevant, or physically testable records exist to justify a focused hydraulic follow-up test. The only high-reliability record (R2) is unrelated to hydraulic mechanisms, and the low-reliability report (R1) lacks verifiable evidence (e.g., inspection data, sensor readings, or time-stamped observations) to configure a testable hypothesis. Additional context (e.g., sensor data, flow measurements, or maintenance logs) is required to assess **roughness_error**, **sensor_bias**, or **source_head** plausibility."
+}

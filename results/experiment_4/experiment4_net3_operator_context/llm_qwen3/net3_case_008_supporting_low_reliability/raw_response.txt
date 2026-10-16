@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "demand_error",
+  "proposed_target": "node 237",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R2"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The verified control log confirms no unauthorized valve changes, supporting the focus on demand error at node 237."
+}

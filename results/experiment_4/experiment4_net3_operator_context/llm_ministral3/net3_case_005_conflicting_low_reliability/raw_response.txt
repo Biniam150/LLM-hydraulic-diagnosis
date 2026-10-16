@@ -1,0 +1,4 @@
+{
+  "action": "request_more_information",
+  "reason": "The operational records do not provide sufficient, temporally relevant, or physically testable evidence to configure a focused hydraulic test. Record R1 is unreliable and lacks corroboration, while R2 is irrelevant to hydraulic mechanism testing. The diagnostic outcome lacks a physically testable mechanism with reliable, temporally aligned records."
+}

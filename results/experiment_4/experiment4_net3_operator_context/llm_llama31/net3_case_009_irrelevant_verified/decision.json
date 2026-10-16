@@ -1,0 +1,23 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "net3_case_009_irrelevant_verified",
+  "base_case_id": "case_009",
+  "scenario_id": "leak_n101_low",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "leak",
+  "true_target": "101",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "109",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": [],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The leading candidate evidence for a leak at node 109 is strong, with a high validation GOF p-value and significant improvement in training and validation metrics.",
+  "parse_error": null,
+  "prompt_tokens": 583,
+  "generated_tokens": 101,
+  "inference_duration_s": 14.3123053
+}

@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_016",
+  "tier": "matched_model",
+  "scenario_id": "bias_j152_positive",
+  "observation_seed": 1009,
+  "model": "llama3.1:8b",
+  "true_cause": "sensor_bias",
+  "true_target": "J152",
+  "expected_label": "sensor_bias",
+  "predicted_label": "leak",
+  "predicted_families": "leak",
+  "predicted_target": null,
+  "confidence": 0.9,
+  "exact_outcome_correct": false,
+  "accepted": true,
+  "false_attribution": true,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1830,
+  "generated_tokens": 116
+}

@@ -1,0 +1,2 @@
+model,cases,exact_outcome_accuracy,known_family_accuracy,known_family_coverage,accepted_diagnosis_precision,unknown_cause_recall,no_fault_recall,false_attribution_rate,valid_output_rate
+qwen3.5:9b,21,0.47619047619047616,0.5625,0.75,0.5625,0.0,1.0,0.3333333333333333,1.0

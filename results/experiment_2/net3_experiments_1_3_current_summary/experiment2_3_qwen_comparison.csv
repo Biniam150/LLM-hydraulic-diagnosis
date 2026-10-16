@@ -1,0 +1,3 @@
+method,exact_outcome_accuracy_pct,accepted_diagnosis_precision_pct,unknown_cause_recall_pct,false_attribution_rate_pct,diagnostic_coverage_pct
+Residual-only Qwen2.5,19.04761904761904,57.14285714285714,0.0,14.28571428571428,33.333333333333336
+Refined hydraulic verifier,33.33333333333333,100.0,25.0,0.0,23.8095238095238

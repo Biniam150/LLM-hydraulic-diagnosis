@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_005",
+  "tier": "matched_model",
+  "scenario_id": "demand_n109_low",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Single, highly localized pressure spike at sensor **109** (mean +0.27m, max +0.55m) with minimal noise in flows suggests a **pressure-dependent leak** at a nearby junction.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3397,
+  "generated_tokens": 86
+}

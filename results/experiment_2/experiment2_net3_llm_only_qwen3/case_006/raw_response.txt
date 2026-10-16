@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "leak", "sensor_bias"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "The largest residual sensors (40, 231, 203) show mixed pressure direction with small magnitude, suggesting possible sensor bias or demand error.",
+    "The pressure residuals are within the threshold (0.09 m), but the RMSE values are relatively high, indicating potential systematic errors.",
+    "The absence of affected sensors and the mixed pressure direction make it difficult to isolate a single cause family."
+  ]
+}

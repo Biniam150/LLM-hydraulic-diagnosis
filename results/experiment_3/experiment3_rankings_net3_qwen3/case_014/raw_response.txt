@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The largest residual is at sensor 253, which aligns with a leak hypothesis, as leaks typically cause significant pressure changes at a single sensor."
+}

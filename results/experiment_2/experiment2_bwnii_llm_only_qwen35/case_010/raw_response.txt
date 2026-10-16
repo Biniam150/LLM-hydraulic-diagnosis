@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "J379",
+  "confidence": 0.85,
+  "reasoning": [
+    "Residuals are predominantly negative across the network, indicating a systematic under-prediction of pressure consistent with unmodeled water loss.",
+    "Sensor J379 exhibits the largest mean residual (-3.22 m) and highest RMSE (6.14 m), identifying it as the epicenter of the mismatch.",
+    "The spatial pattern shows residuals decaying with distance from J379, which is characteristic of a localized leak rather than a global sensor bias or demand error."
+  ]
+}

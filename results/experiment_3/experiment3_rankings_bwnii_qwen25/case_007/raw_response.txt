@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "roughness_error", "demand_error", "sensor_bias"],
+  "reason": "The largest residuals are observed at critical junctions (J500, J93, J394) with mostly negative pressure direction, suggesting a leak or demand error. Roughness error could also cause significant pressure changes, while sensor bias is less likely given the magnitude of residuals."
+}

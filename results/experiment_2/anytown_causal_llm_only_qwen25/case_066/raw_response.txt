@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "Multiple pressure sensors show persistent offsets, with the largest residuals at nodes 50 and 150.",
+    "The pressure direction is mostly positive, suggesting a consistent bias rather than a leak or demand error.",
+    "No significant changes in flow were observed, ruling out roughness_error."
+  ]
+}

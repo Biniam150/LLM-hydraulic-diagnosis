@@ -1,0 +1,104 @@
+{
+  "scope": "decision-policy sensitivity using fixed fitted hydraulic evidence",
+  "physical_cases": 60,
+  "networks": [
+    "Anytown",
+    "Net3",
+    "BWN-II"
+  ],
+  "defaults": {
+    "improvement_floor": 0.02,
+    "margin_floor": 0.07,
+    "gof_alpha": 0.05,
+    "noise_scale": 1.0
+  },
+  "grids": {
+    "improvement_floor": [
+      0.0,
+      0.01,
+      0.02,
+      0.03,
+      0.05,
+      0.1
+    ],
+    "margin_floor": [
+      0.0,
+      0.03,
+      0.07,
+      0.1,
+      0.15,
+      0.2
+    ],
+    "gof_alpha": [
+      0.01,
+      0.025,
+      0.05,
+      0.075,
+      0.1,
+      0.15
+    ],
+    "noise_scale": [
+      0.75,
+      0.9,
+      1.0,
+      1.1,
+      1.25,
+      1.5
+    ]
+  },
+  "factorial_policy_combinations": 1296,
+  "factorial_network_evaluations": 3888,
+  "baseline_reproduction": [
+    {
+      "network": "Anytown",
+      "improvement_floor": 0.02,
+      "margin_floor": 0.07,
+      "gof_alpha": 0.05,
+      "noise_scale": 1.0,
+      "cases": 18,
+      "exact_outcome_accuracy": 0.7222222222222222,
+      "known_family_accuracy": 0.6428571428571429,
+      "accepted_diagnosis_precision": 1.0,
+      "diagnostic_coverage": 0.5,
+      "false_attribution_rate": 0.0,
+      "unknown_cause_recall": 1.0,
+      "no_fault_recall": 1.0,
+      "ambiguity_rate": 0.0,
+      "unknown_output_rate": 0.3333333333333333
+    },
+    {
+      "network": "Net3",
+      "improvement_floor": 0.02,
+      "margin_floor": 0.07,
+      "gof_alpha": 0.05,
+      "noise_scale": 1.0,
+      "cases": 21,
+      "exact_outcome_accuracy": 0.6190476190476191,
+      "known_family_accuracy": 0.5,
+      "accepted_diagnosis_precision": 1.0,
+      "diagnostic_coverage": 0.38095238095238093,
+      "false_attribution_rate": 0.0,
+      "unknown_cause_recall": 1.0,
+      "no_fault_recall": 1.0,
+      "ambiguity_rate": 0.047619047619047616,
+      "unknown_output_rate": 0.47619047619047616
+    },
+    {
+      "network": "BWN-II",
+      "improvement_floor": 0.02,
+      "margin_floor": 0.07,
+      "gof_alpha": 0.05,
+      "noise_scale": 1.0,
+      "cases": 21,
+      "exact_outcome_accuracy": 0.7619047619047619,
+      "known_family_accuracy": 0.6875,
+      "accepted_diagnosis_precision": 1.0,
+      "diagnostic_coverage": 0.5238095238095238,
+      "false_attribution_rate": 0.0,
+      "unknown_cause_recall": 1.0,
+      "no_fault_recall": 1.0,
+      "ambiguity_rate": 0.0,
+      "unknown_output_rate": 0.19047619047619047
+    }
+  ]
+}

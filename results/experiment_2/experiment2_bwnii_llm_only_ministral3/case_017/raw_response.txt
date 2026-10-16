@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "J276",
+  "confidence": 0.95,
+  "reasoning": [
+    "Three sensors (J276, J1058, J379) exhibit persistent, large negative residuals (mean < -0.1 m) with no positive excursions, suggesting a systematic offset rather than dynamic pressure fluctuations.",
+    "J276’s residual (mean = -1.5 m, RMSE = 1.5 m) is an outlier in magnitude compared to other sensors, indicating a likely sensor-specific issue rather than a network-wide effect.",
+    "Shortest-path distances between affected sensors are small (e.g., J276–J1058 = 22 pipes), ruling out spatial propagation of a leak or roughness error as the primary cause."
+  ]
+}

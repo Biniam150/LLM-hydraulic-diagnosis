@@ -1,0 +1,4 @@
+{
+  "action": "request_more_information",
+  "reason": "No temporally relevant, reliable, and physically testable records exist for a focused hydraulic test. The only plausible candidate from the diagnostic output (*source_head*) lacks corroborating operational records, and the *sensor_bias* family is only hinted at by a low-reliability note (R1)."
+}

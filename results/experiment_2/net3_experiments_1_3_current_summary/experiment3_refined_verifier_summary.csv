@@ -1,0 +1,2 @@
+model,runs,exact_outcome_accuracy,known_family_accuracy,detectable_known_family_accuracy,accepted_diagnosis_precision,diagnostic_coverage,false_attribution_rate,unknown_cause_recall,no_fault_recall,target_accuracy_when_family_correct,mean_logical_hydraulic_simulations
+qwen2.5:7b,21,0.3333333333333333,0.3125,0.3846153846153846,1.0,0.238095238095238,0.0,0.25,1.0,0.8,1249.571428571429

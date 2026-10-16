@@ -1,0 +1,11 @@
+{
+  "outcome": "unknown_cause",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.5,
+  "reasoning": [
+    "The residual summary indicates a complex pattern of pressure residuals across multiple sensors.",
+    "The affected sensors and largest residual sensors do not show a clear correlation with any modeled fault family.",
+    "The network context does not provide any additional information that would support the presence of a specific fault family."
+  ]
+}

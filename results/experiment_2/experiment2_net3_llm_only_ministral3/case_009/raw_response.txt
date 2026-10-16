@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "601",
+  "confidence": 0.9,
+  "reasoning": [
+    "Sensor **601** exhibits an extreme residual pattern (mean = +1.089 m, RMSE = 5.413 m) with a maximum spike of 26.521 m—far exceeding the threshold and all other sensors.",
+    "The pressure direction is *mostly_negative* for most sensors but **601** shows a persistent positive bias, inconsistent with network-wide demand or roughness errors.",
+    "No spatial clustering (shortest-path distances) or flow changes support a leak or hydraulic mismatch; **601’s** isolated anomaly suggests a localized sensor issue."
+  ]
+}

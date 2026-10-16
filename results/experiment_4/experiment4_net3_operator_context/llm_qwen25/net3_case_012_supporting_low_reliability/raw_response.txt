@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The low-reliability report of wet ground near Junction 219 could indicate a leak, which is a relevant mechanism, but more information is needed for a definitive test."
+}

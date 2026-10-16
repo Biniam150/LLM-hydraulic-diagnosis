@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": "J379",
+  "confidence": 0.95,
+  "reasoning": [
+    "The largest residual pressure sensor, J379, shows a mean residual of -3.22 m and an RMSE of 6.14 m, indicating significant and persistent negative pressure deviation.",
+    "The affected sensors are clustered with high shortest path distances to J379, suggesting a localized pressure drop likely caused by a leak near this junction.",
+    "The pressure direction is mostly negative, consistent with a leak causing a loss of pressure at a single junction."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_006",
+  "tier": "matched_model",
+  "scenario_id": "demand_j429_high",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The massive negative residual at sensor J1058 combined with a predominantly negative pressure direction strongly indicates a physical outflow (leak), while the lack of flow change and low noise ratios rule out demand or roughness errors, and the localized nature of the fault makes a persistent sensor bias unlikely.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2768,
+  "generated_tokens": 104
+}

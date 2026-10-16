@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": "15",
+  "confidence": 0.92,
+  "reasoning": [
+    "Sensor 15 exhibits the largest mean residual (-0.0876 m) and highest RMSE (0.0988 m), significantly exceeding all other sensors.",
+    "The pressure direction is mixed or small across the network, which is inconsistent with a localized leak that would typically show a distinct pressure drop pattern.",
+    "Flow metrics are stable with no change detected, ruling out demand errors or major pipe roughness changes as primary causes."
+  ]
+}

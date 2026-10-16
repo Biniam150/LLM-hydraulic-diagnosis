@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": "20",
+  "confidence": 0.98,
+  "reasoning": [
+    "Only sensor '20' exhibits a statistically significant negative pressure residual (mean -0.44m), while all other sensors show residuals near zero.",
+    "The flow monitoring data shows no change and low noise ratios, ruling out demand errors or leaks as primary drivers for this specific pattern.",
+    "A persistent offset in the measurement at node '20' best explains the isolated deviation without requiring unmodeled hydraulic faults."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "J379",
+  "confidence": 0.95,
+  "reasoning": [
+    "Single sensor (J379) exhibits extreme residual magnitude (~1.2m) exceeding threshold (0.09m) and RMSE (1.19m) far above others, indicating localized measurement issue.",
+    "Residual pattern at J379 is persistent (onset at hour 8, sustained for 24h) and directionally consistent (all negative), typical of sensor bias rather than dynamic events like leaks or demand errors.",
+    "No correlated pressure residuals or flow changes (flow NRMSE=0.012) suggest the issue is isolated to J379, reinforcing sensor-specific bias as the most plausible cause."
+  ]
+}

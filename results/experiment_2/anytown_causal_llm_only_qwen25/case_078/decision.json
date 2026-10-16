@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_078",
+  "tier": "perturbed_truth_model",
+  "scenario_id": "bias_s20_early",
+  "observation_seed": 4049,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "sensor_bias",
+  "true_target": "20",
+  "expected_label": "sensor_bias",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": "20",
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensor is '20', which shows a persistent negative bias of -0.3045 m.\", \"Other sensors show minimal deviations, and the network context indicates that sensor '20' has the shortest path to several other pressure monitoring points.\", \"The nature of the deviation aligns with a sensor bias rather than a widespread issue like demand error or roughness error.\"]",
+  "exact_outcome_correct": true,
+  "true_family_covered": true,
+  "target_correct": true,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

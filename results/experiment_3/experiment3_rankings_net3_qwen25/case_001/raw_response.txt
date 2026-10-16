@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The largest residuals are observed at sensors 601, 157, and 15, indicating a significant issue likely due to a leak. The affected sensors are numerous and the pressure residuals are mostly negative, supporting a demand error. Roughness error and sensor bias are less likely given the scale and nature of the residuals."
+}

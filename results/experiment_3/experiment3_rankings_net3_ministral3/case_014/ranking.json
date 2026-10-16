@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_014",
+  "tier": "matched_model",
+  "scenario_id": "bias_s253_morning",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "sensor_bias",
+    "leak",
+    "demand_error",
+    "roughness_error"
+  ],
+  "reason": "Sensor **253** shows a persistent, large **mean residual (0.657 m)** with minimal noise, strongly suggesting a **sensor bias**; the **pressure-dependent outflow pattern** at **junction 253** (largest residual) aligns with a **leak**, while **demand_error** is plausible due to localized impact, and **roughness_error** is least likely given the sharp onset and localized nature.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3429,
+  "generated_tokens": 124
+}

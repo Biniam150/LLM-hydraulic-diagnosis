@@ -1,0 +1,23 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "bwnii_case_018_irrelevant_verified",
+  "base_case_id": "case_018",
+  "scenario_id": "unknown_r1_rise_high",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "R1",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The provided records do not support or contradict any of the configured families and are not directly relevant to the hydraulic issues identified.",
+  "parse_error": null,
+  "prompt_tokens": 679,
+  "generated_tokens": 88,
+  "inference_duration_s": 23.0392373
+}

@@ -1,0 +1,25 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "net3_case_008_helpful_verified",
+  "base_case_id": "case_008",
+  "scenario_id": "demand_n231_high",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "ambiguous_causes",
+  "true_family": "demand_error",
+  "true_target": "231",
+  "safe_expected_outcome": "demand_error",
+  "action": "propose_follow_up_test",
+  "proposed_family": "demand_error",
+  "proposed_target": "node 237",
+  "proposed_onset_hour": 12,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Metering records confirmed a sustained legitimate withdrawal at Junction 231 that was not represented in the digital-twin demand input during the diagnostic window.",
+  "parse_error": null,
+  "prompt_tokens": 595,
+  "generated_tokens": 103,
+  "inference_duration_s": 40.740506
+}

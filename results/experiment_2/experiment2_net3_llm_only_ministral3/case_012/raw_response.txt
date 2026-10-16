@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "601",
+  "confidence": 0.9,
+  "reasoning": [
+    "Sensor **601** exhibits a mean residual of **+4.43 m**, an order-of-magnitude larger than other sensors (all < -0.2 m), with extreme variability (RMSE = 10.86 m) and a minimum near zero—suggesting a persistent offset rather than physical system change.",
+    "No spatial clustering of residuals aligns with **leak** or **roughness_error**, nor does the pattern match **demand_error** (which would affect multiple nodes systematically).",
+    "The residual’s magnitude and asymmetry (spanning -0.12 to +26.72 m) strongly imply a **sensor bias** rather than environmental or structural mismatch."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "J379",
+  "confidence": 0.95,
+  "reasoning": [
+    "The sensor J379 has an extremely high residual mean (-1.19 m) and RMSE (1.19 m), indicating a persistent offset.",
+    "The pressure residual at J379 is significantly larger than other sensors, suggesting a localized sensor issue.",
+    "The pattern of residuals at J379 is consistent with a sensor bias rather than a network-wide issue."
+  ]
+}

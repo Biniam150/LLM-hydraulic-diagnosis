@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error"],
+  "target": null,
+  "confidence": 0.65,
+  "reasoning": [
+    "Residuals exceed the threshold (Z > 3) at multiple sensors with mixed pressure direction, suggesting localized mismatches rather than systematic bias.",
+    "Largest residuals occur at spatially clustered sensors (e.g., 166, 157, 20), which may indicate either a demand error in nearby junctions or a leak near their shortest-path intersection.",
+    "Flow NRMSE is low (~0.01) and unchanged, reducing likelihood of roughness_error or sensor_bias as primary causes."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "model": "ministral-3:8b",
+  "model_label": "Ministral3-8B",
+  "variant_id": "case_049_supporting_low_reliability",
+  "base_case_id": "case_049",
+  "scenario_id": "unknown_head165_rise",
+  "context_condition": "supporting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "165",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "conflicting",
+  "reason": "invalid structured output",
+  "parse_error": "No JSON object found in LLM response: {\n  \"action\": \"request_more_information\",\n  \"proposed_family\": null,\n  \"proposed_target\": null,\n  \"proposed_onset_hour\": null,\n  \"cited_record_ids\": [],\n  \"record_assessment\": null,\n  \"reason\": \"The hydraulic diagnostic outcome is inconclusive (*unknown_cause*), and while **demand_error** and **roughness_error** are statistically supported, neither record (R1 or R2) provides direct, testable evidence for these families. R1 lacks verification and does not specify a time window for the suspected reservoir adjustment, while R2 confirms no valve changes but does not address source head or demand/sensor anomalies. To justify a focused follow-up test, we need either: (1) confirmation of Reservoir 165’s set-point history during the diagnostic period *or* (2) additional operational data linking demand/roughness errors to specific",
+  "prompt_tokens": 631,
+  "generated_tokens": 192,
+  "inference_duration_s": 29.1349534
+}

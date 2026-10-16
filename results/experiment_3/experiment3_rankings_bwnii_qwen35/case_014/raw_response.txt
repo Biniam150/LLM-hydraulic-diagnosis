@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The massive negative pressure residual at sensor J379 (-1.19m) combined with a mixed pressure direction strongly indicates a physical outflow (leak), while the lack of flow change and low noise ratios make demand, roughness, or sensor bias less plausible."
+}

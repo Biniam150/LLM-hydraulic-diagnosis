@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The pressure residuals show mostly negative trends with high variability, suggesting a leak as the most plausible cause, followed by demand errors due to their impact on pressure."
+}

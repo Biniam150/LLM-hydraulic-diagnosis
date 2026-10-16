@@ -1,0 +1,10 @@
+{
+  "outcome": "unknown_cause",
+  "reason": "weak_cross_split_evidence",
+  "winner": "leak",
+  "runner_up": "sensor_bias",
+  "balanced_improvement": 0.0024066891968482895,
+  "relative_winner_margin": 0.003134890936132841,
+  "winner_validation_gof_pvalue": 0.0,
+  "supported_families": []
+}

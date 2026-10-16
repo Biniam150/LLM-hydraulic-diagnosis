@@ -1,0 +1,23 @@
+{
+  "model": "ministral-3:8b",
+  "model_label": "Ministral3-8B",
+  "variant_id": "case_028_conflicting_low_reliability",
+  "base_case_id": "case_028",
+  "scenario_id": "leak_n170_late",
+  "context_condition": "conflicting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "leak",
+  "true_target": "170",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The operational records are either unreliable (R1) or irrelevant to the physically testable families identified in the diagnostic (e.g., no evidence of valve changes, reservoir head adjustments, or sensor-specific anomalies). No temporally relevant, reliable record supports a focused hydraulic test for leak, demand_error, roughness_error, sensor_bias, or source_head.",
+  "parse_error": null,
+  "prompt_tokens": 701,
+  "generated_tokens": 137,
+  "inference_duration_s": 21.4776309
+}

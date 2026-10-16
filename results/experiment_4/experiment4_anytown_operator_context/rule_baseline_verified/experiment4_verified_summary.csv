@@ -1,0 +1,5 @@
+model_label,context_condition,cases,proposal_rate,context_gate_rate,verified_resolution_rate,correct_verified_resolution_rate,hybrid_safe_task_accuracy,llm_context_only_safe_task_accuracy,valid_structured_output_rate
+Rule-based extractor,conflicting_low_reliability,5,0.0,0.0,0.0,0.0,1.0,1.0,1.0
+Rule-based extractor,helpful_verified,5,1.0,1.0,0.6,0.6,0.6,1.0,1.0
+Rule-based extractor,irrelevant_verified,5,0.0,0.0,0.0,0.0,1.0,1.0,1.0
+Rule-based extractor,supporting_low_reliability,5,0.0,0.0,0.0,0.0,1.0,1.0,1.0

@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The pressure residuals are mostly positive, indicating a loss of pressure.",
+    "Three sensors (70, 100, and 150) have large residuals, suggesting that the issue is related to these sensors.",
+    "The largest residual sensors are also among those with the highest mean pressures, which is consistent with a leak."
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "sensor_bias", "roughness_error"],
+  "reason": "Extreme localized pressure drop at **J379** (RMSE = 1.19 m, mean = -1.19 m) with minimal flow impact suggests a **pressure-dependent leak**, while other sensors show negligible deviations. Demand errors or sensor bias are less likely due to isolated magnitude, and roughness errors are improbable without flow anomalies."
+}

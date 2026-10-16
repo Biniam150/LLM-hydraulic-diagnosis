@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_063",
+  "tier": "perturbed_truth_model",
+  "scenario_id": "demand_n75_mild",
+  "observation_seed": 4049,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "demand_error",
+  "true_target": "75",
+  "expected_label": "demand_error",
+  "predicted_label": "leak",
+  "predicted_families": "leak",
+  "predicted_target": null,
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensors are located at nodes 20, 70, and 100, which form a cluster with significant negative pressure residuals.\", \"These large residuals persist across the observation window, indicating a sustained issue that is not consistent with measurement noise or transient phenomena.\", \"The pressure direction is mostly negative, suggesting a loss of pressure rather than an increase, which aligns with a leak scenario.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": false,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

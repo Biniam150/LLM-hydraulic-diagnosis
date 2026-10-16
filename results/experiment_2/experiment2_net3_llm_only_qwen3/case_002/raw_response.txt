@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": "203",
+  "confidence": 0.85,
+  "reasoning": [
+    "The sensor '203' has the largest residual with a mean of -0.0614 m and RMSE of 0.0728 m, indicating significant deviation from expected values.",
+    "The pressure residual pattern for '203' shows a consistent negative deviation, which aligns with the behavior of a leak at a junction.",
+    "The sensor '203' is located near junctions with high pressure sensitivity, making it a likely candidate for a leak-induced pressure drop."
+  ]
+}

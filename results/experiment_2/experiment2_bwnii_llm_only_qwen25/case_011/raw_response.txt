@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residuals are observed in sensors J296 and J360, with extreme negative values indicating a significant pressure drop.",
+    "These large residuals persist across multiple sensors over the observation window, suggesting a localized issue such as a leak.",
+    "The affected sensor count is high (5 out of 13), which supports the idea that there might be a widespread but not necessarily uniform issue."
+  ]
+}

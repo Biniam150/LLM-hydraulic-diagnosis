@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": "219",
+  "confidence": 0.95,
+  "reasoning": [
+    "Sensor 219 exhibits a massive mean residual (-0.556 m) and RMSE (0.557 m), far exceeding the threshold of 3.0 sigma.",
+    "The residual at sensor 219 is consistently negative with minimal variance, indicating a persistent offset rather than random noise or demand fluctuation.",
+    "Flow metrics are stable (nrmse ~0.01) and pump flow is unchanged, ruling out leaks or demand errors as primary causes."
+  ]
+}

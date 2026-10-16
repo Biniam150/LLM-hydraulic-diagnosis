@@ -1,0 +1,11 @@
+{
+  "outcome": "no_fault",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.98,
+  "reasoning": [
+    "Flow residual (NRMSE ~1.1%) is negligible and explicitly marked as unchanged.",
+    "Pressure residuals are small (<0.09m threshold) with no significant sensor bias detected.",
+    "The pattern lacks the spatial propagation or magnitude required to support leak, demand, or roughness hypotheses."
+  ]
+}

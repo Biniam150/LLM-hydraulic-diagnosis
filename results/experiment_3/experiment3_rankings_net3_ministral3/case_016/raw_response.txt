@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "sensor_bias", "roughness_error"],
+  "reason": "Extreme localized pressure bias at sensor **157** (mean=+0.74 m, RMSE=+0.74 m) with minimal spatial propagation suggests a **pressure-dependent leak** at a nearby junction, while demand errors and sensor bias are plausible but less isolated. Roughness errors are unlikely given the abrupt onset and localized impact."
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors are distributed across multiple junctions, suggesting a persistent offset rather than a localized fault like a leak.",
+    "The pressure residuals for the affected sensors show consistent negative deviations, indicating a systematic bias in sensor readings.",
+    "No significant changes in flow or pump behavior were observed, ruling out demand_error and roughness_error."
+  ]
+}

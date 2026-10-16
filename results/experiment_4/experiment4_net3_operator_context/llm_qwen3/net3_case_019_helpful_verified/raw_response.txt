@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "Reservoir Lake",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Record R1 indicates a supply set point change at Reservoir Lake that was not propagated to the digital-twin boundary, suggesting a potential issue with the source head."
+}

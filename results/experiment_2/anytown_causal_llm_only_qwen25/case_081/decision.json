@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_081",
+  "tier": "perturbed_truth_model",
+  "scenario_id": "bias_s70_morning",
+  "observation_seed": 4049,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "sensor_bias",
+  "true_target": "70",
+  "expected_label": "sensor_bias",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": null,
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensors (70, 20) show persistent and significant deviations from the mean.\", \"These deviations are not consistent with a leak or demand error scenario given their magnitude and persistence over time.\", \"The presence of multiple affected sensors suggests a common-mode issue such as sensor bias.\"]",
+  "exact_outcome_correct": true,
+  "true_family_covered": true,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

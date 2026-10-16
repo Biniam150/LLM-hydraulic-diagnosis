@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.9,
+  "reasoning": [
+    "The residual summary indicates a pressure-dependent water loss at one junction.",
+    "The affected sensors (J500, J93, and J394) are all located near the monitored flow link P316.",
+    "The largest residual values are observed at these same sensors."
+  ]
+}

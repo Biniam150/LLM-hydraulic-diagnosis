@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The largest residual sensor (253) shows a persistent offset, suggesting a leak. The mixed pressure direction and affected sensor count support demand error. Roughness error is plausible given the network size, and sensor bias is the least likely given the strong residual at sensor 253."
+}

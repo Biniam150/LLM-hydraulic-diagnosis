@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (J379 and J1058) show extreme negative deviations, suggesting a significant pressure drop.",
+    "These large residuals are consistent with the 'pressure-dependent water loss at one junction' pattern described for the leak family.",
+    "No other family shows such pronounced and widespread effects on multiple sensors."
+  ]
+}

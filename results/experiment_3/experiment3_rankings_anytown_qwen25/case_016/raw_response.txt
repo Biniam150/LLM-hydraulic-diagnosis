@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The largest residuals are observed at junctions 20, 70, and 100, suggesting a localized issue like a leak, while the persistent offset at sensors indicates potential sensor bias."
+}

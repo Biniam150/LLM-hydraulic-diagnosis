@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_002",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p83_high",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Largest residuals at multiple junctions (J345, J296, J152) with mixed pressure deviations and no sensor bias or flow changes, strongly suggesting a localized pressure-dependent outflow (leak) as the most plausible cause.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2836,
+  "generated_tokens": 90
+}

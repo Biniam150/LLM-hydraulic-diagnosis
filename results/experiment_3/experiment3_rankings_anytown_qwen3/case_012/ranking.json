@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_012",
+  "tier": "matched_model",
+  "scenario_id": "bias_s70_morning",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The leak hypothesis is most plausible due to the extreme pressure residuals at sensor 70, which aligns with a pressure-dependent outflow at a junction. Demand and roughness errors are next due to their potential to cause localized pressure changes, while sensor bias is least likely due to the isolated nature of the residual pattern.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1567,
+  "generated_tokens": 93
+}

@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "J1058",
+  "confidence": 0.85,
+  "reasoning": [
+    "Six sensors show significant negative pressure residuals, indicating a widespread pressure drop.",
+    "Sensors J379 and J1058 exhibit the largest mean residuals (-0.68m and -0.78m) and highest RMSE values, identifying them as the epicenter of the anomaly.",
+    "The spatial clustering of high-residual sensors (J1058, J379, J360) suggests a localized physical loss (leak) rather than a global demand error or sensor bias."
+  ]
+}

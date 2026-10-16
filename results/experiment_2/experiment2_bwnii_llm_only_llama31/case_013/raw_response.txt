@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.9,
+  "reasoning": [
+    "The largest residual sensors are J70, J296, and J345.",
+    "Sensor J70 has a mean pressure residual of 0.40347728638777414 m and an RMSE of 0.4041139713736946 m.",
+    "The affected sensor count is 1, and the affected sensors are J70."
+  ]
+}

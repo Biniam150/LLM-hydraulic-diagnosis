@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "J1058",
+  "confidence": 0.95,
+  "reasoning": [
+    "Single sensor (J1058) exhibits extreme residual magnitude (mean: -0.82 m, min: -1.46 m) exceeding threshold (3σ) and directionally consistent negative bias.",
+    "No flow or pump changes detected, ruling out demand/leak/roughness as primary causes.",
+    "Residuals at nearby sensors (J379, J394) are minor and lack directional consistency, supporting localized sensor issue."
+  ]
+}

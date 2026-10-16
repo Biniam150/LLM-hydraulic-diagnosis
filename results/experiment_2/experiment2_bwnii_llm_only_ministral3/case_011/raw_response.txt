@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "J296",
+  "confidence": 0.95,
+  "reasoning": [
+    "Extreme residuals (mean: **-41.6 m**, min: **-261.7 m**) at **J296** exceed plausible physical bounds for leaks or demand errors, suggesting a persistent sensor offset.",
+    "Nearby sensors (e.g., **J360**, **J379**) show moderate negative residuals but lack the magnitude or consistency to imply a localized leak or roughness error.",
+    "Flow metrics (NMRSE: **0.012**, noise ratio: **1.19**) and pump/flow stability rule out systemic demand or roughness mismatches as primary causes."
+  ]
+}

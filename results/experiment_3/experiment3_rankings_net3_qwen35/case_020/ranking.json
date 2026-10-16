@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_020",
+  "tier": "matched_model",
+  "scenario_id": "unknown_lake_rise",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The persistent positive pressure residuals at sensor 109 and the high RMSE values indicate a significant unmodeled outflow consistent with a leak, while flow measurements remain stable and other sensors show only minor deviations.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3337,
+  "generated_tokens": 75
+}

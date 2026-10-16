@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_006",
+  "tier": "matched_model",
+  "scenario_id": "demand_n160_high",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Large-scale, spatially correlated negative pressure residuals (7 sensors) and extreme minima (e.g., -4.68 m) strongly suggest a **pressure-dependent outflow** (leak), followed by localized demand mismatches. Sensor bias is plausible but less likely given consistent directional trends across sensors; roughness errors are less probable without flow anomalies.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1615,
+  "generated_tokens": 100
+}

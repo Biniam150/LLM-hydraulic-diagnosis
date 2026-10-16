@@ -1,0 +1,11 @@
+{
+  "outcome": "unknown_cause",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.5,
+  "reasoning": [
+    "The residual summary indicates a significant pressure mismatch at sensor 120, with a mean residual of -0.5502948858626073 m and an RMSE of 0.5513315969646349 m.",
+    "However, the largest residuals are not consistently associated with any single node or pipe in the network context.",
+    "The available hypotheses do not provide clear support for any modeled family."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "roughness_error",
+  "proposed_target": "pipe",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Record R1 indicates that Pipe 34's hydraulic resistance value was not updated after internal wall buildup, suggesting a potential roughness error that could be tested."
+}

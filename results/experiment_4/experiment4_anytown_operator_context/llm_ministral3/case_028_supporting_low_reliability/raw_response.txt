@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": null,
+  "reason": "The operational records provided are either unreliable (R1) or irrelevant to the testable families identified in the diagnostic (e.g., no evidence of valve changes, reservoir head adjustments, or sensor bias confirmation). No temporally relevant, physically testable mechanism is supported by reliable data."
+}

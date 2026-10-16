@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.3,
+  "reasoning": [
+    "Residuals are small (RMSE < 0.09 m) and mixed-direction, with no single sensor exceeding the pressure threshold consistently.",
+    "No sensor bias is supported by lack of persistent offset (mean residuals near zero across all sensors).",
+    "Flow residuals are negligible (NRMSE = 0.011, noise ratio = 1.11), and no pump/flow changes detected, ruling out demand or roughness errors."
+  ]
+}

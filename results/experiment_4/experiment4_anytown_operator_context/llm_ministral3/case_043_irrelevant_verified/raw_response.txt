@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": null,
+  "reason": "The diagnostic outcome is inconclusive (*unknown_cause*), and the operational records (R1, R2) are either irrelevant to hydraulic testable mechanisms (e.g., vehicle inspection, valve status) or do not provide actionable evidence for a focused follow-up test. No temporally relevant, physically testable mechanism (e.g., leak location, sensor bias at a specific node, pipe roughness change) is identified in the records."
+}

@@ -1,0 +1,6 @@
+method,group,exact,known,unknown
+qwen2.5:7b,Local LLM,19.04761904761904,25.0,0.0
+llama3.1:8b,Local LLM,14.28571428571428,0.0,75.0
+Majority class,Classical baseline,19.04761904761904,25.0,0.0
+Multinomial logistic,Classical baseline,23.8095238095238,18.75,25.0
+Random forest,Classical baseline,47.61904761904761,56.25,0.0

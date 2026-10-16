@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Single sensor (219) shows extreme, persistent negative pressure residuals (mean = -0.56 m, RMSE = 0.56 m) with minimal flow changes, strongly suggesting a localized pressure-dependent outflow (leak) or demand error. Sensor bias is plausible but less likely due to isolated sensor behavior. Roughness errors are less probable given the localized, abrupt onset."
+}

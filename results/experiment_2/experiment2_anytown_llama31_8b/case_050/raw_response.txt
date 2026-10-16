@@ -1,0 +1,11 @@
+{
+  "outcome": "unknown_cause",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.5,
+  "reasoning": [
+    "The residual summary indicates a complex pattern of pressure residuals across multiple sensors.",
+    "The affected sensors are spread across the network, with no clear indication of a single faulty sensor or pipe.",
+    "The largest residual sensors do not show any consistent patterns that would suggest a specific cause family."
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The largest residuals and affected sensor count suggest a leak, followed by demand error, roughness error, and sensor bias."
+}

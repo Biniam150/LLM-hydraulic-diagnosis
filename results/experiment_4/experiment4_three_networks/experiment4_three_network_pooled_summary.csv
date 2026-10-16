@@ -1,0 +1,6 @@
+model_label,base_cases,context_variants,helpful_verified_resolution,helpful_llm_only_resolution,nonhelpful_verified_safety,nonhelpful_llm_only_safety,overall_verified_safe_accuracy,overall_llm_only_safe_accuracy,nonhelpful_verified_acceptances
+Llama3.1-8B,20,80,0.2,0.35,1.0,0.6833333333333333,0.8,0.6,0
+Ministral3-8B,20,80,0.8,1.0,1.0,0.8333333333333334,0.95,0.875,0
+Qwen2.5-7B,20,80,0.8,0.9,1.0,0.75,0.95,0.7875,0
+Qwen3-8B,20,80,0.65,1.0,0.9833333333333333,0.1,0.9,0.325,1
+Qwen3.5-9B,20,80,0.7,0.85,1.0,1.0,0.925,0.9625,0

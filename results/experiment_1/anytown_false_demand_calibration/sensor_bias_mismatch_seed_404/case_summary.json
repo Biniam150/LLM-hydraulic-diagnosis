@@ -1,0 +1,20 @@
+{
+  "scenario_id": "sensor_bias_mismatch",
+  "seed": 404,
+  "true_cause": "sensor_bias",
+  "true_target": "100",
+  "pressure_mae_before_m": 0.09708114054399679,
+  "pressure_mae_after_m": 0.2568144942942383,
+  "pressure_mae_improvement": -1.6453592619037163,
+  "clean_pressure_mae_before_m": 0.07619047619047759,
+  "clean_pressure_mae_after_m": 0.23958262110320386,
+  "fitted_node": "170",
+  "fitted_demand_multiplier": 2.0,
+  "demand_evidence": "weak_or_no_support",
+  "validation_improvement": -2.1642512499567386,
+  "pressure_noise_ratio": 38.79991945039058,
+  "flow_noise_ratio": 1.0014674953446747,
+  "false_calibration": false,
+  "false_causal_attribution": false,
+  "simulations": 95
+}

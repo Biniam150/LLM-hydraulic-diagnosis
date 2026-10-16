@@ -1,0 +1,6 @@
+model_label,cases,overall_hybrid_safe_task_accuracy,overall_llm_context_only_safe_task_accuracy,valid_structured_output_rate,false_resolution_rate_nonhelpful
+Llama3.1-8B,16,0.75,0.4375,1.0,0.0
+Ministral3-8B,16,1.0,0.5625,0.6875,0.0
+Qwen2.5-7B,16,1.0,0.8125,0.9375,0.0
+Qwen3-8B,16,1.0,0.25,1.0,0.0
+Qwen3.5-9B,16,1.0,1.0,1.0,0.0

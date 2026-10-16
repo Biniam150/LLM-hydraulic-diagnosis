@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "Leak hypothesis is most plausible due to widespread pressure residuals and high RMSE values across multiple sensors, suggesting a localized disturbance rather than systematic bias or uniform demand/roughness errors."
+}

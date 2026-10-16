@@ -1,0 +1,4 @@
+{
+  "action": "request_more_information",
+  "reason": "The diagnostic outcome lacks a physically testable mechanism tied to a specific, temporally relevant asset (e.g., pipe, junction, sensor, or reservoir) with reliable operational records. The leading candidates (*roughness_error* and *leak*) are inferred from model fitting but lack direct, testable evidence in the provided records (R1 and R2). Additional context is needed to validate or refute these hypotheses (e.g., field measurements of pressure, flow, or valve status during the diagnostic window)."
+}

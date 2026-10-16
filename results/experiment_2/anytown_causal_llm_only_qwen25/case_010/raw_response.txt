@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error"],
+  "target": null,
+  "confidence": 0.6,
+  "reasoning": [
+    "The largest residual sensors are located at nodes 50, 150, and 170, which show mixed pressure changes but no clear pattern that would indicate a single fault family.",
+    "Node 150 shows the most significant deviation with a mean residual of -0.0029, but this is not consistent enough to definitively identify either a leak or roughness error.",
+    "The network context and sensor shortest path distances do not provide additional clues that would favor one fault family over another."
+  ]
+}

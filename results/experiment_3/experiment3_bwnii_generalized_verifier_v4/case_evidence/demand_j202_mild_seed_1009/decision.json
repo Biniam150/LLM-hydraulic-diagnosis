@@ -1,0 +1,10 @@
+{
+  "outcome": "no_fault",
+  "reason": "nominal_gof_not_rejected",
+  "winner": "sensor_bias",
+  "runner_up": "roughness_error",
+  "balanced_improvement": 0.0018061838078840683,
+  "relative_winner_margin": 0.009876584741375266,
+  "winner_validation_gof_pvalue": 0.6648080251083757,
+  "supported_families": []
+}

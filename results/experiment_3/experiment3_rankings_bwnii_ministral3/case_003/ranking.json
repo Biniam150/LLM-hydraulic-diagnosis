@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_003",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p98_low",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Large, persistent negative pressure residuals at two closely located sensors (J1058 and J379) with high RMSE and minimum values strongly suggest a pressure-dependent leak.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2851,
+  "generated_tokens": 76
+}

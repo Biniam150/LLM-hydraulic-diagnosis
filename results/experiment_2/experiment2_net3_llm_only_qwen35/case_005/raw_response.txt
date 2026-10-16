@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": "109",
+  "confidence": 0.95,
+  "reasoning": [
+    "Only sensor 109 exhibits a statistically significant residual (mean > threshold) while all other sensors show negligible bias.",
+    "The flow network remains stable with no changes in pump or monitored link flows, ruling out demand errors or leaks as primary drivers.",
+    "The spatial pattern of residuals is isolated to the specific sensor rather than propagating through the network topology, which is characteristic of a persistent sensor offset."
+  ]
+}

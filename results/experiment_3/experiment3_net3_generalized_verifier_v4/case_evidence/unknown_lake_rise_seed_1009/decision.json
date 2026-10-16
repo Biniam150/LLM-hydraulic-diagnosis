@@ -1,0 +1,10 @@
+{
+  "outcome": "unknown_cause",
+  "reason": "no_supported_family_passes_absolute_held_out_gof",
+  "winner": "demand_error",
+  "runner_up": "roughness_error",
+  "balanced_improvement": 0.1171159594799027,
+  "relative_winner_margin": 0.024095845290427,
+  "winner_validation_gof_pvalue": 1.0504453427496365e-10,
+  "supported_families": []
+}

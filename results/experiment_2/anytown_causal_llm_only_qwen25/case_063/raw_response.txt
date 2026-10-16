@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors are located at nodes 20, 70, and 100, which form a cluster with significant negative pressure residuals.",
+    "These large residuals persist across the observation window, indicating a sustained issue that is not consistent with measurement noise or transient phenomena.",
+    "The pressure direction is mostly negative, suggesting a loss of pressure rather than an increase, which aligns with a leak scenario."
+  ]
+}

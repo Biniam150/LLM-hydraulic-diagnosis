@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "sensor_bias"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "Multiple sensors (50, 150, 100, 70) show large negative pressure residuals, suggesting a widespread issue.",
+    "The pressure residuals are mostly negative, which could indicate a leak or sensor bias affecting multiple nodes.",
+    "Sensor bias is plausible due to the presence of multiple affected sensors, while a leak could explain the negative pressure trend across the network."
+  ]
+}

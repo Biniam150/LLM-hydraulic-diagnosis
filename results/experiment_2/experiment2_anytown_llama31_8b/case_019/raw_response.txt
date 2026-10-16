@@ -1,0 +1,11 @@
+{
+  "outcome": "unknown_cause",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.5,
+  "reasoning": [
+    "The residual summary indicates a mostly negative pressure trend over the observation window.",
+    "Four sensors (50, 150, 100, and 70) are affected by the mismatch, with sensor 50 having the largest residuals.",
+    "There is no clear indication of a single modeled family causing the mismatch."
+  ]
+}

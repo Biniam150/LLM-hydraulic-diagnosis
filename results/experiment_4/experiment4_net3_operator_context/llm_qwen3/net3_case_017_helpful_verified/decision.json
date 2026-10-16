@@ -1,0 +1,25 @@
+{
+  "model": "qwen3:8b",
+  "model_label": "Qwen3-8B",
+  "variant_id": "net3_case_017_helpful_verified",
+  "base_case_id": "case_017",
+  "scenario_id": "unknown_river_drop",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "River",
+  "safe_expected_outcome": "source_head",
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "Reservoir River",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The operational record indicates that the supply set point at Reservoir River changed during the diagnostic window but was not propagated to the digital-twin boundary input, suggesting a potential issue with the source head.",
+  "parse_error": null,
+  "prompt_tokens": 633,
+  "generated_tokens": 114,
+  "inference_duration_s": 22.594921
+}

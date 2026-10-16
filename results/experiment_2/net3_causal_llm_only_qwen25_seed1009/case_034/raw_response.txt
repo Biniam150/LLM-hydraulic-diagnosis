@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "109",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensor is '109' with a mean pressure residual of -0.426 m, exceeding the threshold.",
+    "Only one sensor ('109') shows significant deviation, suggesting a localized issue such as sensor bias.",
+    "Other sensors show minimal or no deviation."
+  ]
+}

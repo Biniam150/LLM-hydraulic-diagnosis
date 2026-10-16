@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "irrelevant",
+  "reason": "Administrative records regarding software updates and valve status do not identify a specific physical asset or mechanism requiring hydraulic testing."
+}

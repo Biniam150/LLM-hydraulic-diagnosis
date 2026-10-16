@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "101",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Field and acoustic logging (R1) confirm a physically testable leak mechanism at Junction 101, temporally aligned with the diagnostic window and supported by model evidence."
+}

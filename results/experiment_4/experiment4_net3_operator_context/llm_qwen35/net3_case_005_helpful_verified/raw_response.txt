@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "demand_error",
+  "proposed_target": "109",
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Verified metering records confirm a sustained legitimate withdrawal at Junction 109 that was missing from the digital twin, justifying a focused test on demand error."
+}

@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "Reservoir River",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The operational record indicates that the supply set point at Reservoir River changed during the diagnostic window but was not propagated to the digital-twin boundary input, suggesting a potential issue with the source head."
+}

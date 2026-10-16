@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error"],
+  "target": null,
+  "confidence": 0.65,
+  "reasoning": [
+    "Residuals exceed the threshold (Z > 3) at multiple sensors (J296, J152, J345) with mixed pressure direction, suggesting localized mismatches rather than a systematic bias or global error.",
+    "No single sensor is persistently offset (mean close to zero), ruling out sensor_bias, but the spatial clustering of residuals hints at a localized issue like a leak or demand error.",
+    "Flow residuals are low (NRMSE = 0.011) and unchanged, reducing likelihood of roughness_error or pump-related issues, but pressure residuals alone cannot definitively exclude demand_error or leak."
+  ]
+}

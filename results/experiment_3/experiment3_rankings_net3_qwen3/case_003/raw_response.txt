@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "Leak hypotheses align with high residual magnitudes and pressure anomalies in multiple sensors, making them most plausible."
+}

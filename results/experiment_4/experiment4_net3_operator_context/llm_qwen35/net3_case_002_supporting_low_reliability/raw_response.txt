@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The suggestion of internal deposits in Pipe 123 lacks supporting inspection records or quantitative data to justify a specific hydraulic test."
+}

@@ -1,0 +1,17 @@
+neutral_case_id,true_cause,true_family_rank
+case_001,roughness_error,2
+case_002,roughness_error,3
+case_003,roughness_error,3
+case_004,roughness_error,3
+case_005,demand_error,3
+case_006,demand_error,2
+case_007,demand_error,3
+case_008,demand_error,2
+case_009,leak,1
+case_010,leak,1
+case_011,leak,1
+case_012,leak,1
+case_013,sensor_bias,4
+case_014,sensor_bias,4
+case_015,sensor_bias,4
+case_016,sensor_bias,4

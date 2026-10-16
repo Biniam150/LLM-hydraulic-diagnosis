@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_026",
+  "tier": "matched_model",
+  "scenario_id": "leak_n130_midday",
+  "observation_seed": 2027,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "leak",
+  "true_target": "130",
+  "expected_label": "leak",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": null,
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensors (120, 170, and 150) show persistent negative deviations that exceed the z-threshold of 3.0 standard deviations.\", \"These deviations are not consistent with a sudden onset or flow-related changes, ruling out 'leak' and 'roughness_error'.\", \"The affected sensors (120, 170) have no nearby nodes showing significant pressure changes, making 'demand_error' less likely.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": false,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

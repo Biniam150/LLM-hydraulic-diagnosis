@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_003",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p173_mild",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residuals are observed at junctions 166 and 157, suggesting a localized issue like a leak or demand error. The mixed pressure direction and lack of sensor bias further support these hypotheses.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3352,
+  "generated_tokens": 72
+}

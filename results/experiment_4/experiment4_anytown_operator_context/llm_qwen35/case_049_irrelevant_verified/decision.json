@@ -1,0 +1,23 @@
+{
+  "model": "qwen3.5:9b",
+  "model_label": "Qwen3.5-9B",
+  "variant_id": "case_049_irrelevant_verified",
+  "base_case_id": "case_049",
+  "scenario_id": "unknown_head165_rise",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "165",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The diagnostic identified potential causes but the operational records only confirm lack of maintenance activity or valve changes without providing specific hydraulic data (e.g., pressure drops, flow anomalies) to isolate a testable physical mechanism.",
+  "parse_error": null,
+  "prompt_tokens": 591,
+  "generated_tokens": 113,
+  "inference_duration_s": 26.6394453
+}

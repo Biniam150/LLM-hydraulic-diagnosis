@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_003",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p173_mild",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Leak hypotheses align with high residual magnitudes and pressure anomalies in multiple sensors, making them most plausible.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3360,
+  "generated_tokens": 50
+}

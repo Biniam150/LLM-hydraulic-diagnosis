@@ -1,0 +1,25 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "net3_case_008_supporting_low_reliability",
+  "base_case_id": "case_008",
+  "scenario_id": "demand_n231_high",
+  "context_condition": "supporting_low_reliability",
+  "experiment3_outcome": "ambiguous_causes",
+  "true_family": "demand_error",
+  "true_target": "231",
+  "safe_expected_outcome": "ambiguous_causes",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The operator's report of unusual consumption near Junction 231 is relevant to the demand_error hypothesis and could provide critical information.",
+  "parse_error": null,
+  "prompt_tokens": 646,
+  "generated_tokens": 93,
+  "inference_duration_s": 24.6757819
+}

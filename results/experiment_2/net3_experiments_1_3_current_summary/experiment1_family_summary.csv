@@ -1,0 +1,13 @@
+true_cause,mean_reduction_pct,sd_reduction_pct,runs,calibrated_family,relation
+demand_error,16.79943652237961,10.785978399184371,12,roughness_error,Mismatched cause
+leak,44.174064511797525,27.407670573395635,12,roughness_error,Mismatched cause
+no_fault,-1.2280870959749952,1.226379574039948,3,roughness_error,No fault
+roughness_error,21.642255451261367,11.327039979871573,12,roughness_error,Matched cause
+sensor_bias,-3.2897068923180437,13.216929525228526,12,roughness_error,Mismatched cause
+source_head,29.196903512890884,9.49683764086255,12,roughness_error,Mismatched cause
+demand_error,14.860920916050835,70.18561585456898,12,demand_error,Matched cause
+leak,60.225059988420014,22.43829998456932,12,demand_error,Mismatched cause
+no_fault,-2.7190038417723734,4.915419627640432,3,demand_error,No fault
+roughness_error,26.653335109054748,23.730508703868367,12,demand_error,Mismatched cause
+sensor_bias,-35.501795407082575,61.531061300702206,12,demand_error,Mismatched cause
+source_head,53.18285191754283,20.505291029622303,12,demand_error,Mismatched cause

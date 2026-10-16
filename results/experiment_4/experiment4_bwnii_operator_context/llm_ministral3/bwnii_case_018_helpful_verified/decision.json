@@ -1,0 +1,25 @@
+{
+  "model": "ministral-3:8b",
+  "model_label": "Ministral3-8B",
+  "variant_id": "bwnii_case_018_helpful_verified",
+  "base_case_id": "case_018",
+  "scenario_id": "unknown_r1_rise_high",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "R1",
+  "safe_expected_outcome": "source_head",
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "R1",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Operational record R1 confirms a temporally relevant, physically testable mechanism (incorrect reservoir head) with high reliability.",
+  "parse_error": null,
+  "prompt_tokens": 738,
+  "generated_tokens": 100,
+  "inference_duration_s": 49.2382882
+}

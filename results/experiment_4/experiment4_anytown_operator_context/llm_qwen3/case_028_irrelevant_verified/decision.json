@@ -1,0 +1,26 @@
+{
+  "model": "qwen3:8b",
+  "model_label": "Qwen3-8B",
+  "variant_id": "case_028_irrelevant_verified",
+  "base_case_id": "case_028",
+  "scenario_id": "leak_n170_late",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "leak",
+  "true_target": "170",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "node 150",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": [
+    "R1",
+    "R2"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Operational records confirm no changes to telemetry, controls, or model inputs, supporting the hypothesis of a leak at node 150.",
+  "parse_error": null,
+  "prompt_tokens": 661,
+  "generated_tokens": 109,
+  "inference_duration_s": 17.3037719
+}

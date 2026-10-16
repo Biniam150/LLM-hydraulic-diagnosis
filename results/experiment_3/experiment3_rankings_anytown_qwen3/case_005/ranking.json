@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_005",
+  "tier": "matched_model",
+  "scenario_id": "demand_n115_high",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Leak shows the most significant pressure residuals and affects multiple sensors, while sensor bias has minimal impact due to no affected sensors.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1569,
+  "generated_tokens": 54
+}

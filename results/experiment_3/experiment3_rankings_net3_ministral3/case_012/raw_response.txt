@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "sensor_bias", "roughness_error"],
+  "reason": "Extreme localized pressure residuals (e.g., **sensor 601** with **RMSE=10.86 m**, **max=26.72 m**) and widespread negative pressure drops strongly suggest a **pressure-dependent leak**, while **demand errors** are plausible due to clustered sensor anomalies. **Sensor bias** is less likely due to inconsistent residual patterns, and **roughness errors** are least probable given the abrupt onset and magnitude."
+}

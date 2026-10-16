@@ -1,0 +1,23 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "net3_case_008_conflicting_low_reliability",
+  "base_case_id": "case_008",
+  "scenario_id": "demand_n231_high",
+  "context_condition": "conflicting_low_reliability",
+  "experiment3_outcome": "ambiguous_causes",
+  "true_family": "demand_error",
+  "true_target": "231",
+  "safe_expected_outcome": "ambiguous_causes",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "Record R1 has low reliability and does not provide enough information to propose a focused hydraulic follow-up test.",
+  "parse_error": null,
+  "prompt_tokens": 591,
+  "generated_tokens": 51,
+  "inference_duration_s": 21.4052221
+}

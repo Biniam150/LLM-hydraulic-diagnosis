@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": "J276",
+  "confidence": 0.95,
+  "reasoning": [
+    "The largest residual pressure is observed at J276, which is consistent with a pressure-dependent water loss (leak) at that junction.",
+    "The pressure residual at J276 is significantly negative and exceeds the threshold, indicating a potential leak.",
+    "The sensor readings at J276 are highly anomalous, suggesting a physical issue rather than a sensor bias."
+  ]
+}

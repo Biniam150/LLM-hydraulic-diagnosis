@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_013",
+  "tier": "matched_model",
+  "scenario_id": "bias_j70_positive",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "true_cause": "sensor_bias",
+  "true_target": "J70",
+  "expected_label": "sensor_bias",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": "J70",
+  "confidence": 0.95,
+  "exact_outcome_correct": true,
+  "accepted": true,
+  "false_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2878,
+  "generated_tokens": 161
+}

@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": "170",
+  "confidence": 0.94,
+  "reasoning": [
+    "Sensor 170 exhibits a significantly larger mean residual (-0.0215 m) and RMSE (0.1688 m) compared to all other sensors.",
+    "The pressure direction is mixed or small across the network, which contradicts the distinct signature of a leak or demand error that would typically show directional trends in residuals along flow paths.",
+    "No meaningful hydraulic mismatch explains the isolated statistical outlier at sensor 170 without invoking a persistent measurement offset."
+  ]
+}

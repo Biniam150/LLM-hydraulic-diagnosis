@@ -1,0 +1,25 @@
+{
+  "model": "qwen3.5:9b",
+  "model_label": "Qwen3.5-9B",
+  "variant_id": "net3_case_020_supporting_low_reliability",
+  "base_case_id": "case_020",
+  "scenario_id": "unknown_lake_rise",
+  "context_condition": "supporting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "Lake",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The operator's unverified recollection of a reservoir set-point adjustment lacks historical data confirmation to justify a specific hydraulic test.",
+  "parse_error": null,
+  "prompt_tokens": 667,
+  "generated_tokens": 99,
+  "inference_duration_s": 26.1038944
+}

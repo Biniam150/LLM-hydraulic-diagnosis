@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_013",
+  "tier": "matched_model",
+  "scenario_id": "bias_j70_positive",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Single highly anomalous sensor (J70) with large, persistent pressure residuals (>0.35m) and mixed directional changes strongly suggests a localized leak, while demand errors are plausible but less isolated.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2846,
+  "generated_tokens": 73
+}

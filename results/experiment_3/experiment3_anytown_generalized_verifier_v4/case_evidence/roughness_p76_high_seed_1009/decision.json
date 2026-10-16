@@ -1,0 +1,10 @@
+{
+  "outcome": "unknown_cause",
+  "reason": "weak_cross_split_evidence",
+  "winner": "roughness_error",
+  "runner_up": "demand_error",
+  "balanced_improvement": 0.00856497482309626,
+  "relative_winner_margin": 0.008564974823097404,
+  "winner_validation_gof_pvalue": 0.10321703375748495,
+  "supported_families": []
+}

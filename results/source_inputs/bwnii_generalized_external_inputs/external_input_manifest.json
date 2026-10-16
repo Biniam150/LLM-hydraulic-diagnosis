@@ -1,0 +1,8 @@
+{
+  "network": "bwnii",
+  "cases": 21,
+  "verifier_policy": "configs/verifier/generalized_verifier_v4.json",
+  "policy_frozen_before_results": true,
+  "llm_inference_used": false,
+  "purpose": "External validation of the deterministic verifier component."
+}

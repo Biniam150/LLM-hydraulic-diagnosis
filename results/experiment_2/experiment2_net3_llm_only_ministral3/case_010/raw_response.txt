@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "601",
+  "confidence": 0.98,
+  "reasoning": [
+    "Sensor **601** exhibits a mean residual of **+2.178 m**, an order-of-magnitude larger than other sensors (all < -0.14 m) and with extreme RMSE (+7.64 m), indicating a persistent offset rather than dynamic system error.",
+    "The negative residuals at **12/12 sensors** align spatially (shortest-path clustering) but lack physical plausibility for leaks/demand errors—pressure drops are uniform across clusters, not localized to a single junction or pipe.",
+    "Flow metrics (NMRSE=0.156, noise ratio=15.65) and pump flow changes suggest the system is stable; thus, **sensor bias** at 601 is the most defensible explanation for the mismatch."
+  ]
+}

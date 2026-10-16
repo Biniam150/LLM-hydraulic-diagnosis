@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_015",
+  "tier": "matched_model",
+  "scenario_id": "bias_j345_negative",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residual sensor (J345) shows a significant and persistent offset, indicative of a leak. The mixed pressure direction and multiple affected sensors suggest demand errors or leaks. Roughness errors are less likely due to the magnitude of the residuals, and sensor bias is the least plausible given the strong evidence for a leak.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2781,
+  "generated_tokens": 94
+}

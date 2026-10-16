@@ -1,0 +1,13 @@
+{
+  "experiment": "blind_llm_only_causal_diagnosis",
+  "model": "llama3.1:8b",
+  "temperature": 0.0,
+  "inference_seed": 42,
+  "case_runs": 21,
+  "tiers": [
+    "matched_model"
+  ],
+  "hydraulic_hypothesis_tests": 0,
+  "deterministic_verification_used": false,
+  "design": "configs/scenarios/net3_causal_replication.json"
+}

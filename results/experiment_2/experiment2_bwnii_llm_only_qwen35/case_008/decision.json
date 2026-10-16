@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_008",
+  "tier": "matched_model",
+  "scenario_id": "demand_j276_low",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "true_cause": "demand_error",
+  "true_target": "J276",
+  "expected_label": "demand_error",
+  "predicted_label": "no_fault",
+  "predicted_families": "",
+  "predicted_target": null,
+  "confidence": 0.98,
+  "exact_outcome_correct": false,
+  "accepted": false,
+  "false_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2882,
+  "generated_tokens": 122
+}

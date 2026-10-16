@@ -1,0 +1,20 @@
+{
+  "scenario_id": "roughness_mismatch",
+  "seed": 101,
+  "true_cause": "roughness_error",
+  "true_target": "24",
+  "pressure_mae_before_m": 0.08918534688358412,
+  "pressure_mae_after_m": 0.0891853468835838,
+  "pressure_mae_improvement": 3.578941280526476e-15,
+  "clean_pressure_mae_before_m": 0.07679103360787458,
+  "clean_pressure_mae_after_m": 0.07679103360787438,
+  "fitted_node": "55",
+  "fitted_demand_multiplier": 1.25,
+  "demand_evidence": "weak_or_no_support",
+  "validation_improvement": 7.629803432641474e-16,
+  "pressure_noise_ratio": 4.5529412302810615,
+  "flow_noise_ratio": 1.0728498261538328,
+  "false_calibration": false,
+  "false_causal_attribution": false,
+  "simulations": 95
+}

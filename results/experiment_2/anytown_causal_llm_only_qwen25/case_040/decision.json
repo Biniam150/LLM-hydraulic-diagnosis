@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_040",
+  "tier": "matched_model",
+  "scenario_id": "bias_s170_late",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "sensor_bias",
+  "true_target": "170",
+  "expected_label": "sensor_bias",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": "170",
+  "confidence": 0.9,
+  "reasoning": "[\"The largest residual is observed at sensor 170 with a mean deviation of 0.7646 Mpa, significantly higher than other sensors.\", \"This persistent offset suggests a bias in the sensor reading rather than a change in demand or flow.\", \"No significant changes in pressure residuals are observed across other nodes.\"]",
+  "exact_outcome_correct": true,
+  "true_family_covered": true,
+  "target_correct": true,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

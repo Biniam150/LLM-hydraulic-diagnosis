@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.9,
+  "reasoning": [
+    "The largest residual sensors are J1058, J379, and J394.",
+    "J1058 has a large negative mean pressure residual (-0.819 m) with high RMSE (0.917 m).",
+    "This pattern is consistent with a leak at one junction."
+  ]
+}

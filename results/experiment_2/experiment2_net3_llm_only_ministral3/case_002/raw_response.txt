@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error"],
+  "target": null,
+  "confidence": 0.65,
+  "reasoning": [
+    "Residuals are negative (pressure below modeled) at multiple sensors with no sensor bias (affected_sensor_count=0), but lack clear spatial clustering or pressure threshold breaches (>0.09m).",
+    "Flow residuals are low (NRMSE=0.011, noise ratio=1.12) and unchanged, reducing likelihood of roughness_error or pump issues.",
+    "Pressure residuals show mixed directionality ('pressure_direction': 'mixed_or_small') and no single dominant sensor cluster, making localized leak or demand error plausible but inconclusive."
+  ]
+}

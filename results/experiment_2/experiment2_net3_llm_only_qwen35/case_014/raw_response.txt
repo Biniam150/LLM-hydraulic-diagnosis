@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": "253",
+  "confidence": 0.98,
+  "reasoning": [
+    "Sensor 253 exhibits a massive positive mean residual (0.657 m) and RMSE (0.658 m), far exceeding the threshold of 0.09 m.",
+    "The residual for sensor 253 is constant (min/max difference < 0.07 m), indicating a persistent offset rather than dynamic pressure loss patterns typical of leaks or demand errors.",
+    "No significant residuals are observed in neighboring sensors, isolating the fault to the specific measurement device."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.9,
+  "reasoning": [
+    "The largest residual sensors are J345, J296, and J152.",
+    "These sensors have mixed or small pressure direction.",
+    "There is no significant flow noise ratio."
+  ]
+}

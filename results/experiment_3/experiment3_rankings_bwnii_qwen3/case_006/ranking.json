@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_006",
+  "tier": "matched_model",
+  "scenario_id": "demand_j429_high",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residual and most negative pressure at J1058 strongly suggests a leak, while other residuals are smaller and less consistent with other error types.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2772,
+  "generated_tokens": 60
+}

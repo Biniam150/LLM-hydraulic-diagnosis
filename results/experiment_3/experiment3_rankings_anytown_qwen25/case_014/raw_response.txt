@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The largest residual is at sensor 170 with a mean residual of 0.7646438006953187, indicating a significant deviation that is most consistent with a leak. The pressure direction is mostly positive, and the affected sensor count is 1, which aligns with a localized issue like a leak or demand error. Roughness error and sensor bias are less likely given the magnitude and location of the residual."
+}

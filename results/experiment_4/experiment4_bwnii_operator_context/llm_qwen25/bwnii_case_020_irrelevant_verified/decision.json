@@ -1,0 +1,23 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "bwnii_case_020_irrelevant_verified",
+  "base_case_id": "case_020",
+  "scenario_id": "unknown_r1_rise_low",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "R1",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "conflicting",
+  "reason": "invalid structured output",
+  "parse_error": "a proposed test requires a supported family and target",
+  "prompt_tokens": 673,
+  "generated_tokens": 97,
+  "inference_duration_s": 24.15314
+}

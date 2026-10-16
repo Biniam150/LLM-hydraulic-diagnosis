@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["sensor_bias", "demand_error"],
+  "target": null,
+  "confidence": 0.65,
+  "reasoning": [
+    "Residuals are small (RMSE < 0.1 m) and mixed-direction across sensors, with no single sensor exceeding the pressure threshold of 0.09 m.",
+    "No affected sensors reported, but largest residuals appear at sensors 203, 601, and 40—potential localized bias or demand mismatch in their vicinity.",
+    "Flow metrics (NRMSE=0.011, noise ratio=1.1) suggest no major flow anomalies, reducing likelihood of leaks or roughness errors."
+  ]
+}

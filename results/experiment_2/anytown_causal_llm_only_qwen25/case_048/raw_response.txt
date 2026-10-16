@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "The largest residuals are observed at sensors 20, 50, and 70, which could be indicative of a leak or sensor bias.",
+    "The pressure direction is mostly positive, but the presence of multiple affected sensors suggests it might not be solely due to demand error.",
+    "The network context shows that these sensors have varying shortest path distances from other valid junctions, making roughness errors plausible."
+  ]
+}

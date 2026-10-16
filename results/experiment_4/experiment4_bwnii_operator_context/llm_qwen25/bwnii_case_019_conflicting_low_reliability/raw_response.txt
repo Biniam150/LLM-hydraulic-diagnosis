@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The low reliability of the shift note in record R1 makes it insufficient for a focused follow-up test, but it is relevant to the potential sensor bias issue."
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "demand_error",
+  "candidate_families": ["demand_error"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (170, 120) show a mostly positive mean pressure deviation, which is consistent with an increase in demand.",
+    "No significant flow changes or pump flow variations are observed, ruling out roughness_error and sensor_bias.",
+    "The affected sensors are not directly connected, making it less likely to be a leak."
+  ]
+}

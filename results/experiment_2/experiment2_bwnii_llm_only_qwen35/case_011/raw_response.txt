@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "J296",
+  "confidence": 0.95,
+  "reasoning": [
+    "Residuals at J296 and J360 are extreme (-41.6m and -32.98m) compared to all other sensors, indicating a massive localized pressure drop.",
+    "The pattern of large negative residuals affecting multiple downstream/upstream sensors (J296, J360, J379) is characteristic of a high-flow leak event rather than sensor bias or demand error.",
+    "Flow metrics are stable (flow_changed: false), ruling out pump failure or major demand shifts as the primary cause."
+  ]
+}

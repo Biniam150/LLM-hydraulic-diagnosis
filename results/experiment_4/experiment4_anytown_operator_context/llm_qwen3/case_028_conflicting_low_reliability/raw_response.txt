@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "150",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": ["R2"],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The validated control log confirms no unauthorized valve changes, supporting the focus on a potential leak at Junction 150."
+}

@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "109",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": [],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The leading candidate evidence for a leak at node 109 is strong, with a high validation GOF p-value and significant improvement in training and validation metrics."
+}

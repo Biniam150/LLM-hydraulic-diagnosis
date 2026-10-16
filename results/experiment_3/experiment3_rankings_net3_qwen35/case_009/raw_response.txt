@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The presence of a single sensor (601) exhibiting extreme residuals and a maximum pressure deviation significantly exceeding the threshold, combined with widespread negative pressure deviations across the network, strongly indicates a physical outflow event like a leak rather than systematic demand or roughness errors."
+}

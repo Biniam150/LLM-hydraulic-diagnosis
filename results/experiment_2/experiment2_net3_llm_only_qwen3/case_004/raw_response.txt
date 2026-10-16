@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "109",
+  "confidence": 0.85,
+  "reasoning": [
+    "Sensor 109 has the largest residual with a mean deviation of -0.0576 m, indicating a persistent offset.",
+    "The RMSE of 0.0792 m is higher than other sensors, suggesting a systematic error rather than random noise.",
+    "The residual pattern is consistent with a sensor bias affecting pressure readings at junction 109."
+  ]
+}

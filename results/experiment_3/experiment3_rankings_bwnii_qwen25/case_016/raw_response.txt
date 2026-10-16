@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The largest residual is observed at J152 with a mean residual of 0.6534717207172358, indicating a significant deviation that is most consistent with a leak. The mixed pressure direction and the presence of other affected sensors suggest demand errors and roughness errors could also be plausible, but to a lesser extent. Sensor bias is the least likely given the magnitude of the residual at J152."
+}

@@ -1,0 +1,115 @@
+{
+  "leak": {
+    "hypothesis": "leak",
+    "best_parameters": {
+      "node": "70",
+      "area_m2": 0.0015,
+      "start_hour": 0
+    },
+    "training_score_before": 0.09296250137852606,
+    "training_score_after": 0.08039991269329519,
+    "validation_score_before": 0.09818279241158748,
+    "validation_score_after": 0.08284671318633582,
+    "training_improvement": 0.13513608712052982,
+    "validation_improvement": 0.1561992570038342,
+    "pressure_rmse_m": 1.2813579532833834,
+    "flow_nrmse": 0.012859209804302786,
+    "simulations": 57,
+    "result": "weak_or_no_support",
+    "pressure_noise_ratio": 42.711931776112785,
+    "flow_noise_ratio": 1.2859209804302785,
+    "noise_consistent": false,
+    "evidence_basis": [
+      "post-fit pressure RMSE / configured pressure noise=42.712",
+      "post-fit flow NRMSE / configured flow noise fraction=1.286",
+      "training improvement=0.135",
+      "validation improvement=0.156"
+    ]
+  },
+  "demand_error": {
+    "hypothesis": "demand_error",
+    "best_parameters": {
+      "node": "160",
+      "multiplier": 1.5
+    },
+    "training_score_before": 0.09296250137852606,
+    "training_score_after": 0.037232495048926034,
+    "validation_score_before": 0.09818279241158748,
+    "validation_score_after": 0.041513738880002884,
+    "training_improvement": 0.5994891004780281,
+    "validation_improvement": 0.5771790773074055,
+    "pressure_rmse_m": 0.5450988909389376,
+    "flow_nrmse": 0.011740551477236499,
+    "simulations": 95,
+    "result": "weak_or_no_support",
+    "pressure_noise_ratio": 18.16996303129792,
+    "flow_noise_ratio": 1.1740551477236498,
+    "noise_consistent": false,
+    "evidence_basis": [
+      "post-fit pressure RMSE / configured pressure noise=18.170",
+      "post-fit flow NRMSE / configured flow noise fraction=1.174",
+      "training improvement=0.599",
+      "validation improvement=0.577"
+    ]
+  },
+  "roughness_error": {
+    "hypothesis": "roughness_error",
+    "best_parameters": {
+      "pipe": "80",
+      "multiplier": 0.6,
+      "search_scope": "full_network",
+      "candidate_pipe_count": 40
+    },
+    "training_score_before": 0.09296250137852606,
+    "training_score_after": 0.07649894822528164,
+    "validation_score_before": 0.09818279241158748,
+    "validation_score_after": 0.09484385308402057,
+    "training_improvement": 0.17709886146681755,
+    "validation_improvement": 0.03400737792799671,
+    "pressure_rmse_m": 1.4814273997628273,
+    "flow_nrmse": 0.01392859838453441,
+    "simulations": 160,
+    "result": "weak_or_no_support",
+    "pressure_noise_ratio": 49.38091332542758,
+    "flow_noise_ratio": 1.392859838453441,
+    "noise_consistent": false,
+    "evidence_basis": [
+      "post-fit pressure RMSE / configured pressure noise=49.381",
+      "post-fit flow NRMSE / configured flow noise fraction=1.393",
+      "training improvement=0.177",
+      "validation improvement=0.034"
+    ]
+  },
+  "sensor_bias": {
+    "hypothesis": "sensor_bias",
+    "best_parameters": {
+      "sensor": "120",
+      "bias_m": -1.6370617629887532,
+      "bias_bound_mode": "absolute",
+      "bias_bounds_m": [
+        -2.0,
+        2.0
+      ],
+      "baseline_pressure_scale_m": null
+    },
+    "training_score_before": 0.09296250137852606,
+    "training_score_after": 0.0843780254316498,
+    "validation_score_before": 0.09818279241158748,
+    "validation_score_after": 0.09223078390307594,
+    "training_improvement": 0.09234342686113697,
+    "validation_improvement": 0.060621707351328914,
+    "pressure_rmse_m": 1.4328919955467603,
+    "flow_nrmse": 0.013966522829544244,
+    "simulations": 0,
+    "result": "weak_or_no_support",
+    "pressure_noise_ratio": 47.763066518225344,
+    "flow_noise_ratio": 1.3966522829544243,
+    "noise_consistent": false,
+    "evidence_basis": [
+      "post-fit pressure RMSE / configured pressure noise=47.763",
+      "post-fit flow NRMSE / configured flow noise fraction=1.397",
+      "training improvement=0.092",
+      "validation improvement=0.061"
+    ]
+  }
+}

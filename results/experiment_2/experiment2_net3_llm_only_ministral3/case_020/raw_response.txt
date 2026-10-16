@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "109",
+  "confidence": 0.85,
+  "reasoning": [
+    "Single sensor (109) exhibits a large, persistent positive residual (mean=+0.17m, max=+0.32m) exceeding the threshold (>0.09m), while others remain near-zero or negative.",
+    "Residuals are spatially localized to sensor 109 and its immediate neighbors (166/167), suggesting a point-level issue rather than network-wide demand or roughness errors.",
+    "Flow metrics (NRMSE=0.01, noise ratio=1.12) show no evidence of unmodeled leakage or demand shifts; residuals are consistent with a persistent sensor offset."
+  ]
+}

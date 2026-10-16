@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_074",
+  "tier": "perturbed_truth_model",
+  "scenario_id": "leak_n80_morning",
+  "observation_seed": 2027,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "leak",
+  "true_target": "80",
+  "expected_label": "leak",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": null,
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensors are widely distributed, suggesting a systematic bias rather than localized issues like leaks or demand errors.\", \"Multiple pressure sensors show persistent offsets, which is characteristic of sensor bias.\", \"No significant flow changes were observed, reducing the likelihood of roughness errors affecting the system.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": false,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

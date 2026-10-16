@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": null,
+  "reason": "The diagnostic outcome is inconclusive (*unknown_cause*), and while **sensor_bias** and **leak** are statistically supported, neither record (R1 or R2) provides temporally precise, physically testable evidence for a focused hydraulic test. R1 lacks verification and specificity; R2 confirms no valve changes but does not address reservoir head or sensor calibration. The *source_head* family is plausible but untested without confirmed historical data on Reservoir 10’s set-point adjustments."
+}

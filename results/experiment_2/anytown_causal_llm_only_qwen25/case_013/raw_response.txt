@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "roughness_error"],
+  "target": null,
+  "confidence": 0.6,
+  "reasoning": [
+    "The pressure residuals show mixed behavior across sensors, with some showing negative deviations and others positive.",
+    "There is no clear evidence of a single fault family dominating the residual patterns.",
+    "The network context does not provide additional clues to narrow down the cause."
+  ]
+}

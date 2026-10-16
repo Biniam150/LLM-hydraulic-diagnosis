@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "601",
+  "confidence": 0.92,
+  "reasoning": [
+    "Sensor 601 exhibits a massive positive pressure residual (mean +2.18m) compared to the widespread negative residuals (-0.13m) seen in all other sensors.",
+    "This isolated high-pressure spike at sensor 601 indicates a localized demand error or leak near that specific node, causing the model to over-predict pressure there while under-predicting elsewhere due to mass balance violations.",
+    "The flow link '60' and pump flows have changed, confirming a system-wide event driven by this local anomaly rather than a global parameter drift like roughness or sensor bias."
+  ]
+}

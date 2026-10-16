@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "601",
+  "confidence": 0.98,
+  "reasoning": [
+    "Sensor **601** exhibits an extreme residual pattern (mean = +0.947 m, RMSE = 7.47 m) with a maximum deviation of ~25.55 m—far exceeding the pressure threshold and all other sensors.",
+    "The residual direction is positive for **601** while all others are negative, suggesting a persistent offset rather than a systemic error (e.g., leak or demand).",
+    "No spatial clustering or flow anomalies support pipe/roughness errors; the isolated magnitude and polarity strongly imply sensor bias."
+  ]
+}

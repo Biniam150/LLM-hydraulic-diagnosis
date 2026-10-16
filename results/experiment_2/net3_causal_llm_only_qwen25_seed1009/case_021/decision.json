@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_021",
+  "tier": "matched_model",
+  "scenario_id": "no_fault_control",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "no_fault",
+  "true_target": "109",
+  "expected_label": "no_fault",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "leak,roughness_error",
+  "predicted_target": null,
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensors are not directly connected, making it difficult to attribute the residuals to a single cause.\", \"Both leak and roughness error could potentially explain the mixed pressure direction and small magnitude of residuals observed across multiple nodes.\", \"Without additional context or more specific evidence, both families remain plausible.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": false,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

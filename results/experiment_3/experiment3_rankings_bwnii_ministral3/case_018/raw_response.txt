@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Extreme, consistent positive pressure residuals at multiple spatially clustered sensors (J276, J360, J1058) with high RMSE and no negative values strongly suggest a localized pressure-dependent outflow (leak)."
+}

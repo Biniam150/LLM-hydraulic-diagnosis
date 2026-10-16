@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_015",
+  "tier": "matched_model",
+  "scenario_id": "bias_j345_negative",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Extreme localized pressure drop at **J345** (mean = -0.80 m, RMSE = 0.80 m) with minimal flow impact suggests a **pressure-dependent leak**; demand errors or sensor bias are plausible but less likely given the magnitude and isolation.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2854,
+  "generated_tokens": 99
+}

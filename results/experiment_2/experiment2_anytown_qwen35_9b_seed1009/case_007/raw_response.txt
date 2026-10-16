@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": null,
+  "confidence": 0.89,
+  "reasoning": [
+    "Four sensors (50, 150, 100, 70) show consistent negative pressure residuals with high RMSE.",
+    "The affected sensors are spatially clustered and exhibit similar residual magnitudes relative to their distances from the monitored flow link.",
+    "Flow measurements remain stable with low noise ratios, ruling out significant demand errors or leaks as primary causes."
+  ]
+}

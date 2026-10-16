@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["sensor_bias", "demand_error"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "Seven pressure sensors exhibit consistent positive residuals (mean > 0.09 m) with no negative spikes, suggesting either systematic overestimation or unmodeled demand.",
+    "Residuals are spatially clustered (e.g., sensors 120/170/100 show highest deviations), but no single pipe/junction stands out as a leak source without additional flow evidence.",
+    "Flow residuals remain low (NRMSE=0.01) and unchanged, ruling out gross hydraulic mismatches like roughness errors or leaks."
+  ]
+}

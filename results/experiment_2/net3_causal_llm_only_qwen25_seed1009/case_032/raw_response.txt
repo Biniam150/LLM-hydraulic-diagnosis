@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.85,
+  "reasoning": [
+    "The largest residuals are observed at sensors 601, 15, and 157, with significant mean deviations.",
+    "Multiple families (leak, demand_error, roughness_error, sensor_bias) remain plausible given the residual patterns across multiple sensors.",
+    "No single family provides a clear and dominant cause for the observed residuals."
+  ]
+}

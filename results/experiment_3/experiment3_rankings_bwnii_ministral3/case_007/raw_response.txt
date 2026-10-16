@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Three highly correlated sensors show large, sustained negative pressure residuals (J93, J394, J500) with extreme RMSE, strongly indicative of a localized pressure-dependent outflow (leak)."
+}

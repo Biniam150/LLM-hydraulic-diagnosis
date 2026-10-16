@@ -1,0 +1,25 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "bwnii_case_019_helpful_verified",
+  "base_case_id": "case_019",
+  "scenario_id": "unknown_r1_drop_high",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "R1",
+  "safe_expected_outcome": "source_head",
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "Reservoir R1",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The supply set point change at Reservoir R1 during the diagnostic window is a temporally relevant and reliable record that supports the 'incorrect reservoir or supply-boundary head' hypothesis.",
+  "parse_error": null,
+  "prompt_tokens": 689,
+  "generated_tokens": 111,
+  "inference_duration_s": 35.283183
+}

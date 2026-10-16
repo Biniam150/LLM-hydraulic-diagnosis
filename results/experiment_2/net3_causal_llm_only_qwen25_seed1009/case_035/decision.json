@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_035",
+  "tier": "perturbed_truth_model",
+  "scenario_id": "bias_s253_morning",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "sensor_bias",
+  "true_target": "253",
+  "expected_label": "sensor_bias",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "demand_error,sensor_bias",
+  "predicted_target": null,
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residuals are observed at sensors 253 and 15, which have significant mean pressure deviations.\", \"There is no clear evidence pointing to a single fault family; both demand error and sensor bias could explain the observed patterns.\", \"The network context does not provide additional insights that would favor one cause over the other.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": true,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

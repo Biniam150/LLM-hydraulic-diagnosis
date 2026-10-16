@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (231, 253) show significant pressure deviations, but the nature of these deviations is not clearly indicative of a single fault family.",
+    "Pressure residuals are mixed or small across multiple nodes, and no single sensor shows persistent bias, ruling out 'sensor_bias'.",
+    "There's no clear evidence to definitively point towards either 'leak' or 'roughness_error', making the cause ambiguous."
+  ]
+}

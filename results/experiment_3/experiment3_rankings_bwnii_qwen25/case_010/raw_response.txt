@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The largest residuals are at J379 and J1058, indicating a significant issue, and the pressure direction is mostly negative, which is more consistent with a leak or demand error than roughness or sensor bias."
+}

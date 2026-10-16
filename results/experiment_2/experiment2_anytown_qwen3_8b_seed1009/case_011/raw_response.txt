@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "20",
+  "confidence": 0.95,
+  "reasoning": [
+    "Sensor 20 shows a large negative residual with a mean of -0.44 m and RMSE of 0.44 m, indicating a persistent offset.",
+    "The residual pattern is consistent with a sensor bias rather than a leak or demand error, as other sensors show minimal deviation.",
+    "Sensor 20 is the only sensor with a significant residual, supporting the hypothesis of a sensor bias."
+  ]
+}

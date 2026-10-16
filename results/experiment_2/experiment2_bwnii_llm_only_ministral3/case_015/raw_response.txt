@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "J345",
+  "confidence": 0.95,
+  "reasoning": [
+    "Single sensor (J345) exhibits extreme residual magnitude (~0.8m) and persistent negative bias (min/max both negative) exceeding threshold (3σ) with no directional consistency across other sensors.",
+    "Residuals at J345 are orders of magnitude larger than any other sensor (mean RMSE ~0.8 vs. <0.04 elsewhere), suggesting localized measurement artifact rather than network-wide mismatch.",
+    "Flow residuals remain low (NRMSE=0.011) and unchanged, ruling out demand/leak/roughness errors as primary causes for the isolated pressure signal anomaly."
+  ]
+}

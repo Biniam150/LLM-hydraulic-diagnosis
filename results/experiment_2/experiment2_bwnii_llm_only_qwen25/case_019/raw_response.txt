@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.85,
+  "reasoning": [
+    "The largest residual sensors (J276, J1058, J379) show extreme negative deviations from the mean, suggesting a significant pressure drop.",
+    "Five pressure sensors are affected, indicating a widespread issue that is not localized to a single sensor bias or demand error.",
+    "The pressure residuals are mostly negative and exceed the threshold, consistent with a leak causing water loss."
+  ]
+}

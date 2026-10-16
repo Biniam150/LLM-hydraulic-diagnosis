@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "roughness_error"],
+  "target": null,
+  "confidence": 0.65,
+  "reasoning": [
+    "Residuals exceed the threshold (Z > 3) at multiple sensors (e.g., 50, 150, 170), with mixed pressure direction and no sensor bias pattern (no single offset or consistent directional trend).",
+    "Flow residuals are low (NRMSE = 0.011) and unchanged, reducing plausibility of a leak or sensor bias affecting flow measurements.",
+    "Pressure residuals show localized spikes at multiple sensors, suggesting either incorrect nodal demand magnitudes or pipe resistance errors."
+  ]
+}

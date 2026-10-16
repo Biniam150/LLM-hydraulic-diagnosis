@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The pressure residuals are mostly negative, indicating a loss of pressure.",
+    "The largest residual sensors are all located near the affected sensor (20), suggesting a localized issue.",
+    "The estimated onset hour is 4, which corresponds to the time when the pressure residuals start to deviate from normal."
+  ]
+}

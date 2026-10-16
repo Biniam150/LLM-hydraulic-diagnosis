@@ -1,0 +1,20 @@
+{
+  "scenario_id": "leak_mismatch",
+  "seed": 101,
+  "true_cause": "leak",
+  "true_target": "90",
+  "pressure_mae_before_m": 0.07284193550376357,
+  "pressure_mae_after_m": 0.07493223814235542,
+  "pressure_mae_improvement": -0.028696418129689146,
+  "clean_pressure_mae_before_m": 0.049695176705634,
+  "clean_pressure_mae_after_m": 0.05457524436394797,
+  "fitted_pipe": "56",
+  "fitted_roughness_multiplier": 1.2,
+  "roughness_evidence": "weak_or_no_support",
+  "validation_improvement": -0.015707327187196612,
+  "pressure_noise_ratio": 5.235174648975527,
+  "flow_noise_ratio": 1.0797739673269018,
+  "false_calibration": false,
+  "false_causal_attribution": false,
+  "simulations": 160
+}

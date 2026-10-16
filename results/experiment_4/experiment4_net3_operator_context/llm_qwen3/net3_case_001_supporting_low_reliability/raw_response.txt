@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": ["R1", "R2"],
+  "record_assessment": "insufficient_reliability",
+  "reason": "Record R1 has low reliability and lacks verification, while R2 does not provide actionable information about the mechanism or asset under investigation."
+}

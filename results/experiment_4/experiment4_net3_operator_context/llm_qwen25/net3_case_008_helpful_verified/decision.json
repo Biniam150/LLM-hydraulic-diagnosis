@@ -1,0 +1,25 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "net3_case_008_helpful_verified",
+  "base_case_id": "case_008",
+  "scenario_id": "demand_n231_high",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "ambiguous_causes",
+  "true_family": "demand_error",
+  "true_target": "231",
+  "safe_expected_outcome": "demand_error",
+  "action": "propose_follow_up_test",
+  "proposed_family": "demand_error",
+  "proposed_target": "junction 231",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Record R1 directly supports the hypothesis of unaccounted demand at Junction 231.",
+  "parse_error": null,
+  "prompt_tokens": 651,
+  "generated_tokens": 95,
+  "inference_duration_s": 30.2764048
+}

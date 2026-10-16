@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_030",
+  "tier": "matched_model",
+  "scenario_id": "leak_n170_late",
+  "observation_seed": 4049,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "leak",
+  "true_target": "170",
+  "expected_label": "leak",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": "170",
+  "confidence": 0.8,
+  "reasoning": "[\"The largest residual sensor (170) shows a persistent offset, which is characteristic of sensor bias.\", \"No significant flow changes or pump issues are observed, ruling out demand_error and roughness_error.\", \"The pressure direction is mixed_or_small, and the large residual at sensor 170 does not align with a leak scenario.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": false,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

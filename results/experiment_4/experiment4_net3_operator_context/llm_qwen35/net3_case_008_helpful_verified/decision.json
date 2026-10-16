@@ -1,0 +1,23 @@
+{
+  "model": "qwen3.5:9b",
+  "model_label": "Qwen3.5-9B",
+  "variant_id": "net3_case_008_helpful_verified",
+  "base_case_id": "case_008",
+  "scenario_id": "demand_n231_high",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "ambiguous_causes",
+  "true_family": "demand_error",
+  "true_target": "231",
+  "safe_expected_outcome": "demand_error",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The diagnostic results indicate ambiguous causes with multiple competing hypotheses (demand error vs. roughness error), and the provided operational records do not isolate a single physically testable mechanism to justify a specific follow-up test.",
+  "parse_error": null,
+  "prompt_tokens": 655,
+  "generated_tokens": 113,
+  "inference_duration_s": 54.1770934
+}

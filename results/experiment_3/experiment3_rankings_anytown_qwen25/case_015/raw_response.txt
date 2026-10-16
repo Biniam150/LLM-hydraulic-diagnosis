@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "sensor_bias", "roughness_error"],
+  "reason": "The large and persistent negative residuals at key sensors, along with the short onset time, strongly suggest a leak. The affected sensors are close to each other, which is more consistent with a demand error than sensor bias. Roughness error is less likely given the pattern of residuals."
+}

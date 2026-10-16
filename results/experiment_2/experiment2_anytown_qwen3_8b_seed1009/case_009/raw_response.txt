@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["sensor_bias", "leak", "demand_error"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "Two sensors (120 and 170) show large negative pressure residuals, suggesting a possible sensor bias or localized pressure drop.",
+    "The pressure residuals are mostly negative, which could indicate a leak or demand error affecting the network.",
+    "The affected sensors are spatially distant, making it difficult to isolate a single cause without further analysis."
+  ]
+}

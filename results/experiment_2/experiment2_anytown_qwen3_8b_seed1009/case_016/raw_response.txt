@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "sensor_bias"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "Multiple pressure sensors (20, 70, 100) show consistently positive residuals, suggesting a possible leak or sensor bias.",
+    "The affected sensors are spatially distributed, which could indicate a leak affecting multiple nodes or a sensor bias across different locations.",
+    "The residuals are not consistent with demand errors or roughness errors, which typically affect specific segments or nodes."
+  ]
+}

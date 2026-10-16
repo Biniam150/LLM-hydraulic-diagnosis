@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": "166",
+  "confidence": 0.85,
+  "reasoning": [
+    "The largest residual sensors include 166, which is a junction with high pressure residuals and a large maximum residual value.",
+    "The pressure residuals at sensor 166 show a significant deviation, suggesting a possible pressure-dependent water loss at that junction.",
+    "The presence of a leak at junction 166 could explain the observed pressure anomalies without requiring sensor bias or network parameter errors."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_016",
+  "tier": "matched_model",
+  "scenario_id": "bias_j152_positive",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The massive, persistent positive residual at sensor J152 (mean ~0.65m) strongly indicates a physical outflow loss consistent with a leak, while the lack of flow change and minimal residuals elsewhere rule out demand errors or roughness issues.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2789,
+  "generated_tokens": 84
+}

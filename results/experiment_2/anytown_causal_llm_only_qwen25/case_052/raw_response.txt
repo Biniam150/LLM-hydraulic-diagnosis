@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error"],
+  "target": null,
+  "confidence": 0.6,
+  "reasoning": [
+    "The pressure residuals at sensors 50 and 170 suggest a localized issue, which could be either a leak or an error in pipe roughness.",
+    "No single family can be definitively identified as the cause given the mixed nature of the residual patterns across different sensors.",
+    "The lack of clear evidence for demand_error, sensor_bias, or other specific faults makes 'ambiguous_causes' the most defensible outcome."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_006",
+  "tier": "matched_model",
+  "scenario_id": "demand_j429_high",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "true_cause": "demand_error",
+  "true_target": "J429",
+  "expected_label": "demand_error",
+  "predicted_label": "sensor_bias",
+  "predicted_families": "sensor_bias",
+  "predicted_target": "J1058",
+  "confidence": 0.95,
+  "exact_outcome_correct": false,
+  "accepted": true,
+  "false_attribution": true,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2940,
+  "generated_tokens": 152
+}

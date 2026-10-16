@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "Largest residuals at multiple junctions (J345, J296, J152) with mixed pressure deviations and no sensor bias pattern suggest a localized pressure-dependent outflow (leak) as the most plausible cause."
+}

@@ -1,0 +1,266 @@
+{
+  "case_runs": 90,
+  "method_decisions": 360,
+  "design": {
+    "network": "anytown",
+    "purpose": "Frozen comparison of fit-based calibration and evidence-gated causal diagnosis.",
+    "frozen_before_results": true,
+    "seeds": [
+      1009,
+      2027,
+      4049
+    ],
+    "tiers": [
+      "matched_model",
+      "perturbed_truth_model"
+    ],
+    "perturbed_truth_model": {
+      "seed": 8675309,
+      "junction_demand_relative_std": 0.005,
+      "pipe_roughness_relative_std": 0.005,
+      "reservoir_head_std_m": 0.02
+    },
+    "hydraulic_preflight": {
+      "status": "revised_before_completed_diagnostic_results",
+      "reason": "The initial 3 percent background perturbation caused widespread incomplete WNTR simulations. Perturbations were reduced for solver feasibility; no failed scenario was replaced and diagnostic outcomes were not inspected.",
+      "excluded_scenarios": {
+        "matched_model": [
+          "roughness_p58_mild",
+          "demand_n30_low",
+          "unknown_head65_drop"
+        ],
+        "perturbed_truth_model": [
+          "roughness_p34_mild",
+          "roughness_p76_high",
+          "demand_n30_low",
+          "leak_n130_midday",
+          "leak_n170_late",
+          "bias_s170_late",
+          "unknown_head10_rise",
+          "unknown_head65_drop"
+        ]
+      }
+    },
+    "roughness_only_min_validation_improvement": 0.1,
+    "notes": [
+      "All primary fault magnitudes are off the diagnostic candidate grid except sensor bias, which is fitted continuously.",
+      "The diagnostic candidate grid and evidence thresholds remain those in configs/networks/anytown.json.",
+      "The no-fault scenario is evaluated only in the matched-model tier.",
+      "The perturbed tier adds reproducible background parameter uncertainty unknown to every diagnostic method.",
+      "Background parameter draws are fixed per scenario; the three seeds vary observation noise only."
+    ],
+    "scenarios": [
+      {
+        "id": "roughness_p10_low",
+        "fault": {
+          "fault_type": "roughness_error",
+          "target": "10",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": 0.7
+        }
+      },
+      {
+        "id": "roughness_p34_mild",
+        "fault": {
+          "fault_type": "roughness_error",
+          "target": "34",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": 0.9
+        }
+      },
+      {
+        "id": "roughness_p58_mild",
+        "fault": {
+          "fault_type": "roughness_error",
+          "target": "58",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": 1.1
+        }
+      },
+      {
+        "id": "roughness_p76_high",
+        "fault": {
+          "fault_type": "roughness_error",
+          "target": "76",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": 1.3
+        }
+      },
+      {
+        "id": "demand_n30_low",
+        "fault": {
+          "fault_type": "demand_error",
+          "target": "30",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": 0.65
+        }
+      },
+      {
+        "id": "demand_n75_mild",
+        "fault": {
+          "fault_type": "demand_error",
+          "target": "75",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": 0.9
+        }
+      },
+      {
+        "id": "demand_n115_high",
+        "fault": {
+          "fault_type": "demand_error",
+          "target": "115",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": 1.35
+        }
+      },
+      {
+        "id": "demand_n160_high",
+        "fault": {
+          "fault_type": "demand_error",
+          "target": "160",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": 1.75
+        }
+      },
+      {
+        "id": "leak_n40_early",
+        "fault": {
+          "fault_type": "leak",
+          "target": "40",
+          "start_hour": 4,
+          "end_hour": 24,
+          "magnitude": 0.00065
+        }
+      },
+      {
+        "id": "leak_n80_morning",
+        "fault": {
+          "fault_type": "leak",
+          "target": "80",
+          "start_hour": 8,
+          "end_hour": 24,
+          "magnitude": 0.00085
+        }
+      },
+      {
+        "id": "leak_n130_midday",
+        "fault": {
+          "fault_type": "leak",
+          "target": "130",
+          "start_hour": 12,
+          "end_hour": 24,
+          "magnitude": 0.0012
+        }
+      },
+      {
+        "id": "leak_n170_late",
+        "fault": {
+          "fault_type": "leak",
+          "target": "170",
+          "start_hour": 16,
+          "end_hour": 24,
+          "magnitude": 0.00135
+        }
+      },
+      {
+        "id": "bias_s20_early",
+        "fault": {
+          "fault_type": "sensor_bias",
+          "target": "20",
+          "start_hour": 4,
+          "end_hour": 24,
+          "magnitude": -0.45
+        }
+      },
+      {
+        "id": "bias_s70_morning",
+        "fault": {
+          "fault_type": "sensor_bias",
+          "target": "70",
+          "start_hour": 8,
+          "end_hour": 24,
+          "magnitude": 0.65
+        }
+      },
+      {
+        "id": "bias_s120_midday",
+        "fault": {
+          "fault_type": "sensor_bias",
+          "target": "120",
+          "start_hour": 12,
+          "end_hour": 24,
+          "magnitude": -0.55
+        }
+      },
+      {
+        "id": "bias_s170_late",
+        "fault": {
+          "fault_type": "sensor_bias",
+          "target": "170",
+          "start_hour": 16,
+          "end_hour": 24,
+          "magnitude": 0.75
+        }
+      },
+      {
+        "id": "unknown_head10_drop",
+        "fault": {
+          "fault_type": "source_head",
+          "target": "10",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": -1.5
+        }
+      },
+      {
+        "id": "unknown_head10_rise",
+        "fault": {
+          "fault_type": "source_head",
+          "target": "10",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": 2.5
+        }
+      },
+      {
+        "id": "unknown_head65_drop",
+        "fault": {
+          "fault_type": "source_head",
+          "target": "65",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": -2.5
+        }
+      },
+      {
+        "id": "unknown_head165_rise",
+        "fault": {
+          "fault_type": "source_head",
+          "target": "165",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": 1.5
+        }
+      },
+      {
+        "id": "no_fault_control",
+        "fault": {
+          "fault_type": "no_fault",
+          "target": "90",
+          "start_hour": 0,
+          "end_hour": 24,
+          "magnitude": 0.0
+        }
+      }
+    ]
+  },
+  "important_interpretation": "The matched tier tests a closed synthetic setting. The perturbed tier tests modest forward-model mismatch but remains synthetic. The oracle is an upper bound, not a deployable method."
+}

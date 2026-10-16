@@ -1,0 +1,25 @@
+{
+  "model": "ministral-3:8b",
+  "model_label": "Ministral3-8B",
+  "variant_id": "net3_case_002_helpful_verified",
+  "base_case_id": "case_002",
+  "scenario_id": "roughness_p123_mild",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "roughness_error",
+  "true_target": "123",
+  "safe_expected_outcome": "roughness_error",
+  "action": "propose_follow_up_test",
+  "proposed_family": "roughness_error",
+  "proposed_target": "204",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Operational record R1 confirms unupdated hydraulic resistance for Pipe 123, aligning with the diagnostic’s roughness_error candidate (Pipe 204) and supporting a targeted roughness test.",
+  "parse_error": null,
+  "prompt_tokens": 702,
+  "generated_tokens": 116,
+  "inference_duration_s": 42.9305445
+}

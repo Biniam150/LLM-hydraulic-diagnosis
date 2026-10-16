@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": null,
+  "confidence": 0.89,
+  "reasoning": [
+    "Four sensors (20, 70, 100, 50) show persistent positive pressure residuals exceeding the threshold.",
+    "Sensor 20 exhibits a significantly larger mean residual (~1.34m) compared to others, suggesting it may be an outlier or part of a correlated bias pattern rather than a localized leak signature which typically shows distinct spatial decay patterns not fully captured here without flow data anomalies.",
+    "Flow metrics (nrmse ~0.015 and noise ratio > 1) indicate the hydraulic model matches observed flows well, making demand errors or leaks unlikely primary causes for this specific pressure-only mismatch."
+  ]
+}

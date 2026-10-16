@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "roughness_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.7,
+  "reasoning": [
+    "The largest residual sensors (50, 150) show significant deviations with high RMSE values, suggesting potential issues in demand or sensor readings.",
+    "Pressure residuals are mostly negative and span a wide range of values, indicating possible errors in both demand magnitude and pipe resistance/roughness.",
+    "Sensor bias is plausible given the persistent offsets affecting multiple sensors."
+  ]
+}

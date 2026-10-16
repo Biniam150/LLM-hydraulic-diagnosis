@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "601",
+  "confidence": 0.95,
+  "reasoning": [
+    "Sensor 601 has an extremely high residual mean and RMSE, indicating a significant and persistent bias.",
+    "The pressure direction is mostly negative, which aligns with a sensor bias rather than a demand or leak issue.",
+    "The affected sensors are spatially clustered, suggesting a localized sensor fault rather than a network-wide issue."
+  ]
+}

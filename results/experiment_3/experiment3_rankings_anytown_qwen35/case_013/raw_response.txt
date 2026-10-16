@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The dominant negative pressure residual at sensor 120 combined with a single affected sensor strongly indicates a physical outflow (leak) rather than demand or roughness errors, while the negligible flow residuals rule out significant pump or mainline flow changes."
+}

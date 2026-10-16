@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "sensor_bias", "roughness_error"],
+  "reason": "Single sensor (15) shows large, persistent negative residuals with high RMSE and mixed pressure direction, strongly suggestive of a localized pressure-dependent leak."
+}

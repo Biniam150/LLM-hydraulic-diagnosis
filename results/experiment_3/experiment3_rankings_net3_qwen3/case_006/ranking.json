@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_006",
+  "tier": "matched_model",
+  "scenario_id": "demand_n119_mild",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Leak is most plausible due to the presence of large residual pressures and the pressure direction being mixed or small, which aligns with leak characteristics.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3353,
+  "generated_tokens": 58
+}

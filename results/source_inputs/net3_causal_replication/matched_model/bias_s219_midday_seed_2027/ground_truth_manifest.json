@@ -1,0 +1,77 @@
+{
+  "network": "networks\\EPANET Net 3.inp",
+  "fault": {
+    "fault_type": "sensor_bias",
+    "target": "219",
+    "start_hour": 12,
+    "end_hour": 24,
+    "magnitude": -0.55
+  },
+  "observation_config": {
+    "pressure_sensors": [
+      "109",
+      "253",
+      "15",
+      "203",
+      "219",
+      "166",
+      "601",
+      "40",
+      "20",
+      "157",
+      "231",
+      "167"
+    ],
+    "flow_link": "60",
+    "pressure_noise_std_m": 0.03,
+    "flow_noise_fraction": 0.01,
+    "duration_hours": 24,
+    "seed": 2027,
+    "solver": "epanet",
+    "demand_model": "DDA",
+    "feature_policy": {
+      "residual_z_threshold": 3.0,
+      "onset_min_consecutive": 2,
+      "direction_min_fraction": 0.1,
+      "flow_z_threshold": 3.0
+    },
+    "search_policy": {
+      "candidate_node_scope": "full_network",
+      "leak_areas_m2": [
+        0.0005,
+        0.001,
+        0.0015
+      ],
+      "demand_multipliers": [
+        0.5,
+        0.75,
+        1.25,
+        1.5,
+        2.0
+      ],
+      "roughness_multipliers": [
+        0.6,
+        0.8,
+        1.2,
+        1.4
+      ],
+      "sensor_bias_bound_mode": "baseline_fraction",
+      "sensor_bias_bounds_m": null,
+      "sensor_bias_baseline_fraction": 0.05,
+      "sensor_bias_min_noise_multiplier": 10.0
+    },
+    "evidence_policy": {
+      "strong_max_pressure_noise_ratio": 1.5,
+      "strong_max_flow_noise_ratio": 1.5,
+      "strong_min_training_improvement": 0.1,
+      "strong_min_validation_improvement": 0.1,
+      "moderate_max_pressure_noise_ratio": 3.0,
+      "moderate_max_flow_noise_ratio": 3.0,
+      "moderate_min_training_improvement": 0.05,
+      "moderate_min_validation_improvement": 0.05
+    },
+    "candidate_cache_dir": "outputs\\candidate_prediction_cache\\net3"
+  },
+  "ground_truth_is_hidden_from_agent": true,
+  "tier": "matched_model"
+}

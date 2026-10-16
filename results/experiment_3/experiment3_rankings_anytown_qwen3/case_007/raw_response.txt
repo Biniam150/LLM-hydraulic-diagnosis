@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "Leak is most plausible due to multiple affected sensors with large negative residuals, while sensor bias is least likely due to inconsistent residual patterns across sensors."
+}

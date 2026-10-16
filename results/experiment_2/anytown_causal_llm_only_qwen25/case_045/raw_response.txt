@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (20, 70) show persistent and significant deviations from the mean pressure readings.",
+    "These deviations are not consistent with a sudden onset or gradual change in flow, ruling out demand_error or roughness_error.",
+    "Given the persistence of the bias across multiple sensors, it is most plausible that there is a sensor bias issue."
+  ]
+}

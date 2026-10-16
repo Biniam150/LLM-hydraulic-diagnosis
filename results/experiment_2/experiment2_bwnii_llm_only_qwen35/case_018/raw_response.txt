@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "J276",
+  "confidence": 0.85,
+  "reasoning": [
+    "Sensor J276 exhibits a massive, persistent positive pressure residual (mean ~2.5m) far exceeding the threshold and all other sensors.",
+    "The affected sensor count is high (4), but residuals are dominated by J276, suggesting a localized physical loss rather than a global demand or roughness error.",
+    "A significant leak at junction J276 would cause the model to over-predict pressure downstream of the loss point relative to the actual measured pressure."
+  ]
+}

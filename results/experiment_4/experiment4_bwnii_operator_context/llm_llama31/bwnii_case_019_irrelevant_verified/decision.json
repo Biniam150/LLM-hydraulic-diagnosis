@@ -1,0 +1,23 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "bwnii_case_019_irrelevant_verified",
+  "base_case_id": "case_019",
+  "scenario_id": "unknown_r1_drop_high",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "R1",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "sensor_bias",
+  "proposed_target": "J276",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Sensor J276 has a significant bias (-2.50329108815546) and the leading candidate evidence suggests a sensor bias.",
+  "parse_error": null,
+  "prompt_tokens": 612,
+  "generated_tokens": 96,
+  "inference_duration_s": 34.3873471
+}

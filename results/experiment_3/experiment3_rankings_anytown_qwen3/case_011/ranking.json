@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_011",
+  "tier": "matched_model",
+  "scenario_id": "bias_s20_early",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The leak hypothesis is most plausible due to the significant negative pressure residual at sensor 20, which aligns with pressure-dependent outflow. Demand error is next due to the potential for incorrect demand magnitude to cause consistent pressure changes. Roughness error and sensor bias are less likely due to smaller residuals and less direct impact on the observed pressure pattern.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1563,
+  "generated_tokens": 98
+}

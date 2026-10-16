@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (109, 231) show mixed pressure changes without a clear pattern that would indicate a single fault family.",
+    "Sensor 109 shows the most significant negative deviation, which could suggest a leak or roughness error affecting this area.",
+    "Sensor 231 shows a positive deviation, which is less indicative of any specific fault family but supports the presence of multiple issues."
+  ]
+}

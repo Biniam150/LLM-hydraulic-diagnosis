@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors are 15, 203, and 109.",
+    "Sensor 15 has a mean pressure residual of -0.08760126853329009 m and an RMSE of 0.09879101015266734 m.",
+    "These values indicate a significant pressure drop at sensor 15."
+  ]
+}

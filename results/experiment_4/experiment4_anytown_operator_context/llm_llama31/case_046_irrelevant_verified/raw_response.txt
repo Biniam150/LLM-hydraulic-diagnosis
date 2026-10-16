@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "sensor_bias",
+  "proposed_target": "20",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Sensor bias is the leading candidate with a high validation GOF p-value and significant improvement in training and validation."
+}

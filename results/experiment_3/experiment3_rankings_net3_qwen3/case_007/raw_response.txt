@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The largest residual sensor (15) shows a significant negative mean and high RMSE, suggesting a localized issue like a leak, which aligns with the pressure direction and sensor count."
+}

@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": null,
+  "reason": "The diagnostic outcome is inconclusive (*unknown_cause*), and the operational records are either unreliable (R1) or irrelevant to hydraulic testability (R2). No physically testable mechanism or asset is identified with sufficient temporal relevance or reliability in the provided data."
+}

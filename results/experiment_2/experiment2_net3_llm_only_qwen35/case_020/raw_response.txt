@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": "109",
+  "confidence": 0.92,
+  "reasoning": [
+    "Only sensor 109 exhibits a statistically significant residual (mean > threshold) while all other sensors remain within noise bounds.",
+    "The affected sensor is isolated; residuals do not propagate to distant nodes or show the spatial clustering typical of leaks or demand errors.",
+    "Flow metrics are stable and unchanged, ruling out physical water loss or major demand shifts as primary causes."
+  ]
+}

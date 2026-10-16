@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_007",
+  "tier": "matched_model",
+  "scenario_id": "demand_j93_high",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Leak is most plausible due to multiple affected sensors with large residuals and pressure direction, followed by demand error, roughness error, and sensor bias.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2771,
+  "generated_tokens": 59
+}

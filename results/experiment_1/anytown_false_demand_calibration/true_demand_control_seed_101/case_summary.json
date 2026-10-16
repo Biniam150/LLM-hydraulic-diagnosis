@@ -1,0 +1,20 @@
+{
+  "scenario_id": "true_demand_control",
+  "seed": 101,
+  "true_cause": "demand_error",
+  "true_target": "90",
+  "pressure_mae_before_m": 1.026133971052558,
+  "pressure_mae_after_m": 0.02650156130409182,
+  "pressure_mae_improvement": 0.9741733905594141,
+  "clean_pressure_mae_before_m": 1.0080263795619546,
+  "clean_pressure_mae_after_m": 1.0785023667787234e-15,
+  "fitted_node": "90",
+  "fitted_demand_multiplier": 1.5,
+  "demand_evidence": "strong_support",
+  "validation_improvement": 0.9026266667157593,
+  "pressure_noise_ratio": 0.9350156195271183,
+  "flow_noise_ratio": 1.1007050239198957,
+  "false_calibration": false,
+  "false_causal_attribution": false,
+  "simulations": 95
+}

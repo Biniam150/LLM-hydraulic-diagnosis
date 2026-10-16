@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": "J345",
+  "confidence": 0.98,
+  "reasoning": [
+    "Sensor J345 exhibits a massive, consistent negative residual mean (-0.80m) compared to all other sensors which are near zero.",
+    "The pressure direction is mixed/small across the network, indicating no widespread hydraulic event like a leak or demand shift.",
+    "The magnitude of the error at J345 far exceeds typical modeling noise (RMSE ~0.8m vs <0.06m elsewhere), confirming a persistent sensor offset."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_016",
+  "tier": "matched_model",
+  "scenario_id": "unknown_head10_rise",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The widespread, persistent positive pressure residuals across multiple sensors strongly indicate a physical outflow (leak) rather than demand estimation errors or sensor biases, while the low flow NRMSE rules out significant pipe roughness changes.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1553,
+  "generated_tokens": 76
+}

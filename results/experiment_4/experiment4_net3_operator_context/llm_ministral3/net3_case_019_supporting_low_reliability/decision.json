@@ -1,0 +1,25 @@
+{
+  "model": "ministral-3:8b",
+  "model_label": "Ministral3-8B",
+  "variant_id": "net3_case_019_supporting_low_reliability",
+  "base_case_id": "case_019",
+  "scenario_id": "unknown_lake_drop",
+  "context_condition": "supporting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "Lake",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "Reservoir Lake",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "insufficient_reliability",
+  "reason": "Operator recollection (R1) suggests a potential reservoir head adjustment, but it lacks verification and is unreliable; however, the *additional_testable_family* in the diagnostic output explicitly flags this as a plausible mechanism.",
+  "parse_error": null,
+  "prompt_tokens": 677,
+  "generated_tokens": 120,
+  "inference_duration_s": 17.6865894
+}

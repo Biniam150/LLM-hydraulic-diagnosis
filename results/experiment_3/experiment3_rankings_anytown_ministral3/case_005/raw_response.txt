@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "Largest residuals (sensors **150**, **170**, **50**) exhibit **persistent, spatially localized pressure deviations** (RMSE > 0.036 m, mixed direction) with **no sensor bias** (affected_sensor_count=0) and **no flow changes**, strongly suggesting a **pressure-dependent leak** or **demand error** at a junction."
+}

@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "J500",
+  "confidence": 0.85,
+  "reasoning": [
+    "Residuals at J500 show a massive negative mean (-36.3m) and minimum (-73.3m), far exceeding the threshold and indicating significant unmodeled pressure loss.",
+    "The pattern of large residuals concentrated in specific sensors (J500, J93, J394) with minimal flow noise suggests a physical water loss rather than demand or roughness errors.",
+    "The sustained onset over 2 hours rules out transient sensor glitches or temporary valve closures."
+  ]
+}

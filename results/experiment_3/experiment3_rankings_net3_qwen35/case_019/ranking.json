@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_019",
+  "tier": "matched_model",
+  "scenario_id": "unknown_lake_drop",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The presence of a single sensor (601) exhibiting extreme residuals with a massive positive spike and high RMSE, alongside widespread negative pressure deviations in neighboring sensors, strongly indicates a physical outflow event like a leak rather than systematic demand or roughness errors, while the spatial clustering rules out a single biased sensor.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3344,
+  "generated_tokens": 95
+}

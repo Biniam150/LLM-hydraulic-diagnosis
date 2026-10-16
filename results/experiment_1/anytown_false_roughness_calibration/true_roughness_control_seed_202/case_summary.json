@@ -1,0 +1,20 @@
+{
+  "scenario_id": "true_roughness_control",
+  "seed": 202,
+  "true_cause": "roughness_error",
+  "true_target": "24",
+  "pressure_mae_before_m": 0.08864667276257747,
+  "pressure_mae_after_m": 0.024553857640338888,
+  "pressure_mae_improvement": 0.7230143346033807,
+  "clean_pressure_mae_before_m": 0.07679103360787469,
+  "clean_pressure_mae_after_m": 1.1419436824715897e-15,
+  "fitted_pipe": "24",
+  "fitted_roughness_multiplier": 0.6,
+  "roughness_evidence": "strong_support",
+  "validation_improvement": 0.30880099690941826,
+  "pressure_noise_ratio": 0.9411735763607896,
+  "flow_noise_ratio": 1.1820391522300793,
+  "false_calibration": false,
+  "false_causal_attribution": false,
+  "simulations": 160
+}

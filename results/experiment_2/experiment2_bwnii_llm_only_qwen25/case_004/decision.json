@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_004",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p500_high",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "true_cause": "roughness_error",
+  "true_target": "P500",
+  "expected_label": "roughness_error",
+  "predicted_label": "leak",
+  "predicted_families": "leak",
+  "predicted_target": null,
+  "confidence": 0.8,
+  "exact_outcome_correct": false,
+  "accepted": true,
+  "false_attribution": true,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2878,
+  "generated_tokens": 143
+}

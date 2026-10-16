@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_017",
+  "tier": "matched_model",
+  "scenario_id": "unknown_river_drop",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "true_cause": "source_head",
+  "true_target": "River",
+  "expected_label": "unknown_cause",
+  "predicted_label": "leak",
+  "predicted_families": "leak",
+  "predicted_target": "601",
+  "confidence": 0.92,
+  "exact_outcome_correct": false,
+  "accepted": true,
+  "false_attribution": true,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3447,
+  "generated_tokens": 236
+}

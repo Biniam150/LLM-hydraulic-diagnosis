@@ -1,0 +1,13 @@
+{
+  "outcome": "leak",
+  "candidate_families": [
+    "leak"
+  ],
+  "target": "junction_601",
+  "confidence": 0.92,
+  "reasoning": [
+    "Sensor 601 exhibits a massive positive residual mean (+1.14m) and extreme RMSE (5.52m), significantly exceeding the threshold of 3.0 sigma.",
+    "The pressure direction is mostly negative at other sensors, indicating a system-wide pressure drop consistent with water loss rather than sensor bias or demand error.",
+    "Sensor 601 is an isolated outlier in the residual distribution, pointing to a localized physical fault (leak) at that specific junction."
+  ]
+}

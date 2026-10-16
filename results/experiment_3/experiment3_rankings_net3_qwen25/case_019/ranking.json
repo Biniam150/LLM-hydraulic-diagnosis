@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_019",
+  "tier": "matched_model",
+  "scenario_id": "unknown_lake_drop",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "The largest residuals are observed at sensors 601 and 109, indicating a significant issue likely related to a leak or demand error, with sensor bias being a plausible secondary factor.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3340,
+  "generated_tokens": 68
+}

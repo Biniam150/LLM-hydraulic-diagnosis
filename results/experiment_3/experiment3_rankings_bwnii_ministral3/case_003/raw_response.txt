@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Large, persistent negative pressure residuals at two closely located sensors (J1058 and J379) with high RMSE and minimum values strongly suggest a pressure-dependent leak."
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["pressure-dependent water loss at one junction"],
+  "target": null,
+  "confidence": 0.9,
+  "reasoning": [
+    "The residual summary indicates a mostly negative pressure direction with a large number of affected sensors.",
+    "The largest residual sensors are J379 and J1058, which have the highest mean and maximum residuals.",
+    "The sensor bias hypothesis is not supported by the data."
+  ]
+}

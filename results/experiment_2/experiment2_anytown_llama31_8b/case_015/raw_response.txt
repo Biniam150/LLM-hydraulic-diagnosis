@@ -1,0 +1,11 @@
+{
+  "outcome": "no_fault",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 1.0,
+  "reasoning": [
+    "The pressure_residual_by_sensor values are within the residual_z_threshold of 3.0 for all sensors.",
+    "The largest_residual_sensors list does not indicate any significant deviations from expected behavior.",
+    "The flow_nrmse and pump_flow_nrmse values are low, indicating that the flow rates are consistent with expectations."
+  ]
+}

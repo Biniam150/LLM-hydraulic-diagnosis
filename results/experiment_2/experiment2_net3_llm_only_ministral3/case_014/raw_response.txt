@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [],
+  "target": "253",
+  "confidence": 0.98,
+  "reasoning": [
+    "Sensor **253** exhibits a persistent, large mean residual (+0.657 m) exceeding the threshold (0.09 m) with minimal noise (RMSE ≈ mean), indicating a systematic offset rather than dynamic error.",
+    "No other sensors show comparable magnitude or consistency in residuals, ruling out widespread demand/roughness errors or leaks.",
+    "The onset (~hour 8) and single-sensor isolation align with localized sensor bias rather than network-wide mismatches."
+  ]
+}

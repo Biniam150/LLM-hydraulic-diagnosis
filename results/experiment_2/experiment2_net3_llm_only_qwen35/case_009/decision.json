@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_009",
+  "tier": "matched_model",
+  "scenario_id": "leak_n101_low",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "true_cause": "leak",
+  "true_target": "101",
+  "expected_label": "leak",
+  "predicted_label": "leak",
+  "predicted_families": "leak",
+  "predicted_target": "601",
+  "confidence": 0.85,
+  "exact_outcome_correct": true,
+  "accepted": true,
+  "false_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3440,
+  "generated_tokens": 173
+}

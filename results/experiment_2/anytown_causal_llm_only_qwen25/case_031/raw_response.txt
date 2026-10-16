@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "20",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensor is '20', which shows a persistent negative offset of -0.4917 to -0.3863 m, supporting the presence of a sensor bias.",
+    "Other sensors show minimal and less consistent deviations from normal behavior.",
+    "The onset of the deviation aligns with the observation window, indicating a recent change."
+  ]
+}

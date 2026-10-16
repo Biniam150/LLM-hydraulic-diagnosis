@@ -1,0 +1,23 @@
+{
+  "model": "ministral-3:8b",
+  "model_label": "Ministral3-8B",
+  "variant_id": "net3_case_009_supporting_low_reliability",
+  "base_case_id": "case_009",
+  "scenario_id": "leak_n101_low",
+  "context_condition": "supporting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "leak",
+  "true_target": "101",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The only temporally relevant record (R1) lacks sufficient reliability (low/unverified) and lacks physical testability (no field inspection or acoustic confirmation). The hydraulic diagnostic’s leading candidates (leak at node 109 or demand_error at node 101) require corroboration via direct measurement or validation. Additional context (e.g., leak detection survey, pressure/sensor logs, or flowmeter data) is needed to justify a focused test.",
+  "parse_error": null,
+  "prompt_tokens": 661,
+  "generated_tokens": 160,
+  "inference_duration_s": 22.2745025
+}

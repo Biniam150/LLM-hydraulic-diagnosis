@@ -1,0 +1,4 @@
+{
+  "action": "request_more_information",
+  "reason": "No temporally relevant, reliable, and physically testable records exist for a focused hydraulic test. The only high-reliability record (R2) is unrelated to hydraulic mechanisms, and the low-reliability note (R1) lacks corroboration or specificity for a targeted test."
+}

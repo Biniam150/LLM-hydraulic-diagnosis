@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": null,
+  "reason": "The diagnostic outcome ('unknown_cause') lacks a physically testable mechanism tied to a specific asset, and operational records are either unreliable (R1) or irrelevant (R2). No temporally relevant, reliable evidence supports configuring a focused hydraulic test."
+}

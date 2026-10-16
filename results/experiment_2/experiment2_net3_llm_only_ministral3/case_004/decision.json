@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_004",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p225_high",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "true_cause": "roughness_error",
+  "true_target": "225",
+  "expected_label": "roughness_error",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "leak,demand_error",
+  "predicted_target": null,
+  "confidence": 0.65,
+  "exact_outcome_correct": false,
+  "accepted": false,
+  "false_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3514,
+  "generated_tokens": 194
+}

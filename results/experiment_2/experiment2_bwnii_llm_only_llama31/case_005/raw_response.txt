@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.9,
+  "reasoning": [
+    "The largest residual sensors are J345, J296, and J1058.",
+    "These sensors have the highest mean pressure residuals (-0.003985718753383161 m for J93, -0.01537985278402291 m for J296).",
+    "The pressure direction is mixed_or_small."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "model": "qwen3:8b",
+  "model_label": "Qwen3-8B",
+  "variant_id": "net3_case_002_irrelevant_verified",
+  "base_case_id": "case_002",
+  "scenario_id": "roughness_p123_mild",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "roughness_error",
+  "true_target": "123",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "demand_error",
+  "proposed_target": "177",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1",
+    "R2"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Operational records confirm no changes to telemetry, controls, or hydraulic-model inputs, supporting the validity of the demand_error family as a testable mechanism.",
+  "parse_error": null,
+  "prompt_tokens": 661,
+  "generated_tokens": 108,
+  "inference_duration_s": 30.9937349
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Cross-network hydraulic verifier v4",
+  "frozen_before_bwnii_evaluation": true,
+  "development_networks": [
+    "Anytown",
+    "Net3"
+  ],
+  "future_external_test_network": "BWN-II",
+  "known_families": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "withheld_unknown_family": "source_head",
+  "data_split": {
+    "parameter_fitting_hours": "even",
+    "held_out_validation_hours": "odd"
+  },
+  "decision_thresholds": {
+    "minimum_training_and_validation_improvement": 0.02,
+    "minimum_relative_margin_between_supported_families": 0.07,
+    "held_out_goodness_of_fit_alpha": 0.05,
+    "legacy_no_fault_noise_ratio_limit": 1.5
+  },
+  "decision_order": [
+    "Fit and refine every configured family on training hours.",
+    "Retain a family only if both split improvements exceed 0.02.",
+    "Retain a family only if its held-out absolute goodness-of-fit is not rejected at alpha 0.05.",
+    "If no family remains, return no_fault only when the nominal model passes its held-out goodness-of-fit test; otherwise return unknown_cause.",
+    "If exactly one family remains, accept it.",
+    "If multiple families remain, compare only those supported families and return ambiguous_causes when the best two are separated by less than 0.07; otherwise accept the best supported family."
+  ],
+  "network_specific_inputs_that_are_not_decision_tuning": [
+    "EPANET model and valid component identifiers",
+    "configured sensor set and flow link",
+    "full-network candidate locations",
+    "physically admissible parameter bounds"
+  ],
+  "frozen_candidate_magnitude_grids": {
+    "leak_areas_m2": [
+      0.0005,
+      0.001,
+      0.0015
+    ],
+    "demand_multipliers": [
+      0.5,
+      0.75,
+      1.25,
+      1.5,
+      2.0
+    ],
+    "roughness_multipliers": [
+      0.6,
+      0.8,
+      1.2,
+      1.4
+    ]
+  }
+}

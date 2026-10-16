@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "20",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensor (20) shows a persistent negative offset, which is characteristic of sensor bias.",
+    "Other sensors show smaller and less consistent deviations, making it unlikely that the issue is widespread like demand_error or roughness_error.",
+    "No significant flow changes were observed, ruling out pump_flow_changed."
+  ]
+}

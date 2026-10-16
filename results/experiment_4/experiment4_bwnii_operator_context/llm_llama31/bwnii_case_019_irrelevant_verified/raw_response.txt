@@ -1,0 +1,9 @@
+{
+  "action": "propose_follow_up_test",
+  "proposed_family": "sensor_bias",
+  "proposed_target": "J276",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Sensor J276 has a significant bias (-2.50329108815546) and the leading candidate evidence suggests a sensor bias."
+}

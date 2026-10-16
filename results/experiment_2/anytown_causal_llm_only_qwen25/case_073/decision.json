@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_073",
+  "tier": "perturbed_truth_model",
+  "scenario_id": "leak_n80_morning",
+  "observation_seed": 1009,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "leak",
+  "true_target": "80",
+  "expected_label": "leak",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "demand_error,roughness_error,sensor_bias",
+  "predicted_target": null,
+  "confidence": 0.75,
+  "reasoning": "[\"The pressure residuals across multiple sensors suggest a complex issue that could be due to either demand errors, changes in pipe roughness, or sensor biases.\", \"No single family of faults can definitively explain the observed pattern of residuals.\", \"The affected sensors are not closely connected, making it difficult to isolate one specific cause.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": false,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

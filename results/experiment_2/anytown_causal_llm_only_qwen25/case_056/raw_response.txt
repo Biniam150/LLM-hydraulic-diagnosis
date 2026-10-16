@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residuals are observed at sensors 70, 20, and 100, which suggests a persistent offset rather than a sudden change in demand or pressure.",
+    "The pressure residuals for these sensors show significant variation from the mean, with some readings exceeding 0.5 standard deviations above the mean.",
+    "No clear pattern of pressure-dependent changes is observed, ruling out the 'leak' family."
+  ]
+}

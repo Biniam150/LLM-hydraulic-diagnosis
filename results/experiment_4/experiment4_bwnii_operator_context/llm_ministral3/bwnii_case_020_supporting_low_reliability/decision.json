@@ -1,0 +1,25 @@
+{
+  "model": "ministral-3:8b",
+  "model_label": "Ministral3-8B",
+  "variant_id": "bwnii_case_020_supporting_low_reliability",
+  "base_case_id": "case_020",
+  "scenario_id": "unknown_r1_rise_low",
+  "context_condition": "supporting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "R1",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "R1",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "insufficient_reliability",
+  "reason": "Operator recollection (R1) suggests a potential reservoir head adjustment, but it lacks verification and is unreliable; however, the *source_head* family is testable via historian validation.",
+  "parse_error": null,
+  "prompt_tokens": 727,
+  "generated_tokens": 112,
+  "inference_duration_s": 29.1724035
+}

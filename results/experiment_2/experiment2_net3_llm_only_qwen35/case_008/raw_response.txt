@@ -1,0 +1,13 @@
+{
+  "outcome": "demand_error",
+  "candidate_families": [
+    "demand_error"
+  ],
+  "target": null,
+  "confidence": 0.85,
+  "reasoning": [
+    "Flow residuals are negligible (NRMSE ~1.1%) and pump flow is unchanged, ruling out leaks or major demand shifts at monitored nodes.",
+    "Pressure residuals show a consistent negative bias across multiple sensors without the spatial clustering typical of a localized leak.",
+    "The uniform pressure drop pattern suggests incorrect nodal demand magnitudes rather than physical pipe resistance errors."
+  ]
+}

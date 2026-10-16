@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_009",
+  "tier": "matched_model",
+  "scenario_id": "leak_j174_low",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residuals are significantly negative and affect multiple sensors, suggesting a localized issue like a leak or incorrect demand, rather than a general sensor bias.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2768,
+  "generated_tokens": 58
+}

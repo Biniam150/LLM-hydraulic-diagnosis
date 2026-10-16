@@ -1,0 +1,21 @@
+{
+  "neutral_case_id": "case_003",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p173_mild",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "true_cause": "roughness_error",
+  "true_target": "173",
+  "expected_label": "roughness_error",
+  "predicted_label": "leak",
+  "predicted_families": "leak",
+  "predicted_target": "166",
+  "confidence": 0.85,
+  "exact_outcome_correct": false,
+  "accepted": true,
+  "false_attribution": true,
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3458,
+  "generated_tokens": 130
+}

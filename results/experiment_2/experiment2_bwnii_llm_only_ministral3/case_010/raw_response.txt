@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": "J379",
+  "confidence": 0.85,
+  "reasoning": [
+    "Ten pressure sensors exhibit large, persistent negative residuals (mean < -0.1 m, min < -4 m) with high RMSE, concentrated at J379, J1058, and J360.",
+    "The affected sensors are spatially clustered (shortest-path distances < 50 m) and show extreme pressure drops (e.g., J379 min = -22.48 m), consistent with localized pressure-dependent water loss.",
+    "Flow residuals (NMRSE = 0.058) and pump flow changes align with a plausible leak scenario, while sensor bias or demand errors would not explain the spatial pattern or magnitude of residuals."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_009",
+  "tier": "matched_model",
+  "scenario_id": "leak_n130_midday",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Negative pressure residuals at multiple sensors (120, 170) with large magnitude and spatial clustering strongly suggest a pressure-dependent outflow (leak), while demand errors are plausible due to localized impact. Sensor bias is less likely due to consistent negative trends across sensors, and roughness errors are least probable given no flow changes or pump anomalies.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1617,
+  "generated_tokens": 101
+}

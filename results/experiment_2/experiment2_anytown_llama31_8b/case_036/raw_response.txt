@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["leak"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual pressures are mostly positive, indicating a pressure-dependent loss.",
+    "Sensor 70 has the highest mean residual pressure and is also in the largest_residual_sensors list.",
+    "The estimated onset hour is 8, which corresponds to the morning peak demand period."
+  ]
+}

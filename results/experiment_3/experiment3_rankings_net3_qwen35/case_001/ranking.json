@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_001",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p60_low",
+  "observation_seed": 1009,
+  "model": "qwen3.5:9b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The massive residual at sensor 601 combined with widespread negative pressure deviations across the network strongly indicates a physical outflow event like a leak, while demand or roughness errors typically produce more localized or symmetric residuals, and sensor bias is unlikely to cause such extensive spatial correlation.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3346,
+  "generated_tokens": 99
+}

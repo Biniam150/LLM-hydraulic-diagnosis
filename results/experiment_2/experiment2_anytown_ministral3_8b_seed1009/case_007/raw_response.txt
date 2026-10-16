@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["sensor_bias", "demand_error"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "Four pressure sensors exhibit persistent negative residuals (mean < -0.06 m) with minima exceeding the threshold (-0.38 m), suggesting either systematic bias or localized demand mismatches.",
+    "Sensors 50, 100, and 150 show the largest deviations and are spatially clustered (shortest-path distances ≤ 3), implying a plausible common cause like a nearby incorrect demand or sensor offset.",
+    "Flow residuals remain low (NRMSE = 0.011) with no changes in monitored/pump flow, reducing plausibility for leak/roughness errors."
+  ]
+}

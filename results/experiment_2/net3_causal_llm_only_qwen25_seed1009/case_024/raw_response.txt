@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "roughness_error"],
+  "target": null,
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual sensors (20, 15, 231) show mixed pressure changes without a clear pattern that would support a single fault family.",
+    "Sensors 20 and 15 have significant negative residuals, which could indicate either a leak or incorrect roughness settings.",
+    "Sensor 231 shows positive residuals but does not provide enough context to definitively identify the cause."
+  ]
+}

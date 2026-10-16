@@ -1,0 +1,25 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "net3_case_017_irrelevant_verified",
+  "base_case_id": "case_017",
+  "scenario_id": "unknown_river_drop",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "River",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "roughness_error",
+  "proposed_target": "pipe:123",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The billing-system software update and routine valve-status reconciliation records support a focused hydraulic follow-up test for roughness_error on pipe 123.",
+  "parse_error": null,
+  "prompt_tokens": 586,
+  "generated_tokens": 103,
+  "inference_duration_s": 15.3289318
+}

@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_020",
+  "tier": "matched_model",
+  "scenario_id": "unknown_lake_rise",
+  "observation_seed": 1009,
+  "model": "qwen2.5:7b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The largest residual sensors are near and the pressure residuals are high, suggesting a localized issue like a leak or demand error. The network topology and sensor placement support the idea of a leak being more plausible than roughness or sensor bias.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3333,
+  "generated_tokens": 75
+}

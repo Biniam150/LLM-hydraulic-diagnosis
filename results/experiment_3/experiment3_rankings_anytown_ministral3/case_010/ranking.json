@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_010",
+  "tier": "matched_model",
+  "scenario_id": "leak_n170_late",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Extreme localized pressure residuals at sensor **170** (min: **-0.81 m**, RMSE: **0.17 m**) and minimal flow anomalies suggest a **pressure-dependent leak** at a nearby junction, while **demand errors** or **sensor bias** are plausible but less likely given the isolated magnitude. **Roughness errors** are least probable due to lack of widespread pressure/flow deviations.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1609,
+  "generated_tokens": 127
+}

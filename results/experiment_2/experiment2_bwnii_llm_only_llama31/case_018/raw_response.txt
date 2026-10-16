@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["pressure-dependent water loss at one junction"],
+  "target": null,
+  "confidence": 0.9,
+  "reasoning": [
+    "The residual summary indicates a mostly positive pressure direction with a large number of affected sensors.",
+    "The largest residuals are observed at sensors J276, J360, and J1058, which are all located in the same general area of the network.",
+    "The sensor bias hypothesis is less likely due to the consistent pattern of pressure residuals across multiple sensors."
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "Leak hypotheses align with residual patterns in pressure sensors with longer shortest path distances, while demand and roughness errors show less consistent residual behavior."
+}

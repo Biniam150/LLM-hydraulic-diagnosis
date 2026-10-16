@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The widespread negative pressure residuals across multiple sensors, particularly the extreme magnitude at J276 and J1058, strongly indicate a physical outflow event consistent with a leak rather than demand estimation errors or sensor biases."
+}

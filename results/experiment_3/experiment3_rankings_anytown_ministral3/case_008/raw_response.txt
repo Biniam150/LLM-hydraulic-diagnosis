@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "sensor_bias", "roughness_error"],
+  "reason": "Pressure residuals are large, negative, and spatially clustered at multiple sensors, strongly suggesting a localized pressure-dependent outflow (leak) or incorrect demand. Sensor bias is plausible but less likely due to consistent negative residuals across multiple sensors, while roughness errors are less probable given the abrupt onset and widespread impact."
+}

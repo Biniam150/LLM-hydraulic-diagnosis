@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The largest residual is at sensor 109, which is close to the affected sensor count and has a high mean and RMSE, suggesting a leak at a nearby junction."
+}

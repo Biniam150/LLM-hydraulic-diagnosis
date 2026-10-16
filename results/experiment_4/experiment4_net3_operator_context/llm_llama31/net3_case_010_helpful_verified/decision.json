@@ -1,0 +1,25 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "net3_case_010_helpful_verified",
+  "base_case_id": "case_010",
+  "scenario_id": "leak_n119_mild",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "leak",
+  "true_target": "119",
+  "safe_expected_outcome": "leak",
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "Junction 119",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Record R1 indicates continuous subsurface leakage adjacent to Junction 119, which is a physically testable mechanism and asset.",
+  "parse_error": null,
+  "prompt_tokens": 594,
+  "generated_tokens": 100,
+  "inference_duration_s": 19.5221419
+}

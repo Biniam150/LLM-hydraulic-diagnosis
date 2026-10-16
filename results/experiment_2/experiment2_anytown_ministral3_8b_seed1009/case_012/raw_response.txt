@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "70",
+  "confidence": 0.98,
+  "reasoning": [
+    "Sensor **70** exhibits a persistent, large positive offset (mean residual = +0.65 m) exceeding the threshold (3σ ≈ 0.18 m), while all other sensors remain within ±0.1 m.",
+    "The onset is abrupt (~hour 8) and sustained for 24 hours, consistent with a hardware/sensor issue rather than hydraulic variability.",
+    "No correlated pressure residuals or flow anomalies suggest a systemic leak/demand/roughness error; the mismatch is localized to sensor **70**."
+  ]
+}

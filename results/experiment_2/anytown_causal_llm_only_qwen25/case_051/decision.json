@@ -1,0 +1,23 @@
+{
+  "neutral_case_id": "case_051",
+  "tier": "matched_model",
+  "scenario_id": "unknown_head165_rise",
+  "observation_seed": 4049,
+  "inference_seed": 424242,
+  "model": "qwen2.5:7b",
+  "true_cause": "source_head",
+  "true_target": "165",
+  "expected_label": "unknown_cause",
+  "predicted_label": "ambiguous_causes",
+  "predicted_families": "demand_error,roughness_error,sensor_bias",
+  "predicted_target": null,
+  "confidence": 0.7,
+  "reasoning": "[\"The largest residual sensors (120, 150, 170) show mostly positive pressure deviations, which could be due to demand errors or sensor biases.\", \"The roughness_error family is also plausible given the observed pressure drops across multiple nodes.\", \"Without more specific evidence, it's not clear which of these causes is dominant.\"]",
+  "exact_outcome_correct": false,
+  "true_family_covered": false,
+  "target_correct": false,
+  "false_roughness_attribution": false,
+  "valid_output": true,
+  "parse_error": null,
+  "hydraulic_hypothesis_tests": 0
+}

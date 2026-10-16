@@ -1,0 +1,5 @@
+{
+  "action": "request_more_information",
+  "record_assessment": "insufficient_reliability",
+  "reason": "Record R1 has low reliability and does not provide enough information to justify a focused hydraulic follow-up test."
+}

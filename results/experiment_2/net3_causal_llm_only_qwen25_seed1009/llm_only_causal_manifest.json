@@ -1,0 +1,10 @@
+{
+  "experiment": "blind_llm_only_causal_diagnosis",
+  "model": "qwen2.5:7b",
+  "temperature": 0.0,
+  "inference_seed": 424242,
+  "case_runs": 41,
+  "hydraulic_hypothesis_tests": 0,
+  "deterministic_verification_used": false,
+  "design": "configs/scenarios/net3_causal_replication.json"
+}

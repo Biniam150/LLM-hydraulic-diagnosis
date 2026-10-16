@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error"],
+  "target": null,
+  "confidence": 0.65,
+  "reasoning": [
+    "Residuals at sensors **109, 40, and 231** exceed the threshold (Z > 3) with mixed pressure directionality (negative/positive), suggesting localized mismatches rather than systematic bias.",
+    "Flow residuals are low (NRMSE = 0.011) and stable, reducing likelihood of roughness_error or sensor_bias affecting the entire network.",
+    "Pressure residuals lack clear spatial clustering (e.g., no single junction or pipe dominates), but **sensor 109’s persistent negative mean (-0.058 m)** hints at either a localized leak or incorrect demand near its shortest-path neighbors."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Pressure residuals are mostly negative, widespread across spatially clustered sensors, and one sensor (601) exhibits extreme outliers, strongly suggesting a pressure-dependent outflow (leak) as the primary cause."
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "170",
+  "confidence": 0.8,
+  "reasoning": [
+    "The largest residual is observed at sensor 170 with a mean deviation of 0.7429 Mpa, which exceeds the threshold.",
+    "No significant flow changes or pump issues are detected, ruling out 'demand_error' and 'roughness_error'.",
+    "Given the persistent nature of the offset, it strongly suggests a bias in sensor 170."
+  ]
+}

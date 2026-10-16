@@ -1,0 +1,8 @@
+method,method_type,cases,helpful_verified_resolution,nonhelpful_context_safety,overall_safe_task_accuracy,unverified_context_safe_task_accuracy,false_verified_resolution_rate_nonhelpful
+Qwen2.5-7B,local_llm,20,0.4,1.0,0.85,0.8,0.0
+Llama3.1-8B,local_llm,20,0.0,1.0,0.75,0.65,0.0
+Qwen3-8B,local_llm,20,0.4,1.0,0.85,0.35,0.0
+Ministral3-8B,local_llm,20,0.6,1.0,0.9,1.0,0.0
+Qwen3.5-9B,local_llm,20,0.6,1.0,0.9,1.0,0.0
+LLM pooled,local_llm_pooled,100,0.4,1.0,0.85,0.76,0.0
+Rule-based extractor,deterministic_rule,20,0.6,1.0,0.9,1.0,0.0

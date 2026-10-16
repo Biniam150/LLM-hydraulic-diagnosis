@@ -1,0 +1,25 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "net3_case_018_helpful_verified",
+  "base_case_id": "case_018",
+  "scenario_id": "unknown_river_rise",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "River",
+  "safe_expected_outcome": "source_head",
+  "action": "propose_follow_up_test",
+  "proposed_family": "leak",
+  "proposed_target": "601",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The historian confirms that the supply set point at Reservoir River changed during the diagnostic window and that the change was not propagated to the digital-twin boundary input.",
+  "parse_error": null,
+  "prompt_tokens": 605,
+  "generated_tokens": 105,
+  "inference_duration_s": 21.3362081
+}

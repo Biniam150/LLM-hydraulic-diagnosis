@@ -1,0 +1,4 @@
+{
+  "ranking": ["sensor_bias", "leak", "demand_error", "roughness_error"],
+  "reason": "Extreme, consistent positive pressure residuals at sensor **170** (mean=+0.76m, min/max near threshold) strongly suggest a **sensor bias**, while pressure-dependent behavior and isolated junction effects favor **leak** over demand or roughness errors."
+}

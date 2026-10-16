@@ -1,0 +1,9 @@
+{
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Extreme, sustained negative pressure residuals at three spatially clustered sensors (J276, J1058, J379) strongly suggest a pressure-dependent outflow (leak), while demand errors could mimic localized drops but are less likely given the magnitude and consistency."
+}

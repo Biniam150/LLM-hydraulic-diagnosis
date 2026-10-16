@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["sensor_bias", "demand_error"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "Seven pressure sensors exhibit consistent negative residuals (mean < -0.4 m) with large magnitude (>2σ threshold), suggesting systematic bias or demand misalignment.",
+    "No single sensor or junction stands out as an isolated outlier, but clustered deviations imply either widespread sensor bias or incorrect demands across multiple nodes.",
+    "Flow residuals are negligible (NRMSE=1.39%) and unchanged, reducing plausibility of leaks or roughness errors."
+  ]
+}

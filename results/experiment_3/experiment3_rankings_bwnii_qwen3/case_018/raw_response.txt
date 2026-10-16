@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "Leak shows high residual values and affects multiple sensors, making it the most plausible. Demand error and roughness error are next due to their potential to cause widespread pressure changes. Sensor bias is least plausible due to its localized impact."
+}

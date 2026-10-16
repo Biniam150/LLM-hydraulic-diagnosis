@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_018",
+  "tier": "matched_model",
+  "scenario_id": "unknown_r1_rise_high",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "Leak shows high residual values and affects multiple sensors, making it the most plausible. Demand error and roughness error are next due to their potential to cause widespread pressure changes. Sensor bias is least plausible due to its localized impact.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2774,
+  "generated_tokens": 75
+}

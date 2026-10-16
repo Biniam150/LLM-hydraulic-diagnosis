@@ -1,0 +1,12 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["leak", "demand_error"],
+  "target": null,
+  "confidence": 0.65,
+  "reasoning": [
+    "Residuals exceed the threshold (Z > 3) at multiple sensors with mixed pressure direction, suggesting localized mismatches rather than systematic bias.",
+    "No sensor failures or offsets are indicated by unaffected sensor count (0/12), ruling out `sensor_bias` as a primary cause.",
+    "Flow residuals are low (NRMSE = 0.011) and stable, reducing likelihood of `roughness_error` or `leak` at monitored links, but pressure mismatches persist at distant sensors (e.g., 231, 40), hinting at demand or leak effects.",
+    "Shortest-path distances between affected sensors show no clear spatial clustering, complicating isolation to a single junction/pipe"
+  ]
+}

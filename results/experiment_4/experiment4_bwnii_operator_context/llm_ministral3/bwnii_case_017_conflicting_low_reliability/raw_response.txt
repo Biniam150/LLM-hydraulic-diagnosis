@@ -1,0 +1,4 @@
+{
+  "action": "request_more_information",
+  "reason": "The diagnostic outcome lacks a physically testable mechanism with reliable, temporally relevant records for a focused follow-up test. The 'sensor_bias' candidate is supported by model evidence but lacks corroboration from operational records (R1 is unreliable, R2 is irrelevant). The 'source_head' family is testable but not referenced in records. Additional context is needed to validate or refute the sensor bias or reservoir head hypothesis."
+}

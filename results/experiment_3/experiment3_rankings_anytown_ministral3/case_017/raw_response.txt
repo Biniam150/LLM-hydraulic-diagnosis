@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "sensor_bias", "roughness_error"],
+  "reason": "Large, persistent positive pressure residuals at multiple sensors (7/7 affected, mean >0.09m, max >1m) and no flow changes strongly suggest a **pressure-dependent leak** (highest rank). Demand errors are plausible but less likely without flow anomalies. Sensor bias is possible but unlikely given widespread, spatially correlated residuals. Roughness errors are least probable due to lack of flow or pressure drop evidence."
+}

@@ -1,0 +1,13 @@
+{
+  "python": "3.10.0",
+  "packages": {
+    "wntr": "1.4.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.9",
+    "networkx": "3.4.2",
+    "scikit-learn": null
+  },
+  "note": "Existing scientific environment used during assembly; not a clean installation test. scikit-learn is absent."
+}

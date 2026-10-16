@@ -1,0 +1,26 @@
+{
+  "model": "qwen3:8b",
+  "model_label": "Qwen3-8B",
+  "variant_id": "net3_case_019_irrelevant_verified",
+  "base_case_id": "case_019",
+  "scenario_id": "unknown_lake_drop",
+  "context_condition": "irrelevant_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "Lake",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "reservoir",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": [
+    "R1",
+    "R2"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "Operational records indicate no changes to telemetry, controls, or hydraulic-model inputs, suggesting the issue may relate to an incorrect reservoir head or supply-boundary set point.",
+  "parse_error": null,
+  "prompt_tokens": 642,
+  "generated_tokens": 111,
+  "inference_duration_s": 16.0734477
+}

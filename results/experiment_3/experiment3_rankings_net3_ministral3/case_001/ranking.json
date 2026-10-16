@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_001",
+  "tier": "matched_model",
+  "scenario_id": "roughness_p60_low",
+  "observation_seed": 1009,
+  "model": "ministral-3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "sensor_bias",
+    "roughness_error"
+  ],
+  "reason": "Pressure residuals are mostly negative and concentrated at multiple sensors, with one extreme outlier (sensor **601**) suggesting a localized pressure-dependent loss (e.g., leak) or demand error, while widespread negative bias supports sensor bias as secondary.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 3421,
+  "generated_tokens": 81
+}

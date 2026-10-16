@@ -1,0 +1,25 @@
+{
+  "model": "llama3.1:8b",
+  "model_label": "Llama3.1-8B",
+  "variant_id": "net3_case_017_helpful_verified",
+  "base_case_id": "case_017",
+  "scenario_id": "unknown_river_drop",
+  "context_condition": "helpful_verified",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "source_head",
+  "true_target": "River",
+  "safe_expected_outcome": "source_head",
+  "action": "propose_follow_up_test",
+  "proposed_family": "source_head",
+  "proposed_target": "incorrect reservoir or supply-boundary head/set point",
+  "proposed_onset_hour": 0,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The operational record R1 indicates a change in the supply set point at Reservoir River during the diagnostic window, which may be the cause of the unknown cause.",
+  "parse_error": null,
+  "prompt_tokens": 596,
+  "generated_tokens": 113,
+  "inference_duration_s": 21.6503891
+}

@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_017",
+  "tier": "matched_model",
+  "scenario_id": "unknown_head165_rise",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The leak hypothesis is most plausible due to the high residual magnitudes and widespread sensor impact, while sensor bias is least plausible due to its localized nature and lower residual consistency.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 1571,
+  "generated_tokens": 63
+}

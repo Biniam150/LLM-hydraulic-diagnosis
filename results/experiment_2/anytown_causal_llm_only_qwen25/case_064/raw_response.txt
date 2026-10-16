@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "roughness_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.75,
+  "reasoning": [
+    "The largest residual sensors are located in a network that is interconnected, making it difficult to isolate the cause.",
+    "The pressure residuals show mostly positive deviations, which could be due to demand errors or sensor biases.",
+    "The roughness error hypothesis cannot be definitively ruled out given the complexity of the network and the observed residuals."
+  ]
+}

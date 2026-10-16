@@ -1,0 +1,11 @@
+{
+  "outcome": "leak",
+  "candidate_families": ["pressure-dependent water loss at one junction"],
+  "target": null,
+  "confidence": 0.9,
+  "reasoning": [
+    "The residual summary indicates a mostly negative pressure direction with a large number of affected sensors.",
+    "The largest residuals are observed at sensors J276 and J1058, which are located near the monitored flow link P316.",
+    "The network context shows that these sensors are relatively close to each other, suggesting a localized issue."
+  ]
+}

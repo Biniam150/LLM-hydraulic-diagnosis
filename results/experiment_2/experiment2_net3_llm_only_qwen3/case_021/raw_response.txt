@@ -1,0 +1,11 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": ["sensor_bias"],
+  "target": "40",
+  "confidence": 0.85,
+  "reasoning": [
+    "The largest residual sensor is 40, which shows a mean residual of 0.00023 m and high RMSE of 0.038 m, indicating potential sensor bias.",
+    "Sensor 40 is located near other sensors with similar residual patterns, suggesting a localized sensor issue rather than a network-wide problem.",
+    "The pressure residuals are mixed or small, which aligns with a persistent sensor bias rather than a dynamic system issue."
+  ]
+}

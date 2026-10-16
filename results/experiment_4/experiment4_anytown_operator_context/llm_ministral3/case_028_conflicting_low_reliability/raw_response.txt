@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": "insufficient_reliability",
+  "reason": "The operational records are either unreliable (R1) or irrelevant to the physically testable families identified in the diagnostic (e.g., no evidence of valve changes, reservoir head adjustments, or sensor-specific anomalies). No temporally relevant, reliable record supports a focused hydraulic test for leak, demand_error, roughness_error, sensor_bias, or source_head."
+}

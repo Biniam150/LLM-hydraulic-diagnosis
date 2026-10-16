@@ -1,0 +1,11 @@
+{
+  "outcome": "unknown_cause",
+  "candidate_families": [],
+  "target": null,
+  "confidence": 0.0,
+  "reasoning": [
+    "The residual summary indicates a complex mismatch pattern with multiple affected sensors and pressure residuals.",
+    "The network context suggests a large and complex water distribution system with many pipes, junctions, and sensors.",
+    "Given the lack of clear evidence supporting any specific modeled fault family, it is not possible to select a single cause."
+  ]
+}

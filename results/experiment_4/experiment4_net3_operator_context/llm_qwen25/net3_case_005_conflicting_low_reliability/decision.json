@@ -1,0 +1,25 @@
+{
+  "model": "qwen2.5:7b",
+  "model_label": "Qwen2.5-7B",
+  "variant_id": "net3_case_005_conflicting_low_reliability",
+  "base_case_id": "case_005",
+  "scenario_id": "demand_n109_low",
+  "context_condition": "conflicting_low_reliability",
+  "experiment3_outcome": "unknown_cause",
+  "true_family": "demand_error",
+  "true_target": "109",
+  "safe_expected_outcome": "unknown_cause",
+  "action": "propose_follow_up_test",
+  "proposed_family": "sensor_bias",
+  "proposed_target": "null",
+  "proposed_onset_hour": null,
+  "cited_record_ids": [
+    "R1"
+  ],
+  "record_assessment": "reliable_and_relevant",
+  "reason": "The low reliability and uncorroborated nature of the shift note in record R1 suggests a potential sensor issue, which aligns with the 'sensor_bias' family.",
+  "parse_error": null,
+  "prompt_tokens": 657,
+  "generated_tokens": 107,
+  "inference_duration_s": 25.6773842
+}

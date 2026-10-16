@@ -1,0 +1,18 @@
+{
+  "neutral_case_id": "case_009",
+  "tier": "matched_model",
+  "scenario_id": "leak_j174_low",
+  "observation_seed": 1009,
+  "model": "qwen3:8b",
+  "ranking": [
+    "leak",
+    "demand_error",
+    "roughness_error",
+    "sensor_bias"
+  ],
+  "reason": "The leak hypothesis is most plausible due to the large and consistent negative residuals at multiple sensors, suggesting a localized pressure drop. Demand and roughness errors are next, as they can cause widespread pressure changes, while sensor bias is less likely due to the variability in residuals across multiple sensors.",
+  "valid_output": true,
+  "parse_error": null,
+  "prompt_tokens": 2776,
+  "generated_tokens": 85
+}

@@ -1,0 +1,4 @@
+{
+  "ranking": ["leak", "demand_error", "roughness_error", "sensor_bias"],
+  "reason": "The largest residual is at sensor 109, which is consistent with a leak hypothesis, and sensor 109 has the shortest path to other affected sensors, supporting a localized cause."
+}

@@ -1,0 +1,11 @@
+{
+  "outcome": "ambiguous_causes",
+  "candidate_families": ["demand_error", "sensor_bias"],
+  "target": null,
+  "confidence": 0.85,
+  "reasoning": [
+    "Sensors 20, 70, and 50 show consistently negative pressure residuals, suggesting a possible systematic bias.",
+    "The pressure residuals for sensor 20 are significantly more severe than others, indicating a potential sensor bias or demand error.",
+    "The presence of multiple affected sensors and the direction of residuals suggest a systemic issue rather than a single fault family."
+  ]
+}

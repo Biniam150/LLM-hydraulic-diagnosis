@@ -1,0 +1,9 @@
+{
+  "action": "request_more_information",
+  "proposed_family": null,
+  "proposed_target": null,
+  "proposed_onset_hour": null,
+  "cited_record_ids": [],
+  "record_assessment": null,
+  "reason": "The diagnostic outcome is ambiguous, and the operational records (R1, R2) are either irrelevant to hydraulic mechanisms or lack direct testability for any of the candidate families (*leak*, *demand_error*, *roughness_error*, *sensor_bias*, or *source_head*). No temporally relevant, physically testable mechanism or asset is identified in the provided records."
+}

@@ -1,0 +1,13 @@
+{
+  "outcome": "sensor_bias",
+  "candidate_families": [
+    "sensor_bias"
+  ],
+  "target": null,
+  "confidence": 0.94,
+  "reasoning": [
+    "All affected sensors exhibit persistent negative pressure residuals with no significant flow deviation.",
+    "The pattern of uniform offset across multiple nodes is characteristic of a systematic sensor calibration error rather than hydraulic loss or demand mismatch.",
+    "No single junction shows the localized signature expected for a leak, and roughness errors typically do not produce such widespread simultaneous offsets."
+  ]
+}
