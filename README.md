@@ -35,13 +35,12 @@ Use a source checkout and Python 3.10 or later. The exact core package versions 
 python -m venv .venv
 # Activate the environment for your operating system.
 python -m pip install -e .
-python scripts/validate_release.py --checksums
 python scripts/reproduce_results.py
 python scripts/reproduce_figures.py
 python scripts/run_tests.py
 ```
 
-Summary and figure reproduction uses saved outputs and does not call an LLM. Regeneration overwrites the corresponding derived tables/figures; original-copy hashes and staging baseline hashes are retained in separate manifests. Run checksum validation before regeneration; afterward use validation without `--checksums` to check numerical content.
+Summary and figure reproduction uses saved outputs and does not call an LLM. Regeneration overwrites the corresponding derived tables and figures. The validation script checks benchmark completeness, network paths, and reported headline metrics.
 
 For fresh classical-model fitting install `python -m pip install -e ".[classical]"`. Fresh LLM inference requires a local Ollama service and the models listed in `configs/models/models.json`. See [reproduction instructions](docs/reproduction.md) before rerunning inference or the full hydraulic search.
 
