@@ -29,7 +29,7 @@ Decision-policy sensitivity is reported separately. The main diagnostic benchmar
 
 ## Quick start
 
-Use a source checkout and Python 3.10 or later. The exact core package versions in `pyproject.toml` reflect the existing scientific environment used to check this staging copy. A clean installation has not yet been independently tested.
+Use a source checkout and Python 3.10 or later. The exact core package versions in `pyproject.toml` reflect the existing scientific environment used to check this staging copy. 
 
 ```sh
 python -m venv .venv
@@ -43,7 +43,7 @@ python scripts/run_tests.py
 
 Summary and figure reproduction uses saved outputs and does not call an LLM. Regeneration overwrites the corresponding derived tables/figures; original-copy hashes and staging baseline hashes are retained in separate manifests. Run checksum validation before regeneration; afterward use validation without `--checksums` to check numerical content.
 
-For fresh classical-model fitting install `python -m pip install -e ".[classical]"`. The exact original scikit-learn version was not recoverable from the currently inspected scientific environment; the saved classifier decisions are included. Fresh LLM inference requires a local Ollama service and the models listed in `configs/models/models.json`. See [reproduction instructions](docs/reproduction.md) before rerunning inference or the full hydraulic search.
+For fresh classical-model fitting install `python -m pip install -e ".[classical]"`. Fresh LLM inference requires a local Ollama service and the models listed in `configs/models/models.json`. See [reproduction instructions](docs/reproduction.md) before rerunning inference or the full hydraulic search.
 
 ## Reported verifier results
 
