@@ -9,4 +9,3 @@ Each numbered experiment contains the original descriptive run directories, grou
 - `sensitivity`: the fixed-evidence 1,296-setting-per-network decision-policy sensitivity analysis.
 - `source_inputs`: earlier benchmark input/evidence snapshots required to interpret and rerun the selected pipeline. These are not additional headline evaluation cases.
 
-`publication_manifest.csv` records original source files. `release_inventory.csv` covers the assembled release files. Future experimental outputs should go into `results/reruns/`, which is ignored by Git, until explicitly curated.
