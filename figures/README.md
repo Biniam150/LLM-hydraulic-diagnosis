@@ -10,4 +10,3 @@
 | 6 | `verifier_sensitivity_grouped_boxes` | `experiments.sensitivity.plot_verifier_sensitivity_grouped_boxes` |
 | 7 | `experiment4_three_networks` | `experiments.experiment_4_context_followup.plot_experiment4_three_networks` |
 
-PNG, PDF, and SVG versions are included where generated. The all-network heatmap and precision/coverage diagnostic plot are intermediate outputs retained for transparency; only the mapped stems are proposed as main manuscript figures.
