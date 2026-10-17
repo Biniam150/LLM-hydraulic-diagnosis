@@ -55,8 +55,4 @@ For fresh classical-model fitting install `python -m pip install -e ".[classical
 
 All tested source-head cases and no-fault controls were correctly classified by the initial verifier. These finite synthetic benchmark results do not establish guaranteed precision in operational networks. Noise assumptions materially affect acceptance. LLM ranking does not change the exhaustive verifier's final decision.
 
-## Provenance and release status
 
-`results/publication_manifest.csv` maps copied files to original project paths and records original and relocated hashes. `results/release_inventory.csv` inventories the complete staged deliverable. `data/provenance.csv` identifies observations regenerated from frozen scenarios, rather than implying they were recovered as original recorded files. Historical run-directory names are retained inside each experiment for traceability.
-
-This is a local publication staging copy. No GitHub remote has been created or updated. Before public release, authors must select the code license, confirm redistribution terms for the three network files, complete model digest/quantization details, and reconcile the supplementary material with the final manuscript. No code license has been invented. See [release status](docs/release_status.md).
