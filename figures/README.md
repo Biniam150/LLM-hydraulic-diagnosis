@@ -2,7 +2,7 @@
 
 | Paper figure | Retained file stem in `main/` | Generator |
 |---|---|---|
-| 1 | `fig 1.tif` | Retained framework artwork; no automatic generation claimed |
+| 1 | `fig 1.tif` | general framework plot|
 | 2 | ---| Network topology of the three networks given |
 | 3 | `anytown_assumed_family_calibration_side_by_side_large_labels` | `experiments.experiment_1_calibration.plot_assumed_family_calibration_large_labels` |
 | 4 | `experiment2_performance_tokens_graphical` | `experiments.experiment_2_residual_diagnosis.plot_experiment2_performance_tokens_graphical` |
